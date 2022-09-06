@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch slab</Label>
+			<Description>Specifies whether to hatch the slab </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doReinforcing">
+			<Label>Show reinforcing</Label>
+			<Description>Specifies whether to draw reinforcing for the slab </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="useCustomSize">
+			<Label>Use custom size</Label>
+			<Description>Specifies whether to use values from database or a custom size </Description>
+			<Default>0</Default>
+		</CheckBox>
+		<EditBoxDistance idStr="customSlabThickness" unitDep="true">
+			<Label>Slab thickness</Label>
+			<Description>Specifies custom slab thickness</Description>
+			<Default ref="dbTable">THICKNESS</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="customHaunchThickness" unitDep="true">
+			<Label>Haunch thickness</Label>
+			<Description>Specifies custom haunch thickness</Description>
+			<Default ref="dbTable">HAUNCH_THK</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="customHaunchTop" unitDep="true">
+			<Label>Haunch width at top</Label>
+			<Description>Specifies custom haunch width at top</Description>
+			<Default ref="dbTable">HAUNCH_TOP</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="customHaunchBottom" unitDep="true">
+			<Label>Haunch width at bottom</Label>
+			<Description>Specifies custom haunch width at bottom</Description>
+			<Default ref="dbTable">HAUNCH_BOT</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<CheckBox idStr="doHidden">
+			<Label>Hidden lines</Label>
+			<Default>1</Default>
+		</CheckBox>
+		<ComboBox idStr="drawHaunch">
+			<Label>Draw haunch</Label>
+			<Description>Specifies if or how the haunch will be drawn</Description>
+			<ComboBoxValue idStr="Left">
+				<Label>Left</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="Right">
+				<Label>Right</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="None">
+				<Label>None</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="both">
+				<Label>Both</Label>
+			</ComboBoxValue>
+		</ComboBox>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteCastInPlaceSlabSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="useCustomSize"/>
+			<ControlRef idRef="customSlabThickness"/>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="doReinforcing"/>
+			<ControlRef idRef="customHaunchThickness"/>
+			<ControlRef idRef="customHaunchTop"/>
+			<ControlRef idRef="customHaunchBottom"/>
+			<ControlRef idRef="drawHaunch"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>concrete</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="rebar" keys="rebar" subRecipe="subSectionSlab">
+				<Label>Rebar - Longitudinal</Label>
+				<Description>Specifications for longitudinal rebar for the slab </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+			<SubComponent idStr="rebarSizeLine" keys="rebar" subRecipe="subRebarSizeLine">
+				<Label>Rebar - Lateral</Label>
+				<Description>Specifications for lateral rebar for the slab </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteCastInPlaceSlabPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="useCustomSize"/>
+			<ControlRef idRef="customHaunchTop"/>
+			<ControlRef idRef="customHaunchBottom"/>
+			<ControlRef idRef="doHidden" />
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

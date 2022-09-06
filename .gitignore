@@ -396,3 +396,20 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Microsoft Files
+*.db
+
+# Autodesk temporary files
+*.bak.cuix
+*.bak
+*.dwl
+*.dwl2
+
+# Visual Lisp project, application and temporary files
+*.prj
+*.prv
+*.fas
+*.ob
+*.pdb
+*._ls

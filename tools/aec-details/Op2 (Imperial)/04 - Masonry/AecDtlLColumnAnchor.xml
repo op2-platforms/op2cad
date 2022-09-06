@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+    <ControlDefs>
+    
+        <EditBoxDistance idStr="flangewidth" unitDep="true">
+            <Label>Flange width</Label>
+            <Description>Specifies the width of the flange</Description>
+            <Default>4.0</Default>
+            <Validation>NoZero</Validation>
+        </EditBoxDistance>
+
+    	<ComboBox idStr="components">
+			<Label>Components</Label>
+			<Description>Specifies the component parts to place</Description>
+			<ComboBoxValue idStr="left">
+				<Label>Only left</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="right">
+				<Label>Only right</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="pair">
+				<Label>Pair</Label>
+			</ComboBoxValue>
+			<Default>pair</Default>
+		</ComboBox>
+
+        <CheckBox idStr="hidden">
+            <Label>Hidden</Label>
+			<Description>Specifies whether to display hidden linework</Description>
+            <Default>false</Default>
+        </CheckBox>
+
+        <EditBoxDistance idStr="spacing" unitDep="true">
+            <Label>Spacing</Label>
+            <Description>Specifies the spacing between anchors</Description>
+            <Default>16.0</Default>
+            <Validation>NoZero</Validation>
+        </EditBoxDistance>
+
+    </ControlDefs>
+
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorFlange"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="flangewidth"/>
+		    <ControlRef idRef="components"/>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormalLeft">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_PLAN_LEFT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockNormalRight">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_PLAN_RIGHT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHiddenLeft">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_PLAN_LEFT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHiddenRight">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_PLAN_RIGHT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+   
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorSimple"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="sectionArray">
+		<Label>Section (Array)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorArray"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		    <ControlRef idRef="spacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <Jig>
+		        <IsOrientedX>false</IsOrientedX>
+		    </Jig>
+		    <JigEnt>
+		        <IsOrientedX>false</IsOrientedX>
+		    </JigEnt>
+		</Options>
+	</Recipe>
+    
+	<Recipe idStr="elevation">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorFlange"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="flangewidth"/>
+		    <ControlRef idRef="components"/>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormalLeft">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_LEFT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockNormalRight">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_RIGHT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHiddenLeft">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_LEFT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHiddenRight">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_RIGHT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="elevationArray">
+		<Label>Elevation (Array)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorFlangeArray"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="flangewidth"/>
+		    <ControlRef idRef="components"/>
+		    <ControlRef idRef="hidden"/>
+		    <ControlRef idRef="spacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormalLeft">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_LEFT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockNormalRight">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_RIGHT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHiddenLeft">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_LEFT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHiddenRight">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_L-ColumnAnchor.dwg" ref="dbTable">R_BLOCK_ELEVATION_RIGHT</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <Jig>
+		        <IsOrientedX>false</IsOrientedX>
+		    </Jig>
+		    <JigEnt>
+		        <IsOrientedX>false</IsOrientedX>
+		    </JigEnt>
+		</Options>
+	</Recipe>
+
+</AecRecipeSpec>

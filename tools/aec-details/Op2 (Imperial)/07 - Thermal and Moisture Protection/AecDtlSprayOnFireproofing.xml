@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpSprayOnFireproofingPlan"/>
+		</Implementation>
+		<Controls>
+			<CheckBox idStr="doHatch">
+				<Label>Hatch item</Label>
+			    <Description>Specifies whether hatching is applied</Description>
+				<Default>1</Default>
+			</CheckBox>
+			<CheckBox idStr="coarseOutline">
+				<Label>Coarse outline</Label>
+			    <Description>Specifies whether a wavy outline is applied</Description>
+				<Default>1</Default>
+			</CheckBox>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+				<Params>
+					<SqDeltaX>1.0</SqDeltaX>	<!-- Fudge factors to smudge outline of stone -->
+					<SqDeltaY>0.1</SqDeltaY>
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>fireproofing</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+</AecRecipeSpec>

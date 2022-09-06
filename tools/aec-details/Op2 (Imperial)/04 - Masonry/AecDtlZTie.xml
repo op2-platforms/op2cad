@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+    <ControlDefs>
+        <CheckBox idStr="hidden">
+            <Label>Hidden</Label>
+			<Description>Specifies whether to display hidden linework</Description>
+            <Default>false</Default>
+        </CheckBox>
+        
+        <EditBoxDistance idStr="spacing" unitDep="true">
+            <Label>Spacing</Label>
+            <Description>Specifies the spacing between anchors</Description>
+            <Default>16.0</Default>
+            <Validation>NoZero</Validation>
+        </EditBoxDistance>
+
+        <EditBoxInteger idStr="cols">
+            <Label>X axis</Label>
+            <Description>Specifies the number of anchors in the X direction</Description>
+            <Default>2</Default>
+            <Validation>NoNegNoZero</Validation>
+        </EditBoxInteger>
+
+        <EditBoxDistance idStr="colSpacing" unitDep="true">
+            <Label>X axis spacing</Label>
+            <Description>Specifies the spacing between consecutive ties in the X direction</Description>
+            <Default>32.0</Default>
+            <Validation>NoZero</Validation>
+        </EditBoxDistance>
+
+        <EditBoxInteger idStr="rows">
+            <Label>Y axis</Label>
+            <Description>Specifies the number of anchors in the Y direction</Description>
+            <Default>2</Default>
+            <Validation>NoNegNoZero</Validation>
+        </EditBoxInteger>
+
+        <EditBoxDistance idStr="rowSpacing" unitDep="true">
+            <Label>Y axis spacing</Label>
+            <Description>Specifies the spacing between consecutive ties in the Y direction</Description>
+            <Default>16.0</Default>
+            <Validation>NoZero</Validation>
+        </EditBoxDistance>
+
+        <CheckBox idStr="staggerpattern">
+            <Label>Stagger pattern</Label>
+            <Description>Specifies whether to offset consecutive rows</Description>
+            <Default>true</Default>
+        </CheckBox>
+
+        <EditBoxDistance idStr="offset" unitDep="true">
+            <Label>Offset</Label>
+            <Description>Specifies the offset distance</Description>
+            <Default>16.0</Default>
+            <Validation>NoZero</Validation>
+		    <ParentControl idRef="staggerpattern">
+			    <ParentControlState state="true" visible="yes" enabled="yes"/>
+			    <ParentControlState state="false" visible="no" enabled="no"/>
+		    </ParentControl>
+		</EditBoxDistance>
+
+    </ControlDefs>
+
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorSimple"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_PLAN</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_PLAN</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="planArray">
+		<Label>Plan (Array)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorArray"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		    <ControlRef idRef="spacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_PLAN</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_PLAN</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <JigEnt>
+		        <!-- Width ref="dbTable">DIAMETER</Width -->
+		    </JigEnt>
+		</Options>
+	</Recipe>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorSimple"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="sectionArray">
+		<Label>Section (Array)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorArray"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		    <ControlRef idRef="spacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_SECTION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <Jig>
+		        <IsOrientedX>false</IsOrientedX>
+		    </Jig>
+		    <JigEnt>
+		        <IsOrientedX>false</IsOrientedX>
+		        <!-- Width ref="dbTable">DIAMETER</Width -->
+		    </JigEnt>
+		</Options>
+	</Recipe>
+
+	<Recipe idStr="elevation">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorSimple"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_ELEVATION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_ELEVATION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="elevationPattern">
+		<Label>Elevation (Pattern)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryAnchorPattern"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hidden"/>
+		    <ControlRef idRef="cols"/>
+		    <ControlRef idRef="colSpacing"/>
+		    <ControlRef idRef="rows"/>
+		    <ControlRef idRef="rowSpacing"/>
+		    <ControlRef idRef="staggerpattern"/>
+		    <ControlRef idRef="offset"/>
+		</Controls>
+		<Data>
+			<Item idStr="blockNormal">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_ELEVATION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHidden">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_Z-Tie.dwg" ref="dbTable">R_BLOCK_ELEVATION</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

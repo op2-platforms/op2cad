@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="hatchBlock">
+			<Label>Hatch CMU</Label>
+			<Description>Specifies whether to hatch the CMU</Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="hatchCores">
+			<Label>Grout fill cores</Label>
+			<Description>Specifies whether to hatch the cores solid with grout</Description>
+			<Default>0</Default>
+		</CheckBox>
+		<CheckBox idStr="showMortar">
+			<Label>Show mortar</Label>
+			<Description>Specifies whether to draw mortar</Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnitFlutedSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="hatchBlock"/>
+			<ControlRef idRef="hatchCores"/>
+			<ControlRef idRef="showMortar"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<Params>
+					<SqDeltaX> 0.7 </SqDeltaX>
+					<SqDeltaY> 0.09 </SqDeltaY>
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>cmu</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cores">
+				<AcadHatchProps>
+					<HatchAlias>grout</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="web">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<IsOrientedX>false</IsOrientedX>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+			<JigEnt>
+				<IsOrientedX>false</IsOrientedX>
+			</JigEnt>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnitFlutedPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="hatchBlock"/>
+			<ControlRef idRef="hatchCores"/>
+			<ControlRef idRef="showMortar"/>
+			<ComboBox idStr="leftEndStyle">
+				<Label>Left end style</Label>
+				<Description>Specifies the left end style of the CMU</Description>
+				<ComboBoxValue idStr="regular">
+					<Label>Regular</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="plain">
+					<Label>Plain</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="textured">
+					<Label>Textured</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="steelSash">
+					<Label>Steel sash</Label>
+				</ComboBoxValue>
+				<Default>plain</Default>
+			</ComboBox>
+			<ComboBox idStr="rightEndStyle">
+				<Label>Right end style</Label>
+				<Description>Specifies the right end style of the CMU</Description>
+				<ComboBoxValue idStr="regular">
+					<Label>Regular</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="plain">
+					<Label>Plain</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="textured">
+					<Label>Textured</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="steelSash">
+					<Label>Steel sash</Label>
+				</ComboBoxValue>
+				<Default>plain</Default>
+			</ComboBox>
+			<Picture idStr="end_conditions_illustration" rowHeight="5">
+				<Label>End conditions illustration</Label>
+				<Description>Illustrates the end conditions based on the current style selections</Description>
+				<Default>plain_plain</Default>
+				<Varies>plain_plain</Varies>
+				<PictureValue idStr="regular_regular" idFile="Images/cmu_regular_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="regular_plain" idFile="Images/cmu_regular_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="regular_textured" idFile="Images/cmu_regular_textured.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="textured"/>
+				</PictureValue>
+				<PictureValue idStr="regular_steelSash" idFile="Images/cmu_regular_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="plain_regular" idFile="Images/cmu_plain_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="plain_plain" idFile="Images/cmu_plain_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="plain_textured" idFile="Images/cmu_plain_textured.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="textured"/>
+				</PictureValue>
+				<PictureValue idStr="plain_steelSash" idFile="Images/cmu_plain_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="textured_regular" idFile="Images/cmu_textured_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="textured"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="textured_plain" idFile="Images/cmu_textured_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="textured"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="textured_textured" idFile="Images/cmu_textured_textured.png">
+					<ParentControl idRef="leftEndStyle" idStr="textured"/>
+					<ParentControl idRef="rightEndStyle" idStr="textured"/>
+				</PictureValue>
+				<PictureValue idStr="textured_steelSash" idFile="Images/cmu_textured_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="textured"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_regular" idFile="Images/cmu_sash_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_plain" idFile="Images/cmu_sash_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_textured" idFile="Images/cmu_sash_textured.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="textured"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_steelSash" idFile="Images/cmu_sash_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<Params>
+					<BullnoseRadius> 1.0 </BullnoseRadius>
+					<ControlFace> 0.75 </ControlFace>
+					<FilletDiameter> 0.5 </FilletDiameter>
+					<LipDepth> 1.6875 </LipDepth>
+					<MinimumControlWidth> 5.625 </MinimumControlWidth>
+					<MinimumRegularWidth> 3.625 </MinimumRegularWidth>
+					<MinimumSashWidth> 5.625 </MinimumSashWidth>
+					<MinimumTextureWidth> 7.625 </MinimumTextureWidth>
+					<SashThickness> 0.75 </SashThickness>
+					<SashOffset> 3.4375 </SashOffset>
+					<SqDeltaX> 1.0 </SqDeltaX>
+					<SqDeltaY> 0.1 </SqDeltaY>
+					<WoodSashOffset> 2.0 </WoodSashOffset>
+					<XLip> 1.6875 </XLip>
+					<YLip> 1.125 </YLip>
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>cmu</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cores">
+				<AcadHatchProps>
+					<HatchAlias>grout</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="web">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	<Recipe idStr="elevation">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnitElevation"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="decoration">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <RcpFunc>
+		        <DecorationName>Fluted</DecorationName>
+		    </RcpFunc>
+		</Options>
+	</Recipe>
+	<Recipe idStr="elevationPattern">
+		<Label>Elevation (Pattern)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnitElevationPattern"/>
+		</Implementation>
+		<Controls>
+			<ComboBox idStr="pattern">
+				<Label>Pattern</Label>
+				<Description>Specifies the bonding pattern to draw on the boundary object</Description>
+				<ComboBoxValue idStr="runningBond">
+					<Label>Running bond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="oneThirdRunningBond">
+					<Label>1/3 running bond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="stack">
+					<Label>Stack</Label>
+				</ComboBoxValue>
+				<Default>runningBond</Default>
+			</ComboBox>
+			<ControlRef idRef="showMortar"/>
+			<Picture idStr="pattern_illustration" rowHeight="7">
+				<Label>Pattern illustration</Label>
+				<Description>Illustrates the currently selected pattern</Description>
+				<Default>runningBond</Default>
+				<PictureValue idStr="runningBond" idFile="Images/brick_pattern_runningbond.png">
+					<ParentControl idRef="pattern" idStr="runningBond"/>
+				</PictureValue>
+				<PictureValue idStr="oneThirdRunningBond" idFile="Images/brick_pattern_third_running.png">
+					<ParentControl idRef="pattern" idStr="oneThirdRunningBond"/>
+				</PictureValue>
+				<PictureValue idStr="stack" idFile="Images/brick_pattern_stacked.png">
+					<ParentControl idRef="pattern" idStr="stack"/>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<!-- This needs to be here, but we created the pattern programmatically and made it real size (so we have no parameters) -->
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <RcpFunc>
+		        <DecorationName>Fluted</DecorationName>
+		    </RcpFunc>
+		</Options>
+	</Recipe>
+</AecRecipeSpec>
