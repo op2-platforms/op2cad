@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+	<ControlDefs>
+		<ComboBox idStr="expandJoist">
+			<Label>Fit joist</Label>
+			<Description>Specifies whether the joist lenght will be expanded or shrunk</Description>
+			<ComboBoxValue idStr="expand">
+				<Label>Expand</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="shrink">
+				<Label>Shrink</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="nothing">
+				<Label>No action</Label>
+			</ComboBoxValue>
+			<Default>nothing</Default>
+		</ComboBox>
+		
+		<ComboBox idStr="constructionPt">
+			<Label>Joist construction point</Label>
+			<Description>Specifies joist construction point</Description>
+			<ComboBoxValue idStr="start">
+				<Label>Start</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="end">
+				<Label>End</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="center">
+				<Label>Center</Label>
+			</ComboBoxValue>
+			<Default>center</Default>
+			<ParentControl idRef="expandJoist">
+				<ParentControlState state="expand" visible="no" enabled="no"/>
+				<ParentControlState state="shrink" visible="no" enabled="no"/>
+				<ParentControlState state="nothing" visible="yes" enabled="yes"/>
+			</ParentControl>
+		</ComboBox>
+		
+		<EditBoxDistance idStr="ribWidth" unitDep="true">
+			<Label>Rib width</Label>
+			<Description>Specifies rib width</Description>
+			<Default>7.5</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="thickness" unitDep="true">
+			<Label>Slab thickness</Label>
+			<Description>Specifies slab thickness</Description>
+			<Default>3.0</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		
+		<CheckBox idStr="doHatch">
+			<Label>Hatch joist</Label>
+			<Description>Specifies whether to hatch the joist </Description>
+			<Default>1</Default>
+		</CheckBox>
+		
+		<CheckBox idStr="doReinforcing">
+			<Label>Show reinforcing</Label>
+			<Description>Specifies whether to draw reinforcing for the joist </Description>
+			<Default>1</Default>
+		</CheckBox>
+		
+		<EditBoxDistance idStr="distRibWidth" unitDep="true">
+			<Label>Distribution rib width</Label>
+			<Description>Specifies distribution rib width</Description>
+			<Default>6.0</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="endRibWidth" unitDep="true">
+			<Label>End rib width</Label>
+			<Description>Specifies end rib width</Description>
+			<Default>6.0</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxInteger idStr="numOverUnderVoids">
+			<Label>Number of voids to match width</Label>
+			<Description>Specifies number of voids to match width</Description>
+			<Default>0</Default>
+			<Validation>NoNeg</Validation>
+			<ParentControl idRef="expandJoist">
+				<ParentControlState state="expand" visible="yes" enabled="yes"/>
+				<ParentControlState state="shrink" visible="yes" enabled="yes"/>
+				<ParentControlState state="nothing" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxInteger>
+		
+		<CheckBox idStr="useCustomSize">
+			<Label>Use custom size</Label>
+			<Description>Specifies whether to use values from database or a custom size </Description>
+			<Default>0</Default>
+		</CheckBox>
+		
+		<EditBoxDistance idStr="customVoidWidth" unitDep="true">
+			<Label>Void width</Label>
+			<Description>Specifies custom void width.</Description>
+			<Default ref="dbTable">WIDTH</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="customVoidDepth" unitDep="true">
+			<Label>Void depth</Label>
+			<Description>Specifies custom void depth.</Description>
+			<Default ref="dbTable">HEIGHT</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="customFilletRadius" unitDep="true">
+			<Label>Fillet radius</Label>
+			<Description>Specifies custom fillet radius </Description>
+			<Default ref="dbTable">FILLETRAD</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		
+		<CheckBox idStr="doHidden">
+			<Label>Hidden lines</Label>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcCastInPlaceJoistOneWaySect"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="useCustomSize"/>
+			<ControlRef idRef="customVoidWidth"/>
+			<ControlRef idRef="customFilletRadius"/>
+			<ControlRef idRef="customVoidDepth"/>
+			<ControlRef idRef="expandJoist"/>
+			<ControlRef idRef="numOverUnderVoids"/>
+			<ControlRef idRef="constructionPt"/>
+			<ControlRef idRef="ribWidth"/>
+			<ControlRef idRef="thickness"/>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="doReinforcing"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+			    <AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hatch">
+				<AcadHatchProps>
+					<HatchAlias>concrete</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="tOffset">
+				<Params>
+					<toffset>2.5</toffset>
+				</Params>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="rebar" keys="rebar" subRecipe="subSectionBeam">
+				<Label>Rebar - Longitudinal</Label>
+				<Description>Specifications for longitudinal rebar for the joist </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+			<SubComponent idStr="rebarSizeLoop" keys="rebar" subRecipe="subRebarSizeLoop">
+				<Label>Rebar - Shear</Label>
+				<Description>Specifications for shear rebar for the joist </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcCastInPlaceJoistOneWayPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="expandJoist"/>
+			<ControlRef idRef="numOverUnderVoids"/>
+			<ControlRef idRef="constructionPt"/>
+			<ControlRef idRef="ribWidth"/>
+			<ControlRef idRef="distRibWidth"/>
+			<ControlRef idRef="endRibWidth"/>
+			<ControlRef idRef="doHidden" />
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcCastInPlaceJoistOneWayElev"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="useCustomSize"/>
+			<ControlRef idRef="customVoidDepth"/>
+			<ControlRef idRef="thickness"/>
+			<ControlRef idRef="distRibWidth"/>
+			<ControlRef idRef="endRibWidth"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

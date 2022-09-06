@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch stair</Label>
+			<Description>Specify whether to hatch the stair. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doReinforcing">
+			<Label>Show reinforcing</Label>
+			<Description>Specify whether to draw reinforcing for the stair. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="useCustomSize">
+			<Label>Use custom size</Label>
+			<Description>Use values from database or specify a custom size. </Description>
+			<Default>0</Default>
+		</CheckBox>
+		<EditBoxInteger idStr="customRiserNumber">
+			<Label>Riser number</Label>
+			<Description>Custom riser number.</Description>
+			<Default ref="dbTable">RISER_NO</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxInteger>
+		<EditBoxDistance idStr="customRiser" unitDep="true">
+			<Label>Riser</Label>
+			<Description>Custom riser.</Description>
+			<Default ref="dbTable">RISER</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="customTread" unitDep="true">
+			<Label>Tread</Label>
+			<Description>Custom tread.</Description>
+			<Default ref="dbTable">TREAD</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="customNosing" unitDep="true">
+			<Label>Nosing</Label>
+			<Description>Custom nosing.</Description>
+			<Default ref="dbTable">NOSING</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="customSlabThk" unitDep="true">
+			<Label>Slab thickness</Label>
+			<Description>Custom slab thickness.</Description>
+			<Default ref="dbTable">SLAB_THK</Default>
+			<Validation>NoNegNoZero</Validation>
+			<ParentControl idRef="useCustomSize">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcCastInPlaceStairSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="doReinforcing"/>
+			<ControlRef idRef="useCustomSize"/>
+			<ControlRef idRef="customRiserNumber"/>
+			<ControlRef idRef="customRiser"/>
+			<ControlRef idRef="customTread"/>
+			<ControlRef idRef="customNosing"/>
+			<ControlRef idRef="customSlabThk"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>concrete</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="rebar" keys="rebar" subRecipe="subSectionSlab">
+				<Label>Rebar - Longitudinal</Label>
+				<Description>Longitudinal rebar for the stair. </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+			<SubComponent idStr="rebarSizeLine" keys="rebar" subRecipe="subRebarSizeLine">
+				<Label>Rebar - Lateral</Label>
+				<Description>Lateral rebar for the stair. </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcCastInPlaceStairPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="useCustomSize"/>
+			<ControlRef idRef="customRiserNumber"/>
+			<ControlRef idRef="customRiser"/>
+			<ControlRef idRef="customTread"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcCastInPlaceStairElevation"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="useCustomSize"/>
+            		<ControlRef idRef="customRiserNumber"/>
+			<ControlRef idRef="customRiser"/>
+			<ControlRef idRef="customTread"/>
+			<ControlRef idRef="customNosing"/>
+			<ControlRef idRef="customSlabThk"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

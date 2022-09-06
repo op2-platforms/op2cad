@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+    <ControlDefs>
+        <CheckBox idStr="hatch">
+            <Label>Hatch</Label>
+            <Description>Specifies whether to hatch the component</Description>
+            <Default>true</Default>
+            <ParentControl idRef="hidden">
+                <ParentControlState state="true" visible="no" enabled="no"/>
+                <ParentControlState state="false" visible="yes" enabled="yes"/>
+            </ParentControl>
+        </CheckBox>
+        <CheckBox idStr="hidden">
+            <Label>Hidden</Label>
+			<Description>Specifies whether to display hidden linework</Description>
+            <Default>false</Default>
+        </CheckBox>
+        <EditBoxDistance idStr="spacing" unitDep="true">
+            <Label>Spacing</Label>
+            <Description>Specifies the distance between components</Description>
+            <Default>240.0</Default>
+            <Validation>NoZero</Validation>
+        </EditBoxDistance>
+    </ControlDefs>
+
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryControlJoints"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hatch"/>
+		    <ControlRef idRef="hidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_MasonryControlJoints.dwg" ref="dbTable">R_BLOCK</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHatch">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_MasonryControlJoints.dwg" remapLayers="true" ref="dbTable">R_BLOCK_HATCH</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="planArray">
+		<Label>Plan (Array)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMasonryControlJointsArray"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="hatch"/>
+		    <ControlRef idRef="hidden"/>
+		    <ControlRef idRef="spacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_MasonryControlJoints.dwg" ref="dbTable">R_BLOCK</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockHatch">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_MasonryControlJoints.dwg" remapLayers="true" ref="dbTable">R_BLOCK_HATCH</BlockName>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN2</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

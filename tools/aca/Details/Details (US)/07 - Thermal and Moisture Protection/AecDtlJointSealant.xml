@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<EditBoxDistance idStr="jointSize" unitDep="true">
+			<Label>Joint size</Label>
+			<Default>0.5</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+		<ComboBox idStr="leftJointType">
+			<Label>Specifies left joint type</Label>
+			<ComboBoxValue idStr="none">
+				<Label>None</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="flush">
+				<Label>Flush</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="raked">
+				<Label>Raked</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="rodded">
+				<Label>Rodded</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="vshaped">
+				<Label>V-shaped</Label>
+			</ComboBoxValue>
+			<Default>rodded</Default>
+		</ComboBox>
+		<ComboBox idStr="rightJointType">
+			<Label>Specifies right joint type</Label>
+			<ComboBoxValue idStr="none">
+				<Label>None</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="flush">
+				<Label>Flush</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="raked">
+				<Label>Raked</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="rodded">
+				<Label>Rodded</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="vshaped">
+				<Label>V-shaped</Label>
+			</ComboBoxValue>
+			<Default>rodded</Default>
+		</ComboBox>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch</Label>
+			<Description>Specifies whether hidden lines are drawn</Description>
+			<Default>True</Default>
+		</CheckBox>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpJointSealant"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="jointSize"/>
+			<ControlRef idRef="leftJointType"/>
+			<ControlRef idRef="rightJointType"/>
+			<ControlRef idRef="doHatch"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+			    <AcadHatchProps>
+    			    <PatternName>SOLID</PatternName>
+			    </AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

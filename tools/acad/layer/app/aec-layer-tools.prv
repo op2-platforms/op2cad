@@ -1,0 +1,24 @@
+;;; Visual LISP make file [V1.0] aec-layer-tools saved to:[C:/GitHub/aec-layer-tools/App] at:[8/30/22] 
+(PRV-DEF (:target . "AEC-LAYER-TOOLS.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list
+	   (:lsp "C:/GitHub/aec-layer-tools/Code/laylist.lsp")
+	   (:prj
+	     "C:/GitHub/aec-layer-tools/Code/laytransf/laytransf.prj"
+	   )
+	   (:prj
+	     "C:/GitHub/aec-layer-tools/Code/layfilter/layfilter.prj"
+	   )
+	   (:prj "C:/GitHub/aec-layer-tools/Code/laycreat/laycreat.prj"
+	   )
+	   (:prj "C:/GitHub/aec-layer-tools/Code/laycreat/layinsert.prj"
+	   )
+	 )
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

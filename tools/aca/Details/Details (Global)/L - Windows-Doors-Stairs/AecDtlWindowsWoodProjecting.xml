@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECRCPBASE" funcRcp="Stamp"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadBlockProps>
+					<BlockName dwgLib="dwgs/AecDtlLib_WindowsWoodProjecting.dwg" remapLayers="true" ref="dbTable">R_BLOCK</BlockName>
+					<Scale>1.0</Scale>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+</AecRecipeSpec>

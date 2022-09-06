@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+
+	<ControlDefs>
+		<EditBoxDistance idStr="FloorThick" unitDep="true">
+			<Label>Floor Thickness</Label>
+			<Description>Specifies the thickness of floor to use. </Description>
+			<Default>50</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="InsThick" unitDep="true">
+			<Label>Insulation Thickness</Label>
+			<Description>Specifies the thickness of insulation to use. </Description>
+			<Default>100</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="JoistWidth" unitDep="true">
+			<Label>Joist Width</Label>
+			<Description>Specifies the joist width to use. </Description>
+			<Default>38</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="JoistDepth" unitDep="true">
+			<Label>Joist Depth</Label>
+			<Description>Specifies the joist depth to use. </Description>
+			<Default>200</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="JoistSpace" unitDep="true">
+			<Label>Joist Spacing</Label>
+			<Description>Specifies the joist spacing to use. </Description>
+			<Default>450</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="SubFloorVoid" unitDep="true">
+			<Label>Sub Floor Void</Label>
+			<Description>Specifies the sub floor void depth to use. </Description>
+			<Default>250</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="SubFloorThick" unitDep="true">
+			<Label>Sub Floor Thickness</Label>
+			<Description>Specifies the sub floor thickness to use. </Description>
+			<Default>50</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<CheckBox idStr="doSubFloorHatch">
+			<Label>Hatch Sub Floor</Label>
+			<Description>Specifies whether to hatch the sub floor. </Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey=""  funcRcp="AecDtlTimberFloorUKSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="FloorThick"/>
+			<ControlRef idRef="InsThick"/>
+			<ControlRef idRef="JoistWidth"/>
+			<ControlRef idRef="JoistDepth"/>
+			<ControlRef idRef="JoistSpace"/>
+			<ControlRef idRef="SubFloorVoid"/>
+			<ControlRef idRef="SubFloorThick"/>
+			<ControlRef idRef="doSubFloorHatch"/>
+		</Controls>
+		<Data>
+			<Item idStr="Values">
+				<Params>
+					<Factor unit="mm">1</Factor>
+					<BatternWidth unit="mm">25</BatternWidth>
+					<BatternDepth unit="mm">50</BatternDepth>
+				</Params>
+			</Item>
+			<Item idStr="floor">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="insulation">
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="beams">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="dpc">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="concretefloor">
+				<AcadHatchProps>
+					<HatchAlias>concrete paver</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="concreteblock">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

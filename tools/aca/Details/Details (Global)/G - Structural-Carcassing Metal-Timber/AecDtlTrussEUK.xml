@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+
+	<ControlDefs>
+		<EditBoxDistance idStr="Span" unitDep="true">
+			<Label>Span</Label>
+			<Description>Specifies the span to use. </Description>
+			<Default>8000</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="Pitch" unitDep="true">
+			<Label>Pitch</Label>
+			<Description>Specifies the pitch to use. </Description>
+			<Default>45</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="RafterThick" unitDep="true">
+			<Label>Rafter Thickness</Label>
+			<Description>Specifies the rafter thickness to use. </Description>
+			<Default>150</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="FlrJstThick" unitDep="true">
+			<Label>Floor Joist Thickness</Label>
+			<Description>Specifies the floor joist thickness to use. </Description>
+			<Default>225</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="StrutSize" unitDep="true">
+			<Label>Strut Size</Label>
+			<Description>Specifies the size of strut to use. </Description>
+			<Default>89</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="StrutOffset" unitDep="true">
+			<Label>Strut Offset</Label>
+			<Description>Specifies the strut offset to use. </Description>
+			<Default>900</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="ClgTieHght" unitDep="true">
+			<Label>Ceiling Tie Height</Label>
+			<Description>Specifies the ceiling tie height to use. </Description>
+			<Default>2400</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="ClgTieSize" unitDep="true">
+			<Label>Ceiling Tie Size</Label>
+			<Description>Specifies the ceiling tie size to use. </Description>
+			<Default>89</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="Overhang" unitDep="true">
+			<Label>Overhang</Label>
+			<Description>Specifies the overhang to use. </Description>
+			<Default>200</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey=""  funcRcp="AecDtlTrussUK"/>
+    </Implementation>
+		<Controls>
+			<ControlRef idRef="Span"/>
+			<ControlRef idRef="Pitch"/>
+			<ControlRef idRef="RafterThick"/>
+			<ControlRef idRef="FlrJstThick"/>
+			<ControlRef idRef="StrutSize"/>
+			<ControlRef idRef="StrutOffset"/>
+			<ControlRef idRef="ClgTieHght"/>
+			<ControlRef idRef="ClgTieSize"/>
+			<ControlRef idRef="Overhang"/>
+		</Controls>
+		<Data>
+			<Item idStr="rafter">
+				<Params>
+					<Type>E</Type>
+				</Params>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cline">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>CENTER</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

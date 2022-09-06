@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch Brick</Label>
+			<Description>Specifies if brick hatch is drawn</Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="showMortar">
+			<Label>Show mortar</Label>
+			<Description>Specifies if mortar is drawn</Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTLEX" funcRcp="AecDtlRcpShapedCopingBullnoseSection" />
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doHatch" />
+			<ControlRef idRef="showMortar" />
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="joint">
+      			<AcadEntityProps>
+				<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>brick</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<IsOrientedX>true</IsOrientedX>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+			<JigEnt>
+				<IsOrientedX>true</IsOrientedX>
+			</JigEnt>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no" />
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTLEX" funcRcp="AecDtlRcpShapedCopingBullnosePlan" />
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="showMortar" />
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="joint">
+      			<AcadEntityProps>
+				<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>brick</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<IsOrientedX>false</IsOrientedX>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+			<JigEnt>
+				<IsOrientedX>false</IsOrientedX>
+			</JigEnt>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no" />
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTLEX" funcRcp="AecDtlRcpShapedCopingBullnoseElevation" />
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="showMortar" />
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="joint">
+      			<AcadEntityProps>
+				<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSectionNone">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="1" visible="no" enabled="yes" />
+					<ParentControlState state="0" visible="no" enabled="no" />
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+</AecRecipeSpec>

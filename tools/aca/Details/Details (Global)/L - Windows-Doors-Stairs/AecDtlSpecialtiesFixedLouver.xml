@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECRCPBASE" funcRcp="Bookends"/>
+		</Implementation>
+		<Data>
+			<Item idStr="blockStart">
+				<AcadBlockProps>
+					<BlockName dwgLib="dwgs/AecDtlLib_LouversVents.dwg" remapLayers="true" ref="dbTable">S_BLOCK</BlockName>
+					<Scale>1.0</Scale>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockRepeat">
+				<AcadBlockProps>
+					<BlockName dwgLib="dwgs/AecDtlLib_LouversVents.dwg" remapLayers="true" ref="dbTable">R_BLOCK</BlockName>
+					<Scale>1.0</Scale>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockEnd">
+				<AcadBlockProps>
+					<BlockName dwgLib="dwgs/AecDtlLib_LouversVents.dwg" remapLayers="true" ref="dbTable">E_BLOCK</BlockName>
+					<Scale>1.0</Scale>
+				</AcadBlockProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">		<!--  used as the properties for the overall block (see "PackagedAsBlock" option below) -->
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+		    <RcpFunc>
+				<PackageAsBlock>true</PackageAsBlock>
+		    </RcpFunc>
+			<Jig>
+				<IsOrientedX>false</IsOrientedX>
+			</Jig>
+			<JigEnt>
+				<IsOrientedX>false</IsOrientedX>
+				<WidthStart ref="dbTable">SILLHGT</WidthStart>
+				<WidthRepeat ref="dbTable">MIDHGT</WidthRepeat>
+				<WidthEnd ref="dbTable">HEADHGT</WidthEnd>
+			</JigEnt>
+		</Options>
+	</Recipe>
+	
+</AecRecipeSpec>

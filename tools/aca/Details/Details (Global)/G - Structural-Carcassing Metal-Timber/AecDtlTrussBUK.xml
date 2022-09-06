@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+
+	<ControlDefs>
+		<EditBoxDistance idStr="Span" unitDep="true">
+			<Label>Span</Label>
+			<Description>Specifies the span to use. </Description>
+			<Default>8000</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="Pitch" unitDep="true">
+			<Label>Pitch</Label>
+			<Description>Specifies the pitch to use. </Description>
+			<Default>30</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="RafterThick" unitDep="true">
+			<Label>Rafter Thickness</Label>
+			<Description>Specifies the rafter thickness to use. </Description>
+			<Default>89</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="TieThick" unitDep="true">
+			<Label>Tie Thickness</Label>
+			<Description>Specifies the tie thickness to use. </Description>
+			<Default>75</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="Overhang" unitDep="true">
+			<Label>Overhang</Label>
+			<Description>Specifies the overhang to use. </Description>
+			<Default>200</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey=""  funcRcp="AecDtlTrussUK"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="Span"/>
+			<ControlRef idRef="Pitch"/>
+			<ControlRef idRef="RafterThick"/>
+			<ControlRef idRef="TieThick"/>
+			<ControlRef idRef="Overhang"/>
+		</Controls>
+		<Data>
+			<Item idStr="rafter">
+				<Params>
+					<Type>B</Type>
+				</Params>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cline">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>CENTER</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

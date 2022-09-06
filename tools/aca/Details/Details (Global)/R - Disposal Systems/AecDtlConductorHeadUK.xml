@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConductorHeadPlan"/>
+		</Implementation>
+		<Controls>
+			<EditBoxDistance idStr="width" unitDep="true">
+				<Label>Width</Label>
+				<Description>Specifies the width of the conductor</Description>
+				<Default ref ="dbTable">WIDTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="depth" unitDep="true">
+				<Label>Depth</Label>
+				<Description>Specifies the depth of the conductor</Description>
+				<Default ref ="dbTable">DEPTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>		
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="front">
+		<Label>Front Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConductorHeadFront"/>
+		</Implementation>
+		<Controls>
+			<EditBoxDistance idStr="width" unitDep="true">
+				<Label>Width</Label>
+				<Description>Specifies the width of the conductor</Description>
+				<Default ref ="dbTable">WIDTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="height" unitDep="true">
+				<Label>Height</Label>
+				<Description>Specifies the height of the conductor</Description>
+				<Default ref ="dbTable">HEIGHT</Default>
+				<Validation>Range</Validation>
+				<RangeLow>100.0</RangeLow>
+				<RangeHigh>1000000.0</RangeHigh>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="downspoutwidth" unitDep="true">
+				<Label>Downspout width</Label>
+				<Description>Specifies the width of the downspout</Description>
+				<Default ref ="dbTable">DOWNSPOUTWIDTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>		
+		</Data>
+		<Options>
+			<RcpFunc>
+				<downspoutheight>50.0</downspoutheight>
+			</RcpFunc>
+		</Options>
+	</Recipe>
+
+	<Recipe idStr="side">
+		<Label>Side Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConductorHeadSide"/>
+		</Implementation>
+		<Controls>
+			<EditBoxDistance idStr="depth" unitDep="true">
+				<Label>Depth</Label>
+				<Description>Specifies the depth of the conductor</Description>
+				<Default ref ="dbTable">DEPTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="height" unitDep="true">
+				<Label>Height</Label>
+				<Description>Specifies the height of the conductor</Description>
+				<Default ref ="dbTable">HEIGHT</Default>
+				<Validation>Range</Validation>
+				<RangeLow>100.0</RangeLow>
+				<RangeHigh>1000000.0</RangeHigh>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="downspoutdepth" unitDep="true">
+				<Label>Downspout depth</Label>
+				<Description>Specifies the depth of the downspout</Description>
+				<Default ref ="dbTable">DOWNSPOUTDEPTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>		
+		</Data>
+		<Options>
+			<RcpFunc>
+				<downspoutheight>50.0</downspoutheight>
+			</RcpFunc>
+		</Options>
+	</Recipe>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConductorHeadSection"/>
+		</Implementation>
+		<Controls>
+			<EditBoxDistance idStr="depth" unitDep="true">
+				<Label>Depth</Label>
+				<Description>Specifies the depth of the conductor</Description>
+				<Default ref ="dbTable">DEPTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="height" unitDep="true">
+				<Label>Height</Label>
+				<Description>Specifies the height of the conductor</Description>
+				<Default ref ="dbTable">HEIGHT</Default>
+				<Validation>Range</Validation>
+				<RangeLow>100.0</RangeLow>
+				<RangeHigh>1000000.0</RangeHigh>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="downspoutdepth" unitDep="true">
+				<Label>Downspout depth</Label>
+				<Description>Specifies the depth of the downspout</Description>
+				<Default ref ="dbTable">DOWNSPOUTDEPTH</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="throatheight" unitDep="true">
+				<Label>Throat height</Label>
+				<Description>Specifies the throat height</Description>
+				<Default ref ="dbTable">THROATHEIGHT</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>		
+		</Data>
+		<Options>
+			<RcpFunc>
+				<downspoutheight>50.0</downspoutheight>
+				<throatindent>25.0</throatindent>
+				<downspoutindent>12.5</downspoutindent>				
+			</RcpFunc>
+		</Options>
+	</Recipe>
+
+</AecRecipeSpec>

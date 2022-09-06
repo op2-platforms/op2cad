@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+    <ControlDefs>
+        <CheckBox idStr="doHatch">
+            <Label>Hatch</Label>
+            <Description>Specifies whether hatch is drawn</Description>
+            <Default>0</Default>
+        </CheckBox>
+    </ControlDefs>
+
+    <Recipe idStr="Plan">
+        <Label>Plan</Label>
+        <Implementation>
+            <ObjectARX appnameAlias="AECRCPBASE" funcRcp="Stamp"/>
+        </Implementation>
+        <Data>
+            <Item idStr="block">
+                <AcadBlockProps>
+                    <BlockName dwgLib="dwgs/AecDtlLib_GlassBlockUK.dwg" remapLayers="true">AecDtl_GlassBlockChamferedCornerPlanUK</BlockName>
+                    <Scale>1</Scale>
+                </AcadBlockProps>
+                <AcadEntityProps>
+                    <Layer ref="layerKey">WIDE</Layer>
+                </AcadEntityProps>
+            </Item>
+        </Data>
+  </Recipe>
+    
+  <Recipe idStr="Elevation">
+    <Label>Elevation</Label>
+    <Implementation>
+        <ObjectARX appnameAlias="AECDTLEX" funcRcp="AecDtlRcpGlassChamferedCornerElevation" />
+    </Implementation>
+    <Controls>
+        <ControlRef idRef="doHatch"></ControlRef>
+    </Controls>
+    <Data>
+        <Item idStr="block">
+              <AcadEntityProps>
+                  <Layer ref="layerKey">THIN</Layer>
+              </AcadEntityProps>
+          </Item>
+          <Item idStr="boundary"/>
+          <Item idStr="infill">
+              <AcadHatchProps>
+                  <PatternName>Doors&amp;Windows_Glass</PatternName>
+                  <PatternScale>4.0</PatternScale>
+              </AcadHatchProps>
+              <AcadEntityProps>
+                  <Layer ref="layerKey">HATCH</Layer>
+              </AcadEntityProps>
+          </Item>
+      </Data>
+      <Options>
+          <Jig>
+              <IsOrientedX>false</IsOrientedX>
+          </Jig>
+          <JigEnt>
+              <IsOrientedX>false</IsOrientedX>
+          </JigEnt>
+      </Options>
+
+  </Recipe>
+</AecRecipeSpec>

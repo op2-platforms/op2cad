@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="hatchBlock">
+			<Label>Hatch CMU</Label>
+			<Description>Specifies whether to hatch the CMU</Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="hatchCores">
+			<Label>Grout fill cores</Label>
+			<Description>Specifies whether to hatch the cores solid with grout</Description>
+			<Default>0</Default>
+		</CheckBox>
+		<CheckBox idStr="showMortar">
+			<Label>Show mortar</Label>
+			<Description>Specifies whether to draw mortar</Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnit2CoreSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="hatchBlock"/>
+			<ControlRef idRef="hatchCores"/>
+			<ControlRef idRef="showMortar"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>cmu</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cores">
+				<AcadHatchProps>
+					<HatchAlias>grout</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="web">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<IsOrientedX>false</IsOrientedX>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+			<JigEnt>
+				<IsOrientedX>false</IsOrientedX>
+			</JigEnt>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnit2CorePlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="hatchBlock"/>
+			<ControlRef idRef="hatchCores"/>
+			<ControlRef idRef="showMortar"/>
+			<ComboBox idStr="leftEndStyle">
+				<Label>Left end style</Label>
+				<Description>Specifies the left end style of the CMU</Description>
+				<ComboBoxValue idStr="regular">
+					<Label>Regular</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="plain">
+					<Label>Plain</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="bullnose">
+					<Label>Bullnose</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="dblBullnose">
+					<Label>Double bullnose</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="ctrlJoint">
+					<Label>Control joint</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="steelSash">
+					<Label>Steel sash</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="bullnoseSash">
+					<Label>Bullnose sash</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="woodSash">
+					<Label>Wood sash</Label>
+				</ComboBoxValue>
+				<Default>regular</Default>
+			</ComboBox>
+			<ComboBox idStr="rightEndStyle">
+				<Label>Right end style</Label>
+				<Description>Specifies the right end style of the CMU</Description>
+				<ComboBoxValue idStr="regular">
+					<Label>Regular</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="plain">
+					<Label>Plain</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="bullnose">
+					<Label>Bullnose</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="dblBullnose">
+					<Label>Double bullnose</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="ctrlJoint">
+					<Label>Control joint</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="steelSash">
+					<Label>Steel sash</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="bullnoseSash">
+					<Label>Bullnose sash</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="woodSash">
+					<Label>Wood sash</Label>
+				</ComboBoxValue>
+				<Default>regular</Default>
+			</ComboBox>
+			<Picture idStr="end_conditions_illustration" rowHeight="5">
+				<Label>End conditions illustration</Label>
+				<Description>Illustrates the end conditions based on the current style selections</Description>
+				<Default>plain_plain</Default>
+				<Varies>plain_plain</Varies>
+				<PictureValue idStr="regular_regular" idFile="Images/cmu_regular_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="regular_plain" idFile="Images/cmu_regular_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="regular_bullnose" idFile="Images/cmu_regular_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="regular_dblBullnose" idFile="Images/cmu_regular_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="regular_ctrlJoint" idFile="Images/cmu_regular_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="regular_steelSash" idFile="Images/cmu_regular_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="regular_bullnoseSash" idFile="Images/cmu_regular_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="regular_woodSash" idFile="Images/cmu_regular_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="regular"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="plain_regular" idFile="Images/cmu_plain_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="plain_plain" idFile="Images/cmu_plain_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="plain_bullnose" idFile="Images/cmu_plain_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="plain_dblBullnose" idFile="Images/cmu_plain_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="plain_ctrlJoint" idFile="Images/cmu_plain_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="plain_steelSash" idFile="Images/cmu_plain_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="plain_bullnoseSash" idFile="Images/cmu_plain_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="plain_woodSash" idFile="Images/cmu_plain_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="plain"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_regular" idFile="Images/cmu_bull_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_plain" idFile="Images/cmu_bull_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_bullnose" idFile="Images/cmu_bull_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_dblBullnose" idFile="Images/cmu_bull_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_ctrlJoint" idFile="Images/cmu_bull_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_steelSash" idFile="Images/cmu_bull_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_bullnoseSash" idFile="Images/cmu_bull_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="bullnose_woodSash" idFile="Images/cmu_bull_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_regular" idFile="Images/cmu_dbull_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_plain" idFile="Images/cmu_dbull_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_bullnose" idFile="Images/cmu_dbull_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_dblBullnose" idFile="Images/cmu_dbull_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_ctrlJoint" idFile="Images/cmu_dbull_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_steelSash" idFile="Images/cmu_dbull_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_bullnoseSash" idFile="Images/cmu_dbull_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="dblBullnose_woodSash" idFile="Images/cmu_dbull_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="dblBullnose"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_regular" idFile="Images/cmu_controljoint_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_plain" idFile="Images/cmu_controljoint_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_bullnose" idFile="Images/cmu_controljoint_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_dblBullnose" idFile="Images/cmu_controljoint_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_ctrlJoint" idFile="Images/cmu_controljoint_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_steelSash" idFile="Images/cmu_controljoint_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_bullnoseSash" idFile="Images/cmu_controljoint_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="ctrlJoint_woodSash" idFile="Images/cmu_controljoint_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="ctrlJoint"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_regular" idFile="Images/cmu_sash_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_plain" idFile="Images/cmu_sash_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_bullnose" idFile="Images/cmu_sash_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_dblBullnose" idFile="Images/cmu_sash_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_ctrlJoint" idFile="Images/cmu_sash_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_steelSash" idFile="Images/cmu_sash_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_bullnoseSash" idFile="Images/cmu_sash_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="steelSash_woodSash" idFile="Images/cmu_sash_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="steelSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_regular" idFile="Images/cmu_bsash_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_plain" idFile="Images/cmu_bsash_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_bullnose" idFile="Images/cmu_bsash_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_dblBullnose" idFile="Images/cmu_bsash_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_ctrlJoint" idFile="Images/cmu_bsash_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_steelSash" idFile="Images/cmu_bsash_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_bullnoseSash" idFile="Images/cmu_bsash_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="bullnoseSash_woodSash" idFile="Images/cmu_bsash_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="bullnoseSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_regular" idFile="Images/cmu_wood_regular.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="regular"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_plain" idFile="Images/cmu_wood_plain.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="plain"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_bullnose" idFile="Images/cmu_wood_bull.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnose"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_dblBullnose" idFile="Images/cmu_wood_dbull.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="dblBullnose"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_ctrlJoint" idFile="Images/cmu_wood_controljoint.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="ctrlJoint"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_steelSash" idFile="Images/cmu_wood_sash.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="steelSash"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_bullnoseSash" idFile="Images/cmu_wood_bsash.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="bullnoseSash"/>
+				</PictureValue>
+				<PictureValue idStr="woodSash_woodSash" idFile="Images/cmu_wood_wood.png">
+					<ParentControl idRef="leftEndStyle" idStr="woodSash"/>
+					<ParentControl idRef="rightEndStyle" idStr="woodSash"/>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<Params>
+					<BullnoseRadius> 1.0 </BullnoseRadius>
+					<ControlFace> 0.75 </ControlFace>
+					<FilletDiameter> 0.5 </FilletDiameter>
+					<LipDepth> 1.6875 </LipDepth>
+					<MinimumControlWidth> 5.625 </MinimumControlWidth>
+					<MinimumRegularWidth> 3.625 </MinimumRegularWidth>
+					<MinimumSashWidth> 5.625 </MinimumSashWidth>
+					<MinimumTextureWidth> 7.625 </MinimumTextureWidth>
+					<SashThickness> 0.75 </SashThickness>
+					<SashOffset> 3.4375 </SashOffset>
+					<WoodSashOffset> 2.0 </WoodSashOffset>
+					<XLip> 1.6875 </XLip>
+					<YLip> 1.125 </YLip>
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>cmu</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cores">
+				<AcadHatchProps>
+					<HatchAlias>grout</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="web">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<Description>Specifications for the mortar</Description>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	<Recipe idStr="elevation">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnitElevation"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	<Recipe idStr="elevationPattern">
+		<Label>Elevation (Pattern)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpConcreteUnitElevationPattern"/>
+		</Implementation>
+		<Controls>
+			<ComboBox idStr="pattern">
+				<Label>Pattern</Label>
+				<Description>Specifies the bonding pattern to draw on the boundary object</Description>
+				<ComboBoxValue idStr="runningBond">
+					<Label>Running bond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="oneThirdRunningBond">
+					<Label>1/3 running bond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="stack">
+					<Label>Stack</Label>
+				</ComboBoxValue>
+				<Default>runningBond</Default>
+			</ComboBox>
+			<ControlRef idRef="showMortar"/>
+			<Picture idStr="pattern_illustration" rowHeight="7">
+				<Label>Pattern illustration</Label>
+				<Description>Illustrates the currently selected pattern</Description>
+				<Default>runningBond</Default>
+				<PictureValue idStr="runningBond" idFile="Images/brick_pattern_runningbond.png">
+					<ParentControl idRef="pattern" idStr="runningBond"/>
+				</PictureValue>
+				<PictureValue idStr="oneThirdRunningBond" idFile="Images/brick_pattern_third_running.png">
+					<ParentControl idRef="pattern" idStr="oneThirdRunningBond"/>
+				</PictureValue>
+				<PictureValue idStr="stack" idFile="Images/brick_pattern_stacked.png">
+					<ParentControl idRef="pattern" idStr="stack"/>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<!-- This needs to be here, but we created the pattern programmatically and made it real size (so we have no parameters) -->
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+</AecRecipeSpec>

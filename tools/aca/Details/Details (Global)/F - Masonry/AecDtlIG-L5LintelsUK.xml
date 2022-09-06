@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey=""  funcRcp="AecDtlRcpSteelCULintelSection"/>
+		</Implementation>
+		<Controls>
+			<CheckBox idStr="doHatch">
+				<Label>Hatch item</Label>
+				<Default>1</Default>
+			</CheckBox>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<Params>
+					<TopLength>50.0</TopLength>
+					<TopLip>7.0</TopLip>
+					<LeftBaseLen>25.0</LeftBaseLen>
+					<RightBaseLen>30.0</RightBaseLen>
+					<BaseThick>2.0</BaseThick>
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>IGinsulation</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+</AecRecipeSpec>

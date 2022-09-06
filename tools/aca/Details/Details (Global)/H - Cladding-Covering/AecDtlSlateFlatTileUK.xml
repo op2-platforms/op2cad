@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+	<ControlDefs>
+		<EditBoxDistance idStr="TileLen" unitDep="true">
+			<Label>Tile Length</Label>
+			<Description>Specifies the length of tile to use. </Description>
+			<Default>300</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="TileThick" unitDep="true">
+			<Label>Tile Thickness</Label>
+			<Description>Specifies the thickness of tile to use. </Description>
+			<Default>5</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="HeadLap" unitDep="true">
+			<Label>Head Lap</Label>
+			<Description>Specifies the head lap to use. </Description>
+			<Default>75</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="LipOver" unitDep="true">
+			<Label>Lip Overhang</Label>
+			<Description>Specifies the lip overhang to use. </Description>
+			<Default>10</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+	</ControlDefs>
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey=""  funcRcp="AecDtlFlatTileSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="TileLen"/>
+			<ControlRef idRef="TileThick"/>
+			<ControlRef idRef="HeadLap"/>
+			<ControlRef idRef="LipOver"/>
+		</Controls>
+		<Data>
+			<Item idStr="Values">
+				<Params>
+					<Factor unit="mm">1</Factor>
+					<BatWid unit="mm">38</BatWid>
+					<BatDep unit="mm">25</BatDep>
+				</Params>
+			</Item>
+			<Item idStr="tile">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="batten">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+</AecRecipeSpec>

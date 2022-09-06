@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] layfilter saved to:[c:/GitHub/aec-layer-tools/Code/layfilter] at:[2022-08-10]
+(VLISP-PROJECT-LIST 
+  :NAME
+  layfilter
+  :OWN-LIST
+  ("phase" "layfilter" "status")
+  :FAS-DIRECTORY
+  "C:/GitHub/aec-layer-tools/App/layfilter"
+  :TMP-DIRECTORY
+  "C:/GitHub/aec-layer-tools/App/layfilter"
+  :PROJECT-KEYS
+  (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF
