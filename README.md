@@ -12,8 +12,6 @@ op2cad is a collaborative CAD resources platform for:
 - fast tools creation/deployment
 - learning/contribution documentations
 
-It was designed to be the foundation for your office standard deployment using Git repository instead of shared server database.
-
 ## Features
 
 ```features
