@@ -1,5 +1,5 @@
 # op2cad | platform
-Introducing Open Source to Computer Assisted Drawing (CAD) in the AEC industries!
+Introducing open source softwares optimization and contents managment to the CAD world.
 
 ## About
 
