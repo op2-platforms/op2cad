@@ -10,10 +10,15 @@ op2cad is a collaborative CAD resources platform for:
 - fast tools creation/deployment
 - learning/contribution documentations
 
+It was designed to be the foundation for your office standard deployment using Git repository instead of shared server database.
+
 ## Features
 
+```features
 1. AutoCAD
-  - Support files
-  - Tools
+    1.1 Main Support files including acaddoc.lsp
+    1.2 Fast development lisp tools
 2. AutoCAD Architecture
-  - AEC Library
+    2.1 AEC Library
+    2.2 AEC Library
+```
