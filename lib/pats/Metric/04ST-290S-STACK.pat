@@ -1,9 +1,0 @@
-;%UNITS=MM
-;%VERSION=3.0
-
-*04ST-290S-STACK, Stone Masonry Units (290 mm), Stack-Bond
-;%TYPE=MODEL
-0,	5,5,	0,300,		590,-10
-0,	5,295,	0,300,		590,-10
-90,	-5,5,	300,600,	290,-10
-90,	5,5,	300,600,	290,-10

@@ -2,15 +2,9 @@
 ; WARNING: this file will be load on every autocad instance that use this Support folder path.
 ; acaddoc.lsp are loaded on every file opening
 ;
-(defun op2cad () 
+(defun op2cad-acad () 
   (vl-load-com)
-  (prompt 
-    (strcat "\nacaddoc.lsp file loaded from: " 
-            "\n...["
-            (setq dir_op2cad (vl-filename-directory (findfile "acaddoc.lsp")))
-            "]"
-    )
-  )
+
   ;-------------------------------------------------------------------------
   ;#region StartUp Variables
   (setvar "annoautoscale" -4)
@@ -25,23 +19,32 @@
   (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
 
   ; op2cad main folders
-  (setq dir_github (vl-string-right-trim "\\op2cad" dir_op2cad))
-  (setq dir_op2cadtools (strcat dir_op2cad "\\tools"))
-  (setq dir_op2cadlib (strcat dir_op2cad "\\lib"))
+  (setq dir_supfld (vl-filename-directory (findfile "acaddoc.lsp")))
+  (setq dir_acad (vl-string-right-trim "\\Support" dir_supfld))
+  (setq dir_apps (vl-string-right-trim "\\AutoCAD" dir_acad))
+  (setq dir_aca (strcat dir_apps "\\AutoCAD Architecture"))
 
-  ; op2cad tools
-  (setq dir_aec-catalogs (strcat dir_op2cadtools "\\aec-catalogs"))
-  (setq dir_aec-content (strcat dir_op2cadtools "\\aec-content"))
-  (setq dir_aec-details (strcat dir_op2cadtools "\\aec-details"))
-  (setq dir_aec-styles (strcat dir_op2cadtools "\\aec-styles"))
-  (setq dir_acad-layers (strcat dir_op2cadtools "\\acad-layers"))
+  (setq dir_acadtool (strcat dir_acad "\\Tools"))
+  (setq dir_acadlib (strcat dir_acad "\\Library"))
+  (setq dir_acatool (strcat dir_aca "\\Tools"))
+  (setq dir_acalib (strcat dir_aca "\\Library"))
 
-  ; op2cad library:
-  (setq dir_pats (strcat dir_op2cadlib "\\pats"))
+  ; op2cad support:
+  (setq dir_pats (strcat dir_acadlib "\\pats"))
   (setq dir_patunits (strcat dir_pat "\\-Units-"))
-  (setq dir_plot (strcat dir_op2cadlib "\\plotters"))
+  (setq dir_plot (strcat dir_acadlib "\\plotters"))
   (setq dir_plotstyle (strcat dir_plot "\\plot styles"))
   (setq dir_plotpmp (strcat dir_plot "\\pmp"))
+
+  ; op2cad tools
+  (setq dir_acad-layers (strcat dir_acadtool "\\OP2-ACAD-LAYERS"))
+
+  ; op2cad library:
+  (setq dir_aec-catalogs (strcat dir_acadtool "\\aec-catalogs"))
+  (setq dir_aec-content (strcat dir_acadtool "\\aec-content"))
+  (setq dir_aec-details (strcat dir_acadtool "\\aec-details"))
+  (setq dir_aec-styles (strcat dir_acadtool "\\aec-styles"))
+
 
 
   (if (= nil (vl-string-search dir_pats cur_supfiles)) 
@@ -106,7 +109,7 @@
     (prompt 
       (strcat "\nCustom applications reloaded from the local repositories" 
               "\n("
-              dir_github
+              dir_apps
               "\\RepoName\\App\\AppName.VLX)"
       )
     )
@@ -444,7 +447,7 @@
   (prompt "\n...c:TEXTUREPATHS - replace texture option paths")
 
   (defun c:legacycui () 
-    (setq dir_cuifld (strcat dir_op2cadlib "\\cui"))
+    (setq dir_cuifld (strcat dir_acadlib "\\cui"))
     (setq dir_cuiacalgy (strcat dir_cuifld "\\aca-legacy.cuix"))
     (setq dir_cuiacaqp (strcat dir_cuifld "\\aca-qp.cuix"))
 
@@ -463,6 +466,6 @@
 )
 
 (if s::startup 
-  (setq s::startup (append s::startup (quote ((op2cad)))))
-  (defun s::startup () (op2cad))
+  (setq s::startup (append s::startup (quote ((op2cad-acad)))))
+  (defun s::startup () (op2cad-acad))
 )
