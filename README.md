@@ -1,9 +1,8 @@
 # op2cad | platform
-Open Source to CAD (op2cad) is a collaborative CAD resources platform.
+Introducing Open Source to the AEC industries!
 
-including :
-- content management
-- tools creation/deployment
+op2cad is a collaborative CAD resources platform for:
+- contents management
+- software optimization environement 
+- fast tools creation/deployment
 - learning/contribution documentations
-
-for the AEC industries!
