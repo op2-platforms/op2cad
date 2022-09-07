@@ -19,6 +19,6 @@ It was designed to be the foundation for your office standard deployment using G
     1.1 Main Support files including acaddoc.lsp
     1.2 Fast development lisp tools
 2. AutoCAD Architecture
-    2.1 AEC Library
+    2.1 Additionnal support files
     2.2 AEC Library
 ```
