@@ -1,7 +1,9 @@
 # op2cad | platform
 Introducing open source softwares optimization and contents managment to the CAD world.
 
-Be aware!!! This platform is under development and lightly experimented with yet (Q3 2022). You may use and experiment with it at your own risk, any contribution, shared content or knowledge are always welcome and appreciated.
+Be aware! This platform is under heavy development and lightly experimented with yet (Q3 2022). 
+
+You may use and experiment with it at your own risk. Any contribution, shared content or knowledge are always welcome and appreciated.
 
 ## About
 
