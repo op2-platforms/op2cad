@@ -5,18 +5,13 @@ Fast open source development platform for computer assisted drawings in the Arch
 
 ## Story
 
-On first abord, CAD softwares tends to feel pretty straightforward and quite limitless; which is to be liked to anyone started of in a BIM application like Autodesk Revit for exemple. However, when setting thing up for your company, things can get much trickier and the boundary start to show up little by little as you are moving forward.
+On first abord, CAD softwares tends to feel pretty straightforward and quite limitless; which is to be liked to anyone started of in a BIM application like Revit for exemple. However, when setting thing up for yourself or your company, things can get much trickier and the boundary start to show up little by little as you are moving forward.
 
-As thing are getting more and more complicated, it's becoming important to have a proper way of deployment en
+More complicated things are becoming and more important it will be to have a proper way of developing, deploying and maintaining your quality CAD contents.
 
-## Current State
+This platform is my thought process outcome about how to manage content using Git powerful features.
 
-op2cad is a collaborative CAD resources platform for:
-
-- contents management
-- softwares optimization environement 
-- fast tools creation/deployment
-- learning/contribution documentations
+It was designed to be the foundation of any personnal or office standard in order to quickly and easily jump-in to the CAD world with premium base contents complementing the software original contents.
 
 ## Features
 
