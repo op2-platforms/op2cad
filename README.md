@@ -1,5 +1,5 @@
 # op2cad | platform
-Introducing open source to the CAD world for AEC industry.
+Fast Open source development platform for Computer Assisted Drawings (CAD) in the Architectural, Engineering and Construction (AEC) industries.
 
 > Be aware! This platform is under heavy development and lightly experimented with yet (Q3 2022). You may use and experiment with it at your own risk. Any contribution, shared content or knowledge are always welcome and appreciated.
 
