@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--(C) Copyright Autodesk, Inc. 2013-2015. All rights reserved.-->
-<AecSelectStyleContentSet>
-	<ObjectClass name="AecDbDoorStyle"><Drawing file=".\Styles and Definitions (Global).dwg"/></ObjectClass><ObjectClass name="AecDbWindowAssemblyStyle"><Drawing file=".\Styles and Definitions (Global).dwg"/></ObjectClass><ObjectClass name="AecDbRailingStyle"><Drawing file=".\Styles and Definitions (Global).dwg"/></ObjectClass><ObjectClass name="AecDbStairStyle"><Drawing file=".\Styles and Definitions (Global).dwg"/></ObjectClass><ObjectClass name="AecDbWindowStyle"><Drawing file=".\Styles and Definitions (Global).dwg"/></ObjectClass><ObjectClass name="AecDbWallStyle"><Drawing file=".\Styles and Definitions (Global).dwg"/></ObjectClass></AecSelectStyleContentSet>
