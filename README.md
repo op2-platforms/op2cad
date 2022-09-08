@@ -1,9 +1,13 @@
 # op2cad | platform
-Fast Open source development platform for Computer Assisted Drawings (CAD) in the Architectural, Engineering and Construction (AEC) industries.
+Fast open source development platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
 
 > Be aware! This platform is under heavy development and lightly experimented with yet (Q3 2022). You may use and experiment with it at your own risk. Any contribution, shared content or knowledge are always welcome and appreciated.
 
-## About
+## Story
+
+On first abord, CAD softwares tends to feel pretty straightforward and quite limitless; which is to be liked to anyone started of in a BIM application like Autodesk Revit for exemple. However, when setting thing up for your company, things can get much trickier and the boundary start to show up.
+
+## Current State
 
 op2cad is a collaborative CAD resources platform for:
 
