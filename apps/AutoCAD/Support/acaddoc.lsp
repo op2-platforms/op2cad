@@ -2,14 +2,14 @@
 ; WARNING: this file will be load on every autocad instance that use this Support folder path.
 ; acaddoc.lsp are loaded on every file opening
 ;
-(defun op2cad-acad (/ acadObj preferences) 
+(defun op2cad-acad () 
   (vl-load-com)
 
-  (setq dir_start (vl-filename-directory (findfile "acaddoc.lsp")))
+  (setq dir_startfld (vl-filename-directory (findfile "acaddoc.lsp")))
   (prompt 
     (strcat "\n-\n-------------------------  loading acaddoc.lsp contents  -------------------------" 
             "\nfrom: ["
-            dir_start
+            dir_startfld
             "]\n-\n-"
     )
   )
@@ -19,48 +19,47 @@
   ;Get the current AutoCAD object:
   (setq acadObj (vlax-get-acad-object))
   (setq preferences (vla-get-Preferences acadObj))
-  (setq measurvar (getvar "measurement"))
-
-  ;Set the current AutoCAD object:
-  (setvar "annoautoscale" -4)
-
-  ;Set VLA objects:
-  (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
 
   ;Startup directories from Support folders:
-  (setq dir_main (vl-string-right-trim "\\Support" dir_start))
-  (setq dir_apps (if (/= nil (vl-string-search "AutoCAD Architecture" dir_main)) 
-                   (vl-string-right-trim "\\AutoCAD Architecture" dir_main)
-                   (vl-string-right-trim "\\AutoCAD" dir_main)
-                 )
+  (setq dir_startapps (vl-string-right-trim "\\Support" dir_startfld)
+        dir_apps      (vl-string-right-trim "\\AutoCAD" dir_startapps)
+        dir_op2cad    (vl-string-right-trim "\\Apps" dir_apps)
+        dir_github    (vl-string-right-trim "\\op2cad" dir_op2cad)
   )
 
   ;Application directories from Apps folder:
-  (setq dir_aca (strcat dir_apps "\\AutoCAD Architecture"))
-  (setq dir_acad (strcat dir_apps "\\AutoCAD"))
+  (setq dir_aca  (strcat dir_apps "\\AutoCAD Architecture")
+        dir_acad (strcat dir_apps "\\AutoCAD")
+  )
 
   ;AutoCAD sub-folders:
-  (setq dir_acadtool (strcat dir_acad "\\Tools"))
-  (setq dir_acadsup (strcat dir_acad "\\Support"))
-  (setq dir_acadpats (strcat dir_acadsup "\\Pats"))
-  (setq dir_acadplot (strcat dir_acadsup "\\Plotters"))
-  (setq dir_acadpatsunit (strcat dir_acadpats "\\-Units-"))
-  (setq dir_acadplotstyle (strcat dir_acadplot "\\Plot Styles"))
-  (setq dir_acadplotpmp (strcat dir_acadplot "\\PMP"))
-  (setq dir_acadlayers (strcat dir_acadtool "\\OP2-ACAD-LAYERS"))
+  (setq dir_acadtool      (strcat dir_acad "\\Tools")
+        dir_acadsup       (strcat dir_acad "\\Support")
+        dir_acadpats      (strcat dir_acadsup "\\Pats")
+        dir_acadplot      (strcat dir_acadsup "\\Plotters")
+        dir_acadpatsunit  (strcat dir_acadpats "\\-Units-")
+        dir_acadplotstyle (strcat dir_acadplot "\\Plot Styles")
+        dir_acadplotpmp   (strcat dir_acadplot "\\PMP")
+        dir_acadlayers    (strcat dir_acadtool "\\OP2-ACAD-LAYERS")
+  )
+  (if (= 1 (getvar "measurement")) 
+    (setq dir_acadpatsunit (vl-string-subst "Metric" "-Units-" dir_acadpatsunit))
+    (setq dir_acadpatsunit (vl-string-subst "Imperial" "-Units-" dir_acadpatsunit))
+  )
 
   ;AutoCAD applications:
   (setq app_acadlayers (strcat dir_acadlayers "\\OP2-ACAD-LAYERS.VLX"))
 
   ;AutoCAD Architecture sub-folders:
-  (setq dir_acalib (strcat dir_aca "\\Library"))
-  (setq dir_acasup (strcat dir_aca "\\Support"))
-  (setq dir_acapats (strcat dir_acasup "\\Pats"))
-  (setq dir_acaplot (strcat dir_acasup "\\Plotters"))
-  (setq dir_acapatsunit (strcat dir_acapats "\\-Units-"))
-  (setq dir_acaplotstyle (strcat dir_acaplot "\\Plot Styles"))
-  (setq dir_acaplotpmp (strcat dir_acaplot "\\PMP"))
-  (setq dir_acacui (strcat dir_acasup "\\CUI"))
+  (setq dir_acalib       (strcat dir_aca "\\Library")
+        dir_acasup       (strcat dir_aca "\\Support")
+        dir_acapats      (strcat dir_acasup "\\Pats")
+        dir_acaplot      (strcat dir_acasup "\\Plotters")
+        dir_acapatsunit  (strcat dir_acapats "\\-Units-")
+        dir_acaplotstyle (strcat dir_acaplot "\\Plot Styles")
+        dir_acaplotpmp   (strcat dir_acaplot "\\PMP")
+        dir_acacui       (strcat dir_acasup "\\CUI")
+  )
 
   ;AutoCAD Architecture files:
   (setq fil_cuilegacy (strcat dir_acacui "\\aca-legacy.cuix"))
@@ -72,14 +71,10 @@
   (prompt "\n# Checking search paths, file names, and file locations: ")
 
   ; Support File Search Paths:
-  (if (= 1 measurvar) 
-    (setq dir_acadpatsunit (vl-string-subst "Metric" "-Units-" dir_acadpatsunit))
-    (setq dir_acadpatsunit (vl-string-subst "Imperial" "-Units-" dir_acadpatsunit))
-  )
+  (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
   (if (= nil (vl-string-search dir_acadpatsunit cur_supfiles)) 
     (progn 
-      (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
-      (vla-put-SupportPath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_acadpats))
+      (vla-put-SupportPath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_acadpatsunit))
       (prompt (strcat "\n-\n## Updated Hatch Patterns: " "\n...[" dir_acadpatsunit "]"))
     )
   )
@@ -469,10 +464,6 @@
 
   ; entreprise cui substitution command:
   (defun c:subst-cui () 
-    (vl-load-com)
-    (setq acadObj (vlax-get-acad-object))
-    (setq preferences (vla-get-Preferences acadObj))
-
     (vla-put-enterprisemenufile (vla-get-Files preferences) fil_cuilegacy)
   ) ;c:subst-cui
 
