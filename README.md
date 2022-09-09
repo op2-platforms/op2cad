@@ -13,7 +13,7 @@ This platform is my thought process outcome about how to manage contents using G
 
 ## The Design
 
-**op2cad** was thought to be the foundation for any of your personnal or office standard in order to quickly and easily jump-in to the CAD world with premium base contents complementing the software original contents.
+**op2cad** was thought to be the foundation for any of your personnal or office standard in order to quickly and easily jump-in to the CAD world with premium collaborative base contents complementing the software original contents while still having the ability to implement customized personnal or office contents.
 
 Using Git, you can stored the contents on your local machine, on an external hard drive, local server, personnal cloud or pretty much anywhere you want. The current prefered way is to Fork the main repository, and clone this newly made repository to your default GitHub folder: [C:\Users\UserName\Documents\GitHub]. This way, if you have access to a OneDrive account; your personnal repository should be sync on all your machines. If you are not using OneDrive service but have access to an other cloud service; simply clone the repository in a cloud synchronised folder and it should work just as well.
 
