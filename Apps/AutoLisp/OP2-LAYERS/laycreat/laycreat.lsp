@@ -1,10 +1,17 @@
-(defun laycreat (_dd _lp _pt _cp _dga _dgd _dgc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i 
-                 _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / layname 
-                 laydescription layuppercase laycolor
+(defun laycreat (_dd _lp _pt _cp _dga _dgd _dgc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t 
+                 _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / layname layuppercase laydescription 
+                 laycolor
                 ) 
 
+  (setvar "cmdecho" 0)
 
   (setq layname (strcat _dga _maa _m1a _m2a _pha))
+  (if (or (= "UPH" _cp) (= "UMI" _cp) (= "UDD" _cp) (= "UMA" _cp)) 
+    (setq layuppercase "Yes")
+    (setq layuppercase "No")
+  )
+  (if (= "Yes" layuppercase) (setq layname (strcase layname)))
+
   (setq laydescription (strcat _mad ": " _m1d ": " _m2d " (" _phd ")"))
 
 
@@ -68,15 +75,6 @@
     )
   )
 
-
-  ;UPPER Case switch:
-  (if (or (= "UPH" _cp) (= "UMI" _cp) (= "UDD" _cp) (= "UMA" _cp)) 
-    (setq layuppercase "Yes")
-    (setq layuppercase "No")
-  )
-  (if (= "Yes" layuppercase) (setq layname (strcase layname)))
-
-
   ;laycreat main command:
   (if (not (tblsearch "LAYER" layname)) 
     (progn 
@@ -100,7 +98,7 @@
                layname
                ""
       )
-      (prompt (strcat "\n..." layname " - " created))
+      (prompt (strcat "\n..." layname " - created"))
       (princ)
     )
     (progn 
@@ -125,8 +123,11 @@
                "y"
                ""
       )
-      (prompt (strcat "\n..." layname " - " updated))
+      (prompt (strcat "\n..." layname " - updated"))
       (princ)
     )
   )
+
+  (setvar "cmdecho" 1)
+  (princ)
 )

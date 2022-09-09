@@ -40,8 +40,8 @@
   )
 
   ;Applications search path and files:
-  (setq dir_acadlayers (strcat dir_lisp "\\OP2-ACAD-LAYERS")
-        app_acadlayers (strcat dir_acadlayers "\\OP2-ACAD-LAYERS.VLX")
+  (setq dir_layers (strcat dir_lisp "\\OP2-LAYERS")
+        app_layers (strcat dir_layers "\\OP2-LAYERS.VLX")
   )
 
   ;AutoCAD Architecture files:
@@ -91,7 +91,7 @@
   ;#region Custom Applications
   (prompt "\n-\n## Custom Open Source Applications Loaded: ")
 
-  (load app_acadlayers)
+  (load app_layers)
   (prompt "\n...OP2-ACAD-LAYERS.VLX")
   ;(load app_acadutilities)
   ;(prompt "\n...OP2-ACAD-UTILITIES.VLX")
@@ -107,11 +107,11 @@
 
   ;custom application reloading command:
   (defun c:appreload () 
-    (load app_acadlayers)
+    (load app_layers)
     (prompt 
       (strcat "\nCustom applications reloaded: " 
               "\n...["
-              app_acadlayers
+              app_layers
               "]"
       )
     )
