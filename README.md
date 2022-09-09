@@ -7,7 +7,7 @@ Fast open source development platform for computer assisted drawings in the Arch
 
 On first abord, CAD softwares tends to feel pretty straightforward and quite limitless; which is to be liked to anyone starting of, for exemple, in a BIM application like Revit. However, when setting thing up for yourself or your company, things can get much trickier as the boundary start to show up little by little.
 
-More complicated things are and more important it become to have a proper way of developing, deploying and maintaining your quality CAD contents.
+More complicated things are and more important it become to have a proper way of developing, deploying and maintaining your CAD contents.
 
 This platform is my thought process outcome about how to manage contents using Git powerful features and a way to angage with the community to use each other strengh and resources to create quality contents for everyone.
 
