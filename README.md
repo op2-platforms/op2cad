@@ -1,5 +1,5 @@
 # op2cad | platform
-Fast open source development platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
+Fast open source development and content management platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
 
 > Be aware! This platform is under heavy development and lightly experimented with yet (Q3 2022). You may use and experiment with it at your own risk. Any contribution, shared content or knowledge are always welcome and appreciated.
 
