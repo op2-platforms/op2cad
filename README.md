@@ -9,7 +9,7 @@ On first abord, CAD softwares tends to feel pretty straightforward and quite lim
 
 More complicated things are and more important it become to have a proper way of developing, deploying and maintaining your CAD contents.
 
-This platform is my thought process outcome about how to manage contents using Git powerful features and a way to angage with the community to use each other strengh and resources to create quality contents for everyone.
+This platform is my thought process outcome about how to manage contents using Git powerful features and a way to angage with the community to use each other strengh and resources to create even more quality contents for everyone.
 
 ## The Design
 
