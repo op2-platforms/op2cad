@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{03F83748-2556-44CF-9F37-D219F1D5E832}" />
+    <Properties>
+        <ItemName>Project Tools</ItemName>
+        <Images option="0" />
+        <Description>This Palette contains a sampling of Tools that are included with this Project. To Edit the Styles referenced by these Tools, open the Project Styles.dwg file located in the Standards\Content folder at the root of the project.</Description>
+        <Keywords>Project Styles</Keywords>
+        <Time createdUniversalDateTime="2005-11-27T09:33:54" modifiedUniversalDateTime="2005-11-27T09:33:54" refreshedUniversalDateTime="2005-11-27T09:33:54" />
+    </Properties>
+    <Source>
+        <Publisher>
+            <PublisherName>Autodesk</PublisherName>
+        </Publisher>
+    </Source>
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{9F6BEB6F-E588-46A2-86D5-24DB008510C5}" />
+            <Properties>
+                <ItemName>This Palette contains a sampling of Tools that are included with this Project. To Edit the Styles referenced by these Tools, open the Project Styles.dwg file located in the Standards\Content folder at the root of the project. </ItemName>
+                <Images option="0" />
+                <Refresh>true</Refresh>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <Source idValue="{9F6BEB6F-E588-46A2-86D5-24DB008510C5}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{139536F1-6F30-4F3B-875B-597B5D5706A0}" />
+            <Properties>
+                <ItemName>Styles</ItemName>
+                <Images option="0" />
+                <Refresh>true</Refresh>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <Source idValue="{139536F1-6F30-4F3B-875B-597B5D5706A0}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{BB502C9B-8324-4C5E-B870-CC6B5CBE8E57}" />
+            <Properties>
+                <ItemName>Concrete Encased Steel W8 16x16</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Beam Tool_BB502C9B-8324-4C5E-B870-CC6B5CBE8E57.png" />
+                </Images>
+                <Description>W8x31 Encased In Concrete 16" Square </Description>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>adt-UG-Structural_CreatingaBeam</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{BB502C9B-8324-4C5E-B870-CC6B5CBE8E57}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{2292D80A-690E-45D9-AC26-6B7D94497C06}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>0</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecsDbMember>
+                    <Type>1</Type>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Concrete Encased Steel W8 16x16</Style>
+                    <Dimensions>
+                        <StartOffset>0</StartOffset>
+                        <EndOffset>0</EndOffset>
+                        <Roll>0</Roll>
+                        <Justify>5</Justify>
+                        <CrossSectionExtents>0</CrossSectionExtents>
+                        <ComponentsExtents>0</ComponentsExtents>
+                    </Dimensions>
+                </AecsDbMember>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{FD53942A-AADF-4C7E-945E-C021DA7F12B2}" />
+            <Properties>
+                <ItemName>Stud-4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Wall Tool_FD53942A-AADF-4C7E-945E-C021DA7F12B2.png" />
+                </Images>
+                <Description>4" Stud Ptn. (Actual)</Description>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Walls_Walls</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{FD53942A-AADF-4C7E-945E-C021DA7F12B2}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbWall>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Stud-4</Style>
+                    <BaselineOffset>0</BaselineOffset>
+                    <Dimensions>
+                        <Width>4</Width>
+                        <Height>144</Height>
+                        <Justify>1</Justify>
+                    </Dimensions>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                    <CleanupGroupDef>Standard</CleanupGroupDef>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{81779526-28FE-403D-BD4D-0A2D04003EA4}" />
+            <Properties>
+                <ItemName>CMU-8 Air-2 Brick-4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Wall Tool_81779526-28FE-403D-BD4D-0A2D04003EA4.png" />
+                </Images>
+                <Description>8" CMU Wall and 4" Brick Cavity</Description>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Walls_Walls</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{81779526-28FE-403D-BD4D-0A2D04003EA4}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbWall>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">CMU-8 Air-2 Brick-4</Style>
+                    <BaselineOffset>0</BaselineOffset>
+                    <Dimensions>
+                        <Width>14</Width>
+                        <Height>144</Height>
+                        <Justify>1</Justify>
+                    </Dimensions>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                    <CleanupGroupDef>Standard</CleanupGroupDef>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{A57733B7-6260-4F81-8300-5A3F3764F4D6}" />
+            <Properties>
+                <ItemName>Hinged - Single</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Door Tool_A57733B7-6260-4F81-8300-5A3F3764F4D6.png" />
+                </Images>
+                <Description>Single hinged door</Description>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Doors_Doors</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{A57733B7-6260-4F81-8300-5A3F3764F4D6}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbOpeningBase>
+                    <Width>36</Width>
+                    <Height>84</Height>
+                    <Rise>28</Rise>
+                </AecDbOpeningBase>
+                <AecDbOpenFiller>
+                    <LeafWidth>0</LeafWidth>
+                    <OpenPct>50</OpenPct>
+                </AecDbOpenFiller>
+                <AecDbDoor>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Hinged - Single</Style>
+                    <Dimension>
+                        <StandardSizes>3'-0"  X  7'-0"</StandardSizes>
+                        <MeasureTo>0</MeasureTo>
+                        <VerticalAlignment>1</VerticalAlignment>
+                        <ThresholdHeight>0</ThresholdHeight>
+                        <HeadHeight>84</HeadHeight>
+                        <SwingAngle>90</SwingAngle>
+                    </Dimension>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{A6FC50A5-5020-42A6-BB61-8DAFAFA72237}" />
+            <Properties>
+                <ItemName>Revolving 6-0x6-8 Ctr + Sidelights + Transom</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\DoorWindow Assembly Tool_A6FC50A5-5020-42A6-BB61-8DAFAFA72237.png" />
+                </Images>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-DoorWindowAssemblies_DoorWindowAssemblies</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{A6FC50A5-5020-42A6-BB61-8DAFAFA72237}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{174607BC-5B00-4C49-BCAD-1257BCD4D49E}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbWindowAssembly>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Revolving 6-0x6-8 Ctr + Sidelights + Transom</Style>
+                    <Dimension>
+                        <Width>120</Width>
+                        <Height>104</Height>
+                        <Rise>12</Rise>
+                        <StartMiter>0</StartMiter>
+                        <EndMiter>0</EndMiter>
+                        <SillHeight>0</SillHeight>
+                        <HeadHeight>104</HeadHeight>
+                    </Dimension>
+                </AecDbWindowAssembly>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{8DB4314A-7C50-49C1-AB02-26FD6BDE0BB2}" />
+            <Properties>
+                <ItemName>Picture</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Window Tool_8DB4314A-7C50-49C1-AB02-26FD6BDE0BB2.png" />
+                </Images>
+                <Description>Rectangular Picture </Description>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Windows_Windows</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{8DB4314A-7C50-49C1-AB02-26FD6BDE0BB2}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbOpeningBase>
+                    <Width>36</Width>
+                    <Height>60</Height>
+                    <Rise>20</Rise>
+                </AecDbOpeningBase>
+                <AecDbOpenFiller>
+                    <LeafWidth>0</LeafWidth>
+                    <OpenPct>0</OpenPct>
+                </AecDbOpenFiller>
+                <AecDbWindow>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Picture</Style>
+                    <StandardSizes>3'-0"  X  5'-0"</StandardSizes>
+                    <Dimension>
+                        <MeasureTo>1</MeasureTo>
+                        <VerticalAlignment>1</VerticalAlignment>
+                        <SillHeight>20</SillHeight>
+                        <HeadHeight>80</HeadHeight>
+                        <SwingAngle>0</SwingAngle>
+                    </Dimension>
+                </AecDbWindow>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{1481EB2E-4238-4050-AF2B-FF75BF7AC1B1}" />
+            <Properties>
+                <ItemName>Steel</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Stair Tool_1481EB2E-4238-4050-AF2B-FF75BF7AC1B1.png" />
+                </Images>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Stairs_Stairs</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{1481EB2E-4238-4050-AF2B-FF75BF7AC1B1}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6F8E8B8F-011B-4E17-8EE6-1BFCD004EAC7}" />
+            <Data>
+                <AecDbStair>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Steel</Style>
+                    <Shape>0</Shape>
+                    <TurnType>0</TurnType>
+                    <HorizontalOrientation>0</HorizontalOrientation>
+                    <VerticalOrientation>1</VerticalOrientation>
+                    <Dimensions>
+                        <Width>44</Width>
+                        <Height>144</Height>
+                        <Justify>1</Justify>
+                        <TerminateWith>0</TerminateWith>
+                        <StraightLength>220</StraightLength>
+                        <RiserCount>21</RiserCount>
+                        <Riser>6.85714285714286</Riser>
+                        <RiserDepth>0</RiserDepth>
+                        <Tread>11</Tread>
+                    </Dimensions>
+                    <FloorSettings>
+                        <TopOffset>0</TopOffset>
+                        <TopDepth>10</TopDepth>
+                        <BottomOffset>0</BottomOffset>
+                        <BottomDepth>10</BottomDepth>
+                    </FloorSettings>
+                    <FlightHeight>
+                        <MinLimitType>0</MinLimitType>
+                        <MinRisers>3</MinRisers>
+                        <MinHeight>21</MinHeight>
+                        <MaxLimitType>0</MaxLimitType>
+                        <MaxRisers>15</MaxRisers>
+                        <MaxHeight>105</MaxHeight>
+                    </FlightHeight>
+                    <Interference>
+                        <HeadroomHeight>84</HeadroomHeight>
+                        <LeftSideClearance>0</LeftSideClearance>
+                        <RightSideClearance>0</RightSideClearance>
+                        <InsideClearance>0</InsideClearance>
+                        <OutsideClearance>0</OutsideClearance>
+                    </Interference>
+                    <Constraints>
+                        <AlignType>1</AlignType>
+                        <AlignOffset>0</AlignOffset>
+                        <ExtendAlign>0</ExtendAlign>
+                        <UnevenTreadOn>1</UnevenTreadOn>
+                    </Constraints>
+                </AecDbStair>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{79178EDA-D3AE-43E9-86B1-4479730F2696}" />
+            <Properties>
+                <ItemName>Guardrail - Pipe + Rod Balusters + Handrail</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Railing Tool_79178EDA-D3AE-43E9-86B1-4479730F2696.png" />
+                </Images>
+                <Refresh>true</Refresh>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Railings_Railings</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source idValue="{79178EDA-D3AE-43E9-86B1-4479730F2696}">
+                <SourceFile>
+                    <Url href="file://%AECPROJECT_DIR%\Standards\ToolCatalogs\Project Catalog.atc" />
+                </SourceFile>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{5D370FFD-8173-4ECF-95D4-F87B55A25AC3}" />
+            <Data>
+                <AecDbGeo>
+                    <BoundSpaces>1</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbRailing>
+                    <Style ref="%AECPROJECT_DIR%\Project Styles.dwg">Guardrail - Pipe + Rod Balusters + Handrail</Style>
+                </AecDbRailing>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{A0BE5DEF-C896-4445-A5A8-CDFB9B5C51FC}" />
+            <Properties>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <Source />
+            <ToolType>4</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{F98316C4-8FB7-4CD8-ABD2-5FD4564FA922}" />
+            <Properties>
+                <ItemName>Resources</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{6939BD8C-54BC-4235-9E69-8FB43DB1D0D3}" />
+            <Properties>
+                <ItemName>Live Area Guide</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" src=".\Images\Aec Symbol Tool_6939BD8C-54BC-4235-9E69-8FB43DB1D0D3.png" />
+                </Images>
+                <Description>Insert in Model Space to give the limits of the Paper Space "Live Area" on the Sheet.
+Live Area is that area which can contain drawings minus the borders and titleblock
+</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>North_Arrow</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2007-12-06T18:31:50" modifiedUniversalDateTime="2007-12-06T18:31:50" refreshedUniversalDateTime="2007-12-06T18:31:50" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{8FAA2E40-66FE-45BF-A3CB-4F5A58D482E4}" />
+            <Data>
+                <AecDbSymbolObject>
+                    <LayerKey>LAYGRID</LayerKey>
+                    <Symbol>Live Area Guide</Symbol>
+                    <SymbolLocation>%AECPROJECT_DIR%\Project Styles.dwg</SymbolLocation>
+                </AecDbSymbolObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{9EBC9945-1FE5-4349-918C-0F46C6AB1430}" />
+            <Properties>
+                <ItemName>Base Point</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" src="Images\NorthArrow.png" />
+                </Images>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>North_Arrow</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2007-12-06T18:31:50" modifiedUniversalDateTime="2007-12-06T18:31:50" refreshedUniversalDateTime="2007-12-06T18:31:50" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Project Catalog</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{8FAA2E40-66FE-45BF-A3CB-4F5A58D482E4}" />
+            <Data>
+                <AecDbSymbolObject>
+                    <LayerKey>XLINE</LayerKey>
+                    <Symbol>Base Point</Symbol>
+                    <SymbolLocation>%AECPROJECT_DIR%\Project Styles.dwg</SymbolLocation>
+                </AecDbSymbolObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{69E63E0E-A76A-42C7-B0CC-5A137323BE15}" />
+            <Properties>
+                <ItemName>Layout Grid 2D</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Layout Grid 2D_09161740-C65F-4F85-88F7-4C61EE49C928.png" />
+                </Images>
+                <Description>Creates an AEC LayoutGrid</Description>
+                <Keywords>_layout grid 2d</Keywords>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-LayoutCurvesandGrids_LayoutTools</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T21:07:12" modifiedUniversalDateTime="2006-01-10T21:07:12" refreshedUniversalDateTime="2006-01-10T21:07:12" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{DDE46C43-817A-47E0-BB9C-F6FC90211A4E}" />
+            <Data>
+                <AecDbLayoutGrid2d>
+                    <Shape>0</Shape>
+                    <Dimensions>
+                        <Width>3456</Width>
+                        <Depth>2760</Depth>
+                    </Dimensions>
+                    <XAxis>
+                        <Type>2</Type>
+                        <Spacing>288</Spacing>
+                    </XAxis>
+                    <YAxis>
+                        <Type>2</Type>
+                        <Spacing>288</Spacing>
+                    </YAxis>
+                </AecDbLayoutGrid2d>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

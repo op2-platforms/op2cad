@@ -1,0 +1,629 @@
+<ToolPaletteProject ProjectID="{278492B5-DB73-40EF-835D-78937B8DE3CB}" Name="Commercial Template Project (Metric)" Location="C:\Documents and Settings\Administrator\Application Data\Autodesk\ACD-A 2009\enu\Support\Profiles\ProjectCatalogs\278492B5_DB73_40EF_835D_78937B8DE3CB" ActiveGroup="Commercial Template Project (Metric)" ActiveTab="0">
+	<ToolPaletteScheme>
+		<ToolPaletteSets>
+			<ToolPaletteSet>
+				<CAdUiDockControlBar Orientation="-1" AllowDocking="0">
+					<FloatInfo Left="2" Top="147" Width="290" Height="370"/>
+					<DockInfo Left="0" Top="0" Width="200" Height="300" MRUDockID="0"/>
+				</CAdUiDockControlBar>
+				<CAdUiPaletteSet ActivePaletteIndex="2" TitleBarLocation="0" AutoRollup="0" Name="Tool Palettes - Commercial Template Project (Metric)" Style="126" Opacity="100" Visible="0"/>
+				<CAcTcUiToolPaletteSet ID="{6D6C29E5-9250-41B1-BE31-44E2CD17BE8A}">
+					<ToolPalettes>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{4EA2B0A7-8EA4-4E82-8CBB-A103508AA65B}">
+									<ToolSource>
+										<Palette ID="{4EA2B0A7-8EA4-4E82-8CBB-A103508AA65B}">Design</Palette>
+									</ToolSource>
+									<Image SizeCX="32" SizeCY="32"/>
+									<Style>458752</Style>
+									<ToolOrder>
+										<Tool ID="{A53E10F6-8B47-45FF-AFA5-8B1947E5DAEA}"/>
+										<Tool ID="{F4BB2453-474A-4A6F-98FD-89B42F9674E4}"/>
+										<Tool ID="{50F6ACBF-6D07-450E-8F98-5EE00915F6BB}"/>
+										<Tool ID="{35265B00-7A57-454A-85C2-70421744DC02}"/>
+										<Tool ID="{67A5408B-4089-45AC-967A-C5585E94E6B9}"/>
+										<Tool ID="{EC42E408-286D-4C28-B83A-0CFC2B7B6D8A}"/>
+										<Tool ID="{B8A09644-BD4F-491F-9259-F6E389A6552E}"/>
+										<Tool ID="{61E74BE5-D2FD-42ED-B7D2-20F5A912FA05}"/>
+										<Tool ID="{DC231C86-E670-40CB-9E93-01C3D2596A66}"/>
+										<Tool ID="{921D4E18-438E-433E-835B-ECFF2BE6AFFE}"/>
+										<Tool ID="{25EFE501-2742-4ED3-B658-F6618DB555DD}"/>
+										<Tool ID="{A798E584-4D65-49B1-9A1F-8D21DE32EB6B}"/>
+										<Tool ID="{24960450-F018-46E6-A401-C60AFD9716CF}"/>
+										<Tool ID="{DF0C54D9-35AD-449C-A76E-1D97BF905402}"/>
+										<Tool ID="{365C08A2-7025-4F89-BC2F-6E4820DE4DBA}"/>
+										<Tool ID="{86B8ADA3-E17C-4206-8068-5134E6736F06}"/>
+										<Tool ID="{E1633514-66AC-4030-80E3-03E71E2D4163}"/>
+										<Tool ID="{EF323965-B995-4DA6-A6F1-3E5F634E58C8}"/>
+										<Tool ID="{A2964419-12B2-43FA-9B1B-54C06B99448A}"/>
+										<Tool ID="{DE4115D7-603D-42F4-BD1F-260DF5DAB453}"/>
+										<Tool ID="{70C05F5F-DCF9-422F-8FE6-4F7203B7078C}"/>
+										<Tool ID="{7A3E1BB3-DE04-455C-8F43-D47D2FB9A87A}"/>
+										<Tool ID="{A11A38F6-B19C-4A49-ACD1-B6138EEC0275}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{5731CC06-7FDE-40D9-8C7E-1EC7B37DB4DE}">
+									<ToolSource>
+										<Palette ID="{5731CC06-7FDE-40D9-8C7E-1EC7B37DB4DE}">Massing</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458752</Style>
+									<ToolOrder>
+										<Tool ID="{4BE40298-895E-4E02-B038-1F5DD0166E42}"/>
+										<Tool ID="{BF9ED41A-C503-4634-A246-9DEF670D8640}"/>
+										<Tool ID="{20152265-ECA8-4A5C-BB5B-769264BB504D}"/>
+										<Tool ID="{341B4246-5F9E-496F-BE0C-B2B196539D4D}"/>
+										<Tool ID="{9AA7CF3E-3035-4A87-A574-3B4D7D137E91}"/>
+										<Tool ID="{0102243C-1084-4E9A-8568-DA3D2593FB35}"/>
+										<Tool ID="{D6760FBE-74C9-47E3-B048-87679A813BB6}"/>
+										<Tool ID="{8A5CCA08-5835-4FA3-BBED-679389E85AED}"/>
+										<Tool ID="{C4A0A184-B98E-4369-B6F6-27DFCAA9EDB6}"/>
+										<Tool ID="{70C3170E-83C5-4D3D-B472-93E5CDB8EFE4}"/>
+										<Tool ID="{4F6E9555-E565-42D8-9DB0-BA28FDF382C2}"/>
+										<Tool ID="{7039E80B-BB0B-45DC-B9CE-5A76A37757D9}"/>
+										<Tool ID="{4D7680CD-C17D-47F9-BD1F-ED1DAFC0B9B9}"/>
+										<Tool ID="{5C188764-F04E-4BA5-BBF6-845D526DB2DF}"/>
+										<Tool ID="{4DE45FC5-52D1-4C5A-9664-76F883099175}"/>
+										<Tool ID="{584C7312-A824-4D74-9C79-C6E4591EA72B}"/>
+										<Tool ID="{F2DE6C99-5367-4F7F-BCB1-5C637EC03073}"/>
+										<Tool ID="{6A6D6039-5770-4D02-9ACD-7935E3A28ED6}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{89772E88-46AB-4FA1-AA83-46382E26F68C}">
+									<ToolSource>
+										<Palette ID="{89772E88-46AB-4FA1-AA83-46382E26F68C}">Walls</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{82D3B607-E861-422A-8B5B-B37F892D30CE}"/>
+										<Tool ID="{66C9D2AC-5CF3-4E9E-9524-CF2274659B92}"/>
+										<Tool ID="{8EF4E682-E1F3-46B7-ADE8-B373DD8B7D61}"/>
+										<Tool ID="{555EEA66-7C8F-4866-B20F-3A193E78BEAA}"/>
+										<Tool ID="{E5E1FF73-45E5-4664-B9B2-336F64C1FEAF}"/>
+										<Tool ID="{7C70F6CB-902C-47DE-BE41-4C6EE71F82E0}"/>
+										<Tool ID="{06B32DD4-FE7A-445E-BC19-5B7AB5C45624}"/>
+										<Tool ID="{15369AFF-7A0B-452C-AB5B-905C89CE7B8D}"/>
+										<Tool ID="{740252D3-41C7-423F-B113-F67D1F70A97A}"/>
+										<Tool ID="{DD27BA6E-C26F-4AC6-B8ED-228E61706768}"/>
+										<Tool ID="{B096948C-9C98-46ED-A40C-94314E2A47E5}"/>
+										<Tool ID="{F70AE99D-9050-424B-B796-8FE106A97727}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{CAB9BA15-C2C0-471D-BF72-9F8A657CC24D}">
+									<ToolSource>
+										<Palette ID="{CAB9BA15-C2C0-471D-BF72-9F8A657CC24D}">Slabs</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{D12E74B5-7FE3-442B-AC39-AEC65A81C3C1}"/>
+										<Tool ID="{52319C37-C28B-491E-9124-DC608F025F1F}"/>
+										<Tool ID="{459133EB-6E22-4221-9401-8A45FCCDB1C7}"/>
+										<Tool ID="{5ACA35CA-6FF9-4A24-AFB2-CFE4E0478E56}"/>
+										<Tool ID="{7B254369-D25F-4395-8794-794409B5148E}"/>
+										<Tool ID="{8F5F139C-92DB-4283-A41F-3A4F346BA3E3}"/>
+										<Tool ID="{ED14B548-2DE1-4447-B79A-35D586FC150C}"/>
+										<Tool ID="{0CA82F3B-2BB7-482F-A2F7-47E750D8A8CD}"/>
+										<Tool ID="{AC180E6A-C8A6-4B12-B65F-0423BCD24F32}"/>
+										<Tool ID="{19ECB8CE-87BF-4B6D-8F5E-39C406C281E4}"/>
+										<Tool ID="{F83B97CF-9A20-4308-A586-FCF47BA00C33}"/>
+										<Tool ID="{9E9AA61B-3AD9-4C12-90B6-4AD49345F49A}"/>
+										<Tool ID="{5311736A-DE84-4EAA-90C3-A359983E844C}"/>
+										<Tool ID="{B05A5D72-B272-44F2-B318-61AB7E7C0059}"/>
+										<Tool ID="{5354C6F3-00E6-434A-BA13-C97771E44F0B}"/>
+										<Tool ID="{AA7D6925-6029-43F8-A743-1AAD0BFEAE21}"/>
+										<Tool ID="{3F3BF055-A21C-4322-93FD-2B61372CF417}"/>
+										<Tool ID="{F1C46849-8365-4D42-9A47-334E16B698CB}"/>
+										<Tool ID="{24640E7F-F4EC-46A2-89AF-05903C34E56E}"/>
+										<Tool ID="{74290286-AF61-495B-B9ED-29B6A6452650}"/>
+										<Tool ID="{D5991DDA-8102-4942-BAE6-0AB889ACF3F3}"/>
+										<Tool ID="{6DA0015A-A4ED-4F9F-9C2D-6CCD8172D185}"/>
+										<Tool ID="{44FA003C-068B-4C39-B9AA-C4066BFE59E8}"/>
+										<Tool ID="{DD758F76-D3D4-4C7E-99DE-BBFC7513310B}"/>
+										<Tool ID="{D4958E8B-FDD7-4758-85DE-5664F184AD5B}"/>
+										<Tool ID="{B0209A48-4A08-4CC2-A77C-8421E7E27985}"/>
+										<Tool ID="{D6289B43-ECDF-4E0F-A450-DC2AF10BBCE5}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{1BE873DD-201A-4EC6-B7F2-DCA109D4DAB4}">
+									<ToolSource>
+										<Palette ID="{1BE873DD-201A-4EC6-B7F2-DCA109D4DAB4}">Doors</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{AE1008FC-7E49-4573-9E6B-191ECC85B81E}"/>
+										<Tool ID="{A5E2AF5E-D950-4391-8C69-EC987ADBBBC8}"/>
+										<Tool ID="{95817FF3-1920-4B9B-9B73-FD27E7A7C4B1}"/>
+										<Tool ID="{8A52F691-6CE8-42BE-8187-0A82D07F2860}"/>
+										<Tool ID="{DA90F7BC-7409-469C-BC31-0773CF6655E4}"/>
+										<Tool ID="{29272462-D260-4578-A545-F93FBA3BB254}"/>
+										<Tool ID="{392CF44E-BD7E-427A-8AC8-A1D266111AFB}"/>
+										<Tool ID="{27AA2BA1-E348-4C7C-9562-CC006468B8F3}"/>
+										<Tool ID="{C38D1ECD-AAAC-4EF2-94E6-5002ABFB63D5}"/>
+										<Tool ID="{F5826726-D181-435C-99E4-2B114B909956}"/>
+										<Tool ID="{9D2467D4-1814-4094-8258-9938A0B639AB}"/>
+										<Tool ID="{AC566A01-AC3B-4451-8977-22265C04A257}"/>
+										<Tool ID="{D27D0957-A2D2-4FB5-BD65-94BDDABA6F22}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{EBE458AC-9F9E-44F5-A22A-57A6C5B2BEB9}">
+									<ToolSource>
+										<Palette ID="{EBE458AC-9F9E-44F5-A22A-57A6C5B2BEB9}">Windows</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{CDCC0EEF-3060-4569-94DC-36D914172CCA}"/>
+										<Tool ID="{D6337264-861C-419A-A36B-3B442FDAD192}"/>
+										<Tool ID="{DA4B4A9D-A470-4EB8-A612-F6F4B6A64D88}"/>
+										<Tool ID="{276CC175-E876-41FD-83ED-D2B433CDE285}"/>
+										<Tool ID="{878B0F98-E980-40B3-9321-B1C763FA72BD}"/>
+										<Tool ID="{9B57E4E0-4A3B-497B-867C-0A27B9D68786}"/>
+										<Tool ID="{67060962-D70E-476C-9D3C-D786B7FFB5FA}"/>
+										<Tool ID="{B20299F4-56D1-4AF0-B872-C0F15855623E}"/>
+										<Tool ID="{6F312235-C6AF-4FE3-B0D8-B0F78EE137F0}"/>
+										<Tool ID="{7B1C5F53-E5BC-426F-A915-FCBC889AF059}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{C6173C8A-77B5-4192-B2E0-0C7244F5B2E0}">
+									<ToolSource>
+										<Palette ID="{C6173C8A-77B5-4192-B2E0-0C7244F5B2E0}">FF + E</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{68BF1D6B-CE08-4808-ADBA-A7E78F3550F5}"/>
+										<Tool ID="{870D88DD-7BEF-4FF3-9936-7940025BE6C9}"/>
+										<Tool ID="{3D85D19B-AD2C-4951-9367-708BDC73FE59}"/>
+										<Tool ID="{9872B6BE-403B-498D-9B1C-A5BF70A8A004}"/>
+										<Tool ID="{C6FDA9D1-F53A-40BB-8FB9-D11DFFC3E215}"/>
+										<Tool ID="{A2F2DACA-4989-404D-8CE1-A60A0160D517}"/>
+										<Tool ID="{8F553498-45C5-4950-8161-4617344A9E4C}"/>
+										<Tool ID="{3F734128-772B-4083-9BEF-7B9FF642E5A5}"/>
+										<Tool ID="{591DCC19-94D0-492F-9A90-30989F8C6A92}"/>
+										<Tool ID="{1019BE15-141E-48C3-B2DD-76831FAE9EB0}"/>
+										<Tool ID="{436A2F3A-FE5D-4ED4-9135-AAA1A953F886}"/>
+										<Tool ID="{43AC7E5E-6013-467B-A700-8FA71B50EB86}"/>
+										<Tool ID="{1E7D95B7-65B9-40E1-9C1E-A131F97AA18B}"/>
+										<Tool ID="{9F670862-4802-47AB-B402-BEFB9169AC68}"/>
+										<Tool ID="{03343CB3-3554-4F47-BB17-C272C9BEB17B}"/>
+										<Tool ID="{09CC499B-C1AF-4376-92FB-B22937F3F65E}"/>
+										<Tool ID="{FEDDDC6A-84C4-4F2A-8FC1-F51C2AF9B9C6}"/>
+										<Tool ID="{0A5B3569-E87B-4AAD-811B-181A3837D415}"/>
+										<Tool ID="{29489C6F-229F-4D5E-BFFE-21B38BC5D825}"/>
+										<Tool ID="{A6CC109A-3686-4731-8A8F-A971367D18CC}"/>
+										<Tool ID="{909E6D74-DA7A-4BF7-A959-52933D52A98F}"/>
+										<Tool ID="{CBE36203-CDB9-4379-8DF9-48AF6CDD96D0}"/>
+										<Tool ID="{89AB9D09-35BB-416F-B634-F3F7D22110E9}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{D8A80240-712C-4D6D-8998-914E8B92D8EE}">
+									<ToolSource>
+										<Palette ID="{D8A80240-712C-4D6D-8998-914E8B92D8EE}">Annotation</Palette>
+									</ToolSource>
+									<Image SizeCX="24" SizeCY="24"/>
+									<Style>491522</Style>
+									<ToolOrder>
+										<Tool ID="{81F39C76-1B92-4FED-A8A1-9A9EC62A3A37}"/>
+										<Tool ID="{4DFB900A-E6F3-4D3E-BF96-DDB9FD7122D6}"/>
+										<Tool ID="{698FAF51-C7B2-423B-A0E3-BE5AA0993592}"/>
+										<Tool ID="{9D9B9A1D-577D-489A-9A82-DD4FFC5BF9FE}"/>
+										<Tool ID="{E7598C80-7C33-4DBD-9839-C14157C8B2B5}"/>
+										<Tool ID="{FCA3338F-1080-4DDC-9C96-B245AE9B22CD}"/>
+										<Tool ID="{B6CE29D4-3CD3-4C41-BBFD-C72E8F2FF83A}"/>
+										<Tool ID="{85C67031-3A17-458A-BB73-D6A9BCAC741E}"/>
+										<Tool ID="{28AF666C-E7E9-44FB-A2B5-A385260E96BB}"/>
+										<Tool ID="{FAD91738-5AF8-4CCB-B3FF-F97D46E17383}"/>
+										<Tool ID="{BFE532DB-8682-47E8-BB3D-D8B0AC537216}"/>
+										<Tool ID="{BAB0A9CA-8BE2-41E6-B637-9DA7CFA2EEBD}"/>
+										<Tool ID="{7F194940-294B-478C-B9D6-83B3D22E4CE3}"/>
+										<Tool ID="{46330F4C-4B7E-45A4-85F1-9854AC41A8EC}"/>
+										<Tool ID="{5703BFA1-C842-4CEB-B2BD-76D89F9C8531}"/>
+										<Tool ID="{86ABBD9E-DEF9-4A59-AC27-3AB3737877F4}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{DFB967A3-A994-419B-B482-BD417BFB8D30}">
+									<ToolSource>
+										<Palette ID="{DFB967A3-A994-419B-B482-BD417BFB8D30}">Callouts</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458752</Style>
+									<ToolOrder>
+										<Tool ID="{9FD1CEA8-C467-4B77-877B-58163A281CCC}"/>
+										<Tool ID="{E3520663-6C40-452C-AC1B-2EE0AEEF1BE0}"/>
+										<Tool ID="{BFC0B1FA-3C6E-4E97-B4EF-9418C94FFB83}"/>
+										<Tool ID="{BD56776C-1B75-4507-ADD6-0D9E6781EC85}"/>
+										<Tool ID="{BBA44E2A-DAF3-46E3-9B53-AC27DDE2D29E}"/>
+										<Tool ID="{3EF3CE8B-DA75-4E5E-9EF6-E7907F8D5097}"/>
+										<Tool ID="{FAEE59D1-D171-4FA3-9FFD-D8E4E596F785}"/>
+										<Tool ID="{B680E8AF-8717-4627-9040-7FA07403B49C}"/>
+										<Tool ID="{1E20734C-BE09-45CA-BA23-7EE5628EF995}"/>
+										<Tool ID="{05E2FE8D-74F7-4B2C-83DE-7350E53220B7}"/>
+										<Tool ID="{6FAE2917-1BA0-4903-A585-378EF9AD84EE}"/>
+										<Tool ID="{A85FEB63-8DFC-4AFC-983E-B75AFBDEE099}"/>
+										<Tool ID="{F8CC849F-2E54-4417-A989-F6E0480125B9}"/>
+										<Tool ID="{9ABE35C4-FCD6-498E-BBF9-DF64500DB2B4}"/>
+										<Tool ID="{DB04F64B-ECDC-4AC7-85C9-13FE3C9B24C3}"/>
+										<Tool ID="{50ADACA6-9F98-473D-94AE-F95AE8B0F98D}"/>
+										<Tool ID="{6507D63C-32A2-4FBF-8B29-ED06348BB49C}"/>
+										<Tool ID="{AF0C8FB2-8BFF-4186-8980-2C16F9397D9B}"/>
+										<Tool ID="{C308628C-1AE0-4C36-93D7-A9BCC8B8B05B}"/>
+										<Tool ID="{2108AB82-9D69-4E41-829C-265703D06829}"/>
+										<Tool ID="{5FBEFB74-0DC2-4F80-9DDF-547491C01113}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{8A07AFA1-EC23-41F5-BEEC-6FB1B641B254}">
+									<ToolSource>
+										<Palette ID="{8A07AFA1-EC23-41F5-BEEC-6FB1B641B254}">Scheduling</Palette>
+									</ToolSource>
+									<Image SizeCX="32" SizeCY="32"/>
+									<Style>491522</Style>
+									<ToolOrder>
+										<Tool ID="{149146E8-A6B6-47F5-B074-36EE42392C77}"/>
+										<Tool ID="{E870167F-7FC8-41AD-AB3D-81FB92B0ACA1}"/>
+										<Tool ID="{4CA72F50-76EF-4129-9D3A-CE05F1AECBD3}"/>
+										<Tool ID="{80F5C0A3-5AD2-47BD-8E97-4FA0900D34E8}"/>
+										<Tool ID="{E094E8B0-7A19-4207-9EFF-73B7AEC9271C}"/>
+										<Tool ID="{E84C4DD3-E393-451A-A87E-B98947DFEA1D}"/>
+										<Tool ID="{A59B974F-2D40-47D2-9871-CB2EB3AE86D3}"/>
+										<Tool ID="{1ADCD8B5-A7CC-4459-B52F-0FA2EEA0539F}"/>
+										<Tool ID="{4BB6A4DF-FCA5-4782-90ED-B0AE09DAE445}"/>
+										<Tool ID="{F6D346C8-3214-4879-96DA-97BF0BEAB31A}"/>
+										<Tool ID="{CC0BD691-227E-4902-84A3-40D995C3E413}"/>
+										<Tool ID="{729B5CF9-5C35-4E4B-8C2F-C754A184F4F3}"/>
+										<Tool ID="{AAC10698-E177-4C4E-98CA-871EF561B3D6}"/>
+										<Tool ID="{2EB31B6C-887C-42CB-8A34-50A06FA26A0E}"/>
+										<Tool ID="{E03713A2-D700-407D-8E89-A937911A1503}"/>
+										<Tool ID="{8E1ADA38-4DC3-4252-98E7-DF086A25EB0F}"/>
+										<Tool ID="{8FB5B01A-91C1-4074-B14C-E380CF58FC0F}"/>
+										<Tool ID="{B1BE1BEC-BB20-426E-B4C0-D86F5946336C}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{BD88D5EC-54D6-4A03-9C44-14271CD826AF}">
+									<ToolSource>
+										<Palette ID="{BD88D5EC-54D6-4A03-9C44-14271CD826AF}">Themes</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>491522</Style>
+									<ToolOrder>
+										<Tool ID="{F30CA679-2FC6-4FEF-80B0-95A662E56EC5}"/>
+										<Tool ID="{BB8B3044-F787-4E70-8FA1-DC479FC8D7E4}"/>
+										<Tool ID="{35E1BC77-35C7-4975-8113-0016313DB77E}"/>
+										<Tool ID="{3A3A858F-7FA8-414B-8CA9-B471F3587F4C}"/>
+										<Tool ID="{E26818C8-FAF1-4211-9B2B-E1475AA753CE}"/>
+										<Tool ID="{CD02965C-25FE-4785-891C-3BB4E3CFA848}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{BB369339-B764-47B5-A5DF-F6D7F9D7C666}">
+									<ToolSource>
+										<Palette ID="{BB369339-B764-47B5-A5DF-F6D7F9D7C666}">Drafting</Palette>
+									</ToolSource>
+									<Image SizeCX="40" SizeCY="40"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{053531B3-9E5E-41B3-BC1B-0E233CF71E59}"/>
+										<Tool ID="{9D02BA25-0450-445C-A9E1-5263EC6C1BEB}"/>
+										<Tool ID="{79E3E462-EC88-4C47-A382-C513C1E2C430}"/>
+										<Tool ID="{679681D8-AD54-4180-8A1D-A1944B2F68B3}"/>
+										<Tool ID="{04B70711-06B0-4148-8E40-3725AA9F9DC2}"/>
+										<Tool ID="{813FFB51-BF2A-4976-B9F1-C088C033DC9C}"/>
+										<Tool ID="{20BA2F17-C729-46B2-85FA-10CF37F85B44}"/>
+										<Tool ID="{A6D52D68-357F-4E47-B981-2A0E3D14C495}"/>
+										<Tool ID="{7956FE5C-9521-4EF9-A99D-62E44E40EDFA}"/>
+										<Tool ID="{AB2B2C38-74D2-45E6-8FFC-FFB0E32DECAD}"/>
+										<Tool ID="{804C16E4-C280-4EEE-94CB-FFFE3E75226F}"/>
+										<Tool ID="{88ACAD5E-8B94-43BC-B6D7-E6EDFC519870}"/>
+										<Tool ID="{9364782D-7814-44DA-88ED-3EAEDFAC724D}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{E0797A43-55EF-4910-9214-EBE2CB16F07D}">
+									<ToolSource>
+										<Palette ID="{E0797A43-55EF-4910-9214-EBE2CB16F07D}">Basic</Palette>
+									</ToolSource>
+									<Image SizeCX="32" SizeCY="32"/>
+									<Style>491522</Style>
+									<ToolOrder>
+										<Tool ID="{C8CEA970-FFB6-4260-8283-CC185CFAB81A}"/>
+										<Tool ID="{8DC8903F-594B-4627-AF93-2D8084C73BEC}"/>
+										<Tool ID="{E52FA881-7561-4972-BADD-30AC4D79E360}"/>
+										<Tool ID="{22B9E7F4-1BE5-44D0-998E-7D2BFEAE7C76}"/>
+										<Tool ID="{60C206F3-AC7F-4725-9567-B64F0E5933A8}"/>
+										<Tool ID="{F395E358-67E1-4144-A098-D505EE09D7BB}"/>
+										<Tool ID="{C28CFFB2-DA4D-4693-8203-BCD52AE4ADBD}"/>
+										<Tool ID="{4C38FF0E-23C9-4B2E-8E55-25509FEADF69}"/>
+										<Tool ID="{56E4FB5C-A10E-4735-874F-44E3AEE2D8D6}"/>
+										<Tool ID="{87528F18-DD13-4A5F-9173-15A35B3392C0}"/>
+										<Tool ID="{776220A4-0E64-45A5-ACD0-BB114B41ABA9}"/>
+										<Tool ID="{8B1D87B3-5F58-43BD-A872-AC98EA23D82B}"/>
+										<Tool ID="{4BD68B27-EAD1-429B-9ACE-CC7914829DAC}"/>
+										<Tool ID="{7D11F50F-15CB-4BB7-8B59-4F069DF27A2E}"/>
+										<Tool ID="{864F5A0B-DCDE-48F0-B798-A19D807D5607}"/>
+										<Tool ID="{527CACC2-F8D3-47F8-B087-8BBC25A1846A}"/>
+										<Tool ID="{CB5C8199-DF30-4DDC-BA12-8913AFDAB8DD}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{A388AE5C-AF05-4D4B-A3D7-6C8CFB4BB77A}">
+									<ToolSource>
+										<Palette ID="{A388AE5C-AF05-4D4B-A3D7-6C8CFB4BB77A}">Exterior</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{CB3D8E31-A1DD-4377-9F73-16A22B9BB618}"/>
+										<Tool ID="{D723C7D7-89E1-4C93-A5B9-AAA376968043}"/>
+										<Tool ID="{DB1DC16A-0EF4-4AF8-9B1C-D5BBE2F80972}"/>
+										<Tool ID="{2075063D-0B2A-4F43-8A04-81B556861D9D}"/>
+										<Tool ID="{397D013C-B162-4DB9-812E-0087B880BF99}"/>
+										<Tool ID="{C2FB156A-ECAF-4E58-9543-065653D229DF}"/>
+										<Tool ID="{A4096B8D-5F7D-4C91-A444-2FFB4EAA9BD7}"/>
+										<Tool ID="{0F8BA8B8-1B82-42A2-83D3-8DC6391E1834}"/>
+										<Tool ID="{FF495B13-DEE8-4ACB-8CBA-ECB818EE5D3E}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{E9884631-5D13-4C78-AD5C-14BF90FEDD5B}">
+									<ToolSource>
+										<Palette ID="{E9884631-5D13-4C78-AD5C-14BF90FEDD5B}">Roofing</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{E0050698-23E7-4848-88B3-BA59D4323E2E}"/>
+										<Tool ID="{E1E6A780-3A16-4B57-B8BF-6D624FED1582}"/>
+										<Tool ID="{3149543F-E150-4389-A741-31E08281E089}"/>
+										<Tool ID="{64FF326E-9706-431C-B311-0DBF67B42280}"/>
+										<Tool ID="{9367D11C-D26D-4DBD-8C4D-3B2EE0FEB266}"/>
+										<Tool ID="{FED2C125-BC68-47AA-AF23-0B605916C1B0}"/>
+										<Tool ID="{37468160-F2D8-40D3-A59B-83783F807442}"/>
+										<Tool ID="{09A7AB0A-0E94-4A06-A45A-3AE95132F29D}"/>
+										<Tool ID="{ED23D4FC-DF68-4531-B0BD-84E93E55ECDC}"/>
+										<Tool ID="{F4E7DEA4-5BA5-4B62-980F-0B97436BA815}"/>
+										<Tool ID="{B6E41D71-8A6E-4517-9A50-2234D7670666}"/>
+										<Tool ID="{D3527133-53EB-477C-978E-204A86ACDD61}"/>
+										<Tool ID="{96792F1A-EE2C-4ACC-9482-EEFBEED4DAE7}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{F73EF571-093B-4135-AB60-09201B006A62}">
+									<ToolSource>
+										<Palette ID="{F73EF571-093B-4135-AB60-09201B006A62}">Doors &amp; Windows</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{7B5555C2-3135-44EC-8301-51031208DB0E}"/>
+										<Tool ID="{5DE205B0-9AC8-4C61-86EE-B5C1F1046BEF}"/>
+										<Tool ID="{1B212952-E042-46C5-858C-FC33114DC90D}"/>
+										<Tool ID="{35C13E71-A47B-467A-87CC-E4CBEB0EA478}"/>
+										<Tool ID="{F63334B4-EFFB-4B75-8C55-36AA5847BE7B}"/>
+										<Tool ID="{5D87C928-DA59-48FE-8925-1BF222B333C9}"/>
+										<Tool ID="{105EC580-6B75-4EED-9CE4-4EB2A3163E01}"/>
+										<Tool ID="{FFF0DD2C-9F17-42E9-B943-86FA9D510874}"/>
+										<Tool ID="{B4C64AEE-AD61-4DD8-905C-F50B81F2287B}"/>
+										<Tool ID="{695434D7-C094-4A3E-9ADA-ABA1CE454DAE}"/>
+										<Tool ID="{D4299BB7-FBDE-4088-A4C4-BCED817922FB}"/>
+										<Tool ID="{F8763AD6-483A-43F7-9883-EFB475CBF753}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{8C7ADD76-9B4A-41C4-A429-71B11C6C6F3B}">
+									<ToolSource>
+										<Palette ID="{8C7ADD76-9B4A-41C4-A429-71B11C6C6F3B}">Interiors</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{2E6FF018-D4FA-4E54-A66B-E3AAA6052EE0}"/>
+										<Tool ID="{0CE5EEAE-6A77-453E-95C8-B87E76F018A5}"/>
+										<Tool ID="{C01D194C-B059-4D14-9150-68932C899F8E}"/>
+										<Tool ID="{B34742D5-8458-4EC2-B77D-E3A2088D51A1}"/>
+										<Tool ID="{601064BD-38EE-4EF0-8124-F0ED9E26BAEA}"/>
+										<Tool ID="{2F4010A2-AD67-4DE0-AD95-81654E429AFC}"/>
+										<Tool ID="{66E75E15-C224-409D-84A3-10A819E6C682}"/>
+										<Tool ID="{526A090E-12C6-4B92-9045-3FCE8C7141BC}"/>
+										<Tool ID="{98FF43FF-4F16-4241-AB02-9A95EB14F248}"/>
+										<Tool ID="{778B62DA-5726-4A3E-B7A6-00EFA2BEE877}"/>
+										<Tool ID="{E3B9B5A6-70DE-4AB2-A016-AF783DA85B11}"/>
+										<Tool ID="{B08DD63F-BDD3-4EAE-8EE0-92E82362303F}"/>
+										<Tool ID="{0A7557AD-3B4C-4D33-9D43-A4C87C0ACBDF}"/>
+										<Tool ID="{D32FDC73-C4EA-40C0-9D37-3CD711B86938}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{6DF29452-ADEB-46A5-9A22-4F920B957FE5}">
+									<ToolSource>
+										<Palette ID="{6DF29452-ADEB-46A5-9A22-4F920B957FE5}">Finishes</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>458754</Style>
+									<ToolOrder>
+										<Tool ID="{9905BFFD-D41C-43D8-9414-C7A25352DB2B}"/>
+										<Tool ID="{D6D51951-671E-4D31-BE6B-5F980561688D}"/>
+										<Tool ID="{66A95ACF-1056-485B-B464-4E66FCEB1D55}"/>
+										<Tool ID="{230B17E5-9790-4FE8-A174-67A2F97E73C4}"/>
+										<Tool ID="{A4F1A6F0-6741-48CE-9B06-98203272AE00}"/>
+										<Tool ID="{E5AF3E87-AC0C-4EBA-9981-97E171E08DEB}"/>
+										<Tool ID="{208FDCDB-0F66-46AE-96F1-71CA5C319C00}"/>
+										<Tool ID="{21DDC0B6-73EC-4C2D-80E5-A4F7248B3314}"/>
+										<Tool ID="{8C0AA2C9-57FC-4379-9E1B-DE9B9519033B}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+						<ToolPalette>
+							<CAdUiPalette PaletteStyle="1"/>
+							<CAcTcUiToolPalette>
+								<CatalogView ID="{4B88CE8C-A3F5-4E6B-8106-6AA4273860DE}">
+									<ToolSource>
+										<Palette ID="{4B88CE8C-A3F5-4E6B-8106-6AA4273860DE}">Project Tools</Palette>
+									</ToolSource>
+									<Image SizeCX="48" SizeCY="48"/>
+									<Style>491522</Style>
+									<ToolOrder>
+										<Tool ID="{80181EBB-AC6A-4F16-B1E8-9BA467B7010D}"/>
+										<Tool ID="{45C0C3BF-5665-4DB5-BCFD-3ACDF8057D0F}"/>
+										<Tool ID="{D328DBDE-5AE8-4094-9EA3-EC60B96F0B4C}"/>
+										<Tool ID="{4436A9D2-4DAD-4DBB-933D-AE65145FAD33}"/>
+										<Tool ID="{6A03E168-FF95-4AB1-A31A-680F8D2DCF76}"/>
+										<Tool ID="{55ED2522-CD43-4766-AD8A-F3378058F9B8}"/>
+										<Tool ID="{34A554AC-C4F0-424F-A955-C02BA4471BE5}"/>
+										<Tool ID="{F00CA270-9E10-4339-83CE-988886F7343B}"/>
+										<Tool ID="{706064ED-144B-4A5F-9BA4-79AA34A1409D}"/>
+										<Tool ID="{96AA46C5-E827-4BCE-B6FC-D18D5DBC6DEB}"/>
+										<Tool ID="{08696A7F-225A-4759-9E68-5BF81B23C8B8}"/>
+										<Tool ID="{A9257FC9-6551-4AA7-B361-9261CA433963}"/>
+										<Tool ID="{08AB6994-D104-4873-82AB-B0BB42971A32}"/>
+										<Tool ID="{D5DE33ED-9A94-4402-A127-81C3F1D204EE}"/>
+										<Tool ID="{8A603BB2-3EDD-48DE-8A9E-BBD8AB51A450}"/>
+									</ToolOrder>
+								</CatalogView>
+							</CAcTcUiToolPalette>
+						</ToolPalette>
+					</ToolPalettes>
+					<ToolPaletteGroup>
+						<Name>Palette Groups</Name>
+						<ActivePaletteIndex>-1</ActivePaletteIndex>
+						<Contents>
+							<ToolPaletteGroup>
+								<Name>Design</Name>
+								<CustomData/>
+								<ActivePaletteIndex>0</ActivePaletteIndex>
+								<Contents>
+									<ToolPalette ID="{4EA2B0A7-8EA4-4E82-8CBB-A103508AA65B}"/>
+									<ToolPalette ID="{5731CC06-7FDE-40D9-8C7E-1EC7B37DB4DE}"/>
+									<ToolPalette ID="{89772E88-46AB-4FA1-AA83-46382E26F68C}"/>
+									<ToolPalette ID="{CAB9BA15-C2C0-471D-BF72-9F8A657CC24D}"/>
+									<ToolPalette ID="{1BE873DD-201A-4EC6-B7F2-DCA109D4DAB4}"/>
+									<ToolPalette ID="{EBE458AC-9F9E-44F5-A22A-57A6C5B2BEB9}"/>
+									<ToolPalette ID="{C6173C8A-77B5-4192-B2E0-0C7244F5B2E0}"/>
+								</Contents>
+							</ToolPaletteGroup>
+							<ToolPaletteGroup>
+								<Name>Document</Name>
+								<CustomData/>
+								<ActivePaletteIndex>0</ActivePaletteIndex>
+								<Contents>
+									<ToolPalette ID="{D8A80240-712C-4D6D-8998-914E8B92D8EE}"/>
+									<ToolPalette ID="{DFB967A3-A994-419B-B482-BD417BFB8D30}"/>
+									<ToolPalette ID="{8A07AFA1-EC23-41F5-BEEC-6FB1B641B254}"/>
+									<ToolPalette ID="{BD88D5EC-54D6-4A03-9C44-14271CD826AF}"/>
+									<ToolPalette ID="{BB369339-B764-47B5-A5DF-F6D7F9D7C666}"/>
+								</Contents>
+							</ToolPaletteGroup>
+							<ToolPaletteGroup>
+								<Name>Detailing</Name>
+								<CustomData/>
+								<ActivePaletteIndex>0</ActivePaletteIndex>
+								<Contents>
+									<ToolPalette ID="{E0797A43-55EF-4910-9214-EBE2CB16F07D}"/>
+									<ToolPalette ID="{A388AE5C-AF05-4D4B-A3D7-6C8CFB4BB77A}"/>
+									<ToolPalette ID="{E9884631-5D13-4C78-AD5C-14BF90FEDD5B}"/>
+									<ToolPalette ID="{F73EF571-093B-4135-AB60-09201B006A62}"/>
+									<ToolPalette ID="{8C7ADD76-9B4A-41C4-A429-71B11C6C6F3B}"/>
+									<ToolPalette ID="{6DF29452-ADEB-46A5-9A22-4F920B957FE5}"/>
+								</Contents>
+							</ToolPaletteGroup>
+							<ToolPaletteGroup>
+								<Name>Commercial Template Project (Metric)</Name>
+								<Description>{278492B5-DB73-40EF-835D-78937B8DE3CB}</Description>
+								<CustomData>
+									<ProjectID>{278492B5-DB73-40EF-835D-78937B8DE3CB}</ProjectID>
+								</CustomData>
+								<ActivePaletteIndex>0</ActivePaletteIndex>
+								<Contents>
+									<ToolPalette ID="{4B88CE8C-A3F5-4E6B-8106-6AA4273860DE}"/>
+								</Contents>
+							</ToolPaletteGroup>
+						</Contents>
+					</ToolPaletteGroup>
+					<ActiveToolPaletteGroup>3</ActiveToolPaletteGroup>
+				</CAcTcUiToolPaletteSet>
+			</ToolPaletteSet>
+		</ToolPaletteSets>
+	</ToolPaletteScheme>
+</ToolPaletteProject>
