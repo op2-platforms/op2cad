@@ -1,5 +1,4 @@
-; draw a closed polyline with associative hatch. 
-; need associted "Layer Key Styles"
+; draw a closed polyline with associative hatch with associted "Layer Key Styles"
 ;
 ; acad default layer keys (high compatibility):
 ; FINE              = Line 0.18mm

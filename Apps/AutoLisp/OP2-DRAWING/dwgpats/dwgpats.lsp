@@ -1,55 +1,24 @@
-(defun dwgpats (hname hsc-i hsc-m hang hkey lkey isan / (getvar "measurement") fileprefs) 
+(defun dwgpats (hname hsc-i hsc-m hang hkey lkey isan / fileprefs) 
 
   ;associate the Support Pats MAIN Application folder, if not already linked:
   (vl-load-com)
   (setq fileprefs (vla-get-files (vla-get-preferences (vlax-get-acad-object))))
-
-  (if (= 1 (getvar "measurement")) 
-    ;metric drawing:
-    (if 
-      ;condition:
-      (= nil 
-         (wcmatch (vla-get-SupportPath fileprefs) 
-                  "*P:\\02 Base de Données\\02 Autocad\\01 Template\\Support\\Pats\\Metric*"
-         )
-      )
-      ;true statement:
-      (vla-put-SupportPath fileprefs 
-                           (strcat (vla-get-SupportPath fileprefs) 
-                                   ";P:\\02 Base de Données\\02 Autocad\\01 Template\\Support\\Pats\\Metric"
-                           )
-      )
-    ) ;if
-    (if 
-      ;condition:
-      (= nil 
-         (wcmatch (vla-get-SupportPath fileprefs) 
-                  "*P:\\02 Base de Données\\02 Autocad\\01 Template\\Support\\Pats\\Imperial*"
-         )
-      )
-      ;true statement:
-      (vla-put-SupportPath fileprefs 
-                           (strcat (vla-get-SupportPath fileprefs) 
-                                   ";P:\\02 Base de Données\\02 Autocad\\01 Template\\Support\\Pats\\Imperial"
-                           )
-      )
-    ) ;if
+  (setq dir_start (findfile "acaddoc.lsp"))
+  (setq dir_pats (strcat dir_start "\\Pats\\-Units-"))
+  (setq dir_pats (if (= 1 (getvar "measurement")) 
+                   (vl-string-subst "-Units-" "Metric" dir_pats)
+                   (vl-string-subst "-Units-" "Imperial" dir_pats)
+                 )
   )
 
+
+  ; check if needed hatch pattern are loaded:
   (if 
-    ;condition:
     (= nil 
-       (wcmatch (vla-get-SupportPath fileprefs) 
-                "*P:\\02 Base de Données\\02 Autocad\\01 Template\\Support\\Pats\\Aca*"
-       )
+       (wcmatch (vla-get-SupportPath fileprefs) (strcat "*" dir_pats "*"))
     )
-    ;true statement:
-    (vla-put-SupportPath fileprefs 
-                         (strcat (vla-get-SupportPath fileprefs) 
-                                 ";P:\\02 Base de Données\\02 Autocad\\01 Template\\Support\\Pats\\Aca"
-                         )
-    )
-  ) ;if
+    (vla-put-SupportPath fileprefs (strcat (vla-get-SupportPath fileprefs) (strcat ";" dir_pats)))
+  )
 
   ;draw a polyline:
   (princ "\nDraw a closed polyline...")
