@@ -9,12 +9,35 @@
   (setq acadObj (vlax-get-acad-object))
   (setq preferences (vla-get-Preferences acadObj))
 
-  ;Startup directories from Support folders:
+  ;Startup directories from acaddoc.lsp file:
   (setq dir_start (vl-filename-directory (findfile "acaddoc.lsp"))
         dir_main  (vl-string-right-trim "\\Support" dir_start)
         dir_apps  (vl-string-right-trim "\\AutoCAD Architecture" dir_main)
-        dir_lisp  (strcat dir_apps "\\AutoLisp")
+        dir_acad  (strcat dir_apps "\\AutoCAD")
+        dir_lisp  (strcat dir_acad "\\AutoLisp")
   )
+
+  ;dir_main sub-folders:
+  (setq dir_supp      (strcat dir_main "\\Support")
+        dir_pats      (strcat dir_supp "\\Pats\\-Units-")
+        dir_plot      (strcat dir_supp "\\Plotters")
+        dir_plotstyle (strcat dir_plot "\\Plot Styles")
+        dir_plotpmp   (strcat dir_plot "\\PMP")
+        dir_cui       (strcat dir_supp "\\CUI")
+        fil_cuilgy    (strcat dir_cui "\\aca-legacy.cuix")
+  )
+  (if (= 1 (getvar "measurement"))  ; checking file measurment setup (metric/imperial)
+    (setq dir_pats (vl-string-subst "Metric" "-Units-" dir_pats))
+    (setq dir_pats (vl-string-subst "Imperial" "-Units-" dir_pats))
+  )
+
+  ;Applications files:
+  (setq dir_layapp (strcat dir_lisp "\\LSP-LAYERS\\LSP-LAYERS.VLX")
+        dir_dwgapp (strcat dir_lisp "\\LSP-DRAWING\\LSP-DRAWING.VLX")
+        dir_utlapp (strcat dir_lisp "\\LSP-UTILITY\\LSP-UTILITY.VLX")
+        dir_navapp (strcat dir_lisp "\\LSP-NAVIGATE\\LSP-NAVIGATE.VLX")
+  )
+
   (prompt 
     (strcat "\n-\n-------------------------  loading acaddoc.lsp contents  -------------------------" 
             "\nfrom: ["
@@ -23,83 +46,21 @@
     )
   )
 
-  ;-------------------------------------------------------------------------
-  ;#region Startup variables and directories
-
-  ;main sub-folders:
-  (setq dir_supp      (strcat dir_main "\\Support")
-        dir_pats      (strcat dir_supp "\\Pats\\-Units-")
-        dir_plot      (strcat dir_supp "\\Plotters")
-        dir_plotstyle (strcat dir_plot "\\Plot Styles")
-        dir_plotpmp   (strcat dir_plot "\\PMP")
-        dir_cui       (strcat dir_supp "\\CUI")
-  )
-  (if (= 1 (getvar "measurement")) 
-    (setq dir_pats (vl-string-subst "Metric" "-Units-" dir_pats))
-    (setq dir_pats (vl-string-subst "Imperial" "-Units-" dir_pats))
-  )
-
-  ;Applications search path and files:
-  (setq dir_layers (strcat dir_lisp "\\OP2-LAYERS")
-        app_layers (strcat dir_layers "\\OP2-LAYERS.VLX")
-  )
-
-  ;AutoCAD Architecture files:
-  (setq fil_cuilgy (strcat dir_cui "\\aca-legacy.cuix"))
-
-  ;#endregion
-
-  ;-------------------------------------------------------------------------
-  ;#region Search Paths and Files
-  (prompt "\n# Checking search paths, file names, and file locations: ")
-
-  ; Support File Search Paths:
-  (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
-  (if (= nil (vl-string-search dir_pats cur_supfiles)) 
-    (progn 
-      (vla-put-SupportPath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_pats))
-      (prompt (strcat "\n-\n## Updated Hatch Patterns: " "\n...[" dir_pats "]"))
-    )
-  )
-
-  ; Printer Support File Path:
-  (setq cur_plot (vla-get-printerconfigpath (vla-get-Files preferences)))
-  (if (/= dir_plot cur_plot) 
-    (progn 
-      (vla-put-printerconfigpath (vla-get-Files preferences) dir_plot)
-      (prompt (strcat "\n-\n## Updated Printer Configuration: " "\n...[" dir_plot "]"))
-    )
-  )
-  (setq cur_plotpmp (vla-get-printerdescpath (vla-get-Files preferences)))
-  (if (/= dir_plotpmp cur_plotpmp) 
-    (progn 
-      (vla-put-printerdescpath (vla-get-Files preferences) dir_plotpmp)
-      (prompt (strcat "\n-\n## Updated Printer Configuration: " "\n...[" dir_plotpmp "]"))
-    )
-  )
-  (setq cur_plotstyle (vla-get-printerstylesheetpath (vla-get-Files preferences)))
-  (if (/= dir_plotstyle cur_plotstyle) 
-    (progn 
-      (vla-put-printerstylesheetpath (vla-get-Files preferences) dir_plotstyle)
-      (prompt (strcat "\n-\n## Updated Plot Style Table: " "\n...[" dir_plotstyle "]"))
-    )
-  )
-
-  ;#endregion
-
   ;------------------------------------------------------------------------------
   ;#region Custom Applications
   (prompt "\n-\n## Custom Open Source Applications Loaded: ")
 
-  (load app_layers)
-  (prompt "\n...OP2-ACAD-LAYERS.VLX")
-  ;(load app_acadutilities)
-  ;(prompt "\n...OP2-ACAD-UTILITIES.VLX")
-  ;(load app_acadannotations)
-  ;(prompt "\n...OP2-ACA-ANNOTATIONS.VLX")
-  ;(load app_acaddrawings)
-  ;(prompt "\n...OP2-ACA-DRAWING.VLX")
+  (load dir_layapp)
+  (prompt "\n...OP2-LAYERS.VLX")
 
+  (load dir_dwgapp)
+  (prompt "\n...OP2-DRAWING.VLX")
+
+  (load dir_utlapp)
+  (prompt "\n...OP2-UTILITY.VLX")
+
+  (load dir_navapp)
+  (prompt "\n...OP2-NAVIGATE.VLX")
   ;#endregion
 
   ;------------------------------------------------------------------------------
@@ -107,14 +68,15 @@
 
   ;custom application reloading command:
   (defun c:appreload () 
-    (load app_layers)
-    (prompt 
-      (strcat "\nCustom applications reloaded: " 
-              "\n...["
-              app_layers
-              "]"
-      )
-    )
+    "\nCustom applications reloaded from: "
+    (load dir_layapp)
+    (prompt "\n...[" dir_layapp "]")
+    (load dir_dwgapp)
+    (prompt "\n...[" dir_laydwg "]")
+    (load dir_utlapp)
+    (prompt "\n...[" dir_utlapp "]")
+    (load dir_navapp)
+    (prompt "\n...[" dir_navapp "]")
     (princ)
   ) ;c:appreload
 
@@ -450,7 +412,44 @@
     (vla-put-enterprisemenufile (vla-get-Files preferences) fil_cuilgy)
   ) ;c:subst-cui
 
+  ; entreprise cui substitution command:
+  (defun c:subst-plot () 
+    (prompt "\n# Checking search paths, file names, and file locations: ")
+    (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
+    (setq cur_plot (vla-get-printerconfigpath (vla-get-Files preferences)))
+    (setq cur_plotpmp (vla-get-printerdescpath (vla-get-Files preferences)))
+    (setq cur_plotstyle (vla-get-printerstylesheetpath (vla-get-Files preferences)))
+
+    (if (= nil (vl-string-search dir_pats cur_supfiles)) 
+      (progn 
+        (vla-put-SupportPath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_pats))
+        (prompt (strcat "\n-\n## Updated Hatch Patterns: " "\n...[" dir_pats "]"))
+      )
+    )
+
+    (if (/= dir_plot cur_plot) 
+      (progn 
+        (vla-put-printerconfigpath (vla-get-Files preferences) dir_plot)
+        (prompt (strcat "\n-\n## Updated Printer Configuration: " "\n...[" dir_plot "]"))
+      )
+    )
+
+    (if (/= dir_plotpmp cur_plotpmp) 
+      (progn 
+        (vla-put-printerdescpath (vla-get-Files preferences) dir_plotpmp)
+        (prompt (strcat "\n-\n## Updated Printer Configuration: " "\n...[" dir_plotpmp "]"))
+      )
+    )
+
+    (if (/= dir_plotstyle cur_plotstyle) 
+      (progn 
+        (vla-put-printerstylesheetpath (vla-get-Files preferences) dir_plotstyle)
+        (prompt (strcat "\n-\n## Updated Plot Style Table: " "\n...[" dir_plotstyle "]"))
+      )
+    )
+  ) ;c:subst-plot
   ;#endregion
+
 
   (prompt 
     (strcat "\n-\n-----------------  finished loading acaddoc.lsp without errors  -----------------")

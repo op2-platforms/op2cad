@@ -1,7 +1,7 @@
 ;%UNITS=MM
 ;%VERSION=1.0
 
-*BRT-ENGLISHCROSS+, Appareil de brique traditionnel anglais en croix (English Cross Bond), 57x190x90mm avec joint 10mm
+*BRT-ENGLISHCROSS+, Traditionnal Brick, 57x190x90mm, English Cross Bond with 10mm Joint
 ;%TYPE=MODEL
 180.0, 195.0, 406.9999999999980000, 0.0, 804.0, 190.0, -610.0
 90.0, 195.0, 406.9999999999980000, 0.0, 800.0, 57.0000000000006000, -746.9999999999990000

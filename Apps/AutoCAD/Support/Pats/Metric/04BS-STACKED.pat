@@ -1,7 +1,7 @@
 ;%UNITS=MM
 ;%VERSION=1.0
 
-*04BS-STACKED,exported by pyRevit
+*04BS-STACKED, Standard Brick Pattern, 57x190x90, Stacked Bond
 ;%TYPE=MODEL
 90.0, 200.0, 0.0, 0.0, 800.0, 804.0, -0.0
 90.0, 400.0, 0.0, 0.0, 800.0, 804.0, -0.0
