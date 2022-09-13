@@ -1,5 +1,5 @@
-;;; Visual LISP make file [V1.0] LSP-LAYERS saved to:[C:/GitHub/op2cad/Apps/AutoCAD/AutoLisp/LSP-LAYERS] at:[9/9/22] 
-(PRV-DEF (:target . "LSP-LAYERS.VLX")
+;;; Visual LISP make file [V1.0] ACAD-LSP-LAYERS saved to:[C:/GitHub/op2cad/Apps/AutoCAD/AutoLisp/ACAD-LSP-LAYERS] at:[9/9/22] 
+(PRV-DEF (:target . "ACAD-LSP-LAYERS.VLX")
 	 (:active-x . T)
 	 (:separate-namespace)
 	 (:protected . T)
