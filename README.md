@@ -12,7 +12,7 @@ It may includ any work process required by the AEC industries:
 - Rendering
 - Documentations
 - Data management
-- etc...
+- etc.
 
 ## Story
 
