@@ -2,7 +2,9 @@
 
 The **"Open Source CAD Software Optimizations Platform"** is fast development and content management collaborative platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
 
-It is mainly focused around Autodesk product line-up, but may eventualy be expended to other softwares.
+It is the perfect platform for anyone starting up into the CAD world, feeling a bit tooless after few year out of the wood or still building projects on a 20-30 years old office standard and wishes to get on a fresh start.
+
+It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
 It may includ any work process required by the AEC industries:
 - 2D drawing
@@ -29,10 +31,6 @@ It also give us the opportunity to build our CAD database directly on the C: dri
 ## The Design
 
 This platform was thought to be the foundation or any personnal or office standard development; offering normalized environement, base content enchancements, development documentations and enabled customization strategies complementing the software original contents.
-
-It is the perfect platform for anyone starting up into the CAD world or feeling a bit tooless after few year out of the wood!
-
-&nbsp;
 
 The current prefered way to work is to [fork the main repository](https://github.com/op2-platforms/op2cad) to your own or enterprises GitHub account and clone this newly made repository to your C: drive in a GitHub folder ( ex : "C:\GitHub\op2cad" ). This way you can use absolute path dependent files (ex : .prj/.prv) right away and get going with existing applications customization. 
 
