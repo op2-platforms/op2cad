@@ -22,7 +22,7 @@ It also give us the opportunity to build our CAD database directly on the C: dri
 
 > Be aware! This platform is still an ongoing work and may change of perpice in the futur.
 
-For now, it is thought to be the foundation or any personnal or office standard development; offering normalized environement, base content enchancements, development documentations and enabled customization strategies complementing the software original contents.
+This platform was thought to be the foundation or any personnal or office standard development; offering normalized environement, base content enchancements, development documentations and enabled customization strategies complementing the software original contents.
 
 It is the perfect platform for anyone starting up into the CAD world or feeling a bit tooless after few year out of the wood!
 
