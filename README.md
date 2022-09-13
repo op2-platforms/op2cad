@@ -12,7 +12,7 @@ More complicated things are becoming and more important it is to have a proper w
 
 &nbsp;
 
-After many year trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move all my CAD contents to a Git platform. This way we can benefit from the powerfull Git features for text files management, we get the hability to experiment without fear of disturbing anyone; everything is on the C: drive, we get more hardware performance and much more collaborative/development potential than what we could all have inside our individual companies.
+After many year trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move all my CAD contents to a Git platform. This way we can benefit from the powerfull Git features for version control and files backup, we get the ability to experiment without fear of disturbing anyone; everything is on the C: drive, we get more hardware performance and we get much more collaborative/development potential than what we could all have inside our individual companies.
 
 &nbsp;
 
