@@ -28,7 +28,7 @@ It is the perfect platform for anyone starting up into the CAD world or feeling 
 
 &nbsp;
 
-The current prefered way to work is to [fork the main repository](https://github.com/op2-platforms/op2cad) to your own or enterprises GitHub account and clone this newly made repository to your C: drive in a GitHub folder (C:\GitHub\op2cad). This way you can use absolute path dependent files (.prj, .prv) right away and get going with existing applications customization. 
+The current prefered way to work is to [fork the main repository](https://github.com/op2-platforms/op2cad) to your own or enterprises GitHub account and clone this newly made repository to your C: drive in a GitHub folder (ex: "C:\GitHub\op2cad"). This way you can use absolute path dependent files (.prj, .prv) right away and get going with existing applications customization. 
 
 Else, if you are working from multiple computers, you may prefer to build it directly inside a cloud folder to prevent having to push/pull constantly; but you'll have to remake all the absolute path dependent files and you must make sure that your paths are exacly the same on all machines (may be a bit tricky with some enteprise network setup).
 
