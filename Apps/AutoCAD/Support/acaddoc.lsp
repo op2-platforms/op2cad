@@ -468,7 +468,7 @@
 
   ; printer support file path substitution:
   (defun c:subst-plot () 
-    (prompt "\n# Checking search paths, file names, and file locations: ")
+    (prompt "\n# Updating")
 
     ; check for plotter current support file:
     (setq cur_plot (vla-get-printerconfigpath (vla-get-Files preferences)))
