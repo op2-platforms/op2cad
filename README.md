@@ -1,6 +1,6 @@
 # op2cad | platform
 
-The **Open source CAD software optimizations platform** is fast development and content management collaborative platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
+The **"Open Source CAD Software Optimizations Platform"** is fast development and content management collaborative platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
 
 &nbsp;
 
