@@ -6,13 +6,15 @@ Fast open source development and content management platform for Computer Assist
 
 ## Story
 
-On first abord, CAD softwares can feel pretty straightforward and limitless ; which is to be liked to anyone starting of, for exemple, in a BIM application like Autodesk Revit. However, when setting thing up for yourself or your company, things can get much trickier as the boundary start to show up little by little.
+On first abord, CAD softwares can feel pretty straightforward and almost limitless ; which is to be liked to anyone starting of, for exemple, in a BIM application like Autodesk Revit. However, when setting thing up for yourself or your company, things can get much trickier as the boundary start to show up little by little.
 
 More complicated things are becoming and more important it is to have a proper way of developing, deploying and maintaining your CAD contents.
 
 &nbsp;
 
-After many year trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move all my CAD contents to a Git platform. This way we can benefit from the powerfull Git features for version control and files backup, we get the ability to experiment without fear of disturbing anyone; everything is on the C: drive, we get more hardware performance and we get much more collaborative/development potential than what we could all have inside our individual companies.
+After many years trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move all my CAD contents to a Git platform in order to benefit from the powerfull features it as to offer, like version control, branching and files backup to name a few. 
+
+It also give us the opportunity to build our CAD database directly on the C: drive, which is a huge advantage to anyone experimenting new workflows, offering us the peace of mind to experiment without fear of disturbing anyone else ongoing work; any change made is only available to you until it you send it to be integrated to the main branch. There is also a possible significant hardware performance gain to be made by keeping resource files directly to your C: drive and much more collaborative/development potential dues to it's open source form factor.
 
 &nbsp;
 
