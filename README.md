@@ -24,7 +24,7 @@ It also give us the opportunity to build our CAD database directly on the C: dri
 
 Using Git features, all the CAD contents can be stored directly on the C drive instead of a shared cloud or local server, allowing everyone to experiment on there own machine without fear to disturbed other people work and synchronized back only the finished quality contents.
 
-The current prefered way to work is to "Fork" the [main repository](https://github.com/op2-platforms/op2cad/edit/main) to your own or company GitHub account and clone this newly made repository to your C drive in a GitHub folder: [C:\GitHub\op2cad]. This way you can use all the preset projet and application paths and get going right away.
+The current prefered way to work is to "Fork" the [main repository](https://github.com/op2-platforms/op2cad) to your own or company GitHub account and clone this newly made repository to your C drive in a GitHub folder: [C:\GitHub\op2cad]. This way you can use all the preset projet and application paths and get going right away.
 
 ## Features
 
