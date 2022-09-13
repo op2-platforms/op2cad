@@ -16,11 +16,11 @@ It may includ any work process required by the AEC industries:
 
 ## Story
 
-On first abord, CAD softwares are pretty straightforward and may seems absolutely limitless ; which is to be liked to anyone starting of, for exemple, in a BIM application like Revit. However, when setting thing up for yourself or your company, things can get much trickier as the boundary start to show up little by little.
+On first abord, CAD softwares may seems pretty simple. However, when setting thing up for yourself or your company, things can get much trickier as we start seeing the boundary established by the Devs that we have to accommodate with.
 
-More complicated things are becoming and more important it is to have a proper way of developing, deploying and maintaining your CAD contents.
+As thing get more complicated; it is important to have a proper way of developing, deploying and maintaining our CAD contents.
 
-After many years trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move all my CAD contents to a Git platform in order to benefit from the powerfull features it as to offer, like version control, branching and files backup to name a few. 
+After many years trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move it to a Git platform in order to benefit from the powerfull features it as to offer, like version control, branching and files backup to name a few. 
 
 It also give us the opportunity to build our CAD database directly on the C: drive ; which is a huge advantage to anyone exploring new workflows by offering us the peace of mind to experiment without fear of disturbing anyone else ongoing work; any change made is only available to you until you send it to be integrated to the main branch. There is also a possible significant hardware performance gain to be made by keeping resource files directly to your C: drive and much more collaborative/development potential dues to the open source form factor.
 
