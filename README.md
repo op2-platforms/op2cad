@@ -14,8 +14,6 @@ It may includ any work process required by the AEC industries:
 - Data management
 - etc...
 
-&nbsp;
-
 ## Story
 
 On first abord, CAD softwares may seems pretty simple. However, when setting thing up for yourself or your company, things can get much trickier as we start seeing the boundary established by the Devs that we have to accommodate with.
@@ -25,8 +23,6 @@ As thing get more complicated; it is important to have a proper way of developin
 After many years trying to manage CAD contents the traditionnal way (local machine/network) with some cloud integrations; I finally decided to move it to a Git platform in order to benefit from the powerfull features it as to offer, like version control, branching and files backup to name a few. 
 
 It also give us the opportunity to build our CAD database directly on the C: drive ; which is a huge advantage to anyone exploring new workflows by offering us the peace of mind to experiment without fear of disturbing anyone else ongoing work; any change made is only available to you until you send it to be integrated to the main branch. There is also a possible significant hardware performance gain to be made by keeping resource files directly to your C: drive and much more collaborative/development potential dues to the open source form factor.
-
-&nbsp;
 
 ## The Design
 
@@ -41,8 +37,6 @@ Else, if you are working from multiple computers, you may prefer to build it dir
 If you have no experience at all with Git and only want quick access to this repository contents without contributing or synchronizing new contents in the futur; you may simply download the [Zip file (2.43 GB)](https://github.com/op2-platforms/op2cad/archive/refs/heads/main.zip). 
 
 Else, I higly encourage you to get the fundamental Git knowledge from the Git website [Videos](https://git-scm.com/videos) and [Documentations](https://git-scm.com/docs). If you're interested in a more advance step by step interractive course, I suggest to visit Mosh Hamedani website for his full [indepth 5h course](https://codewithmosh.com/p/the-ultimate-git-course) or his [beginner 1h youtube video](https://www.youtube.com/watch?v=8JJ101D3knE). You can then get your hand on a Git manager like [GitHub Desktop](https://desktop.github.com/) for a more user friendly experience.
-
-&nbsp;
 
 ## Features
 
