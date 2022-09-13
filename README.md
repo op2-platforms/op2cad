@@ -4,8 +4,6 @@ op2cad stand for "Open source CAD software optimizations"
 
 It is fast development and content management platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
 
-> Be aware! This platform is under heavy development and lightly experimented with yet (Q3 2022). You may use and experiment with it at your own risk. Any contribution, shared content or knowledge are always welcome and appreciated.
-
 &nbsp;
 
 ## Story
@@ -21,8 +19,6 @@ It also give us the opportunity to build our CAD database directly on the C: dri
 &nbsp;
 
 ## The Design
-
-> Be aware! This platform is an ongoing work and may change of perpice in a near futur.
 
 This platform was thought to be the foundation or any personnal or office standard development; offering normalized environement, base content enchancements, development documentations and enabled customization strategies complementing the software original contents.
 
