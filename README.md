@@ -30,7 +30,7 @@ It also give us the opportunity to build our CAD database directly on the C: dri
 
 ## The Design
 
-This platform was thought to be the foundation or any personnal or office standard development; offering normalized environement, base content enchancements, development documentations and enabled customization strategies complementing the software original contents.
+This platform was thought to be the foundation of any personnal or office standard development; offering normalized environement, base content enchancements, development documentations and enabled customization strategies complementing the software original contents.
 
 The current prefered way to work is to [fork the main repository](https://github.com/op2-platforms/op2cad) to your own or enterprises GitHub account and clone this newly made repository to your C: drive in a GitHub folder ( ex : "C:\GitHub\op2cad" ). This way you can use absolute path dependent files (ex : .prj/.prv) right away and get going with existing applications customization. 
 
