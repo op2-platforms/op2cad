@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] dwgpats saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\OP2-DRAWING\dwgpats] at:[9/9/2022]
+(VLISP-PROJECT-LIST 
+  :NAME
+  dwgpats
+  :OWN-LIST
+  ("dwgpats" "draft" "model")
+  :FAS-DIRECTORY
+  nil
+  :TMP-DIRECTORY
+  nil
+  :PROJECT-KEYS
+  (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

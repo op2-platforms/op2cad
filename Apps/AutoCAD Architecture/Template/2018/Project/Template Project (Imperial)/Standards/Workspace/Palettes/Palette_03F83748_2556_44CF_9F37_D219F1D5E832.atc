@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{03F83748-2556-44CF-9F37-D219F1D5E832}" />
+    <Properties>
+        <ItemName>Project Tools</ItemName>
+        <Images option="0" />
+        <Time createdUniversalDateTime="2005-01-18T16:36:35" modifiedUniversalDateTime="2005-01-18T16:36:35" />
+    </Properties>
+    <Source />
+    <Tools />
+</Palette>

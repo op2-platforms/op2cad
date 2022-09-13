@@ -1,0 +1,15 @@
+;;; Visual LISP make file [V1.0] LSP-DRAWING saved to:[C:/GitHub/op2cad/Apps/AutoCAD/AutoLisp/LSP-DRAWING] at:[9/12/22] 
+(PRV-DEF (:target . "LSP-DRAWING.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list 
+	 	(:prj "dwgpats/dwgpats.prj")
+	 	(:prj "dwgscale/dwgscale.prj")
+	 )
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

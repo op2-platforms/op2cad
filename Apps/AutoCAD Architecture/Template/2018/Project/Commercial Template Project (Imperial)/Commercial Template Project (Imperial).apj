@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Commercial Template Project (Imperial)" Number="00000" ProjectLocation="C:\ProgramData\Autodesk\ACA 2013\enu\Template\Commercial Template Project (Imperial)\" Id="{DC4F3C09-3946-4497-84CD-7DCDB67E50BE}" UseNumberPrefix="No" UseRelativePath="Yes" SyncSheetWithView="No">
+	<Version>70</Version>
+	<Description>See ReadMe document in Bulletin Board</Description>
+	<Templates>
+		<ViewTemplate Alternative="Standards\Template\Project Model (Imperial Stb).dwt">Standards\Template\Project Model (Imperial Stb).dwt</ViewTemplate>
+		<SystemTemplate Alternative="Standards\Template\Project Model (Imperial Stb).dwt">Standards\Template\Project Model (Imperial Stb).dwt</SystemTemplate>
+		<ElementTemplate Alternative="Standards\Template\Project Model (Imperial Stb).dwt">Standards\Template\Project Model (Imperial Stb).dwt</ElementTemplate>
+		<DocumentTemplate Alternative="C:\ProgramData\Autodesk\ACA 2013\enu\Template\Aec Sheet (Imperial Stb).dwt">C:\ProgramData\Autodesk\ACA 2013\enu\Template\Aec Sheet (Imperial Stb).dwt</DocumentTemplate>
+		<SectionElevationViewTemplate Alternative="Standards\Template\Project Model (Imperial Stb).dwt">Standards\Template\Project Model (Imperial Stb).dwt</SectionElevationViewTemplate>
+		<DetailViewTemplate Alternative="Standards\Template\Project Model (Imperial Stb).dwt">Standards\Template\Project Model (Imperial Stb).dwt</DetailViewTemplate>
+		<ProjectSheetSetTemplate Alternative="C:\ProgramData\Autodesk\ACA 2013\enu\Template\Aec Sheet Set (Imperial Stb).dst">C:\ProgramData\Autodesk\ACA 2013\enu\Template\Aec Sheet Set (Imperial Stb).dst</ProjectSheetSetTemplate>
+		<ProjectDetailsTemplate Alternative="C:\ProgramData\Autodesk\ACA 2013\enu\Template\Aec Project Details.apj">C:\ProgramData\Autodesk\ACA 2013\enu\Template\Aec Project Details.apj</ProjectDetailsTemplate>
+	</Templates>
+	<FileLocations>
+		<ProjectImagePath>Commercial.bmp</ProjectImagePath>
+		<ProjectBulletinBoardPath>Commercial Template Project Bulletin Board.htm</ProjectBulletinBoardPath>
+		<PropertySetLocation></PropertySetLocation>
+		<PalettesLocation></PalettesLocation>
+		<ContentCatalog SharedWorkspaceCatalog="None" ContentRootPath="Standards\Content\">
+			<ContentBrowserLibraryPath>Standards\ToolCatalogs\Project Catalog Library.cbl</ContentBrowserLibraryPath>
+		</ContentCatalog>
+		<ConstructLocation>Constructs\</ConstructLocation>
+		<ElementLocation>Elements\</ElementLocation>
+		<ViewLocation>Views\</ViewLocation>
+		<SheetLocation>Sheets\</SheetLocation>
+	</FileLocations>
+	<Standards>
+		<StandardsEnabled>Yes</StandardsEnabled>
+		<SyncOption>
+			<StandardsSyncMethod>Manual</StandardsSyncMethod>
+			<CreateLogFileOnSync>No</CreateLogFileOnSync>
+			<ShowIgnoredObjectsOnSync>Yes</ShowIgnoredObjectsOnSync>
+		</SyncOption>
+		<AECStandards>
+			<File>
+				<Path Alternative="Standards\Content\Project Styles.dwg">Standards\Content\Project Styles.dwg</Path>
+				<Objects>
+					<Object>AecDbCurtainWallLayoutStyle</Object>
+					<Object>AecDbCurtainWallUnitStyle</Object>
+					<Object>AecDbDoorStyle</Object>
+					<Object>AecDbWindowAssemblyStyle</Object>
+					<Object>AecDbRailingStyle</Object>
+					<Object>AecDbRoofSlabEdgeStyle</Object>
+					<Object>AecDbRoofSlabStyle</Object>
+					<Object>AecDbSlabEdgeStyle</Object>
+					<Object>AecDbSlabStyle</Object>
+					<Object>AecDbSpaceStyle</Object>
+					<Object>AecDbStairStyle</Object>
+					<Object>AecDbStairWinderStyle</Object>
+					<Object>AecsDbMemberNodeShape</Object>
+					<Object>AecsDbMemberStyle</Object>
+					<Object>AecDbCleanupGroupDef</Object>
+					<Object>AecDbEndcapStyle</Object>
+					<Object>AecDbWallModStyle</Object>
+					<Object>AecDbOpeningEndcapStyle</Object>
+					<Object>AecDbWallStyle</Object>
+					<Object>AecDbWindowStyle</Object>
+					<Object>AecDbMaterialDef</Object>
+					<Object>AecDbClassificationSystemDef</Object>
+					<Object>AecDbMassElemStyle</Object>
+					<Object>AecDbMaskBlockDef</Object>
+					<Object>AecDbPolygonStyle</Object>
+					<Object>AecDbMvBlockDef</Object>
+					<Object>AecDbProfileDef</Object>
+					<Object>AecDb2dSectionStyle</Object>
+					<Object>AecDbDimensionStyle</Object>
+					<Object>AecDbZoneStyle</Object>
+					<Object>AecDbSpaceModifier</Object>
+					<Object>AecDbDisplayThemeStyle</Object>
+					<Object>AecDbZoneDef</Object>
+					<Object>AecDbListDefinition</Object>
+					<Object>AecDbScheduleDataFormat</Object>
+					<Object>AecDbPropertySetDef</Object>
+					<Object>AecDbScheduleTableStyle</Object>
+				</Objects>
+			</File>
+			<File><Path Alternative="$(AllUserFolder)Layers\AecLayerStd.dwg">C:\ProgramData\Autodesk\ACA 2013\enu\Layers\AecLayerStd.dwg</Path><Objects><Object>AecDbLayerKeyStyle</Object></Objects></File><DisplaySettingsDrawing Alternative="Standards\Content\Project Styles.dwg">Standards\Content\Project Styles.dwg</DisplaySettingsDrawing>
+		</AECStandards>
+		<ACADStandards/>
+	</Standards>
+	<DetailComponentDatabases UseOnlyProjectDatabases="No"/>
+	<KeynoteDatabases UseOnlyProjectDatabases="No"/>
+	<Level Name="R" Description="Roof" Elevation="288" Height="0" Id="4" ScheduleId="R"/>
+	<Level Name="2" Description="Second Floor" Elevation="144" Height="144" Id="2" ScheduleId="2"/>
+	<Level Name="1" Description="First Floor" Elevation="0" Height="144" Id="1" ScheduleId="1"/>
+	<Level Name="G" Description="Site Datum Level" Elevation="-6" Height="6" Id="6" ScheduleId="G"/>
+	<Level Name="B" Description="Basement" Elevation="-144" Height="138" Id="5" ScheduleId="B"/>
+	<Division Name="A" Description="Main Building" Id="1" ScheduleId="A"/>
+	<Details Name="Project Data">
+		<Entry Name="Project Address" Value="Project Street"/>
+		<Entry Name="Project City" Value="Project Town"/>
+		<Entry Name="Project State" Value="XX"/>
+		<Entry Name="Project Zip Code" Value="00000"/>
+		<Entry Name="Project Start Date" Value="MMM DD YYYY"/>
+		<Entry Name="Project Completion Date" Value="MMM DD YYYY"/>
+		<Entry Name="Project Telephone" Value="999-999-9999"/>
+		<Entry Name="Project Principal in Charge" Value=""/>
+		<Entry Name="Project Manager" Value=""/>
+		<Entry Name="Project Architect" Value="Architect's Name"/>
+	</Details>
+	<Details Name="Proposed Improvements">
+		<Entry Name="Cost" Value=""/>
+		<Entry Name="Construction Type" Value=""/>
+		<Entry Name="Occupancy" Value=""/>
+		<Entry Name="Gross Building Area" Value=""/>
+		<Entry Name="Sprinklered" Value=""/>
+		<Entry Name="Building Height" Value=""/>
+		<Entry Name="Stories" Value=""/>
+		<Entry Name="Set Back N" Value=""/>
+		<Entry Name="Set Back E" Value=""/>
+		<Entry Name="Set Back S" Value=""/>
+		<Entry Name="Set Back W" Value=""/>
+		<Entry Name="Coverage" Value=""/>
+		<Entry Name="Zoning" Value=""/>
+		<Entry Name="Fire Zone" Value=""/>
+		<Entry Name="Other Agency Standards or Approvals Required" Value=""/>
+	</Details>
+	<Details Name="Site Legal Description">
+		<Entry Name="Deed Recorded in Volume Page at" Value=""/>
+		<Entry Name="Deeded To" Value=""/>
+		<Entry Name="Deed Date" Value=""/>
+		<Entry Name="Restrictions" Value=""/>
+		<Entry Name="Easements" Value=""/>
+		<Entry Name="Liens, Leases" Value=""/>
+		<Entry Name="Lot Dimensions" Value=""/>
+		<Entry Name="Facing" Value=""/>
+		<Entry Name="Value" Value=""/>
+		<Entry Name="Adjacent Property Use" Value=""/>
+	</Details>
+	<Details Name="Owner’s Data">
+		<Entry Name="Owner" Value="Client's Name"/>
+		<Entry Name="Owner Address" Value="Client Street"/>
+		<Entry Name="Owner City" Value="Client Town"/>
+		<Entry Name="Owner State" Value="XX"/>
+		<Entry Name="Owner Zip Code" Value="00000"/>
+		<Entry Name="Owner Telephone" Value="888-888-8888"/>
+		<Entry Name="Owner Fax" Value=""/>
+		<Entry Name="Owner Mobile" Value=""/>
+		<Entry Name="Owner Pager" Value=""/>
+		<Entry Name="Owner e-mail Address" Value=""/>
+		<Entry Name="Owner Home Address" Value=""/>
+		<Entry Name="Owner Home Telephone" Value=""/>
+		<Entry Name="Owner’s Project Number" Value=""/>
+		<Entry Name="Owner’s Representative" Value=""/>
+		<Entry Name="Owner’s Representative Address" Value=""/>
+		<Entry Name="Owner’s Representative City" Value=""/>
+		<Entry Name="Owner’s Representative State" Value=""/>
+		<Entry Name="Owner’s Representative Zip Code" Value=""/>
+		<Entry Name="Owner’s Representative Telephone" Value=""/>
+		<Entry Name="Owner’s Representative Fax" Value=""/>
+		<Entry Name="Owner’s Representative Mobile" Value=""/>
+		<Entry Name="Owner’s Representative Pager" Value=""/>
+		<Entry Name="Owner’s Representative e-mail Address" Value=""/>
+		<Entry Name="Attorney at Law" Value=""/>
+		<Entry Name="Attorney Name" Value=""/>
+		<Entry Name="Attorney Address" Value=""/>
+		<Entry Name="Attorney City" Value=""/>
+		<Entry Name="Attorney State" Value=""/>
+		<Entry Name="Attorney Zip Code" Value=""/>
+		<Entry Name="Attorney Telephone" Value=""/>
+		<Entry Name="Attorney Fax" Value=""/>
+		<Entry Name="Attorney Mobile" Value=""/>
+		<Entry Name="Attorney Pager" Value=""/>
+		<Entry Name="Attorney e-mail Address" Value=""/>
+		<Entry Name="Insurance Advisor" Value=""/>
+		<Entry Name="Insurance Advisor Address" Value=""/>
+		<Entry Name="Insurance Advisor Telephone" Value=""/>
+		<Entry Name="Insurance Advisor Fax" Value=""/>
+		<Entry Name="Insurance Advisor Mobile" Value=""/>
+		<Entry Name="Insurance Advisor Pager" Value=""/>
+		<Entry Name="Insurance Advisor e-mail Address" Value=""/>
+	</Details>
+	<Details Name="Site Information Sources">
+		<Entry Name="Site Info Fax" Value=""/>
+		<Entry Name="Site Info Mobile" Value=""/>
+		<Entry Name="Site Info Pager" Value=""/>
+		<Entry Name="Site Info e-mail Address" Value=""/>
+		<Entry Name="Property Survey by" Value=""/>
+		<Entry Name="Property Survey Date" Value=""/>
+		<Entry Name="Topographic Survey by" Value=""/>
+		<Entry Name="Topographic Survey Date" Value=""/>
+		<Entry Name="Soils Tests by" Value=""/>
+		<Entry Name="Soils Tests Date" Value=""/>
+		<Entry Name="Maps" Value=""/>
+	</Details>
+	<Details Name="Public Services">
+		<Entry Name="Gas Company" Value=""/>
+		<Entry Name="Gas Company Address" Value=""/>
+		<Entry Name="Gas Complany City" Value=""/>
+		<Entry Name="Gas Company State" Value=""/>
+		<Entry Name="Gas Company Zip Code" Value=""/>
+		<Entry Name="Gas Company Representative" Value=""/>
+		<Entry Name="Gas Company Telephone" Value=""/>
+		<Entry Name="Gas Company Fax" Value=""/>
+		<Entry Name="Gas Company Mobile" Value=""/>
+		<Entry Name="Gas Company Pager" Value=""/>
+		<Entry Name="Gas Company e-mail Address" Value=""/>
+		<Entry Name="Electric Company" Value=""/>
+		<Entry Name="Electric Company Address" Value=""/>
+		<Entry Name="Electric Company City" Value=""/>
+		<Entry Name="Electric Company State" Value=""/>
+		<Entry Name="Electric Company Zip Code" Value=""/>
+		<Entry Name="Electric Company Representative" Value=""/>
+		<Entry Name="Electric Company Telephone" Value=""/>
+		<Entry Name="Electric Company Fax" Value=""/>
+		<Entry Name="Electric Company Mobile" Value=""/>
+		<Entry Name="Electric Company Pager" Value=""/>
+		<Entry Name="Electric Company e-mail Address" Value=""/>
+		<Entry Name="Telephone Company" Value=""/>
+		<Entry Name="Telephone Company Address" Value=""/>
+		<Entry Name="Telephone Company City" Value=""/>
+		<Entry Name="Telephone Company State" Value=""/>
+		<Entry Name="Telephone Company Zip Code" Value=""/>
+		<Entry Name="Telephone Company Representative" Value=""/>
+		<Entry Name="Telephone Company Telephone" Value=""/>
+		<Entry Name="Telephone Company Fax" Value=""/>
+		<Entry Name="Telephone Company Mobile" Value=""/>
+		<Entry Name="Telephone Company Pager" Value=""/>
+		<Entry Name="Telephone Company e-mail Address" Value=""/>
+		<Entry Name="Sewers" Value=""/>
+		<Entry Name="Sewers Address" Value=""/>
+		<Entry Name="Sewers City" Value=""/>
+		<Entry Name="Sewers State" Value=""/>
+		<Entry Name="Sewers Zip Code" Value=""/>
+		<Entry Name="Sewers Representative" Value=""/>
+		<Entry Name="Sewers Telephone" Value=""/>
+		<Entry Name="Sewers Fax" Value=""/>
+		<Entry Name="Sewers Mobile" Value=""/>
+		<Entry Name="Sewers Pager" Value=""/>
+		<Entry Name="Sewers e-mail Address" Value=""/>
+		<Entry Name="Water" Value=""/>
+		<Entry Name="Water Address" Value=""/>
+		<Entry Name="Water City" Value=""/>
+		<Entry Name="Water State" Value=""/>
+		<Entry Name="Water Zip Code" Value=""/>
+		<Entry Name="Water Representative" Value=""/>
+		<Entry Name="Water Telephone" Value=""/>
+		<Entry Name="Water Fax" Value=""/>
+		<Entry Name="Water Mobile" Value=""/>
+		<Entry Name="Water Pager" Value=""/>
+		<Entry Name="Water e-mail Address" Value=""/>
+	</Details>
+	<Details Name="Financial Data">
+		<Entry Name="Loan Amount" Value=""/>
+		<Entry Name="Loan Type" Value=""/>
+		<Entry Name="Loan Rate" Value=""/>
+		<Entry Name="Loan by" Value=""/>
+		<Entry Name="Loan Representative" Value=""/>
+		<Entry Name="Loan Telephone" Value=""/>
+		<Entry Name="Bonds or Liens" Value=""/>
+		<Entry Name="Grant Amount" Value=""/>
+		<Entry Name="Limitations" Value=""/>
+		<Entry Name="Grant From" Value=""/>
+		<Entry Name="Grant Representative" Value=""/>
+		<Entry Name="Grant Telephone" Value=""/>
+	</Details>
+	<Details Name="Method of Handling">
+		<Entry Name="Single or Separate Contracts" Value=""/>
+		<Entry Name="Negotiated Bid Stipulated Sum Cost Plus Fee Force Amount" Value=""/>
+		<Entry Name="Equipment Fixed Movable Interiors" Value=""/>
+		<Entry Name="Landscaping" Value=""/>
+	</Details>
+</Project>

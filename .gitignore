@@ -407,9 +407,6 @@ FodyWeavers.xsd
 *.dwl2
 
 # Visual Lisp project, application and temporary files
-*.prj
-*.prv
-*.fas
 *.ob
 *.pdb
 *._ls

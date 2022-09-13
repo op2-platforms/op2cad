@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Catalog FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{6D141C60-44A8-4551-90B7-36497D62F855}" />
+    <Properties>
+        <ItemName>Project Catalog</ItemName>
+        <Images option="0">
+            <Image cx="90" cy="120" src=".\Images\Image.png" />
+        </Images>
+        <Description>Contains a copy of the Project Tool Palettes</Description>
+        <AccessRight>1</AccessRight>
+        <Time createdUniversalDateTime="2005-02-25T16:12:59" modifiedUniversalDateTime="2007-12-06T18:31:50" />
+    </Properties>
+    <Source>
+        <ParentDocument>
+            <Url href=".\Project Catalog - Cover Page.html" />
+        </ParentDocument>
+        <Publisher>
+            <PublisherName>Autodesk</PublisherName>
+        </Publisher>
+    </Source>
+    <Tools />
+    <Palettes>
+        <Palette Revision="18.0.0" option="0">
+            <ItemID idValue="{03F83748-2556-44CF-9F37-D219F1D5E832}" />
+            <Url href=".\Palettes\Project Tools_03F83748-2556-44CF-9F37-D219F1D5E832.atc" />
+            <Properties>
+                <ItemName>Project Tools</ItemName>
+                <Images option="0" />
+                <Description>This Palette contains a sampling of Tools that are included with this Project. To Edit the Styles referenced by these Tools, open the Project Styles.dwg file located in the Standards\Content folder at the root of the project.</Description>
+                <Keywords>Project Styles</Keywords>
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk</PublisherName>
+                </Publisher>
+            </Source>
+        </Palette>
+    </Palettes>
+    <Packages />
+    <Categories />
+    <StockTools />
+    <Catalogs />
+</Catalog>
