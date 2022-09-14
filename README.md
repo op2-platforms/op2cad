@@ -30,7 +30,9 @@ There are many reason for that:
 2. Because Git is well integrated with many IDE like [Visual Studio Code](https://code.visualstudio.com/), getting your text edditing technic from Zero to Hero in a breeze.
 3. Because we are facing labour shortages all around the world... That we cannot afford working in silos anymore! Git make open source project easely deployable/maintainable for everyone.
 
-Finaly, CAD content is only serving as support files and is delivered as a package to make the whole setup as quick and easy as it can be.
+Finaly, CAD content is only serving as support files and is delivered as a package to make the whole setup as quick and easy as it can be. 
+
+> Be aware! CAD files, images and other heavy files will be limited as much as possible to prevent having a to voluminous repository. This repository may be couple to another centralized platform for managing those heavier files in the futur.
 
 ## Git Config
 
