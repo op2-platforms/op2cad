@@ -1,6 +1,6 @@
 # op2cad | platform
 
-The **"Open Source CAD Software Optimizations Platform"** is fast development and content management collaborative platform for the AEC industries.
+The **"Open Source CAD Softwares Optimization Platform"** is fast development and content management collaborative platform for the AEC industries.
 
 It is the perfect platform for anyone starting up into the CAD world, feeling a bit tooless after few year out of the wood or still building projects on a 20-30 years old office standard and wishes to get on a fresh start. 
 
