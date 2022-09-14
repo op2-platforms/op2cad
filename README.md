@@ -1,12 +1,12 @@
 # op2cad | platform
 
-The **"Open Source CAD Softwares Optimization Platform"** is fast development and content management collaborative platform for the AEC industries.
+## Quick Look
 
-It is the perfect platform for anyone starting up into the CAD world, feeling a bit tooless after few year out of the wood or still building projects on a 20-30 years old office standard and wishes to get on a fresh start. 
+The **"Open Source CAD Softwares Optimization Platform"** is fast development and content management collaborative platform for the AEC industries.
 
 It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
-It includs all the components required by the softwares to work properly OOTB and full of additionnal content complementing the default software content.
+It includs all the components required by the softwares to work properly OOTB and full of additionnal content complementing the default software content. Therefore, making it the perfect platform to build on for anyone starting up a new standard, feeling a bit tooless after few year out of the wood, or still working on an unenvolve 20 to 30 years old office standard.
 
 ## Get Started
 
