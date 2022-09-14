@@ -6,7 +6,7 @@ It is the perfect platform for anyone starting up into the CAD world, feeling a 
 
 It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
-It full of contents and tools complementing the default software contents.
+It includs all the components required by the softwares to work properly OOTB and full of additionnal content complementing the default software content.
 
 ## Get Started
 
