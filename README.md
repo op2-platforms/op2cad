@@ -22,11 +22,15 @@ If you which to get access to further updates, build-up on it or contribute to t
 
 May be you have no idea what Git is or you are already familiar with Git and then you are wondering; why the hell should we use a "Distributed Version Control System (DVCS)" for file that aren't even compatible to version control?
 
-Short anwser is: we dont need it for CAD files! So Why?
+Short anwser is: we dont need it for CAD files! Then why give ourself so much trouble you ask?
 
-Because when you get serious with some CAD software, you may want to customize it to your specific workflow. Doing so often require to do some text editing of complicated database or even do some coding for the development of some customized tools; XML and LSP file to name a fiew. Those files are highly profiting from version controls for collaborative work and file back-up.
+There are many reason for that:
 
-All the CAD content included is only serving as support files for our text files (codes, databases, etc.) and is delivered as a package to make the setup as quick and easy as it can be.
+1. Because when you get serious with some CAD software, your probably gonna want to customized it to fit your needs. Doing so often require to do some text editing of complicated database or even do some coding for the development of some customized tools; XML and LSP file to name a fiew. Those files are highly profiting from version controls for collaborative work and file back-up.
+2. Because Git is well integrated with many IDE like [Visual Studio Code](https://code.visualstudio.com/), getting your text edditing technic from Zero to Hero in a breeze.
+3. Because we are facing labour shortages all around the world... That we cannot afford working in silos anymore! Lets team up! 
+
+Finaly, CAD content is only serving as support files and is delivered as a package to make the whole setup as quick and easy as it can be.
 
 ## Git Config
 
