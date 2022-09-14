@@ -1,6 +1,6 @@
 ; file usage: define the phasing type (_pt) and color profile (_cp) based on user selected choice
 ;
-(defun iniget (_dd _lp / _pt _cp) 
+(defun layi-iniget (_dd _lp / _pt _dl _cp) 
   (if 
     (or (= "A" _dd) 
         (= "C" _dd)
@@ -26,14 +26,15 @@
     )
     (progn 
       (initget 
-        "Unphased MAin AUgmented FUll Abnd Save Demo Exst Futw Moved New Xnot Prow Rfsh Temp _BLK STM STA STF ABND SAVE DEMO EXST FUTW MOVE NEWW XNOT PROW RFSH TEMP"
+        "Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOved New Xnot Prow Rfsh Temp _Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOved New Xnot Prow Rfsh Temp"
       )
       (setq _pt (getkword 
                   (strcat 
-                    "\nPhasing Type: [Unphased/MAin/AUgmented/FUll/Abnd/Save/Demo/Exst/Futw/Moved/New/Xnot/Prow/Rfsh/Temp]"
+                    "\nPhasing Type: [Unphased/Main/Augmented/Full/ABnd/Save/Demo/Exst/FUtw/MOved/New/Xnot/Prow/Rfsh/Temp]"
                   )
                 )
       )
+      (setq _dl "dd1")
     )
   )
   (if 
@@ -69,6 +70,7 @@
                   )
                 )
       )
+      (setq _dl "dd2")
     )
   )
   (if (= "BLK" _pt) 
@@ -82,7 +84,7 @@
                   )
                 )
       )
-      (laycreate _dd _lp _pt _cp)
+      (layinsert _dd _lp _pt _dl _cp)
     )
     (progn 
       (initget 
@@ -94,7 +96,7 @@
                   )
                 )
       )
-      (laycreate _dd _lp _pt _cp)
+      (layinsert _dd _lp _pt _dl _cp)
     )
   )
   (prompt "\n")
