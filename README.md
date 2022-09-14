@@ -28,7 +28,7 @@ Because when you get deeper in CAD customization, you may require some coding. M
 
 Those Lisp files are highly profiting from version control. You may also used thing like XML for library management, VBA, .NET and many more.
 
-So in reality all the CAD content included in this repository are only support file accessed from on of those text format files and which is delivered as a package.
+So in reality all the CAD content included in this repository is only supporting our code files and delivered as a package to make setup as quick and easy as it can be.
 
 ## Git Config
 
@@ -47,14 +47,3 @@ If you're not looking to experiment with code files and application making ; you
 Best place to start would be on the official Git website, you can first see the [Videos](https://git-scm.com/videos) and then the [Documentations](https://git-scm.com/docs) to help along the way.
 
  If you want a more advance step by step interractive course about Distributed Version Control System (DVCS); I suggest to visit Mosh Hamedani website for his full [indepth 5h course](https://codewithmosh.com/p/the-ultimate-git-course) or his [beginner 1h youtube video](https://www.youtube.com/watch?v=8JJ101D3knE).
-
-## The included Features
-
-```features
-1. AutoCAD
-    1.1 Main Support files including acaddoc.lsp
-    1.2 Fast development lisp tools
-2. AutoCAD Architecture
-    2.1 Additionnal support files
-    2.2 AEC Library
-```
