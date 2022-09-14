@@ -1,16 +1,16 @@
 # op2cad | platform
 
-## Quick Look
-
 The **"Open Source CAD Software Optimizations Platform"** is fast development and content management collaborative platform for computer assisted drawings in the Architectural, Engineering and Construction industries.
 
-It is the perfect platform for anyone starting up into the CAD world, feeling a bit tooless after few year out of the wood or still building projects on a 20-30 years old office standard and wishes to get on a fresh start.
+It is the perfect platform for anyone starting up into the CAD world, feeling a bit tooless after few year out of the wood or still building projects on a 20-30 years old office standard and wishes to get on a fresh start. 
 
 It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
-It includs all the components required by the softwares to work properly OOTB and additionnal content complementing the default software content.
+It includs all the components required by the softwares to work properly OOTB and full of additionnal content complementing the default software content.
 
-Get started in 3 simple steps:
+## Get Started
+
+in 3 simple steps:
 
 1. Download this repository Zip file by clicking [this button](https://github.com/op2-platforms/op2cad/archive/refs/heads/main.zip).
 2. Unzip its content to your C: drive in a GitHub folder and rename the "op2cad-main" folder to be "op2cad" (C:/GitHub/op2cad).
@@ -24,37 +24,22 @@ May be you have no idea what Git is or you are already familiar with Git and the
 
 Short anwser is: we dont need it for CAD files! So Why?
 
-Because when you get deeper in CAD customization, you may require some coding. Most people using CAD should at least know or I hope so have used a Lisp file (.lsp/.fas/.VLX) in there projects, for exemple; loaded manualy from the APPLOAD command in AutoCAD products.
+Because when you get serious with some CAD software, you may want to customize it to your specific workflow. Doing so often require to do some text editing of complicated database or even do some coding for the development of some customized tools; XML and LSP file to name a fiew. Those files are highly profiting from version controls for collaborative work and file back-up.
 
-Those Lisp files are highly profiting from version control. You may also used thing like XML for library management, VBA, .NET and many more.
-
-So in reality all the CAD content included in this repository are only support file accessed from on of those text format files and which is delivered as a package.
+All the CAD content included is only serving as support files for our text files (codes, databases, etc.) and is delivered as a package to make the setup as quick and easy as it can be.
 
 ## Git Config
 
-Before all, you must have an installed updated version of [Git](https://git-scm.com/downloads).
+Before all, Git client must be installed on your machine. If you dont have it, go to the [Git Download Page](https://git-scm.com/downloads) and get the last version available.
 
 Then, the current prefered way to work with this repository is to [fork the main branch](https://github.com/op2-platforms/op2cad) to your own or enterprises GitHub account and Clone this newly made repository to your C: drive in a GitHub folder (C:\GitHub\op2cad).
 
-Git cloning may be done from the default "Git GUI" client distributed with the Git installation or get your hand on a more advance GUI client like GitHub Desktop.
+Git cloning may be done from the default [Git GUI](https://git-scm.com/docs/git-gui) client distributed with the Git installation or get your hand on a more advance GUI client like [GitHub Desktop](https://desktop.github.com/).
 
-This way you will be able to use absolute path dependent files right away and get going with existing applications customization.
-
-If you're not looking to experiment with code files and application making ; you should be able to clone it where ever you want; in a cloud folder for exemple (all search paths are design to update them self from the "Support" folders).
+By setting up your repository to this path (C:\GitHub\op2cad), you will be able to use absolute path dependent files right away and get going with existing applications customization. If you're not looking to experiment with application customization files and are working on multiple machine you may want to clone it in a cloud folder (all search paths are design to update them self from the Support folder).
 
 ## Want to know more about Git?
 
 Best place to start would be on the official Git website, you can first see the [Videos](https://git-scm.com/videos) and then the [Documentations](https://git-scm.com/docs) to help along the way.
 
  If you want a more advance step by step interractive course about Distributed Version Control System (DVCS); I suggest to visit Mosh Hamedani website for his full [indepth 5h course](https://codewithmosh.com/p/the-ultimate-git-course) or his [beginner 1h youtube video](https://www.youtube.com/watch?v=8JJ101D3knE).
-
-## The included Features
-
-```features
-1. AutoCAD
-    1.1 Main Support files including acaddoc.lsp
-    1.2 Fast development lisp tools
-2. AutoCAD Architecture
-    2.1 Additionnal support files
-    2.2 AEC Library
-```
