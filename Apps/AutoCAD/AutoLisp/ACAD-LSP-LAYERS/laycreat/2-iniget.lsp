@@ -76,7 +76,7 @@
     )
   )
 
-  ; color option for phased layers:
+  ; color options for unphased (blank) layers:
   (if (= "BLK" _pt) 
     (progn 
       (initget 
@@ -90,10 +90,8 @@
       )
       (dd-list _dd _lp _pt _cp)
     )
-  )
 
-  ; color option for unphased layer:
-  (if (or (= "STM" _pt) (= "STA" _pt) (= "STF" _pt) (= "ABND" _pt) (= "SAVE" _pt)) 
+    ; color options for phased layers:
     (progn 
       (initget 
         "UpperDesignator UpperMajor UpperMinor UpperPhasing TilteDesignator TilteMajor TilteMinor TiltePhasing _UDD UMA UMI UPH TDD TMA TMI TPH"
