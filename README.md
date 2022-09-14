@@ -24,9 +24,9 @@ May be you have no idea what Git is or you are already familiar with Git and the
 
 Short anwser is: we dont need it for CAD files! So Why?
 
-Because when you get serious with some CAD software, you may want to customize it to your specific workflow. Doing so often require to do some text editing of complicated database or even do some coding for the development of some customized tools; XML and LSP file to name a fiew. Those files are highly profiting from version controls for collaboration and back-up.
+Because when you get serious with some CAD software, you may want to customize it to your specific workflow. Doing so often require to do some text editing of complicated database or even do some coding for the development of some customized tools; XML and LSP file to name a fiew. Those files are highly profiting from version controls for collaborative work and file back-up.
 
-All the CAD content included in this repository is only supporting our text files (code and database) and is delivered as a package to make the setup as quick and easy as it can be.
+All the CAD content included is only serving as support files for our text files (codes, databases, etc.) and is delivered as a package to make the setup as quick and easy as it can be.
 
 ## Git Config
 
