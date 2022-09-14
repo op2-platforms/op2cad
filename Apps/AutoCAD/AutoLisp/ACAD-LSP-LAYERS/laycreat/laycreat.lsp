@@ -1,91 +1,76 @@
-(defun laycreat (_dd _lp _pt _cp _dga _dgd _dgc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t 
-                 _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / layname layuppercase laydescription 
-                 laycolor
-                ) 
+(defun laycreat (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / _ln _ld _lc) 
+  ; _ln = layer name
+  ; _ld = layer description
+  ; _lc = layer color
 
   (setvar "cmdecho" 0)
 
-  (setq layname (strcat _dga _maa _m1a _m2a _pha))
-  (if (or (= "UPH" _cp) (= "UMI" _cp) (= "UDD" _cp) (= "UMA" _cp)) 
-    (setq layuppercase "Yes")
-    (setq layuppercase "No")
-  )
-  (if (= "Yes" layuppercase) (setq layname (strcase layname)))
-
-  (setq laydescription (strcat _mad ": " _m1d ": " _m2d " (" _phd ")"))
-
+  (setq _ln (strcat _dda _maa _m1a _m2a _pha))
+  (setq _ld (strcat _mad ": " _m1d ": " _m2d " (" _phd ")"))
 
   ; Layer style and colors:
-  (if (or (= "UPH" _cp) (= "TPH" _cp))  ; phasing colors
-    (setq laycolor (if (= "" _pha) 
-                     _phc
-                     (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a)) 
-                       "140"
-                       (if (or (= "-Revc" _m1a) (= "-Revc" _m2a)) 
-                         "071"
-                         (if (or (= "-Grey" _m1a) (= "-Grey" _m2a)) 
-                           "008"
-                           (if (or (= "-Scrn" _m1a) (= "-Scrn" _m2a)) 
-                             "009"
-                             (strcat _phi _m2i)
-                           )
-                         )
-                       )
-                     )
-                   )
+  (if (= "UPH" _cp)  ; Upper case phasing colors
+    (progn 
+      (setq _lc (strcat _phi _m2i))
+      (setq _ln (strcase _ln))
     )
   )
-  (if (or (= "UMI" _cp) (= "TMI" _cp))  ; minor colors
-    (setq laycolor _m2c)
-  )
-  (if (or (= "UDD" _cp) (= "TDD" _cp))  ; discipline designator colors
-    (setq laycolor (setq laycolor (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a)) 
-                                    "140"
-                                    (if (or (= "-Revc" _m1a) (= "-Revc" _m2a)) 
-                                      "071"
-                                      (if (or (= "-Grey" _m1a) (= "-Grey" _m2a)) 
-                                        "008"
-                                        (if (or (= "-Scrn" _m1a) (= "-Scrn" _m2a)) 
-                                          "009"
-                                          (strcat _dgi _m2i)
-                                        )
-                                      )
-                                    )
-                                  )
-                   )
+  (if (= "UMI" _cp)  ; Upper case minor colors
+    (progn 
+      (setq _lc _m2c)
+      (setq _ln (strcase _ln))
     )
   )
-  (if (or (= "UMA" _cp) (= "TMA" _cp))  ; major colors
-    (setq laycolor (if (= "" _maa) 
-                     _mac
-                     (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a)) 
-                       "140"
-                       (if (or (= "-Revc" _m1a) (= "-Revc" _m2a)) 
-                         "071"
-                         (if (or (= "-Grey" _m1a) (= "-Grey" _m2a)) 
-                           "008"
-                           (if (or (= "-Scrn" _m1a) (= "-Scrn" _m2a)) 
-                             "009"
-                             (strcat _mai _m2i)
-                           )
-                         )
-                       )
-                     )
-                   )
+  (if (= "UDD" _cp)  ; Upper case discipline designator colors
+    (progn 
+      (setq _lc (strcat _ddc))
+      (setq _ln (strcase _ln))
     )
+  )
+  (if (= "UMA" _cp)  ; Upper case major colors
+    (progn 
+      (setq _lc (strcat _mai _m2i))
+      (setq _ln (strcase _ln))
+    )
+  )
+  (if (= "TPH" _cp)  ; title case phasing colors
+    (setq _lc (strcat _phi _m2i))
+  )
+  (if (= "TMI" _cp)  ; title case minor colors
+    (setq _lc _m2c)
+  )
+  (if (= "TDD" _cp)  ; title case discipline designator colors
+    (setq _lc (strcat _ddc))
+  )
+  (if (= "TMA" _cp)  ; title case major colors
+    (setq _lc (strcat _mai _m2i))
+  )
+
+  ; fixed color override:
+  (if (or (= T (wcmatch _ln "*-Nplt")) (= T (wcmatch _ln "*-NPLT")) (= T (wcmatch _ln "*-Nplt-?")) (= T (wcmatch _ln "*-NPLT-?"))) 
+    (setq _lc "140")
+  )
+  (if (or (= T (wcmatch _ln "*-Revc")) (= T (wcmatch _ln "*-Revc-?")) (= T (wcmatch _ln "*-REVC")) (= T (wcmatch _ln "*-REVC-?"))) 
+    (setq _lc "071")
+  )
+  (if (or (= T (wcmatch _ln "*-Grey")) (= T (wcmatch _ln "*-Grey-?")) (= T (wcmatch _ln "*-GREY")) (= T (wcmatch _ln "*-GREY-?"))) 
+    (setq _lc "008")
+  )
+  (if (or (= T (wcmatch _ln "*-Scrn")) (= T (wcmatch _ln "*-Scrn-?")) (= T (wcmatch _ln "*-SCRN")) (= T (wcmatch _ln "*-SCRN-?"))) 
+    (setq _lc "009")
   )
 
   ;laycreat main command:
-  (if (not (tblsearch "LAYER" layname)) 
+  (if (not (tblsearch "LAYER" _ln)) 
     (progn 
       (command "-layer" 
                "m"
-               layname
+               _ln
                "lw"
                _m2w
                ""
                "c"
-               laycolor
+               _lc
                ""
                "l"
                _m2t
@@ -94,22 +79,22 @@
                (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a)) "n" "p")
                ""
                "d"
-               laydescription
-               layname
+               _ld
+               _ln
                ""
       )
-      (prompt (strcat "\n..." layname " - created"))
+      (prompt (strcat "\n..." _ln " - created"))
       (princ)
     )
     (progn 
       (command "-layer" 
                "m"
-               layname
+               _ln
                "lw"
                _m2w
                ""
                "c"
-               laycolor
+               _lc
                ""
                "l"
                _m2t
@@ -118,16 +103,15 @@
                (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a)) "n" "p")
                ""
                "d"
-               laydescription
-               layname
+               _ld
+               _ln
                "y"
                ""
       )
-      (prompt (strcat "\n..." layname " - updated"))
+      (prompt (strcat "\n..." _ln " - updated"))
       (princ)
     )
   )
-
   (setvar "cmdecho" 1)
   (princ)
 )

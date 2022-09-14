@@ -12,8 +12,9 @@
         dir_main    (vl-string-right-trim "\\Support" dir_start)
         dir_apps    (vl-string-right-trim "\\AutoCAD Architecture" dir_main)
         dir_acad    (strcat dir_apps "\\AutoCAD")
-        dir_aca     (strcat dir_apps "\\AutoCAD Architecture")
         dir_acadlsp (strcat dir_acad "\\AutoLisp")
+        dir_aca     (strcat dir_apps "\\AutoCAD Architecture")
+        dir_acalsp  (strcat dir_aca "\\AutoLisp")
   )
 
   ;dir_main sub-folders:
@@ -23,6 +24,7 @@
         dir_pats      (strcat dir_supp "\\Pats")
         dir_patsm     (strcat dir_pats "\\Metric")
         dir_patsi     (strcat dir_pats "\\Imperial")
+        dir_patsv     (strcat dir_pats "\\-Units-")
         dir_plot      (strcat dir_supp "\\Plotters")
         dir_plotstyle (strcat dir_plot "\\Plot Styles")
         dir_plotpmp   (strcat dir_plot "\\PMP Files")
@@ -32,15 +34,15 @@
 
   ; variable paths based on drawing measurment settings:
   (if (= 1 (getvar "measurement")) 
-    (setq dir_patsv (vl-string-subst "Metric" "-Units-" dir_pats))
-    (setq dir_patsv (vl-string-subst "Imperial" "-Units-" dir_pats))
+    (setq dir_patsv (vl-string-subst "Metric" "-Units-" dir_patsv))
+    (setq dir_patsv (vl-string-subst "Imperial" "-Units-" dir_patsv))
   )
 
   ;Applications files:
   (setq app_acadlay (strcat dir_acadlsp "\\ACAD-LSP-LAYERS\\ACAD-LSP-LAYERS.VLX")
         app_acadutl (strcat dir_acadlsp "\\ACAD-LSP-UTILITY\\ACAD-LSP-UTILITY.VLX")
         app_acadnav (strcat dir_acadlsp "\\ACAD-LSP-NAVIGATE\\ACAD-LSP-NAVIGATE.VLX")
-        app_acadwg  (strcat dir_acadlsp "\\ACA-LSP-DRAWING\\ACA-LSP-DRAWING.VLX")
+        app_acadwg  (strcat dir_acalsp "\\ACA-LSP-DRAWING\\ACA-LSP-DRAWING.VLX")
   )
 
   (prompt 
@@ -52,44 +54,44 @@
   )
 
   ;------------------------------------------------------------------------------
-  ;#region Custom Applications
-  (prompt "\n-\n## Custom applications included in acaddoc.lsp: ")
+  ;#region Custom applications auto-load
+  (prompt "\n-\n## Custom applications loaded from: ")
 
-  (load app_acadlay)
-  (prompt "\n...ACAD-LSP-LAYERS.VLX")
+  (load app_acadlay "\n...wrong path or missing file: ")
+  (prompt (strcat "\n...[" app_acadlay "]"))
 
-  (load app_acadutl)
-  (prompt "\n...ACAD-LSP-UTILITY.VLX")
+  (load app_acadutl "\n...wrong path or missing file: ")
+  (prompt (strcat "\n...[" app_acadutl "]"))
 
-  (load app_acadnav)
-  (prompt "\n...ACAD-LSP-NAVIGATE.VLX")
+  (load app_acadnav "\n...wrong path or missing file: ")
+  (prompt (strcat "\n...[" app_acadnav "]"))
 
-  (load app_acadwg)
-  (prompt "\n...ACA-LSP-DRAWING.VLX")
+  (load app_acadwg "\n...wrong path or missing file: ")
+  (prompt (strcat "\n...[" app_acadwg "]"))
   ;#endregion
 
   ;------------------------------------------------------------------------------
-  ;#region Base Commands
-  (prompt "\n-\n## Base command included in acaddoc.lsp: ")
+  ;#region Out of the box base commands
+  (prompt "\n-\n## Base commands included in the \"acaddoc.lsp\" file: ")
 
   ;custom application reloading:
   (defun c:appreload () 
-    "\nCustom applications reloaded from: "
-    (load app_acadlay)
-    (prompt "\n...[" app_acadlay "]")
-    (load app_acaddwg)
-    (prompt "\n...[" app_acaddwg "]")
-    (load app_acadutl)
-    (prompt "\n...[" app_acadutl "]")
-    (load app_acadnav)
-    (prompt "\n...[" app_acadnav "]")
+    (prompt "\n## Custom applications reloaded from: ")
+
+    (load app_acadlay "\n...wrong path or missing file: ")
+    (prompt (strcat "\n...[" app_acadlay "]"))
+
+    (load app_acadutl "\n...wrong path or missing file: ")
+    (prompt (strcat "\n...[" app_acadutl "]"))
+
+    (load app_acadnav "\n...wrong path or missing file: ")
+    (prompt (strcat "\n...[" app_acadnav "]"))
+
+    (load app_acadwg "\n...wrong path or missing file: ")
+    (prompt (strcat "\n...[" app_acadwg "]"))
     (princ)
   )
-  (prompt 
-    (strcat "\n# APPRELOAD: " 
-            "\n...Custom application reload"
-    )
-  )
+  (prompt "\n...[c:APPRELOAD ~ Manual custom applications reloading from the local repository]")
 
   ; grouped search paths and files substitution:
   (defun c:subst-all () 
@@ -101,11 +103,7 @@
     (prompt "...all search paths and files have been updated")
     (princ)
   )
-  (prompt 
-    (strcat "\n# SUBST-ALL: " 
-            "\n...grouped search paths and files substitution (includ all \"SUBST-\" commands)"
-    )
-  )
+  (prompt "\n...[c:SUBST-ALL ~ group of commands including all \"SUBST-\"]")
 
   ; template search path substitution:
   (defun c:subst-template () 
@@ -220,17 +218,10 @@
     (vla-put-pagesetupoverridestemplatefile (vla-get-Files preferences) dir_ttlbfile)
 
     (alert 
-      (strcat "New Template Path Assigned!" "\n" "\nDrawing Template File Location: " _tmpfolder 
-              "\nDefault Template File Name for QNEW: " _tmpfile 
-              "\nDefault Template for Sheet Creation and Page Setup Overrides: " _ttlbfile
-      )
+      (strcat "New Template Path Assigned!" "\n" "\nDrawing Template File Location: " _tmpfolder "\nDefault Template File Name for QNEW: " _tmpfile "\nDefault Template for Sheet Creation and Page Setup Overrides: " _ttlbfile)
     )
   )
-  (prompt 
-    (strcat "\n# SUBST-TEMPLATE: " 
-            "\n...template search path substitution"
-    )
-  )
+  (prompt "\n...[c:SUBST-TEMPLATE ~ template search path substitution]")
 
   ; texture search path substitution:
   (defun c:subst-texture () 
@@ -438,44 +429,31 @@
       (prompt "\n...OK")
     )
   )
-  (prompt 
-    (strcat "\n# SUBST-TEXTURE: " 
-            "\n...texture search path substitution"
-    )
-  )
+  (prompt "\n...[c:SUBST-TEXTURE ~ texture search path substitution]")
 
   ; entreprise cui substitution:
   (defun c:subst-entcui () 
     (vla-put-enterprisemenufile (vla-get-Files preferences) fil_cuilgy)
   )
-  (prompt 
-    (strcat "\n# SUBST-ENTCUI: " 
-            "\n...entreprise cui substitution to includ legacy menu"
-    )
-  )
+  (prompt "\n...[c:SUBST-ENTCUI ~ entreprise cui file substitution]")
 
   ; support file search path substitution for standard hatch pattern:
   (defun c:subst-pats () 
     (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
     (if (= nil (vl-string-search dir_patsv cur_supfiles)) 
       (progn 
-        (vla-put-SupportPath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_pats))
-        (prompt (strcat "\n-\n## Updated Hatch Patterns: " "\n...[" dir_pats "]"))
+        (vla-put-SupportPath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_patsv))
+        (prompt (strcat "\n-\n## Updated Hatch Patterns: " "\n...[" dir_patsv "]"))
       )
     )
   )
-  (prompt 
-    (strcat "\n# SUBST-PATS: " 
-            "\n...support file search path substitution for standard hatch patterns"
-    )
-  )
+  (prompt "\n...[c:SUBST-PATS ~ support file search path substitution for standard hatch patterns]")
 
   ; printer support file path substitution:
   (defun c:subst-plot () 
-    (prompt "\n# Checking search paths, file names, and file locations: ")
+    (prompt "\n## Updating files: ")
 
     ; check for plotter current support file:
-    (setq cur_supfiles (vla-get-SupportPath (vla-get-Files preferences)))
     (setq cur_plot (vla-get-printerconfigpath (vla-get-Files preferences)))
     (setq cur_plotpmp (vla-get-printerdescpath (vla-get-Files preferences)))
     (setq cur_plotstyle (vla-get-printerstylesheetpath (vla-get-Files preferences)))
@@ -483,28 +461,24 @@
     ; check if acaddoc.lsp paths match the current AutoCAD support paths, else add to search path:
     (if (= nil (vl-string-search dir_plot cur_plot)) 
       (progn 
-        (vla-put-printerconfigpath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_plots))
-        (prompt (strcat "\n-\n## Updated Printer Configuration: " "\n...[" dir_plot "]"))
+        (vla-put-printerconfigpath (vla-get-Files preferences) (strcat cur_plots ";" dir_plots))
+        (prompt (strcat "\n# Printer Configuration: " "\n...[" dir_plot "]"))
       )
     )
     (if (= nil (vl-string-search dir_plotpmp cur_plotpmp)) 
       (progn 
-        (vla-put-printerdescpath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_plotpmp))
-        (prompt (strcat "\n-\n## Updated Printer Configuration: " "\n...[" dir_plotpmp "]"))
+        (vla-put-printerdescpath (vla-get-Files preferences) (strcat cur_plotpmp ";" dir_plotpmp))
+        (prompt (strcat "\n# Printer Description: " "\n...[" dir_plotpmp "]"))
       )
     )
     (if (= nil (vl-string-search dir_plotstyle cur_plotstyle)) 
       (progn 
-        (vla-put-printerstylesheetpath (vla-get-Files preferences) (strcat cur_supfiles ";" dir_plotstyle))
-        (prompt (strcat "\n-\n## Updated Plot Style Table: " "\n...[" dir_plotstyle "]"))
+        (vla-put-printerstylesheetpath (vla-get-Files preferences) (strcat cur_plotstyle ";" dir_plotstyle))
+        (prompt (strcat "\n# Plot Style Table: " "\n...[" dir_plotstyle "]"))
       )
     )
   )
-  (prompt 
-    (strcat "\n# SUBST-PLOT: " 
-            "\n...printer support file path substitution"
-    )
-  )
+  (strcat "\n...[C:SUBST-PLOT ~ printer support file path substitution]")
   ;#endregion
 
 

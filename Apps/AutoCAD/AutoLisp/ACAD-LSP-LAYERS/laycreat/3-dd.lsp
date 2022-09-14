@@ -85,212 +85,212 @@
 ;#endregion
 
 ;#region data
-; _dga = designator abreviation
-; _dgd = designator definition
-; _dgc = designator color
+; _dda = designator abreviation
+; _ddd = designator definition
+; _ddc = designator color
 ;
-(defun dd-a (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "A"
-        _dgd "Architectural"
-        _dgc "11"
+(defun dd-a (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "A"
+        _ddd "Architectural"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-ad (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AD"
-        _dgd "Architectural Demolition"
-        _dgc "11"
+(defun dd-ad (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AD"
+        _ddd "Architectural Demolition"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-ae (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AE"
-        _dgd "Architectural Elements"
-        _dgc "11"
+(defun dd-ae (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AE"
+        _ddd "Architectural Elements"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-af (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AF"
-        _dgd "Architectural Finishes"
-        _dgc "11"
+(defun dd-af (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AF"
+        _ddd "Architectural Finishes"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-ag (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AG"
-        _dgd "Architectural Graphics"
-        _dgc "11"
+(defun dd-ag (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AG"
+        _ddd "Architectural Graphics"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-ai (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AI"
-        _dgd "Architectural Interiors"
-        _dgc "11"
+(defun dd-ai (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AI"
+        _ddd "Architectural Interiors"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-aj (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AJ"
-        _dgd "User Defined"
-        _dgc "11"
+(defun dd-aj (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AJ"
+        _ddd "User Defined"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-ak (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AK"
-        _dgd "User Defined"
-        _dgc "11"
+(defun dd-ak (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AK"
+        _ddd "User Defined"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-as (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "AS"
-        _dgd "Architectural Site"
-        _dgc "11"
+(defun dd-as (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "AS"
+        _ddd "Architectural Site"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-c (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "C"
-        _dgd "Civil"
-        _dgc "11"
+(defun dd-c (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "C"
+        _ddd "Civil"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-z (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "Z"
-        _dgd "Contractor"
-        _dgc "11"
+(defun dd-z (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "Z"
+        _ddd "Contractor"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-e (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "E"
-        _dgd "Electrical"
-        _dgc "11"
+(defun dd-e (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "E"
+        _ddd "Electrical"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-w (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "W"
-        _dgd "Energy"
-        _dgc "11"
+(defun dd-w (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "W"
+        _ddd "Energy"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-q (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "Q"
-        _dgd "Equipment"
-        _dgc "11"
+(defun dd-q (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "Q"
+        _ddd "Equipment"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-f (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "F"
-        _dgd "Fire"
-        _dgc "11"
+(defun dd-f (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "F"
+        _ddd "Fire"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-g (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "G"
-        _dgd "General"
-        _dgc "11"
+(defun dd-g (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "G"
+        _ddd "General"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-b (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "B"
-        _dgd "Geotechnical"
-        _dgc "11"
+(defun dd-b (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "B"
+        _ddd "Geotechnical"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-h (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "H"
-        _dgd "Hazardeous"
-        _dgc "11"
+(defun dd-h (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "H"
+        _ddd "Hazardeous"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-i (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "I"
-        _dgd "Interior"
-        _dgc "11"
+(defun dd-i (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "I"
+        _ddd "Interior"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-l (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "L"
-        _dgd "Landscape"
-        _dgc "11"
+(defun dd-l (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "L"
+        _ddd "Landscape"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-m (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "M"
-        _dgd "Mechanical "
-        _dgc "11"
+(defun dd-m (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "M"
+        _ddd "Mechanical "
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-o (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "O"
-        _dgd "Operation"
-        _dgc "11"
+(defun dd-o (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "O"
+        _ddd "Operation"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-x (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "X"
-        _dgd "Other Discipline"
-        _dgc "11"
+(defun dd-x (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "X"
+        _ddd "Other Discipline"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-p (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "P"
-        _dgd "Plumbing"
-        _dgc "11"
+(defun dd-p (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "P"
+        _ddd "Plumbing"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-d (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "D"
-        _dgd "Process"
-        _dgc "11"
+(defun dd-d (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "D"
+        _ddd "Process"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-r (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "R"
-        _dgd "Resource"
-        _dgc "11"
+(defun dd-r (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "R"
+        _ddd "Resource"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-s (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "S"
-        _dgd "Structural"
-        _dgc "11"
+(defun dd-s (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "S"
+        _ddd "Structural"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-v (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "V"
-        _dgd "Survey"
-        _dgc "11"
+(defun dd-v (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "V"
+        _ddd "Survey"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
-(defun dd-t (_dd _lp _pt _cp / _dga _dgd _dgc) 
-  (setq _dga "T"
-        _dgd "Telecomunication"
-        _dgc "11"
+(defun dd-t (_dd _lp _pt _cp / _dda _ddd _ddc) 
+  (setq _dda "T"
+        _ddd "Telecomunication"
+        _ddc "11"
   )
-  (ma-list _dd _lp _pt _cp _dga _dgd _dgc)
+  (ma-list _dd _lp _pt _cp _dda _ddd _ddc)
 )
 
 ;#endregion

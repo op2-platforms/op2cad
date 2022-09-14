@@ -1,6 +1,8 @@
 ; file usage: define the phasing type (_pt) and color profile (_cp) based on user selected choice
 ;
 (defun iniget (_dd _lp / _pt _cp) 
+
+  ; phasing options for single letter designator:
   (if 
     (or (= "A" _dd) 
         (= "C" _dd)
@@ -26,16 +28,18 @@
     )
     (progn 
       (initget 
-        "Unphased MAin AUgmented FUll Abnd Save Demo Exst Futw Moved New Xnot Prow Rfsh Temp _BLK STM STA STF ABND SAVE DEMO EXST FUTW MOVE NEWW XNOT PROW RFSH TEMP"
+        "Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOved New Xnot Prow Rfsh Temp _BLK STM STA STF ABND SAVE DEMO EXST FUTW MOVE NEWW XNOT PROW RFSH TEMP"
       )
       (setq _pt (getkword 
                   (strcat 
-                    "\nPhasing Type: [Unphased/MAin/AUgmented/FUll/Abnd/Save/Demo/Exst/Futw/Moved/New/Xnot/Prow/Rfsh/Temp]"
+                    "\nPhasing Type: [Unphased/Main/Augmented/Full/ABnd/Save/Demo/Exst/FUtw/MOved/New/Xnot/Prow/Rfsh/Temp]"
                   )
                 )
       )
     )
   )
+
+  ; phasing options for double letter designator:
   (if 
     (or (= "A?" _dd) 
         (= "C?" _dd)
@@ -71,6 +75,8 @@
       )
     )
   )
+
+  ; color option for phased layers:
   (if (= "BLK" _pt) 
     (progn 
       (initget 
@@ -84,6 +90,10 @@
       )
       (dd-list _dd _lp _pt _cp)
     )
+  )
+
+  ; color option for unphased layer:
+  (if (or (= "STM" _pt) (= "STA" _pt) (= "STF" _pt) (= "ABND" _pt) (= "SAVE" _pt)) 
     (progn 
       (initget 
         "UpperDesignator UpperMajor UpperMinor UpperPhasing TilteDesignator TilteMajor TilteMinor TiltePhasing _UDD UMA UMI UPH TDD TMA TMI TPH"
@@ -97,5 +107,4 @@
       (dd-list _dd _lp _pt _cp)
     )
   )
-  (prompt "\n")
 )

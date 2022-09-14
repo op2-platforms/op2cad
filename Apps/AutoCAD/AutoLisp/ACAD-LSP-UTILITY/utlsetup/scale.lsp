@@ -1,26 +1,23 @@
 ; Set annotative scale
 
-(defun c:set-stdscale (/ scl sclstr scaledict scaledictvla number delete safe item keylist key keylist2 xlist) 
+(defun c:set-stdscale (/ scl sclstr sce sco ctr delete safe item keylist key keylist2 xlist) 
 
   ; define standard scale list based on drawing measurement setup:
+  (vl-load-com)
   (setq scl (if (= 1 (getvar "measurement")) 
               '(1 2 5 10 20 25 40 50 75 100 125 200 500 750 1000 1250 2000 2500 5000)
               '(1 2 4 8 12 16 24 32 48 64 96 128 192 384 768 960 1200 1920 2400 4800)
             )
   )
-
-  ; convert scale number to string:
-  (vl-load-com)
   (setq sclstr (mapcar '(lambda (x) (strcat "1:" (itoa x))) scl))
+  (setq sce (cdr (assoc -1 (dictsearch (namedobjdict) "ACAD_scl"))))
+  (setq sco (vlax-ename->vla-object sce))
 
-  (setq scaledict (cdr (assoc -1 (dictsearch (namedobjdict) "ACAD_scl"))))
-  (setq scaledictvla (vlax-ename->vla-object scaledict))
-  (setq number 0)
+  ; delete list
+  (setq ctr 0)
   (setq delete (list))
-
-
-  (while (< number (vla-get-count scaledictvla)) 
-    (setq item (vla-item scaledictvla number))
+  (while (< ctr (vla-get-count sco)) 
+    (setq item (vla-item sco ctr))
     (if 
       (not 
         (member (cdr (assoc 300 (entget (vlax-vla-object->ename item)))) 
@@ -33,16 +30,14 @@
                    )
       )
     )
-    (setq number (+ 1 number))
-  ) ; while
+    (setq ctr (+ 1 ctr))
+  )
 
-
-  (setq number 0)
+  ; safe list
+  (setq ctr 0)
   (setq safe (list))
-
-
-  (while (< number (vla-get-count scaledictvla)) 
-    (setq item (vla-item scaledictvla number))
+  (while (< ctr (vla-get-count sco)) 
+    (setq item (vla-item sco ctr))
     (if 
       (member (cdr (assoc 300 (entget (vlax-vla-object->ename item)))) 
               sclstr
@@ -53,13 +48,13 @@
                  )
       )
     )
-    (setq number (+ 1 number))
-  ) ; while
+    (setq ctr (+ 1 ctr))
+  )
 
   ; delete annotative scale that are not member of the standard list:
   (foreach x delete 
     (vl-cmdf "-scledit" "Delete" x "Exit")
-  ) ;foreach
+  )
 
   ; add standard annotative scales:
   (foreach x scl 
@@ -72,24 +67,24 @@
                "Exit"
       )
     )
-  ) ;foreach
+  )
 
 
-  (setq number 0)
+  (setq ctr 0)
   (setq keylist (list))
-  (while (< number (vla-get-count scaledictvla)) 
-    (setq key (strcat (chr (+ 65 (/ number 10))) 
-                      (chr (vl-string-elt (itoa (+ 10 number)) 1))
+  (while (< ctr (vla-get-count sco)) 
+    (setq key (strcat (chr (+ 65 (/ ctr 10))) 
+                      (chr (vl-string-elt (itoa (+ 10 ctr)) 1))
               )
     )
     (setq keylist (append (list key) keylist))
-    (setq number (+ 1 number))
+    (setq ctr (+ 1 ctr))
   )
   (setq keylist (reverse keylist))
 
   (foreach x keylist 
     (dictrename 
-      scaledict
+      sce
       x
       (strcat "X" x)
     )
@@ -100,28 +95,28 @@
     (setq keylist2 (append (list (strcat "X" x)) keylist2))
   )
   (setq keylist2 (reverse keylist2))
-  (setq number 0)
+  (setq ctr 0)
   (setq xlist (list))
-  (while (> (length scl) number) 
-    (setq n (nth number scl))
+  (while (> (length scl) ctr) 
+    (setq n (nth ctr scl))
     (foreach x keylist2 
-      (if (= (strcat "1:" (itoa n)) (cdr (assoc 300 (dictsearch scaledict x)))) 
+      (if (= (strcat "1:" (itoa n)) (cdr (assoc 300 (dictsearch sce x)))) 
         (progn 
           (setq xlist (append 
                         (list 
-                          (strcat (cdr (assoc 300 (dictsearch scaledict x))) 
+                          (strcat (cdr (assoc 300 (dictsearch sce x))) 
                                   " "
-                                  (strcat (chr (+ 65 number)) "00")
+                                  (strcat (chr (+ 65 ctr)) "00")
                           )
                         )
                         xlist
                       )
           )
-          (dictrename scaledict x (strcat (chr (+ 65 number)) "00"))
+          (dictrename sce x (strcat (chr (+ 65 ctr)) "00"))
         )
       )
     )
-    (setq number (+ 1 number))
+    (setq ctr (+ 1 ctr))
   )
   (setq xlist (reverse xlist))
   (princ)
