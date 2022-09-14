@@ -42,7 +42,7 @@ Then, the current prefered way to work with this repository is to [fork the main
 
 Git cloning may be done from the default [Git GUI](https://git-scm.com/docs/git-gui) client distributed with the Git installation or get your hand on a more advance GUI client like [GitHub Desktop](https://desktop.github.com/).
 
-By setting up your repository to this path (C:\GitHub\op2cad), you will be able to use absolute path dependent files right away and get going with existing applications customization. If you're not looking to experiment with application customization files and are working on multiple machine you may want to clone it in a cloud folder (all search paths are design to update them self from the Support folder).
+By setting up your repository to this path (C:\GitHub\op2cad), you will be able to use absolute path dependent files right away and get going with existing applications customization. If you're not looking to experiment with application customization files and are working on multiple machine you may prefer cloning it in a cloud folder instead ; only some application making files like ".prj" and ".prv" are using absolute paths, other files will update relative to your repository Support folders placement.
 
 ## Want to know more about Git?
 
