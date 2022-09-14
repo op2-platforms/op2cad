@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] laylist saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\ACAD-LSP-LAYERS\laylist] at:[9/9/2022]
+(VLISP-PROJECT-LIST 
+  :NAME
+  laylist
+  :OWN-LIST
+  ("laylist")
+  :FAS-DIRECTORY
+  nil
+  :TMP-DIRECTORY
+  nil
+  :PROJECT-KEYS
+  (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

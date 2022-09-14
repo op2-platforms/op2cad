@@ -1,0 +1,14 @@
+;;; Visual LISP make file [V1.0] ACA-LSP-DRAWING saved to:[C:/GitHub/op2cad/Apps/AutoCAD Architecture/AutoLisp/ACA-LSP-DRAWING] at:[9/12/22] 
+(PRV-DEF (:target . "ACA-LSP-DRAWING.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list 
+	 	(:prj "dwgpats/dwgpats.prj")
+	 )
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

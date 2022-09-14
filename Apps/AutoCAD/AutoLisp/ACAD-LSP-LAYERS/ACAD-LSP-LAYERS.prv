@@ -1,0 +1,19 @@
+;;; Visual LISP make file [V1.0] ACAD-LSP-LAYERS saved to:[C:/GitHub/op2cad/Apps/AutoCAD/AutoLisp/ACAD-LSP-LAYERS] at:[9/13/22] 
+(PRV-DEF (:target . "ACAD-LSP-LAYERS.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list
+	   (:prj "shortcut/shortcut.prj")
+	   (:prj "laytransf/laytransf.prj")
+	   (:prj "laylist/laylist.prj")
+	   (:prj "layinsert/layinsert.prj")
+	   (:prj "layfilter/layfilter.prj")
+	   (:prj "laycreat/laycreat.prj")
+	 )
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF
