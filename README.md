@@ -16,7 +16,7 @@ in 3 simple steps:
 2. Unzip its content to your C: drive in a GitHub folder and rename the "op2cad-main" folder to be "op2cad" (C:/GitHub/op2cad).
 3. Open the desired application, go to the Options menu and add the support search path for the associated Apps (ex: C:\GitHub\op2cad\Apps\AutoCAD\Support).
 
-If you which to get access to further updates easely or contribute to the project: see "Git Config" below.
+If you which to get access to further updates, build-up on it or contribute to the project ; see "Git Config" below.
 
 ## Why Git for CAD?
 
