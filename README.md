@@ -32,7 +32,7 @@ So in reality all the CAD content included in this repository is only supporting
 
 ## Git Config
 
-Before all, you must have an installed updated version of [Git](https://git-scm.com/downloads).
+Before all, you must have an installed up to date version of [Git](https://git-scm.com/downloads).
 
 Then, the current prefered way to work with this repository is to [fork the main branch](https://github.com/op2-platforms/op2cad) to your own or enterprises GitHub account and Clone this newly made repository to your C: drive in a GitHub folder (C:\GitHub\op2cad).
 
