@@ -6,7 +6,7 @@ The **"Open Source CAD Softwares Optimization Platform"** is a fast development 
 
 It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
-It includs all the components required by the softwares to work properly OOTB and a full library and set of tools complementing the default software contents. Therefore, making it the perfect platform to build on for anyone starting up a new standard, feeling a bit tooless after few year out of the wood, or still working on an unenvolve 20 to 30 years old office standard...
+It includs all the components required by the softwares to work properly OOTB and a full library and set of tools complementing the default software contents. Therefore, making it the perfect platform to build on for anyone starting up a new standard, feeling a bit tooless after few year out of the wood, or still working on an unenvolve 20 to 30 years old office standard... Don't worry, you're not alone! 
 
 ## Get Started
 
