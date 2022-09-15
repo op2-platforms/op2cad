@@ -12,13 +12,13 @@ It includs all the components required by the softwares to work properly OOTB an
 
 ## Get Started
 
-in 3 simple steps:
+The Quick and easy way in 3 simple steps:
 
 1. Download this repository Zip file by clicking [this button](https://github.com/op2-platforms/op2cad/archive/refs/heads/main.zip).
 2. Unzip its content to your C: drive in a GitHub folder and rename the "op2cad-main" folder to be "op2cad" (C:/GitHub/op2cad).
 3. Open the desired application, go to the Options menu and add the support search path for the associated Apps (ex: C:\GitHub\op2cad\Apps\AutoCAD\Support).
 
-If you which to get access to further updates, build-up on it or contribute to the project ; see "Git Config" below.
+The Best recommanded way for those who which to get access to further updates, build-up on it or contribute to the project ; see "Git Config" below.
 
 &nbsp;
 
