@@ -48,4 +48,4 @@ By setting up your repository to this path (C:\GitHub\op2cad), you will be able 
 
 Best place to start would be on the official Git website, you can first see the [Videos](https://git-scm.com/videos) and then the [Documentations](https://git-scm.com/docs) to help along the way.
 
- If you want a more advance step by step interractive course about Distributed Version Control System ; I suggest to visit Mosh Hamedani website for his full [indepth 5h course](https://codewithmosh.com/p/the-ultimate-git-course) or his [beginner 1h youtube video](https://www.youtube.com/watch?v=8JJ101D3knE).
+ If you want a more advance step by step interractive course about Distributed Version Control Systems ; I suggest to visit Mosh Hamedani website for his full [indepth 5h course](https://codewithmosh.com/p/the-ultimate-git-course) or his [beginner 1h youtube video](https://www.youtube.com/watch?v=8JJ101D3knE).
