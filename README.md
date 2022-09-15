@@ -22,7 +22,7 @@ If you which to get access to further updates, build-up on it or contribute to t
 
 &nbsp;
 
-## Why Git for CAD?
+## Why Git for CAD ?
 
 May be you have no idea what Git is or you are already familiar with Git and then you are wondering; why the hell should we use a "Distributed Version Control System" (DVCS) for file that aren't even compatible with version control?
 
@@ -52,7 +52,7 @@ By setting up your repository to this path (C:\GitHub\op2cad), you will be able 
 
 &nbsp;
 
-## Need to Learn Git?
+## Need to Learn Git ?
 
 Best place to start would be on the official Git website, you can first see the [Videos](https://git-scm.com/videos) and then the [Documentations](https://git-scm.com/docs) to help along the way.
 
