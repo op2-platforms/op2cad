@@ -44,7 +44,7 @@ Git cloning may be done from the default [Git GUI](https://git-scm.com/docs/git-
 
 By setting up your repository to this path (C:\GitHub\op2cad), you will be able to use absolute path dependent files right away and get going with existing applications customization. If you're not looking to experiment with application customization files and are working on multiple machine you may prefer cloning it in a cloud folder instead ; only some application making files like ".prj" and ".prv" are using absolute paths, other files will update relative to your repository Support folders placement.
 
-## Want to know more about Git?
+## Need to Learn Git?
 
 Best place to start would be on the official Git website, you can first see the [Videos](https://git-scm.com/videos) and then the [Documentations](https://git-scm.com/docs) to help along the way.
 
