@@ -2,7 +2,7 @@
 
 ## Quick Look
 
-The **"Open Source CAD Softwares Optimization Platform"** is fast development and content management collaborative platform for the AEC industries.
+The **"Open Source CAD Softwares Optimization Platform"** is a fast development and content management collaborative platform for the AEC industries.
 
 It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
