@@ -8,6 +8,8 @@ It is mainly focused around Autodesk product line-up, but may be further expende
 
 It includs all the components required by the softwares to work properly OOTB and a full library and set of tools complementing the default software contents. Therefore, making it the perfect platform to build on for anyone starting up a new standard, feeling a bit tooless after few year out of the wood, or still working on an unenvolve 20 to 30 years old office standard... Don't worry, you're not alone! 
 
+&nbsp;
+
 ## Get Started
 
 in 3 simple steps:
@@ -17,6 +19,8 @@ in 3 simple steps:
 3. Open the desired application, go to the Options menu and add the support search path for the associated Apps (ex: C:\GitHub\op2cad\Apps\AutoCAD\Support).
 
 If you which to get access to further updates, build-up on it or contribute to the project ; see "Git Config" below.
+
+&nbsp;
 
 ## Why Git for CAD?
 
@@ -34,6 +38,8 @@ Finaly, CAD content is only serving as support files and is delivered as a packa
 
 > Be aware! CAD files, images and other heavy files will be limited as much as possible to prevent having a to voluminous repository. This repository may be couple to another centralized platform for managing those heavier files in the futur.
 
+&nbsp;
+
 ## Git Config
 
 Before all, Git client must be installed on your machine. If you dont have it, go to the [Git Download Page](https://git-scm.com/downloads) and get the last version available.
@@ -43,6 +49,8 @@ Then, the current prefered way to work with this repository is to [fork the main
 Git cloning may be done from the default [Git GUI](https://git-scm.com/docs/git-gui) client distributed with the Git installation or get your hand on a more advance GUI client like [GitHub Desktop](https://desktop.github.com/).
 
 By setting up your repository to this path (C:\GitHub\op2cad), you will be able to use absolute path dependent files right away and get going with existing applications customization. If you're not looking to experiment with application customization files and are working on multiple machine you may prefer cloning it in a cloud folder instead ; only some application making files like ".prj" and ".prv" are using absolute paths, other files will update relative to your repository Support folders placement.
+
+&nbsp;
 
 ## Need to Learn Git?
 
