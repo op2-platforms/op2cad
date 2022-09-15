@@ -24,7 +24,7 @@ The Best recommanded way for those who which to get access to further updates, b
 
 ## Why Git for CAD ?
 
-May be you have no idea what Git is or you are already familiar with Git and then you are wondering; why the hell should we use a "Distributed Version Control System" (DVCS) for file that aren't even compatible with version control?
+May be you have no idea what Git is or you are already familiar with Git and then you are wondering; why the hell should we use a "Distributed Version Control System" for file that aren't even compatible with version control?
 
 Short anwser is: we dont need it for CAD files! Then why give ourself so much trouble you ask?
 
