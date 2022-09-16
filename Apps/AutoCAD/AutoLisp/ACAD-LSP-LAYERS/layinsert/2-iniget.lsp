@@ -26,15 +26,15 @@
     )
     (progn 
       (initget 
-        "Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOved New Xnot Prow Rfsh Temp _Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOved New Xnot Prow Rfsh Temp"
+        "Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOve Neww Xnot Prow Rfsh Temp _Unphased Main Augmented Full ABnd Save Demo Exst FUtw MOve Neww Xnot Prow Rfsh Temp"
       )
       (setq _pt (getkword 
                   (strcat 
-                    "\nPhasing Type: [Unphased/Main/Augmented/Full/ABnd/Save/Demo/Exst/FUtw/MOved/New/Xnot/Prow/Rfsh/Temp]"
+                    "\nPhasing Type: [Unphased/Main/Augmented/Full/ABnd/Save/Demo/Exst/FUtw/MOve/Neww/Xnot/Prow/Rfsh/Temp]"
                   )
                 )
       )
-      (setq _dl "dd1")
+      (setq _dl "SingleLetter")
     )
   )
   (if 
@@ -70,17 +70,17 @@
                   )
                 )
       )
-      (setq _dl "dd2")
+      (setq _dl "DoubleLetter")
     )
   )
   (if (= "BLK" _pt) 
     (progn 
       (initget 
-        "UpperDesignator UpperMajor UpperMinor TilteDesignator TilteMajor TilteMinor _UDD UMA UMI TDD TMA TMI"
+        "1.UpperDesignator 2.UpperMajor 3.UpperMinor 5.TilteDesignator 6.TilteMajor 7.TilteMinor _UpperDesignator UpperMajor UpperMinor TilteDesignator TilteMajor TilteMinor"
       )
       (setq _cp (getkword 
                   (strcat 
-                    "\nLayer Naming Style and Colors: [UpperDesignator/UpperMajor/UpperMinor/TilteDesignator/TilteMajor/TilteMinor]"
+                    "\nLayer Naming Style and Colors: [1.UpperDesignator/2.UpperMajor/3.UpperMinor/5.TilteDesignator/6.TilteMajor/7.TilteMinor]"
                   )
                 )
       )
@@ -88,11 +88,11 @@
     )
     (progn 
       (initget 
-        "UpperDesignator UpperMajor UpperMinor UpperPhasing TilteDesignator TilteMajor TilteMinor TiltePhasing _UDD UMA UMI UPH TDD TMA TMI TPH"
+        "1.UpperDesignator 2.UpperMajor 3.UpperMinor 4.UpperPhasing 5.TilteDesignator 6.TilteMajor 7.TilteMinor 8.TiltePhasing _UpperDesignator UpperMajor UpperMinor UpperPhasing TilteDesignator TilteMajor TilteMinor TiltePhasing"
       )
       (setq _cp (getkword 
                   (strcat 
-                    "\nLayer Naming Style and Colors: [UpperDesignator/UpperMajor/UpperMinor/UpperPhasing/TilteDesignator/TilteMajor/TilteMinor/TiltePhasing]"
+                    "\nLayer Naming Style and Colors: [1.UpperDesignator/2.UpperMajor/3.UpperMinor/4.UpperPhasing/5.TilteDesignator/6.TilteMajor/7.TilteMinor/8.TiltePhasing]"
                   )
                 )
       )

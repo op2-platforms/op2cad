@@ -6,7 +6,7 @@ The **"Open Source CAD Softwares Optimization Platform"** is a fast development 
 
 It is mainly focused around Autodesk product line-up, but may be further expended to other softwares.
 
-It includs all the components required by the softwares to work properly OOTB and a full library and set of tools complementing the default software contents. Therefore, making it the perfect platform to build on for anyone starting up a new standard, feeling a bit tooless after few year out of the wood, or still working on an unenvolve 20 to 30 years old office standard... Don't worry, you're not alone! 
+It includs all the components required by the softwares to work properly OOTB and a full library and set of tools complementing the default software contents. Therefore, making it the perfect platform to build on for anyone starting up a new standard, feeling a bit tooless after few year out of the wood, or still working on an unenvolve 20 to 30 years old office standard... Don't worry, you're not alone!
 
 &nbsp;
 
@@ -32,9 +32,9 @@ There are many reason for that:
 
 1. Because when you get serious with some CAD software, your probably gonna want to customized it to fit your needs. Doing so often require to do some text editing of complicated database or even do some coding for the development of some customized tools; XML and LSP file to name a fiew. Those files are highly profiting from version controls for collaborative work and file back-up.
 2. Because Git is well integrated with many IDE like [Visual Studio Code](https://code.visualstudio.com/), getting your text edditing technic from Zero to Hero in a breeze.
-3. Because we are facing labour shortages all around the world... That we cannot afford working in silos anymore! Git make open source project easely deployable/maintainable for everyone.
+3. Because we are facing worldwide labour shortage and Git make Open Source project easely deployable/maintainable for everyone.
 
-Finaly, CAD content is only serving as support files and is delivered as a package to make the whole setup as quick and easy as it can be. 
+Finaly, CAD content is only serving as support files and is delivered as a package to make the whole setup as quick and easy as it can be.
 
 > Be aware! CAD files, images and other heavy files will be limited as much as possible to prevent having a to voluminous repository. This repository may be couple to another centralized platform for managing those heavier files in the futur.
 

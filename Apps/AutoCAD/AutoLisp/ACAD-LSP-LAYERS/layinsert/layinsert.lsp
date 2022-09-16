@@ -9,7 +9,6 @@
   ; _s4 = subfolder level 4
   ; _fn = file name
   ; _bn = block name
-  ; _ip = insert point
 
   (vl-load-com)
 
@@ -24,16 +23,15 @@
             )
   )
 
-  ; set insert directory from the Apps folder:
-  (setq _bfd (strcat _ad "\\AutoCAD\\AutoLisp\\ACAD-LSP-LAYERS\\layinsert\\Blocks\\-s1-\\-s2-\\-s3-\\-s4-\\-fn-"))
-
-  ; change directory path based on user choices and selected command:
-  (setq _s1 (vl-string-subst _dl "-s1-" _bfd))
-  (setq _s2 (vl-string-subst _pt "-s2-" _s1))
-  (setq _s3 (vl-string-subst _cp "-s3-" _s2))
-  (setq _s4 (vl-string-subst _dd "-s4-" _s3))
-  (setq _fn (vl-string-subst (strcat _lp ".dwg") "-fn-" _s4))
-  (setq _bn _lp)
+  ; setting blocks search path from the apps directory:
+  (setq _bfd (strcat _ad "\\AutoCAD\\AutoLisp\\ACAD-LSP-LAYERS\\layinsert\\AecLayers\\-s1-\\-s2-\\-s3-\\-s4-\\-fn-")
+        _s1  (vl-string-subst _dl "-s1-" _bfd)
+        _s2  (vl-string-subst _pt "-s2-" _s1)
+        _s3  (vl-string-subst _cp "-s3-" _s2)
+        _s4  (vl-string-subst _dd "-s4-" _s3)
+        _fn  (vl-string-subst (strcat _lp ".dwg") "-fn-" _s4)
+        _bn  (strcat "AecLayers_" _dl "_" _pt "_" _cp "_" _dd "_" _lp)
+  )
 
   ; main command:
   (command "-insertcontent" _fn _bn pause "1" "1" "0")

@@ -1,5 +1,4 @@
 (defun c:lf-1 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -8,7 +7,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -17,7 +15,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-3 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -26,7 +23,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-4 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -35,7 +31,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-5 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -44,7 +39,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-6 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -53,7 +47,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-7 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -62,7 +55,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-8 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -71,7 +63,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-9 (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -80,7 +71,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2p (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -89,7 +79,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2d (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -98,7 +87,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2c (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -107,7 +95,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2n (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -116,7 +103,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pn (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -125,7 +111,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pn-elev (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*ELEV*-1,*ELEV*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -134,7 +119,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pn-sect (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*SECT*-1,*SECT*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -143,7 +127,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pn-detl (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*DETL*-1,*DETL*-2"
         lyoff  "?D-*"
         lylock "None"
@@ -152,7 +135,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pd (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-1,?D-*-2"
         lyoff  "?D-*-1"
         lylock "None"
@@ -161,7 +143,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pd-elev (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-EXST,*-E,*-XNOT,*-X,*-DEMO,*-D,*-SAVE,*-S,*TEMP,*-T,*-MOVE,*-M"
         lyoff  "*SECT*,*DETL*"
         lylock "None"
@@ -170,7 +151,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pd-sect (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-EXST,*-E,*-XNOT,*-X,*-DEMO,*-D,*-SAVE,*-S,*TEMP,*-T,*-MOVE,*-M"
         lyoff  "*ELEV*,*DETL*"
         lylock "None"
@@ -179,7 +159,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pd-detl (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-EXST,*-E,*-XNOT,*-X,*-DEMO,*-D,*-SAVE,*-S,*TEMP,*-T,*-MOVE,*-M"
         lyoff  "*SECT*,*ELEV*"
         lylock "None"
@@ -188,7 +167,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pd-sect-lock (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-EXST,*-E,*-XNOT,*-X,*-DEMO,*-D,*-SAVE,*-S,*TEMP,*-T,*-MOVE,*-M"
         lyoff  "None"
         lylock "*ELEV*,*DETL*"
@@ -197,7 +175,6 @@
   (layfilter lyon1 lyoff lylock msg)
 )
 (defun c:lf-2pd-detl-lock (/ lyon1 lyoff lylock msg) 
-  (setvar "cmdecho" 0)
   (setq lyon1  "*-EXST,*-E,*-XNOT,*-X,*-DEMO,*-D,*-SAVE,*-S,*TEMP,*-T,*-MOVE,*-M"
         lyoff  "None"
         lylock "*SECT*,*ELEV"
