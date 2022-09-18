@@ -1,4 +1,4 @@
-; minor 1 data for laycreat application
+; minor 1 data for laymake application
 ;
 ; _m1a = minor 1 abreviation
 ; _m1d = minor 1 definition

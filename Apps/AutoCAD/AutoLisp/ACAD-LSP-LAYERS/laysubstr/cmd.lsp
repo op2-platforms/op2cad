@@ -157,7 +157,15 @@
 )
 
 
-(defun laysubstr (_lay /) 
-  (command "-layer" "off" _lay "f" _lay "")
-  (princ)
+(defun c:ls-0001 (/ _lay) 
+  (setq _lay "*-0001-*")
+  (laysubstr _lay)
+)
+(defun c:ls-0002 (/ _lay) 
+  (setq _lay "*-0002-*")
+  (laysubstr _lay)
+)
+(defun c:ls-0003 (/ _lay) 
+  (setq _lay "*-0003-*")
+  (laysubstr _lay)
 )

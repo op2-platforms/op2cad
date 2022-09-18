@@ -1,4 +1,4 @@
-(defun laycreat (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / _ln _ld _lc) 
+(defun laymake (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / _ln _ld _lc) 
   ; _ln = layer name
   ; _ld = layer description
   ; _lc = layer color
@@ -60,7 +60,7 @@
     (setq _lc "009")
   )
 
-  ;laycreat main command:
+  ;laymake main command:
   (if (not (tblsearch "LAYER" _ln)) 
     (progn 
       (command "-layer" 

@@ -80,11 +80,11 @@
   (if (= "BLK" _pt) 
     (progn 
       (initget 
-        "UpperDesignator UpperMajor UpperMinor TilteDesignator TilteMajor TilteMinor _UDD UMA UMI TDD TMA TMI"
+        "1.UpperDesignator 2.UpperMajor 3.UpperMinor 5.TilteDesignator 6.TilteMajor 7.TilteMinor _UDD UMA UMI TDD TMA TMI"
       )
       (setq _cp (getkword 
                   (strcat 
-                    "\nLayer Naming Style and Colors: [UpperDesignator/UpperMajor/UpperMinor/TilteDesignator/TilteMajor/TilteMinor]"
+                    "\nLayer Naming Style and Colors: [1.UpperDesignator/2.UpperMajor/3.UpperMinor/5.TilteDesignator/6.TilteMajor/7.TilteMinor]"
                   )
                 )
       )
@@ -94,11 +94,11 @@
     ; color options for phased layers:
     (progn 
       (initget 
-        "UpperDesignator UpperMajor UpperMinor UpperPhasing TilteDesignator TilteMajor TilteMinor TiltePhasing _UDD UMA UMI UPH TDD TMA TMI TPH"
+        "1.UpperDesignator 2.UpperMajor 3.UpperMinor 4.UpperPhasing 5.TilteDesignator 6.TilteMajor 7.TilteMinor 8.TiltePhasing _UDD UMA UMI UPH TDD TMA TMI TPH"
       )
       (setq _cp (getkword 
                   (strcat 
-                    "\nLayer Naming Style and Colors: [UpperDesignator/UpperMajor/UpperMinor/UpperPhasing/TilteDesignator/TilteMajor/TilteMinor/TiltePhasing]"
+                    "\nLayer Naming Style and Colors: [1.UpperDesignator/2.UpperMajor/3.UpperMinor/4.UpperPhasing/5.TilteDesignator/6.TilteMajor/7.TilteMinor/8.TiltePhasing]"
                   )
                 )
       )
