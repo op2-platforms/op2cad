@@ -1,49 +1,42 @@
 ;List of transfer variables base on function command used
 ;
-(defun search-dd (alpha omega / alphastr omegastr searchint) 
-  (setq alphastr  (strcat alpha "-*")
-        omegastr  (strcat omega "-*")
-        searchint 1
+(defun search-dd (alpha omega / awc owc) 
+  (setq awc (strcat alpha "-*")
+        owc (strcat omega "-*")
   )
-  (laytranf alpha omega alphastr omegastr searchint)
+  (laytranf alpha omega awc owc)
 )
 
-(defun search-ma (alpha omega / alphastr omegastr searchint) 
-  (setq alphastr  (strcat "?-" alpha "-*")
-        omegastr  (strcat "?-" omega "-*")
-        searchint 1
+(defun search-ma (alpha omega / awc owc) 
+  (setq awc (strcat "?-" alpha "-*")
+        owc (strcat "?-" omega "-*")
   )
-  (laytranf alpha omega alphastr omegastr searchint)
+  (laytranf alpha omega awc owc)
 )
 
-(defun search-ph (alpha omega / alphastr omegastr searchint) 
-  (setq alphastr  (strcat "*-" alpha)
-        omegastr  (strcat "*-" omega)
-        searchint 7
+(defun search-ph (alpha omega / awc owc) 
+  (setq awc (strcat "*-" alpha)
+        owc (strcat "*-" omega)
   )
-  (laytranf alpha omega alphastr omegastr searchint)
+  (laytranf alpha omega awc owc)
 )
 
-(defun search-m1 (alpha omega / alphastr omegastr searchint) 
-  (setq alphastr  (strcat "?-????-" alpha "-*")
-        omegastr  (strcat "?-????-" omega "-*")
-        searchint 1
+(defun search-m1 (alpha omega / awc owc) 
+  (setq awc (strcat "?-????-" alpha "-*")
+        owc (strcat "?-????-" omega "-*")
   )
-  (laytranf alpha omega alphastr omegastr searchint)
+  (laytranf alpha omega awc owc)
 )
 
-(defun search-m2 (alpha omega / alphastr omegastr searchint) 
-  (setq alphastr  (strcat "?-????-????-" alpha "-*")
-        omegastr  (strcat "?-????-????-" omega "-*")
-        searchint 1
+(defun search-m2 (alpha omega / awc owc) 
+  (setq awc (strcat "?-????-????-" alpha "-*")
+        owc (strcat "?-????-????-" omega "-*")
   )
-  (laytranf alpha omega alphastr omegastr searchint)
+  (laytranf alpha omega awc owc)
 )
 
 
-(defun laytranf (alpha omega alphastr omegastr searchint / olderr doc sel_set lay_list no_layer 
-                 lk_layer dest_lay
-                ) 
+(defun laytranf (alpha omega awc owc / olderr doc sel_set lay_list no_layer lk_layer dest_lay) 
   (setq olderr *error*)
   (defun *error* (errmes) 
     (princ 
@@ -58,7 +51,7 @@
     (prin1)
   )
   (vl-load-com)
-  (if (ssget (list (cons 8 alphastr))) 
+  (if (ssget (list (cons 8 awc))) 
     (progn 
       ;;(princ "\nObjets selectionnés")
       (setq doc (vla-get-activedocument (vlax-get-acad-object)))
@@ -99,7 +92,6 @@
                 (setq dest_lay (vl-string-subst omega 
                                                 alpha
                                                 (vla-get-layer obj)
-                                                searchint
                                )
                 )
                 (vla-put-layer obj dest_lay)
