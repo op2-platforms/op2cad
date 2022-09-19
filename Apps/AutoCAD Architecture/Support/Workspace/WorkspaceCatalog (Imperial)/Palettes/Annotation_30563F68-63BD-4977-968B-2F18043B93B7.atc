@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{30563F68-63BD-4977-968B-2F18043B93B7}" />
+    <Properties>
+        <ItemName>Annotation</ItemName>
+        <Images option="0" />
+        <Description>This palette contains basic annotation tools.</Description>
+        <Time createdUniversalDateTime="2002-11-06T22:33:10" modifiedUniversalDateTime="2007-08-28T12:05:47" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{208DA7DA-AE28-4A47-817E-2EE99055F807}" />
+            <Properties>
+                <ItemName>Text Tool</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail KeyNote_208DA7DA_AE28_4A47_817E_2EE99055F807.png" />
+                </Images>
+                <Description>Creates a multiple-line text object.</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2003-12-10T14:46:03" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}" />
+            <Data>
+                <AecDbMLeaderKeyNoteObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride />
+                    <LeaderType>0</LeaderType>
+                    <ContentType>0</ContentType>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Symbol />
+                    <MaskMText>1</MaskMText>
+                </AecDbMLeaderKeyNoteObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{EEEA7977-A8EC-47C9-BF9A-C2172C2F03B9}" />
+            <Properties>
+                <ItemName>Text (Straight Leader)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC MultiLeader Annotation Tool_1E986FE7-FFB1-4B3D-B7E6-2ADFCDDAB6B2.png" />
+                </Images>
+                <Description>Text with Straight Leader</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-08-27T16:17:26" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}" />
+            <Data>
+                <AecDbMLeaderKeyNoteObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride>
+                    </LayerKeyOverride>
+                    <ContentType>0</ContentType>
+                    <DefaultText>
+                    </DefaultText>
+                    <LeaderStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">Text (Straight Leader)</LeaderStyle>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Symbol>_ArchTick</Symbol>
+                    <MaskMText>1</MaskMText>
+                    <CreateFirst>0</CreateFirst>
+                </AecDbMLeaderKeyNoteObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9D00F07B-7FA8-4013-952B-EB6EE2164D9F}" />
+            <Properties>
+                <ItemName>Square (Straight Leader)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC MultiLeader Annotation Tool_D837B54D-E83E-43D8-807A-3F83E202A099.png" />
+                </Images>
+                <Description>Square Symbol with Straight Leader</Description>
+                <Time createdUniversalDateTime="2003-12-09T17:05:09" modifiedUniversalDateTime="2007-08-28T12:05:57" refreshedUniversalDateTime="2003-12-09T17:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}" />
+            <Data>
+                <AecDbMLeaderKeyNoteObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride>
+                    </LayerKeyOverride>
+                    <ContentType>1</ContentType>
+                    <LeaderStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">Block (Straight Leader)</LeaderStyle>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Symbol ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">Anno_Square_na</Symbol>
+                    <MaskMText>1</MaskMText>
+                    <CreateFirst>0</CreateFirst>
+                </AecDbMLeaderKeyNoteObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E1656F31-9C62-4258-A575-9B8A610B5621}" />
+            <Properties>
+                <ItemName>Reference Keynote (Straight Leader)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC MultiLeader Annotation Tool_DE667B7F-5D5D-4BF7-AAA6-558BC9275633.png" />
+                </Images>
+                <Description>Reference Keynote (Key: Note) w/ Straight Leader</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-08-28T12:04:21" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}" />
+            <Data>
+                <AecDbMLeaderKeyNoteObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride>
+                    </LayerKeyOverride>
+                    <ContentType>0</ContentType>
+                    <DefaultText>%&lt;\AecKn "?RefKeyNote" "1" \f "%tc1"&gt;%</DefaultText>
+                    <LeaderStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">Text (Straight Leader)</LeaderStyle>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Symbol>_ArchTick</Symbol>
+                    <MaskMText>1</MaskMText>
+                    <CreateFirst>0</CreateFirst>
+                </AecDbMLeaderKeyNoteObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5A22EC7B-75CA-4B23-A3DB-0FEEB11B6E4C}" />
+            <Properties>
+                <ItemName>Reference Keynote</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC MultiLeader Annotation Tool_35CBB152-7727-4082-A536-CEA774D0A37D.png" />
+                </Images>
+                <Description>Reference Keynote (Key: Note) w/ No Leader</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-08-27T14:28:20" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}" />
+            <Data>
+                <AecDbMLeaderKeyNoteObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride>
+                    </LayerKeyOverride>
+                    <LeaderType>0</LeaderType>
+                    <ContentType>0</ContentType>
+                    <DefaultText>%&lt;\AecKn "?RefKeyNote" "1" \f "%tc1"&gt;%</DefaultText>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <MaskMText>1</MaskMText>
+                    <CreateFirst>0</CreateFirst>
+                </AecDbMLeaderKeyNoteObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F07661BD-6676-4515-8EB4-220ECCE1DE11}" />
+            <Properties>
+                <ItemName>Reference Keynote Legend</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Key Note Legend_F07661BD-6676-4515-8EB4-220ECCE1DE11.png" />
+                </Images>
+                <Description>Creates a reference keynote legend.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_USEKEYNOTELEGENDS</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2003-12-11T11:46:37" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{684AA5C7-73F1-48D4-9797-3BC05C3A5E14}" />
+            <Data>
+                <AecDbKeyNoteLegendObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride />
+                    <TableStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Table Styles (Imperial).dwg">Reference Keynote Legend</TableStyle>
+                    <LegendType>0</LegendType>
+                    <DisplaySymbolForKey>1</DisplaySymbolForKey>
+                    <TableTitle>REFERENCE KEYNOTES</TableTitle>
+                    <GroupingLevel>2</GroupingLevel>
+                    <BlankRows>1</BlankRows>
+                    <DataDelimiter><![CDATA[ - ]]></DataDelimiter>
+                    <GroupDelimiter><![CDATA[ - ]]></GroupDelimiter>
+                    <NumberOfRows>2</NumberOfRows>
+                    <NumberOfColumns>3</NumberOfColumns>
+                </AecDbKeyNoteLegendObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1BD8CCA3-8316-4DC5-8E20-AB90E6F39A4E}" />
+            <Properties>
+                <ItemName>Sheet Keynote (Straight Leader)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC MultiLeader Annotation Tool_95866121-86DA-4F7D-93A1-C94C2DB7E841.png" />
+                </Images>
+                <Description>Sheet Keynote (Straight Leader)</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-08-28T12:02:37" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName>
+                </ParentDocument>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}" />
+            <Data>
+                <AecDbMLeaderKeyNoteObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride>
+                    </LayerKeyOverride>
+                    <ContentType>1</ContentType>
+                    <DefaultText>%&lt;\AecKn "?SheetKeyNote" "1" \f "%tc1"&gt;%</DefaultText>
+                    <LeaderStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">Block (Straight Leader)</LeaderStyle>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Symbol ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">SheetKey_Hexagon_na</Symbol>
+                    <MaskMText>1</MaskMText>
+                    <CreateFirst>0</CreateFirst>
+                </AecDbMLeaderKeyNoteObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{201B4EB4-AD1D-4D41-BED3-6430B1C44B24}" />
+            <Properties>
+                <ItemName>Sheet Keynote Legend</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Key Note Legend_201B4EB4-AD1D-4D41-BED3-6430B1C44B24.png" />
+                </Images>
+                <Description>Creates a sheet keynote legend.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_USEKEYNOTELEGENDS</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2004-01-08T19:59:16" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{684AA5C7-73F1-48D4-9797-3BC05C3A5E14}" />
+            <Data>
+                <AecDbKeyNoteLegendObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <LayerKeyOverride />
+                    <TableStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Table Styles (Imperial).dwg">Sheet Keynote Legend</TableStyle>
+                    <LegendType>1</LegendType>
+                    <DisplaySymbolForKey>0</DisplaySymbolForKey>
+                    <TableTitle>SHEET KEYNOTES</TableTitle>
+                    <GroupingLevel>0</GroupingLevel>
+                    <BlankRows>0</BlankRows>
+                    <GroupDelimiter><![CDATA[ - ]]></GroupDelimiter>
+                    <NumberOfRows>2</NumberOfRows>
+                    <NumberOfColumns>3</NumberOfColumns>
+                </AecDbKeyNoteLegendObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{15B9E115-FDD4-4689-AF0D-89DEA4EAB5B2}" />
+            <Properties>
+                <ItemName>Plan Elevation Label (1)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContentTool_11.png" />
+                </Images>
+                <Description>Elevation Label (Type 1) to annotate floor plans</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2002-07-28T23:13:33" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Documentation\Elevation Labels\Plan\Plan Elevation Label (1).dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{EEB27B87-7F09-4867-B3EC-74BB72B3911F}" />
+            <Properties>
+                <ItemName>North Arrow</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\NorthArrowA.png" />
+                </Images>
+                <Description>Creates a north arrow symbol.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>North_Arrow</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2007-03-28T23:13:33" modifiedUniversalDateTime="2007-03-29T07:41:18" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{8FAA2E40-66FE-45BF-A3CB-4F5A58D482E4}" />
+            <Data>
+                <AecDbSymbolObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <Symbol>Anno_North_A</Symbol>
+                    <SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+                </AecDbSymbolObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5355BDD1-3A27-4134-AC8A-DD7204FD8D24}" />
+            <Properties>
+                <ItemName>Datum Point</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" src=".\Images\Datum Point.png" />
+                </Images>
+                <Description>Creates a datum point symbol.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>Datum_Point</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2007-03-28T23:13:33" modifiedUniversalDateTime="2007-03-29T07:41:38" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{8FAA2E40-66FE-45BF-A3CB-4F5A58D482E4}" />
+            <Data>
+                <AecDbSymbolObject>
+                    <LayerKey>ANNSYMOBJ</LayerKey>
+                    <Symbol>Anno_Datum</Symbol>
+                    <SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+                    <AttrTextStyle>0</AttrTextStyle>
+                    <AttrTextAngle>2</AttrTextAngle>
+                </AecDbSymbolObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{2E33D8DA-C3EF-42FB-A31C-A981E53FA524}" />
+            <Properties>
+                <ItemName>Match Line</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\MatchLine.png" />
+                </Images>
+                <Description>Creates a match line symbol.</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-03-29T07:42:05" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}" />
+            <Data>
+                <AecDbMatchLineObject>
+                    <LayerKey>ANNOBJ</LayerKey>
+                    <Symbol>Anno_Match_Line</Symbol>
+                    <LineWidth>0.0625</LineWidth>
+                    <Linetype>Aec_Match_Line</Linetype>
+                    <SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+                </AecDbMatchLineObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D665AD0B-93CA-46C8-8293-3A1D603F974E}" />
+            <Properties>
+                <ItemName>Bar Scale</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\BarScale.png" />
+                </Images>
+                <Description>Creates a bar scale symbol.</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-03-29T07:42:22" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{67267FD7-23D8-4F4E-83C5-B41AD4D4116E}" />
+            <Data>
+                <AecDbBarScaleObject>
+                    <LayerKey>TITTEXT</LayerKey>
+                    <Symbol>Anno_Bar_Scale_I</Symbol>
+                    <SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+                </AecDbBarScaleObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4415166B-5358-45ED-863E-21BB4B206B95}" />
+            <Properties>
+                <ItemName>Fire Rating Line</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\FireRatingLine.png" />
+                </Images>
+                <Description>Creates a fire rating line.</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2003-12-10T14:46:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{9B398AED-2AC9-4482-AD6B-C12A7D23EB3B}" />
+            <Data>
+                <AecDbFireRatingLineObject>
+                    <LayerKey>WALLFIRE</LayerKey>
+                    <LayerKeyOverride />
+                    <LineWidth>6</LineWidth>
+                    <Linetype>Aec_Rating_4Hr</Linetype>
+                </AecDbFireRatingLineObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{09F841EB-DEB4-41C8-909D-FDB82725B79F}" />
+            <Properties>
+                <ItemName>Revision Cloud &amp; Tag</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\RevisionCloud.png" />
+                </Images>
+                <Description>Creates a revision cloud and tag.</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-03-29T07:44:15" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{95F81488-066B-4245-B1B4-A7167F715433}" />
+            <Data>
+                <AecDbRevisionCloudObject>
+                    <LayerKey>ANNREV</LayerKey>
+                    <Symbol>Anno_Revision_A</Symbol>
+                    <SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+                    <ArcLength>1.0</ArcLength>
+                    <LineWidth>0.03125</LineWidth>
+                </AecDbRevisionCloudObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9586B9A5-7E52-4CD1-9F50-E7D9775EE4C6}" />
+            <Properties>
+                <ItemName>Column Bubble</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\ColumnBubble.png" />
+                </Images>
+                <Description>Creates a column bubble symbol.</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2007-03-29T07:43:36" />
+            </Properties>
+            <CustomData>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{9DF145E6-B75A-4B4D-827B-860BC99A0666}" />
+            <Data>
+                <AecDbColumnBubbleObject>
+                    <LayerKey>GRIDBUB</LayerKey>
+                    <Symbol>StandardGridBubble</Symbol>
+                    <SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+                    <ExtensionDist>48</ExtensionDist>
+                    <Label>A1</Label>
+                    <ApplyToBoth>1</ApplyToBoth>
+                </AecDbColumnBubbleObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A3D12328-F443-44F4-97F2-B3AAACB2A377}" />
+            <Properties>
+                <ItemName>Cut Line (1)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContentTool_16.png" />
+                </Images>
+                <Description>Straight Cut Line (Single "Z")</Description>
+                <Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T12:13:03" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{DE792013-CEF5-46F0-8AD3-549CAF1B27BE}" />
+            <Data>
+                <AecDbBreakMarkObject>
+                    <LayerKey>ANNSYMOBJ</LayerKey>
+                    <Symbol ref="%AECCONTENT_DIR%\Styles\Imperial\Break Marks (Imperial).dwg">Aec6_Anno_Break_Single</Symbol>
+                    <SymbolBehavior>1</SymbolBehavior>
+                    <PolygonStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Break Marks (Imperial).dwg">Masking Polygon</PolygonStyle>
+                    <BreakLineBehavior>0</BreakLineBehavior>
+                    <Type>0</Type>
+                </AecDbBreakMarkObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF5-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Annotation Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_AnnotationTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more annotation tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {19ADF9AC-AD56-4A22-A89A-3A95EA211D9F}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

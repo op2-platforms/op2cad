@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{EBE458AC-9F9E-44F5-A22A-57A6C5B2BEB9}" />
+    <Properties>
+        <ItemName>Windows</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of customized window tools.  They refer to styles located in the central library of window styles in your AutoCAD Architecture Metric styles folder.</Description>
+        <Time createdUniversalDateTime="2002-12-27T15:33:09" modifiedUniversalDateTime="2005-01-09T13:42:03" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{CDCC0EEF-3060-4569-94DC-36D914172CCA}" />
+            <Properties>
+                <ItemName>Awning</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_8534F9FC-2593-40E9-8C1C-8AEED66739BD.png" />
+                </Images>
+                <Description>Single Awning</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:30:18" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Awning</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D6337264-861C-419A-A36B-3B442FDAD192}" />
+            <Properties>
+                <ItemName>Casement</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_10FBDC97-3C63-41BE-88AF-2283A6977D39.png" />
+                </Images>
+                <Description>Single Casement</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:32:33" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Casement</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DA4B4A9D-A470-4EB8-A612-F6F4B6A64D88}" />
+            <Properties>
+                <ItemName>Casement - Double</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_0FBCB14B-1C88-4C1E-B2B3-8FA0EACED992.png" />
+                </Images>
+                <Description>Double Casement</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:33:13" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Casement - Double</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{276CC175-E876-41FD-83ED-D2B433CDE285}" />
+            <Properties>
+                <ItemName>Double Hung</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_0DA21B08-6BE6-44B5-B323-A1B9D7D9BE9D.png" />
+                </Images>
+                <Description>Double Hung</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:34:23" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Double Hung</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{878B0F98-E980-40B3-9321-B1C763FA72BD}" />
+            <Properties>
+                <ItemName>Glider</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_704D17F2-AF83-4F65-8477-AEEFE25CA3A7.png" />
+                </Images>
+                <Description>Gilder</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:34:57" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Glider</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9B57E4E0-4A3B-497B-867C-0A27B9D68786}" />
+            <Properties>
+                <ItemName>Hopper</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_D6105009-9A9C-4625-ABF3-D259D007EE9F.png" />
+                </Images>
+                <Description>Single Hopper</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:37:51" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Hopper</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{67060962-D70E-476C-9D3C-D786B7FFB5FA}" />
+            <Properties>
+                <ItemName>Pass Through</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_22EADA77-77B2-43F1-8133-4F99D2F6C094.png" />
+                </Images>
+                <Description>Rectangular Pass Through</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:38:01" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Pass Through</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B20299F4-56D1-4AF0-B872-C0F15855623E}" />
+            <Properties>
+                <ItemName>Picture</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_09A429D5-752D-4390-A653-9CAD93B3C11C.png" />
+                </Images>
+                <Description>Rectangular Picture</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:37:26" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Picture</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6F312235-C6AF-4FE3-B0D8-B0F78EE137F0}" />
+            <Properties>
+                <ItemName>Picture - Arched</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_262C5B56-F716-4FA8-B002-1D5DAE4EBA0B.png" />
+                </Images>
+                <Description>Arched Picture</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:38:25" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Picture - Arched</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7B1C5F53-E5BC-426F-A915-FCBC889AF059}" />
+            <Properties>
+                <ItemName>Pivot - Horizontal</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Window_87038EBA-747A-4CCD-AE8F-68F4A59AEDA3.png" />
+                </Images>
+                <Description>Horizontal Pivot</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:39:01" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>125</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbWindow>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Pivot - Horizontal</Style>
+                </AecDbWindow>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569C01-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Window Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_WindowTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more window tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>mm</Units>
+                <CommandString>^C^C_AecContentCatalog {D1EC1A0F-E4DD-4D87-80A1-C43AE2919D38}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{E0797A43-55EF-4910-9214-EBE2CB16F07D}" />
+    <Properties>
+        <ItemName>Basic</ItemName>
+        <Images option="0" />
+        <Description>This palette contains basic detail component tools covering all top level groups in the default detail component database.</Description>
+        <Time createdUniversalDateTime="2003-12-10T18:00:56" modifiedUniversalDateTime="2004-02-18T19:32:28" refreshedUniversalDateTime="2003-12-10T18:00:56" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C8CEA970-FFB6-4260-8283-CC185CFAB81A}" />
+            <Properties>
+                <ItemName>D - Groundwork</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_AB807D9D-E44D-45C4-A400-BDAC2042B46C.png" />
+                </Images>
+                <Description>Division D - Groundwork</Description>
+                <Time createdUniversalDateTime="2004-02-18T23:33:53" modifiedUniversalDateTime="2004-02-18T20:32:51" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>32</TableID>
+                        <RowID>4</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8DC8903F-594B-4627-AF93-2D8084C73BEC}" />
+            <Properties>
+                <ItemName>E - In Situ Concrete/Large Precast Concrete</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_9AA07C0A-DD76-4243-9B7B-6CF06ECA90FF.png" />
+                </Images>
+                <Description>Division E - In Situ Concrete/Large Precast Concrete</Description>
+                <Time createdUniversalDateTime="2004-02-18T23:34:32" modifiedUniversalDateTime="2004-02-18T18:46:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>plan</Recipe>
+                        <TableID>215</TableID>
+                        <RowID>6</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>useCustomSize</name>
+                        <type>3</type>
+                        <value>0</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>customWidth</name>
+                        <type>1</type>
+                        <value>350</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>customDepth</name>
+                        <type>1</type>
+                        <value>350</value>
+                    </Tag3>
+                    <Tag4>
+                        <name>doChamfer</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag4>
+                    <Tag5>
+                        <name>chamfer</name>
+                        <type>1</type>
+                        <value>10</value>
+                    </Tag5>
+                    <Tag6>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag6>
+                    <Tag7>
+                        <name>doReinforcing</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag7>
+                    <Count>7</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E52FA881-7561-4972-BADD-30AC4D79E360}" />
+            <Properties>
+                <ItemName>F- Masonry</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_675416E4-B626-4172-A04D-38C8C9C9893D.png" />
+                </Images>
+                <Description>Division F- Masonry</Description>
+                <Time createdUniversalDateTime="2004-02-18T23:34:47" modifiedUniversalDateTime="2004-02-18T18:47:55" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>41</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>orientation</name>
+                        <type>2</type>
+                        <value>stretcher</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>showMortar</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Tag4>
+                        <name>orientation_illustration</name>
+                        <type>2</type>
+                        <value>default</value>
+                    </Tag4>
+                    <Count>4</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{22B9E7F4-1BE5-44D0-998E-7D2BFEAE7C76}" />
+            <Properties>
+                <ItemName>G - Structural/Carcassing Metal/Timber</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_E4FD6A3D-141D-4575-8130-C04128427296.png" />
+                </Images>
+                <Description>Division G - Structural/Carcassing Metal/Timber</Description>
+                <Time createdUniversalDateTime="2004-02-18T23:35:04" modifiedUniversalDateTime="2004-02-18T18:48:42" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>291</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>insertMode</name>
+                        <type>2</type>
+                        <value>top</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{60C206F3-AC7F-4725-9567-B64F0E5933A8}" />
+            <Properties>
+                <ItemName>H - Cladding/Covering</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_EA32A202-1571-4552-800B-FDE5D11667BE.png" />
+                </Images>
+                <Description>Division H - Cladding/Covering</Description>
+                <Time createdUniversalDateTime="2004-02-18T23:50:21" modifiedUniversalDateTime="2004-02-18T18:50:48" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>255</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F395E358-67E1-4144-A098-D505EE09D7BB}" />
+            <Properties>
+                <ItemName>J - Waterproofing</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_4C1D5080-8128-46F6-8BC0-50B804F6EC09.png" />
+                </Images>
+                <Description>Division J - Waterproofing</Description>
+                <Time createdUniversalDateTime="2004-02-18T23:59:33" modifiedUniversalDateTime="2004-02-18T18:59:55" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>156</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C28CFFB2-DA4D-4693-8203-BCD52AE4ADBD}" />
+            <Properties>
+                <ItemName>K - Linings/Sheathing/Dry Partitioning</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_7D1C4D5B-90DC-4B4B-BA4B-1D9C92355295.png" />
+                </Images>
+                <Description>Division K - Linings/Sheathing/Dry Partitioning</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:23:46" modifiedUniversalDateTime="2004-02-18T19:24:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>142</TableID>
+                        <RowID>4</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doPaper</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4C38FF0E-23C9-4B2E-8E55-25509FEADF69}" />
+            <Properties>
+                <ItemName>L - Windows/Doors/Stairs</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_2789EEB3-7E0A-43CA-95AE-94205BD8D92D.png" />
+                </Images>
+                <Description>Division L - Windows/Doors/Stairs</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:24:54" modifiedUniversalDateTime="2004-02-18T19:25:19" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>27</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{56E4FB5C-A10E-4735-874F-44E3AEE2D8D6}" />
+            <Properties>
+                <ItemName>M - Surface Finishes</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_2A236146-D18E-4A00-8A9E-642319F1FEDC.png" />
+                </Images>
+                <Description>Division M - Surface Finishes</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:26:43" modifiedUniversalDateTime="2004-02-18T19:27:03" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>55</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{87528F18-DD13-4A5F-9173-15A35B3392C0}" />
+            <Properties>
+                <ItemName>P - Building Fabric Sundries</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_A7134C65-8751-4DE0-A1DE-7D2404C6FC9C.png" />
+                </Images>
+                <Description>Division P - Building Fabric Sundries</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:27:45" modifiedUniversalDateTime="2004-02-18T19:28:40" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>34</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>density</name>
+                        <type>2</type>
+                        <value>normal</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{776220A4-0E64-45A5-ACD0-BB114B41ABA9}" />
+            <Properties>
+                <ItemName>Q - Paving/Planting/Fencing/Site Furniture</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_C24C5644-30A2-41D2-A6FC-ADB86EDABA4E.png" />
+                </Images>
+                <Description>Division Q - Paving/Planting/Fencing/Site Furniture</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:29:27" modifiedUniversalDateTime="2004-02-18T19:29:59" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>254</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>coarseOutline</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8B1D87B3-5F58-43BD-A872-AC98EA23D82B}" />
+            <Properties>
+                <ItemName>R - Disposal Systems</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_08AA9270-29D2-4FA5-96F2-ADD62AD93B95.png" />
+                </Images>
+                <Description>Division R - Disposal Systems</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:30:19" modifiedUniversalDateTime="2004-02-18T19:30:52" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>124</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4BD68B27-EAD1-429B-9ACE-CC7914829DAC}" />
+            <Properties>
+                <ItemName>Special Construction</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_549923FF-F129-4913-84F9-338D524A605D.png" />
+                </Images>
+                <Description>Special Construction</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:31:16" modifiedUniversalDateTime="2004-02-18T19:31:36" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>174</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7D11F50F-15CB-4BB7-8B59-4F069DF27A2E}" />
+            <Properties>
+                <ItemName>V - Electrical Supply/Power/Lighting Systems</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_EE1FB195-A462-46C9-93E2-449A33C1EBB2.png" />
+                </Images>
+                <Description>Division V - Electrical Supply/Power/Lighting Systems</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:32:10" modifiedUniversalDateTime="2004-02-18T19:33:03" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>155</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{864F5A0B-DCDE-48F0-B798-A19D807D5607}" />
+            <Properties>
+                <ItemName>X - Transport Systems</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_2975EFEB-8CD9-4CF7-B5A2-F750D6300FE0.png" />
+                </Images>
+                <Description>Division X - Transport Systems</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:32:27" modifiedUniversalDateTime="2004-02-18T19:33:21" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>117</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{527CACC2-F8D3-47F8-B087-8BBC25A1846A}" />
+            <Properties>
+                <ItemName>Welding Symbols</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command_B437E6B5-B7FA-49F3-859D-85EDD0FC5A28.png" />
+                </Images>
+                <Description>Creates welding symbols</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_DESIGNCENTER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-08-25T14:30:35" modifiedUniversalDateTime="2003-10-28T14:03:59" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>mm</Units>
+                <CommandString>^C^CAecDetailsWelding</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{CB5C8199-DF30-4DDC-BA12-8913AFDAB8DD}" />
+            <Properties>
+                <ItemName>Shrink Wrap</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Content_2B9C85B3-5D26-4385-8620-920A8B8D8D9E.png" />
+                </Images>
+                <Description>Creates a polyline shrinkwrap around a selection of objects</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_DESIGNCENTER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-11-01T05:00:18" modifiedUniversalDateTime="2003-12-10T15:12:38" />
+            </Properties>
+            <CustomData>
+                <Units>mm</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <AecDbCommandObject>
+                    <LayerKey>WIDE</LayerKey>
+                    <CommandString>_AecLineworkShrinkWrap</CommandString>
+                </AecDbCommandObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{92E83BB2-AC3B-4CD1-8A2F-F70F4D23141F}" />
+    <Properties>
+        <ItemName>Tags</ItemName>
+        <Images option="0" />
+        <Description>This palette contains tag tools. Objects can be tagged transparently through xrefs.</Description>
+        <Time createdUniversalDateTime="2006-12-22T15:33:04" modifiedUniversalDateTime="2006-12-22T14:27:46" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5A9FB696-D23F-4750-9CF9-D5835087B625}" />
+            <Properties>
+                <ItemName>Door Tag</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Tag_15041FA3-D15D-460D-87C4-9369D03E6782.png" />
+                </Images>
+                <Description>Door Tag</Description>
+                <Time createdUniversalDateTime="2004-08-24T00:47:27" modifiedUniversalDateTime="2004-08-24T00:47:27" refreshedUniversalDateTime="2004-08-24T00:47:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>DOORNO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec6_Door_Tag</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>0</LeaderType>
+                    <AttTextStyle>1</AttTextStyle>
+                    <AttTextAngle>2</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{71022757-7000-4A99-A824-CF423D3FD90C}" />
+            <Properties>
+                <ItemName>Door Tag - Project Based</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Tag_913592F8-5711-42CE-8D9C-A5F4E3510360.png" />
+                </Images>
+                <Description>Project-Based Door tag with room number indicator</Description>
+                <Time createdUniversalDateTime="2004-08-24T00:47:27" modifiedUniversalDateTime="2004-08-24T00:47:27" refreshedUniversalDateTime="2004-08-24T00:47:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>DOORNO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec6_Door_Tag_Project</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>0</LeaderType>
+                    <AttTextStyle>1</AttTextStyle>
+                    <AttTextAngle>2</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{24F537FB-8897-427C-8905-1BFD622F139A}" />
+            <Properties>
+                <ItemName>Window Tag</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Tag_F7DD36A0-71C2-4270-B104-A60754F9B78D.png" />
+                </Images>
+                <Description>Window Tag</Description>
+                <Time createdUniversalDateTime="2004-08-24T00:47:27" modifiedUniversalDateTime="2004-08-24T00:47:27" refreshedUniversalDateTime="2004-08-24T00:47:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>WINDNO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec6_Window_Tag</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>0</LeaderType>
+                    <AttTextStyle>1</AttTextStyle>
+                    <AttTextAngle>2</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BBF4F4DB-E809-41E7-8EB1-A2B1E35F36AE}" />
+            <Properties>
+                <ItemName>Room Tag</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Tag_A7C92EEE-9AA8-44B1-8ED1-723C2AAF316B.png" />
+                </Images>
+                <Description>Room Tag (w/ Name &amp; Number)</Description>
+                <Time createdUniversalDateTime="2004-08-24T00:48:27" modifiedUniversalDateTime="2004-08-24T00:48:27" refreshedUniversalDateTime="2004-08-24T00:48:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>SPACENO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec8_Room_Tag</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>0</LeaderType>
+                    <AttTextStyle>1</AttTextStyle>
+                    <AttTextAngle>2</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{07FB0148-411D-4308-9479-79D424FD5E44}" />
+            <Properties>
+                <ItemName>Room Tag - Project Based</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Tag_2217D2DD-2D9D-4CF0-93FD-643BFF47A500.png" />
+                </Images>
+                <Description>Project-Based Room Tag (w/ Name &amp; Number)</Description>
+                <Time createdUniversalDateTime="2004-08-24T00:48:27" modifiedUniversalDateTime="2004-08-24T00:48:27" refreshedUniversalDateTime="2004-08-24T00:48:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>SPACENO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec8_Room_Tag_Project</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>0</LeaderType>
+                    <AttTextStyle>1</AttTextStyle>
+                    <AttTextAngle>2</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7DAA1A73-C407-4E14-84EA-7896BDFA02DB}" />
+            <Properties>
+                <ItemName>Room Tag BOMA</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Tag_45A2612F-71C6-4AB3-B211-078885678D11.png" />
+                </Images>
+                <Description>Room tag for BOMA area calculations, shows net usable and net rentable areas</Description>
+                <Time createdUniversalDateTime="2006-01-27T09:50:44" modifiedUniversalDateTime="2006-01-27T09:50:44" refreshedUniversalDateTime="2006-01-27T09:50:44" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>SPACENO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec8_BOMA_Area_Tag</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>0</LeaderType>
+                    <AttTextStyle>0</AttTextStyle>
+                    <AttTextAngle>0</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{59560998-D1DD-41CC-A4C4-6CCFEA4B035C}" />
+            <Properties>
+                <ItemName>Wall Tag (Leader)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\C8086383-DC86-4C60-96AC-7C3532DDF574.png" />
+                </Images>
+                <Description>Wall Tag w/ Leader</Description>
+                <Time createdUniversalDateTime="2004-08-24T00:48:41" modifiedUniversalDateTime="2004-08-24T00:48:41" refreshedUniversalDateTime="2004-08-24T00:48:41" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}" />
+            <Data>
+                <AecDbScheduleTagObject>
+                    <Type>0</Type>
+                    <PropertyData />
+                    <PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg</PropertyDataLocation>
+                    <Tag>
+                        <LayerKey>WALLNO</LayerKey>
+                    </Tag>
+                    <TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec6_Wall_Tag</TagName>
+                    <Constrain>1</Constrain>
+                    <Rotate>0</Rotate>
+                    <LeaderType>1</LeaderType>
+                    <LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Aec_Wall_Tag</LeaderDimensionStyle>
+                    <AttTextStyle>1</AttTextStyle>
+                    <AttTextAngle>2</AttTextAngle>
+                </AecDbScheduleTagObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{96FB1123-8F6B-4EEC-9D21-09C1130CFCC9}" />
+            <Properties>
+                <ItemName>Renumber Data Tool</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Command Tool_E63991B6-EDE1-41FF-81A2-35A4485B80B3.png" />
+                </Images>
+                <Description>Assists in renumbering incremental property data.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Scheduling_RenumberingPropertySetData</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-08-25T01:09:02" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <CommandString>_AecPropertyRenumberData</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF9-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Tag Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_TagTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more tag tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {7F93FB60-3F55-4522-892F-FF445B9CF588}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

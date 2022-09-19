@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{D35A3F02-B921-4692-9450-C250A40B5E3B}" />
+    <Properties>
+        <ItemName>Design</ItemName>
+        <Images option="0" />
+        <Description>This palette contains all the basic architectural object tools.  Copy a tool to create a new one that you can customize, or simply drop an object from the drawing window to create a new tool with defaults based upon that object.</Description>
+        <Time createdUniversalDateTime="2002-11-06T21:46:08" modifiedUniversalDateTime="2006-06-14T15:18:18" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C0240B8F-E37E-413E-903D-400F174C52E2}" />
+            <Properties>
+                <ItemName>Wall</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecWall.png" />
+                </Images>
+                <Description>Creates a wall object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{493FC6AD-9194-4955-94D9-E8CB59BB0EB5}" />
+            <Properties>
+                <ItemName>Door</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecDoor.png" />
+                </Images>
+                <Description>Creates a door object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C7BE14B1-8870-42F4-8ED1-DCDAA1DB6224}" />
+            <Properties>
+                <ItemName>Window</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecWindow.png" />
+                </Images>
+                <Description>Creates a window object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BD15928C-91FA-479b-A69A-E512FA698BAA}" />
+            <Properties>
+                <ItemName>Corner Window</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCornerWindow.png" />
+                </Images>
+                <Description>Creates a corner window object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWindow>
+										<IsCornerWindow>1</IsCornerWindow>
+								</AecDbWindow>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{15F7C78C-D951-4127-9D83-9C9053524E3B}" />
+            <Properties>
+                <ItemName>Door/Window Assembly</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecWinAssembly.png" />
+                </Images>
+                <Description>Creates a door/window assembly object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{174607BC-5B00-4C49-BCAD-1257BCD4D49E}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5103FAC9-483C-482D-8483-BB0151808E3F}" />
+            <Properties>
+                <ItemName>Opening</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecOpening.png" />
+                </Images>
+                <Description>Creates an opening object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{42F4EF36-F227-41E7-A681-7C1D915CA531}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{516BBFB7-19FB-4BDD-B872-2CAF29BBA436}" />
+            <Properties>
+                <ItemName>Curtain Wall</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCurtainWall.png" />
+                </Images>
+                <Description>Creates a curtain wall object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{412C0F19-C26E-43BA-A976-618B08C4CBD9}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E0D79067-7243-4563-88B7-A21C2B20CBEE}" />
+            <Properties>
+                <ItemName>Column</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecColumn.png" />
+                </Images>
+                <Description>Creates a structural column object.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Structural_CreatingaFreestandingColumn</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30842DE9-31F9-4EAA-AC4C-55573813B1FB}" />
+            <Data>
+                <Units>inch</Units>
+                <AecsDbMember>
+                    <Type>1</Type>
+                </AecsDbMember>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{35FFF7B8-CC88-4556-AEBB-27D34249E8C5}" />
+            <Properties>
+                <ItemName>Custom Column</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCustomColumn64x64.png" />
+                </Images>
+                <Description>Converts a closed polyline, spline, rectangle, circle, or ellipse into a column.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Structural_CreatingaFreestandingColumn</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="" modifiedUniversalDateTime="" refreshedUniversalDateTime="" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^c^c_AecsCustomColumn</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{CA440572-F5F3-44F5-9EEC-850F1632BD88}" />
+            <Properties>
+                <ItemName>Beam</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecBeam.png" />
+                </Images>
+                <Description>Creates a structural beam object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{2292D80A-690E-45D9-AC26-6B7D94497C06}" />
+            <Data>
+                <Units>inch</Units>
+                <AecsDbMember>
+                    <Type>0</Type>
+                </AecsDbMember>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{632C36D8-5926-4E00-A67F-3C78B199FB3C}" />
+            <Properties>
+                <ItemName>Brace</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecBrace.png" />
+                </Images>
+                <Description>Creates a structural brace object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{38969BD3-5238-4BE9-946F-BE0AECD1E1AE}" />
+            <Data>
+                <Units>inch</Units>
+                <AecsDbMember>
+                    <Type>2</Type>
+                </AecsDbMember>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{364C4620-D9F1-4CF5-AF60-18E41D718B19}" />
+            <Properties>
+                <ItemName>Column Grid</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecColumnGrid.png" />
+                </Images>
+                <Description>Creates a column grid.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-STRUCTRUALCOLUMNGIRD</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{44635DC8-3CD8-479A-94DF-57624949DFD9}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B7DA4452-CF67-4fda-9363-02060F01DBCB}" />
+            <Properties>
+                <ItemName>Enhanced Custom Grid Generate</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecEnhancedColumnGrid64x64.png" />
+                </Images>
+                <Description>Adds an enhanced custom column grid defined by entering parameters in a dialog.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-STRUCTRUALCOLUMNGIRD</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="" modifiedUniversalDateTime="" refreshedUniversalDateTime="" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^c^c_AecCustomColumnGrid</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{39D562DC-66FB-4769-9D42-427868CD1ABE}" />
+            <Properties>
+                <ItemName>Slab</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecSlab.png" />
+                </Images>
+                <Description>Creates a slab object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6BD34B7E-4BC0-46EC-938B-3FB10126BA2E}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8BDEABE9-E036-40DC-BFC9-AB1BB14E5293}" />
+            <Properties>
+                <ItemName>Roof Slab</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecRoofSlab.png" />
+                </Images>
+                <Description>Creates a roof slab object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B55783CB-14A3-4BF1-AA57-8EC537F0C9A3}" />
+            <Data>
+                <Units>inch</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{704E7F71-652C-4814-BEDA-3EECBC7CC1BD}" />
+            <Properties>
+                <ItemName>Roof</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecRoof.png" />
+                </Images>
+                <Description>Creates a roof object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{B4E3EFB1-D5A3-436A-A6D9-9F44395DE306}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{745B1AA8-F954-4EDE-BDB4-810571B4B00A}" />
+            <Properties>
+                <ItemName>Stair</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecStair.png" />
+                </Images>
+                <Description>Creates a stair object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6F8E8B8F-011B-4E17-8EE6-1BFCD004EAC7}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{2A978AAF-D518-4BB2-BB39-3A614C00F483}" />
+            <Properties>
+                <ItemName>Stair Tower Generate</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command_CDA38AF5-1339-497E-BD4D-CC1D4B13D2C1.png" />
+                </Images>
+                <Description>Generates a stair tower based off of an existing stair.</Description>
+ <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_STAIRTOWERGENERATOR</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^c^c_AecStairTowerGenerate</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{CC8867DC-8516-41C7-BFF8-639E3405FFA2}" />
+            <Properties>
+                <ItemName>Railing</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecRailing.png" />
+                </Images>
+                <Description>Creates a railing object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{5D370FFD-8173-4ECF-95D4-F87B55A25AC3}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B9F9CD41-8DE5-4DB2-BCD3-492B31CCB28D}" />
+            <Properties>
+                <ItemName>Ceiling Grid</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCeilingGrid.png" />
+                </Images>
+                <Description>Creates a ceiling grid.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{2A44FB09-B99E-4534-AE81-0B5E8AEF7419}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{232A997B-EB86-493D-8652-F65B4E36A903}" />
+            <Properties>
+                <ItemName>Space</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecSpace.png" />
+                </Images>
+                <Description>Creates a space object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B0A32142-7F25-4504-A80B-00330308F560}" />
+            <Properties>
+                <ItemName>Space Generate</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" src=".\Images\Space Tool_B0A32142-7F25-4504-A80B-00330308F560.png" />
+                </Images>
+                <Description>Generates space objects from objects that can bound spaces.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-06-14T15:22:22" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <ActualDimensions>
+                        <CreateType>3</CreateType>
+                        <Area>100</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{297C226C-D682-4478-8B60-ABB6624DE21B}" />
+            <Properties>
+                <ItemName>Space Separator</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecDivideSpace.png" />
+                </Images>
+                <Description>Creates a polyline which bounds spaces.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_SPACESEPARATOR</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-11-06T22:22:44" modifiedUniversalDateTime="2002-11-06T22:22:44" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <AecDbCommandObject>
+                    <LayerKey>Wall</LayerKey>
+                    <CommandString>^C^C_AecSpaceSeparator</CommandString>
+                </AecDbCommandObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{19B944A4-34A4-4FB4-8288-35E0B0D712B2}" />
+            <Properties>
+                <ItemName>Zone</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Zone Tool_D60DE23C-0F7A-4D75-AC35-119DD13C1607.png" />
+                </Images>
+                <Description>Creates a zone object.</Description>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{2B554799-FB4B-4031-BD52-E54FFEA12116}" />
+            <Data>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{40AF310B-C372-4FA5-A87C-E8295024107D}" />
+            <Properties>
+                <ItemName>Material</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Material tool_23E15900-1C21-49E9-9342-0233865F1355.png" />
+                </Images>
+                <Description>Applies a material.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_MATERIAL</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Material Definitions (Imperial).dwg">Standard</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{067E576C-1F08-4E6A-875B-B081BB00CA37}" />
+            <Properties>
+                <ItemName>Horizontal Section</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command_F13D2D00-D7E7-43F9-96B4-0BF5E5C642E1.png" />
+                </Images>
+                <Description>Creates a horizontal section.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ACAD_SECTION</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^c^c_AecHorizontalSection</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{83BF8FE6-898E-4BAB-9B42-DA66CEC369B5}" />
+            <Properties>
+                <ItemName>Vertical Section</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command_D5332855-70BB-475A-8109-324F7549740A.png" />
+                </Images>
+                <Description>Creates a vertical section.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ACAD_SECTION</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^c^c_AecVerticalSection</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{427BD4C1-B6B9-44B1-8B02-BE19ED9A1F7A}" />
+            <Properties>
+                <ItemName>For more tool content, visit the Content Browser.</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-17T00:07:10" modifiedUniversalDateTime="2006-01-17T00:07:10" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C9F1EA27-47C6-49AE-8802-E9347F610434}" />
+            <Properties>
+                <ItemName>Content Browser</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command Tool_4A0E7964-F5F8-4AB5-BBA2-3B3C0D44F8A9.png" />
+                </Images>
+                <Description>Launches the Content Browser.</Description>
+                <Keywords>_command tool</Keywords>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T16:38:20" modifiedUniversalDateTime="2006-01-16T16:38:20" refreshedUniversalDateTime="2006-01-16T16:38:20" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentBrowser</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

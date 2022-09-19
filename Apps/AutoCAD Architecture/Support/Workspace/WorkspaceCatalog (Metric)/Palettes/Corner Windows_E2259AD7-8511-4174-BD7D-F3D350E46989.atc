@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.2.0" Revision="18.2.0" option="0">
+		<ItemID idValue="{E2259AD7-8511-4174-BD7D-F3D350E46989}"/>
+		<Properties>
+				<ItemName>Corner Windows</ItemName>
+				<Images option="0"/>
+				<Description>This palette contains a sampling of customized window tools.  They refer to styles located in the central library of window styles in your AutoCAD Architecture Metric styles folder.</Description>
+				<Time createdUniversalDateTime="2010-11-03T03:15:00" modifiedUniversalDateTime="2010-11-03T03:15:00"/>
+		</Properties>
+		<Source/>
+		<Tools>
+				<Tool Revision="18.2.0" option="0">
+						<ItemID idValue="{9BCE890B-6B9F-4452-88CB-C63BF8775D02}"/>
+						<Properties>
+								<ItemName>Corner Butt Glazing - Picture</ItemName>
+								<Images option="0">
+										<Image cx="64" cy="64" src=".\Images\Window Tool_9BCE890B-6B9F-4452-88CB-C63BF8775D02.png"/>
+								</Images>
+								<Description>Rectangular Picture Corner Window Butt Glazing </Description>
+								<Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Windows_Windows</HelpData></Help>
+								<Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2010-11-03T13:40:06"/>
+						</Properties>
+						<CustomData><Version>6.7</Version></CustomData>
+						<Source/>
+						<ToolType>1</ToolType>
+						<StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/>
+						<Data>
+								<AecDbGeo>
+										<BoundSpaces>2</BoundSpaces>
+										<ShadowDisplay>0</ShadowDisplay>
+								</AecDbGeo>
+								<Units>mm</Units>
+								<AecDbOpeningBase>
+										<Width>--</Width>
+										<Rise>--</Rise>
+								</AecDbOpeningBase>
+								<AecDbOpenFiller>
+										<LeafWidth>0</LeafWidth>
+								</AecDbOpenFiller>
+								<AecDbWindow>
+										<Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Corner Butt Glazing - Picture</Style>
+										<IsCornerWindow>1</IsCornerWindow>
+										<Dimension>
+										</Dimension>
+								</AecDbWindow>
+						</Data>
+				</Tool>
+				<Tool Revision="18.2.0" option="0">
+						<ItemID idValue="{02A4DFA7-CFF2-4C2C-BA2C-5B6060D04D91}"/>
+						<Properties>
+								<ItemName>Corner Frame - Picture</ItemName>
+								<Images option="0">
+										<Image cx="64" cy="64" src=".\Images\Window Tool_02A4DFA7-CFF2-4C2C-BA2C-5B6060D04D91.png"/>
+								</Images>
+								<Description>Rectangular Picture Corner Window with Frame </Description>
+								<Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Windows_Windows</HelpData></Help>
+								<Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2010-11-03T13:40:50"/>
+						</Properties>
+						<CustomData><Version>6.7</Version></CustomData>
+						<Source/>
+						<ToolType>1</ToolType>
+						<StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/>
+						<Data>
+								<AecDbGeo>
+										<BoundSpaces>2</BoundSpaces>
+										<ShadowDisplay>0</ShadowDisplay>
+								</AecDbGeo>
+								<Units>mm</Units>
+								<AecDbOpeningBase>
+										<Width>--</Width>
+										<Height>--</Height>
+										<Rise>--</Rise>
+								</AecDbOpeningBase>
+								<AecDbOpenFiller>
+										<LeafWidth>0</LeafWidth>
+								</AecDbOpenFiller>
+								<AecDbWindow>
+										<Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Corner Frame - Picture</Style>
+										<IsCornerWindow>1</IsCornerWindow>
+										<Dimension>
+										</Dimension>
+								</AecDbWindow>
+						</Data>
+				</Tool>
+				<Tool Revision="18.2.0" option="0">
+				<ItemID idValue="{6BE3ABA5-6996-41FD-BD7F-6F35767A613B}"/>
+				<Properties>
+						<ItemName>Corner Frame - Hopper</ItemName>
+						<Images option="0">
+								<Image cx="64" cy="64" src=".\Images\Window Tool_6BE3ABA5-6996-41FD-BD7F-6F35767A613B.png"/>
+						</Images>
+						<Description>Double Hopper Corner Window with Frame </Description>
+						<Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Windows_Windows</HelpData></Help>
+						<Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2010-11-03T13:42:57"/>
+				</Properties>
+				<CustomData><Version>6.7</Version></CustomData>
+				<Source/>
+						<ToolType>1</ToolType>
+						<StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/>
+						<Data>
+								<AecDbGeo>
+										<BoundSpaces>2</BoundSpaces>
+										<ShadowDisplay>0</ShadowDisplay>
+								</AecDbGeo>
+								<Units>mm</Units>
+								<AecDbOpeningBase>
+										<Width>--</Width>
+										<Height>--</Height>
+										<Rise>--</Rise>
+								</AecDbOpeningBase>
+								<AecDbOpenFiller>
+										<LeafWidth>0</LeafWidth>
+								</AecDbOpenFiller>
+								<AecDbWindow>
+										<Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Corner Frame - Hopper</Style>
+										<IsCornerWindow>1</IsCornerWindow>
+										<Dimension>
+										</Dimension>
+								</AecDbWindow>
+						</Data>
+				</Tool>
+						<Tool Revision="18.2.0" option="0">
+						<ItemID idValue="{573F12A2-F0F7-4F91-AC5D-5E1E69B0B489}"/>
+						<Properties>
+								<ItemName>Corner Frame - Picture - Halfround</ItemName>
+								<Images option="0"><Image cx="64" cy="64" src=".\Images\Window Tool_573F12A2-F0F7-4F91-AC5D-5E1E69B0B489.png"/></Images>
+								<Description>Half Round Picture Corner Window with Frame </Description>
+								<Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Windows_Windows</HelpData></Help>
+								<Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2010-11-03T13:42:48"/>
+						</Properties>
+						<CustomData><Version>6.7</Version></CustomData>
+						<Source/>
+								<ToolType>1</ToolType>
+								<StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/>
+								<Data>
+								<AecDbGeo>
+										<BoundSpaces>2</BoundSpaces>
+										<ShadowDisplay>0</ShadowDisplay>
+								</AecDbGeo>
+								<Units>mm</Units>
+								<AecDbOpeningBase>
+										<Width>--</Width>
+										<Height>--</Height>
+										<Rise>--</Rise>
+								</AecDbOpeningBase>
+								<AecDbOpenFiller>
+										<LeafWidth>0</LeafWidth>
+								</AecDbOpenFiller>
+								<AecDbWindow>
+										<Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Corner Frame - Picture - Halfround</Style>
+										<IsCornerWindow>1</IsCornerWindow>
+										<Dimension>
+										</Dimension>
+								</AecDbWindow>
+						</Data>
+				</Tool>
+						<Tool Revision="18.2.0" option="0">
+						<ItemID idValue="{9D828106-550E-47D6-9F60-F1933F2901A4}"/>
+						<Properties>
+								<ItemName>Corner - Pass Through</ItemName>
+								<Images option="0"><Image cx="64" cy="64" src=".\Images\Window Tool_9D828106-550E-47D6-9F60-F1933F2901A4.png"/></Images>
+								<Description>Rectangular Pass Through for Corner Window</Description>
+								<Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Windows_Windows</HelpData></Help>
+								<Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2010-11-03T13:45:06"/>
+						</Properties>
+						<CustomData><Version>6.7</Version></CustomData>
+						<Source/>
+								<ToolType>1</ToolType>
+								<StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/>
+								<Data>
+								<AecDbGeo>
+										<BoundSpaces>2</BoundSpaces>
+										<ShadowDisplay>0</ShadowDisplay>
+								</AecDbGeo>
+								<Units>mm</Units>
+								<AecDbOpeningBase>
+										<Width>--</Width>
+										<Rise>--</Rise>
+								</AecDbOpeningBase>
+								<AecDbOpenFiller>
+										<LeafWidth>0</LeafWidth>
+								</AecDbOpenFiller>
+								<AecDbWindow>
+										<Style ref="%AECCONTENT_DIR%\Styles\Metric\Window Styles (Metric).dwg">Corner - Pass Through</Style>
+										<IsCornerWindow>1</IsCornerWindow>
+										<Dimension>
+										</Dimension>
+								</AecDbWindow>
+						</Data>
+				</Tool>
+		</Tools>
+</Palette>

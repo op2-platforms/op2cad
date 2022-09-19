@@ -1,0 +1,1171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{DFB967A3-A994-419B-B482-BD417BFB8D30}" />
+    <Properties>
+        <ItemName>Callouts</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of various callout tools.</Description>
+        <Time createdUniversalDateTime="2003-12-10T23:15:40" modifiedUniversalDateTime="2005-01-06T14:53:20" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9FD1CEA8-C467-4B77-877B-58163A281CCC}" />
+            <Properties>
+                <ItemName>Detail Boundary A</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_EB77E100-743C-49D5-A4E5-BDCDB308C231.png" />
+                </Images>
+                <Description>Detail Boundary (Circle)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:07" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>1</CalloutType>
+                    <BoundaryType>1</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>3.00000162</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.009842525</BoundaryWidth>
+                        <TailLength>0.250000135</TailLength>
+                        <TailWidth>0.06250003375</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E3520663-6C40-452C-AC1B-2EE0AEEF1BE0}" />
+            <Properties>
+                <ItemName>Detail Boundary B</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_C8878272-45D1-4B66-8720-28AFCF56D525.png" />
+                </Images>
+                <Description>Detail Boundary (Rectangle)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:41" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>1</CalloutType>
+                    <BoundaryType>2</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>5</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.25</BoundaryWidth>
+                        <TailLength>0.25</TailLength>
+                        <TailWidth>0.0625</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BFC0B1FA-3C6E-4E97-B4EF-9418C94FFB83}" />
+            <Properties>
+                <ItemName>Detail Boundary C</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_374514A8-7F07-463E-8E99-78B15E4EC80B.png" />
+                </Images>
+                <Description>Detail Boundary (Freeform)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:41" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>1</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>5</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.25</BoundaryWidth>
+                        <TailLength>0.25</TailLength>
+                        <TailWidth>0.0625</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BD56776C-1B75-4507-ADD6-0D9E6781EC85}" />
+            <Properties>
+                <ItemName>Detail Mark A1</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_2D8EE617-E7FF-4B87-A6D0-90534492D778.png" />
+                </Images>
+                <Description>Detail Mark</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>2</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A1</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0</TailLength>
+                        <TailWidth>0</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BBA44E2A-DAF3-46E3-9B53-AC27DDE2D29E}" />
+            <Properties>
+                <ItemName>Detail Mark A1T</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_45895376-1540-4026-9076-952E4BFCF506.png" />
+                </Images>
+                <Description>Detail Mark (w/ Tail)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>2</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A1</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>4</TailLength>
+                        <TailWidth>1.5</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{3EF3CE8B-DA75-4E5E-9EF6-E7907F8D5097}" />
+            <Properties>
+                <ItemName>Detail Mark A2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_76470890-1AEF-45CB-BD83-D9F1AC9A8509.png" />
+                </Images>
+                <Description>Detail Mark (w/ Sheet No.)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>2</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0</TailLength>
+                        <TailWidth>0</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{FAEE59D1-D171-4FA3-9FFD-D8E4E596F785}" />
+            <Properties>
+                <ItemName>Detail Mark A2T</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_91FD6F77-9EBE-47BB-8727-B611B89B4EA2.png" />
+                </Images>
+                <Description>Detail Mark (w/ Sheet No. &amp; Tail)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:09" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:09" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNDTOBJ</LayerKey>
+                    <CalloutType>2</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag>
+                    <Arrow>_ArchTick</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>4</TailLength>
+                        <TailWidth>1.5</TailWidth>
+                    </Dimensions>
+                    <ViewType>2</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>25</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B680E8AF-8717-4627-9040-7FA07403B49C}" />
+            <Properties>
+                <ItemName>Elevation Mark A1</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_6783F418-C525-4837-B0F1-08603B96BC2A.png" />
+                </Images>
+                <Description>Elevation Mark</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>3</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_A1</Tag>
+                    <Arrow>Anno_Arrow_A1</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1E20734C-BE09-45CA-BA23-7EE5628EF995}" />
+            <Properties>
+                <ItemName>Elevation Mark A2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_202FBA80-327E-4BE3-865F-F169D3F44B9D.png" />
+                </Images>
+                <Description>Elevation Mark (w/ Sheet No.)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>3</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_A2</Tag>
+                    <Arrow>Anno_Arrow_A2</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{05E2FE8D-74F7-4B2C-83DE-7350E53220B7}" />
+            <Properties>
+                <ItemName>Exterior Elevation Mark A3</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_65D2389A-7872-495C-B473-8D24B68322E3.png" />
+                </Images>
+                <Description>Exterior Elevation Mark (Entire Building)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>4</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_A2</Tag>
+                    <Arrow>Anno_Arrow_A2</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <FourWayElevationType>1</FourWayElevationType>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6FAE2917-1BA0-4903-A585-378EF9AD84EE}" />
+            <Properties>
+                <ItemName>Interior Elevation Mark B1</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_F929AAD6-647D-4B2D-8B47-50EFE97545BC.png" />
+                </Images>
+                <Description>Interior Elevation Mark (4-Way) "1/2/3/4"</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>4</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_B1</Tag>
+                    <Arrow>Anno_Arrow_1234</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <FourWayElevationType>0</FourWayElevationType>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A85FEB63-8DFC-4AFC-983E-B75AFBDEE099}" />
+            <Properties>
+                <ItemName>Interior Elevation Mark B2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_C6F74655-2DC7-473A-8428-A03D27E91242.png" />
+                </Images>
+                <Description>Interior Elevation Mark (4-Way) "N/E/S/W"</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>4</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_B1</Tag>
+                    <Arrow>Anno_Arrow_NESW</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <FourWayElevationType>0</FourWayElevationType>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F8CC849F-2E54-4417-A989-F6E0480125B9}" />
+            <Properties>
+                <ItemName>Interior Elevation Mark C1</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_BDDF4025-09AC-4DC1-A47E-2FC3CC5DA035.png" />
+                </Images>
+                <Description>Interior Elevation Mark (Single)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>3</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_C1</Tag>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>0</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <FourWayElevationType>0</FourWayElevationType>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9ABE35C4-FCD6-498E-BBF9-DF64500DB2B4}" />
+            <Properties>
+                <ItemName>Interior Elevation Mark C2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_B54B5203-5E6B-43E9-87BC-D90D9484F00A.png" />
+                </Images>
+                <Description>Interior Elevation Mark (Single) - Inverted Text</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:27" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:27" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNELKEY</LayerKey>
+                    <CalloutType>3</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_C2</Tag>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>0</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <FourWayElevationType>0</FourWayElevationType>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DB04F64B-ECDC-4AC7-85C9-13FE3C9B24C3}" />
+            <Properties>
+                <ItemName>Section Mark A1</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_6D39E98D-D8F9-4521-A278-3EA919A5A8D2.png" />
+                </Images>
+                <Description>Section Mark</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:44" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:44" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNSXKEY</LayerKey>
+                    <CalloutType>5</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A1</Tag>
+                    <Arrow>Anno_Arrow_A1</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0</TailLength>
+                        <TailWidth>0</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{50ADACA6-9F98-473D-94AE-F95AE8B0F98D}" />
+            <Properties>
+                <ItemName>Section Mark A1T</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_C7230378-973C-49D3-897E-32E2789496D8.png" />
+                </Images>
+                <Description>Section Mark (w/ Tail)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:44" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:44" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNSXKEY</LayerKey>
+                    <CalloutType>5</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A1</Tag>
+                    <Arrow>Anno_Arrow_A1</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>4</TailLength>
+                        <TailWidth>1.5</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6507D63C-32A2-4FBF-8B29-ED06348BB49C}" />
+            <Properties>
+                <ItemName>Section Mark A2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_5C587171-EA86-4714-BD7B-F6BBDA9F6944.png" />
+                </Images>
+                <Description>Section Mark (w/ Sheet No.)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:44" modifiedUniversalDateTime="2005-01-06T14:40:58" refreshedUniversalDateTime="2003-12-09T18:05:44" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNSXKEY</LayerKey>
+                    <CalloutType>5</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A2</Tag>
+                    <Arrow>Anno_Arrow_A2</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0</TailLength>
+                        <TailWidth>0</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{AF0C8FB2-8BFF-4186-8980-2C16F9397D9B}" />
+            <Properties>
+                <ItemName>Section Mark A2T</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_FE315938-6EED-46E7-991C-98A0CC531E27.png" />
+                </Images>
+                <Description>Section Mark (w/ Sheet No. &amp; Tail)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:44" modifiedUniversalDateTime="2005-01-06T14:40:25" refreshedUniversalDateTime="2003-12-09T18:05:44" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNSXKEY</LayerKey>
+                    <CalloutType>5</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A2</Tag>
+                    <Arrow>Anno_Arrow_A2</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>4</TailLength>
+                        <TailWidth>1.5</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C308628C-1AE0-4C36-93D7-A9BCC8B8B05B}" />
+            <Properties>
+                <ItemName>Section Mark A3T</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Callout_FB11FDE3-181C-41D8-908F-49350653CE22.png" />
+                </Images>
+                <Description>Section Mark - Section Mark (w/ Sheet No.)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:05:44" modifiedUniversalDateTime="2005-01-06T14:40:51" refreshedUniversalDateTime="2003-12-09T18:05:44" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}" />
+            <Data>
+                <AecDbCalloutObject>
+                    <LayerKey>ANNSXKEY</LayerKey>
+                    <CalloutType>6</CalloutType>
+                    <BoundaryType>3</BoundaryType>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A2</Tag>
+                    <Arrow>Anno_Arrow_A2</Arrow>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <AttrTextAngle>1</AttrTextAngle>
+                    <Dimensions>
+                        <Radius>0.009842525</Radius>
+                        <BoundaryLineType>DASHED2</BoundaryLineType>
+                        <BoundaryWidth>0.001230315625</BoundaryWidth>
+                        <TailLength>0.00738189375</TailLength>
+                        <TailWidth>0.00246063125</TailWidth>
+                    </Dimensions>
+                    <ViewType>1</ViewType>
+                    <GenerateSectionElevation>0</GenerateSectionElevation>
+                    <SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle>
+                    <DisplaySet>Section_Elev</DisplaySet>
+                    <Scale>100</Scale>
+                    <ViewNameIncrement>0</ViewNameIncrement>
+                    <PlaceTitlemark>0</PlaceTitlemark>
+                    <TitleMark>
+                        <TitlemarkJustification>0</TitlemarkJustification>
+                        <TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag>
+                        <TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle>
+                        <TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+                        <TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+                        <LayerKey>TITTEXT</LayerKey>
+                    </TitleMark>
+                </AecDbCalloutObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{2108AB82-9D69-4E41-829C-265703D06829}" />
+            <Properties>
+                <ItemName>Title Mark</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Title Mark_42BEC040-2045-4546-8D05-3AEACF0BB6C2.png" />
+                </Images>
+                <Description>Adds a title mark with number.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:04:35" modifiedUniversalDateTime="2004-01-20T20:55:20" refreshedUniversalDateTime="2003-12-09T18:04:35" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}" />
+            <Data>
+                <AecDbTitleMarkObject>
+                    <LayerKey>TITTEXT</LayerKey>
+                    <Justification>0</Justification>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</Tag>
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <Title ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</Title>
+                    <PolylineWidth>0.01968505</PolylineWidth>
+                </AecDbTitleMarkObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5FBEFB74-0DC2-4F80-9DDF-547491C01113}" />
+            <Properties>
+                <ItemName>Title Mark</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\AEC Title Mark_5FBEFB74-0DC2-4F80-9DDF-547491C01113.png" />
+                </Images>
+                <Description>Adds a title mark.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-12-09T18:04:35" modifiedUniversalDateTime="2004-01-20T20:55:27" refreshedUniversalDateTime="2003-12-09T18:04:35" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}" />
+            <Data>
+                <AecDbTitleMarkObject>
+                    <LayerKey>TITTEXT</LayerKey>
+                    <Justification>0</Justification>
+                    <Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg" />
+                    <AttrTextStyle>1</AttrTextStyle>
+                    <Title ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T2</Title>
+                    <PolylineWidth>0.01968505</PolylineWidth>
+                </AecDbTitleMarkObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569C06-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Callout Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_CalloutTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more callout tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_CALLOUT</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>mm</Units>
+                <CommandString>^C^C_AecContentCatalog {3230F452-0D78-4CCD-AAD9-5DB430838F93}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{32BA12A6-D7E6-45B8-A4D0-E6B41B191493}" />
+    <Properties>
+        <ItemName>Walls</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of customized wall tools.  They refer to styles located in the central library of wall styles in your AutoCAD Architecture Imperial styles folder. </Description>
+        <Time createdUniversalDateTime="2002-11-06T21:42:51" modifiedUniversalDateTime="2005-01-09T13:42:20" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BBB52742-4E8C-42DE-ADDF-680A7EFC904A}" />
+            <Properties>
+                <ItemName>Brick-4 Brick-4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-brick-4-brick-4.png" />
+                </Images>
+                <Description>4" Brick and 4" Brick Wall</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2005-01-06T12:41:47" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Brick (Imperial).dwg">Brick-4 Brick-4</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{0BACBE50-CB91-4B8E-B1B7-E3F4961D7B05}" />
+            <Properties>
+                <ItemName>Brick-4 Brick-4 Furring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-brick-4-brick-4-furring.png" />
+                </Images>
+                <Description>4" Brick and 4" Brick Wall with 2" Furring</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T16:46:46" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Brick (Imperial).dwg">Brick-4 Brick-4 Furring</Style>
+                    <Dimensions>
+                        <Justify>3</Justify>
+                    </Dimensions>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                    <GraphlinePos>0</GraphlinePos>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DB7AE830-C01A-40A8-B9D3-EBED80C65B26}" />
+            <Properties>
+                <ItemName>CMU-8</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-cmu-8.png" />
+                </Images>
+                <Description>8" CMU Wall (Nominal)</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:10:54" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - CMU (Imperial).dwg">CMU-8</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{AB6EA26C-496C-4905-A93B-8CE17D239A5B}" />
+            <Properties>
+                <ItemName>CMU-8 Furring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-cmu-8-furring.png" />
+                </Images>
+                <Description>8" CMU Wall with 2" Furring</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:11:23" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - CMU (Imperial).dwg">CMU-8 Furring</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{2DBC8B8C-4E7C-459A-9875-D5E452C43A7A}" />
+            <Properties>
+                <ItemName>CMU-8 Rigid-1.5 Air-2 Brick-4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-CMU-8-Rigid-1.5-Air Brick-4.png" />
+                </Images>
+                <Description>8" CMU Wall and 4" Brick Cavity with 1.5" Rigid</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:10:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - CMU (Imperial).dwg">CMU-8 Rigid-1.5 Air-2 Brick-4</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F894FC73-F341-439C-8009-190E566F25F5}" />
+            <Properties>
+                <ItemName>CMU-8 Rigid-1.5 Air-2 Brick-4 Furring-2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-CMU-8-Rigid-1.5-Air Brick-4 Furring.png" />
+                </Images>
+                <Description>8" CMU Wall and 4" Brick Cavity with 2" Furring and 1.5" Rigid</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:11:51" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - CMU (Imperial).dwg">CMU-8 Rigid-1.5 Air-2 Brick-4 Furring</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9DEDD91F-D137-408F-BE28-DBEE14BCEA6A}" />
+            <Properties>
+                <ItemName>Concrete-8</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-concrete-8.png" />
+                </Images>
+                <Description>8" Concrete Wall</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:12:07" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Concrete (Imperial).dwg">Concrete-8</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{23057E35-1B3F-4E3E-B93A-9EC7DE4CE507}" />
+            <Properties>
+                <ItemName>Concrete-8 Concrete-16x8-footing</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-concrete-8-concrete-16x8-footing.png" />
+                </Images>
+                <Description>8" Concrete Wall with 16"x8" Footing</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2003-02-04T20:20:23" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <LayerOverride />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Concrete (Imperial).dwg">Concrete-8 Concrete-16x8-footing</Style>
+                    <FloorlineOffset>-14</FloorlineOffset>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6E25B6D0-AE1A-4B32-BEC4-D0242CA7A8D5}" />
+            <Properties>
+                <ItemName>Stud-4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-stud-4.png" />
+                </Images>
+                <Description>4" Stud Ptn. (Actual)</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:21:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Stud (Imperial).dwg">Stud-4</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{014EBBF1-2370-4B0C-B603-A018374270F6}" />
+            <Properties>
+                <ItemName>Stud-4 GWB-0.625 2 Layers Each Side</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-Stud-4 GWB-0.625 2 Layers Each Side.png" />
+                </Images>
+                <Description>4" Stud Ptn. (Actual) with 2 Layers 5/8" Gypsum</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:22:06" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Stud (Imperial).dwg">Stud-4 GWB-0.625 2 Layers Each Side</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6A3B17F2-532C-4330-9169-93DEC2D2F85A}" />
+            <Properties>
+                <ItemName>Stud-4 GWB-0.625 Each Side</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-Stud-4 GWB-0.625 Each Side.png" />
+                </Images>
+                <Description>4" Stud Ptn. (Actual) with 5/8" Gypsum</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:23:05" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Stud (Imperial).dwg">Stud-4 GWB-0.625 Each Side</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C9A85FDA-3E7A-4830-BF47-FD46B8387F2F}" />
+            <Properties>
+                <ItemName>Stud-4 Rigid-1.5 Air-1 Brick-4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecwall-Stud-4-Rigid-1.5-Air-1 Brick-4.png" />
+                </Images>
+                <Description>4" Stud Cavity Wall (Actual) with 4" Brick and 1.5" Rigid</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:23:49" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Wall Styles - Stud (Imperial).dwg">Stud-4 Rigid-1.5 Air-1 Brick-4</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF1-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Wall Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_WallTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more wall tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {C81E802B-E8A8-42F9-8812-0E57180B53A0}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

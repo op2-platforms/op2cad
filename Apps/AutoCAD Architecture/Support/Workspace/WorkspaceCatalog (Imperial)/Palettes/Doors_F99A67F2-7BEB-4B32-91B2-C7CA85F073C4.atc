@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{F99A67F2-7BEB-4B32-91B2-C7CA85F073C4}" />
+    <Properties>
+        <ItemName>Doors</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of customized door tools.  They refer to styles located in the central library of door styles in your AutoCAD Architecture Imperial styles folder.</Description>
+        <Time createdUniversalDateTime="2002-11-06T21:42:55" modifiedUniversalDateTime="2005-01-09T13:42:29" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4D579C36-6FE4-492E-AE7B-A2CAE02A52E0}" />
+            <Properties>
+                <ItemName>Bifold - Double</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-bifold-double.png" />
+                </Images>
+                <Description>Double bifold doors</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:59:11" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Bifold - Double</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{23B14340-2E59-49A7-97DC-A2E25DD19595}" />
+            <Properties>
+                <ItemName>Bifold - Single</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-bifold-single.png" />
+                </Images>
+                <Description>Single bifold door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:59:44" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Bifold - Single</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{50FD8074-39AD-4F3C-946C-AF2E77791B3B}" />
+            <Properties>
+                <ItemName>Cased Opening</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-casedopening.png" />
+                </Images>
+                <Description>Cased opening</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:00:59" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Cased Opening</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9D759204-E85A-4E4C-9E40-1E51D0C579AA}" />
+            <Properties>
+                <ItemName>Hinged - Double</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-hinged-double.png" />
+                </Images>
+                <Description>Double hinged door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:01:55" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Hinged - Double</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{86440CF8-B86D-4452-AE06-BA2D9D0AA26A}" />
+            <Properties>
+                <ItemName>Hinged - Double - Exterior</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-hinged-double-exterior.png" />
+                </Images>
+                <Description>Double exterior door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:03:32" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Hinged - Double - Exterior</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{25DB5D91-D0E3-4D54-B3BD-8405CB0C5C39}" />
+            <Properties>
+                <ItemName>Hinged - Double - Full Lite</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-hinged-double-full_lite.png" />
+                </Images>
+                <Description>Double full glass door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T16:47:41" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                    <Width>72</Width>
+                    <Height>84</Height>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Hinged - Double - Full Lite</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5D42F98C-8DF6-4C03-B7D7-596B2CC555E5}" />
+            <Properties>
+                <ItemName>Hinged - Single</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-hinged-single.png" />
+                </Images>
+                <Description>Single hinged door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:25:04" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Hinged - Single</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DEC804CE-8909-435D-B8FC-E80C603D23CE}" />
+            <Properties>
+                <ItemName>Hinged - Single - Exterior</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-hinged-single-exterior.png" />
+                </Images>
+                <Description>Single exterior door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:25:33" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Hinged - Single - Exterior</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7291D7B7-EC40-4EF3-9B35-B3AFD95B6A7F}" />
+            <Properties>
+                <ItemName>Hinged - Single - Full Lite</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-hinged-single-full_lite.png" />
+                </Images>
+                <Description>Single full glass door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:26:54" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Hinged - Single - Full Lite</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{CBC2E4B8-2B38-4E1E-941D-D19835641ECB}" />
+            <Properties>
+                <ItemName>Overhead - Sectional</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-overhead-sectional.png" />
+                </Images>
+                <Description>Overhead door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2003-02-04T20:18:38" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Overhead - Sectional</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DA660E97-1213-4524-95CA-D90BD2283CFF}" />
+            <Properties>
+                <ItemName>Pocket - Single</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-pocket-single.png" />
+                </Images>
+                <Description>Single pocket door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:30:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Pocket - Single</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4FB2CE6A-AA36-45F7-9162-CCB3C9A73062}" />
+            <Properties>
+                <ItemName>Revolving - Simple</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-revolving-simple.png" />
+                </Images>
+                <Description>Simple revolving door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:30:43" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Revolving - Simple</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D4569BF0-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>Sliding - Double - Full Lite</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecdoor-sliding-double-full-lite.png" />
+                </Images>
+                <Description>Double full lite sliding door</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbOpeningBase>
+                    <AutoOffsetDist>6</AutoOffsetDist>
+                </AecDbOpeningBase>
+                <AecDbDoor>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Door Styles (Imperial).dwg">Sliding - Double - Full Lite</Style>
+                </AecDbDoor>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF0-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Door Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_DoorTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more door tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {C73418CA-6F15-4038-AED1-E9589179EF3B}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

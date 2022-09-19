@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{E9884631-5D13-4C78-AD5C-14BF90FEDD5B}" />
+    <Properties>
+        <ItemName>Roofing</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of roofing related detail component tools.</Description>
+        <Time createdUniversalDateTime="2003-12-10T18:02:07" modifiedUniversalDateTime="2004-02-18T19:43:49" refreshedUniversalDateTime="2003-12-10T18:02:07" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{E0050698-23E7-4848-88B3-BA59D4323E2E}" />
+            <Properties>
+                <ItemName>900mm Single Glazed Dome Skylight</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_89DED4FF-4D9F-45B4-9195-6CE1479A15FF.png" />
+                </Images>
+                <Description>Roof Lights</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:39:22" modifiedUniversalDateTime="2004-02-19T00:39:22" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>235</TableID>
+                        <RowID>25</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>view</name>
+                        <type>2</type>
+                        <value>length</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doFrame</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{E1E6A780-3A16-4B57-B8BF-6D624FED1582}" />
+            <Properties>
+                <ItemName>100mm Insulated Skylight Curb (Single Glazed)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_76045EB1-3DEA-4484-BF1E-70101BB558AE.png" />
+                </Images>
+                <Description>Roof Light Frames</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:39:49" modifiedUniversalDateTime="2004-02-19T00:39:49" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>234</TableID>
+                        <RowID>3</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{3149543F-E150-4389-A741-31E08281E089}" />
+            <Properties>
+                <ItemName>750mm Single-Leaf Domed Roof Hatch/Smoke Vent</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_9A7331B5-CDE7-46D8-A613-47380B3D1CCC.png" />
+                </Images>
+                <Description>Roof Hatches</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:40:23" modifiedUniversalDateTime="2004-02-19T00:40:23" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>224</TableID>
+                        <RowID>9</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{64FF326E-9706-431C-B311-0DBF67B42280}" />
+            <Properties>
+                <ItemName>Roof Drain</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_6CD6DB33-F2F0-449E-9723-59789D1C5427.png" />
+                </Images>
+                <Description>Floor and Roof Drains</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:40:38" modifiedUniversalDateTime="2004-02-19T00:40:38" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>124</TableID>
+                        <RowID>3</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{9367D11C-D26D-4DBD-8C4D-3B2EE0FEB266}" />
+            <Properties>
+                <ItemName>Aluminum Flashing</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_1480C1C7-109B-4957-920B-7CDA2832B4D7.png" />
+                </Images>
+                <Description>Flexible Flashing</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:40:57" modifiedUniversalDateTime="2004-02-19T00:40:57" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>general</Recipe>
+                        <TableID>123</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{FED2C125-BC68-47AA-AF23-0B605916C1B0}" />
+            <Properties>
+                <ItemName>Asphalt Shingles</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_62CE67B4-5D17-4428-BFBE-0CA8C70339CC.png" />
+                </Images>
+                <Description>Shingles</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:41:07" modifiedUniversalDateTime="2004-02-19T00:41:07" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>232</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>direction</name>
+                        <type>2</type>
+                        <value>right</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{37468160-F2D8-40D3-A59B-83783F807442}" />
+            <Properties>
+                <ItemName>19mm Plywood</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_28CF5B31-DCF3-4AF7-81D8-047AFEF37E06.png" />
+                </Images>
+                <Description>Plywood</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:41:28" modifiedUniversalDateTime="2004-02-19T00:41:28" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>199</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{09A7AB0A-0E94-4A06-A45A-3AE95132F29D}" />
+            <Properties>
+                <ItemName>D100-0.7 Steel Roof Deck</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_A6EB435B-65B6-4E7F-B015-C1269BB783D7.png" />
+                </Images>
+                <Description>Roof Decking</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:41:52" modifiedUniversalDateTime="2004-02-19T00:41:52" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>side</Recipe>
+                        <TableID>223</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{ED23D4FC-DF68-4531-B0BD-84E93E55ECDC}" />
+            <Properties>
+                <ItemName>38mm Fire Stop</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_AA42E726-298F-4302-87A5-93C343DE8F9F.png" />
+                </Images>
+                <Description>Fire Stopping</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:42:03" modifiedUniversalDateTime="2004-02-19T00:42:03" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>side</Recipe>
+                        <TableID>121</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>density</name>
+                        <type>2</type>
+                        <value>normal</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{F4E7DEA4-5BA5-4B62-980F-0B97436BA815}" />
+            <Properties>
+                <ItemName>25mm Sprayed-on Fireproofing</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_8FC25CE2-543E-430B-87D6-E0AF7C8E9D74.png" />
+                </Images>
+                <Description>Sprayed-on Fireproofing</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:42:13" modifiedUniversalDateTime="2004-02-18T20:40:55" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>plan</Recipe>
+                        <TableID>244</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>coarseOutline</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{B6E41D71-8A6E-4517-9A50-2234D7670666}" />
+            <Properties>
+                <ItemName>75mm Rigid Insulation</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_07E7BFE9-E5D9-4EC9-94DA-4E51AD6792EC.png" />
+                </Images>
+                <Description>Rigid Insulation</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:43:01" modifiedUniversalDateTime="2004-02-19T00:43:01" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>222</TableID>
+                        <RowID>6</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{D3527133-53EB-477C-978E-204A86ACDD61}" />
+            <Properties>
+                <ItemName>100mm Concrete Topping</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_47419DF4-98DD-4B0F-B6D4-10D37A14D283.png" />
+                </Images>
+                <Description>Concrete Topping</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:43:37" modifiedUniversalDateTime="2004-02-18T20:40:10" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>89</TableID>
+                        <RowID>12</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{96792F1A-EE2C-4ACC-9482-EEFBEED4DAE7}" />
+            <Properties>
+                <ItemName>90mm Gypsum Concrete Topping</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_0400022C-456A-4EDA-A677-87288803CAF8.png" />
+                </Images>
+                <Description>Gypsum Topping</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:43:49" modifiedUniversalDateTime="2004-02-18T20:40:24" />
+            </Properties>
+            <CustomData>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>140</TableID>
+                        <RowID>12</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>
