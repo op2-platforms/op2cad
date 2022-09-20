@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{430DF42D-3599-48D2-978D-F7316781901F}" />
+    <Properties>
+        <ItemName>Materials</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a collection of Material Definitions to be used for applying materials to specific components of AEC objects.</Description>
+        <Keywords>Material Definitions</Keywords>
+        <Time createdUniversalDateTime="2006-11-05T05:02:40" modifiedUniversalDateTime="2006-11-05T05:02:40" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{0186EEA5-D45A-4231-BEA4-E232AA9555B5}" />
+            <Properties>
+                <ItemName>Concrete.Cast-in-Place.Flat.Grey</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_0186EEA5-D45A-4231-BEA4-E232AA9555B5.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Concrete.Cast-in-Place.Flat.Grey</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{46397C4B-A333-4E82-AB17-8BE737A18131}" />
+            <Properties>
+                <ItemName>Concrete.Cast-in-Place.Formwork.Wood.Boards</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_46397C4B-A333-4E82-AB17-8BE737A18131.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Concrete.Cast-in-Place.Formwork.Wood.Boards</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E615C9A4-9FAC-4B13-9B34-2E4F8E98D120}" />
+            <Properties>
+                <ItemName>Doors &amp; Windows.Glazed Curtain Walls.Stainless Steel Curtain Wall</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_E615C9A4-9FAC-4B13-9B34-2E4F8E98D120.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Doors &amp; Windows.Glazed Curtain Walls.Stainless Steel Curtain Wall</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E64CE84E-9EE6-4C8F-BD07-FC9EFD2C6FB4}" />
+            <Properties>
+                <ItemName>Doors &amp; Windows.Glazing.Glass.Clear</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_E64CE84E-9EE6-4C8F-BD07-FC9EFD2C6FB4.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Doors &amp; Windows.Glazing.Glass.Clear</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{99EE3B92-E2EB-4740-A9E7-851CF2FD7F4D}" />
+            <Properties>
+                <ItemName>Doors &amp; Windows.Metal Doors &amp; Frames.Aluminum Windows.Painted.White</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_99EE3B92-E2EB-4740-A9E7-851CF2FD7F4D.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Doors &amp; Windows.Metal Doors &amp; Frames.Aluminum Windows.Painted.White</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A4E6D6A2-88C0-40A2-AD02-26CE66A96B5C}" />
+            <Properties>
+                <ItemName>Finishes.Ceilings.Acoustical Tile.Exposed Grid.2x2.Pebble.White</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_A4E6D6A2-88C0-40A2-AD02-26CE66A96B5C.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Ceilings.Acoustical Tile.Exposed Grid.2x2.Pebble.White</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{42B63341-D61E-4AA7-AD65-49A3668C3066}" />
+            <Properties>
+                <ItemName>Finishes.Flooring.Carpet.Loop.2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_42B63341-D61E-4AA7-AD65-49A3668C3066.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Flooring.Carpet.Loop.2</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9FF92FC8-04D8-4E6B-9D7F-3A7EA0A709A3}" />
+            <Properties>
+                <ItemName>Finishes.Flooring.Stone.Pavers.Terra Cotta</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_9FF92FC8-04D8-4E6B-9D7F-3A7EA0A709A3.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Flooring.Stone.Pavers.Terra Cotta</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A57D8644-A5B3-4C99-B4DD-8CA17604617A}" />
+            <Properties>
+                <ItemName>Finishes.Flooring.Tile.Granite.Mauve-Black</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_A57D8644-A5B3-4C99-B4DD-8CA17604617A.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Flooring.Tile.Granite.Mauve-Black</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7470D9A1-F5D6-4BCD-954F-B1210E156864}" />
+            <Properties>
+                <ItemName>Finishes.Flooring.Tile.Vinyl.Checker.Black-White</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_7470D9A1-F5D6-4BCD-954F-B1210E156864.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Flooring.Tile.Vinyl.Checker.Black-White</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D9CAD424-1570-48D3-85E1-61CB715E4834}" />
+            <Properties>
+                <ItemName>Finishes.Flooring.Wood.Plank.Beech</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_D9CAD424-1570-48D3-85E1-61CB715E4834.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Flooring.Wood.Plank.Beech</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{96167B4C-5697-4085-BF2A-D5DC33809727}" />
+            <Properties>
+                <ItemName>Finishes.Paints and Coatings.Paint</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_96167B4C-5697-4085-BF2A-D5DC33809727.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Paints and Coatings.Paint</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B39BA2FB-A813-4AE9-8669-6968B8FE1602}" />
+            <Properties>
+                <ItemName>Finishes.Plaster and Gypsum Board.Plaster.Stucco.Fine.Brown</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_B39BA2FB-A813-4AE9-8669-6968B8FE1602.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Plaster and Gypsum Board.Plaster.Stucco.Fine.Brown</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D6BE125A-ADFA-4A5D-BDB1-6108D3C7EF66}" />
+            <Properties>
+                <ItemName>Finishes.Plaster and Gypsum Board.Plaster.Stucco.Troweled.Grey</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_D6BE125A-ADFA-4A5D-BDB1-6108D3C7EF66.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Finishes.Plaster and Gypsum Board.Plaster.Stucco.Troweled.Grey</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F2785A5A-F326-4F49-AF22-70EEE5EDD95A}" />
+            <Properties>
+                <ItemName>Masonry.Stone.Granite.Square.Stacked.Polished.Copper-Black</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_F2785A5A-F326-4F49-AF22-70EEE5EDD95A.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Masonry.Stone.Granite.Square.Stacked.Polished.Copper-Black</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F200D0F2-11D0-4B2F-9D97-C47B049C0DE1}" />
+            <Properties>
+                <ItemName>Masonry.Stone.Marble.Square.Stacked.Polished.White-Brown</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_F200D0F2-11D0-4B2F-9D97-C47B049C0DE1.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Masonry.Stone.Marble.Square.Stacked.Polished.White-Brown</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{FD7D3776-BAC7-411D-BFAA-8249B85A43BA}" />
+            <Properties>
+                <ItemName>Masonry.Unit Masonry.Brick.Modular</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_FD7D3776-BAC7-411D-BFAA-8249B85A43BA.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Masonry.Unit Masonry.Brick.Modular</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B987AE94-5397-419A-8C31-D9B189995988}" />
+            <Properties>
+                <ItemName>Masonry.Unit Masonry.Brick.Modular.Flemish</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_B987AE94-5397-419A-8C31-D9B189995988.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Masonry.Unit Masonry.Brick.Modular.Flemish</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{2E6E9574-CF46-4A25-A513-1B0873AC2005}" />
+            <Properties>
+                <ItemName>Masonry.Unit Masonry.Brick.Modular.Herringbone</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_2E6E9574-CF46-4A25-A513-1B0873AC2005.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Masonry.Unit Masonry.Brick.Modular.Herringbone</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{06B4B6B1-3894-49E5-B835-FE44B47139FD}" />
+            <Properties>
+                <ItemName>Masonry.Unit Masonry.CMU.Split-Face.Running</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_06B4B6B1-3894-49E5-B835-FE44B47139FD.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Masonry.Unit Masonry.CMU.Split-Face.Running</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F089CB7F-D2E1-4870-A1DD-2C49AD0CFD50}" />
+            <Properties>
+                <ItemName>Site Construction.Planting.Groundcover.Grass.Thick</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_F089CB7F-D2E1-4870-A1DD-2C49AD0CFD50.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Site Construction.Planting.Groundcover.Grass.Thick</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7EFF3C68-1A1A-43AC-870B-371972E48A27}" />
+            <Properties>
+                <ItemName>Site Construction.Planting.Groundcover.Gravel.Mixed</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_7EFF3C68-1A1A-43AC-870B-371972E48A27.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Site Construction.Planting.Groundcover.Gravel.Mixed</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{ACCDFBBE-D00E-4924-A422-C5209A02D238}" />
+            <Properties>
+                <ItemName>Thermal &amp; Moisture.Roofing and Siding Panels.Metal.Copper</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_ACCDFBBE-D00E-4924-A422-C5209A02D238.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Thermal &amp; Moisture.Roofing and Siding Panels.Metal.Copper</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8D6115F8-BC21-4BBD-9D25-7F5F6A30E486}" />
+            <Properties>
+                <ItemName>Thermal &amp; Moisture.Roofing and Siding Panels.Tile.Spanish.Red</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_8D6115F8-BC21-4BBD-9D25-7F5F6A30E486.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Thermal &amp; Moisture.Roofing and Siding Panels.Tile.Spanish.Red</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B699D219-C1D2-42B3-8F9B-599FF4265CD4}" />
+            <Properties>
+                <ItemName>Thermal &amp; Moisture.Shingles.Asphalt Shingles.3-Tab.Black</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_B699D219-C1D2-42B3-8F9B-599FF4265CD4.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Thermal &amp; Moisture.Shingles.Asphalt Shingles.3-Tab.Black</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{3891DB6F-0FEC-4AEF-941F-9DFFFC461436}" />
+            <Properties>
+                <ItemName>Wood.Finish Carpentry.Wood.Ash</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Material Tool_3891DB6F-0FEC-4AEF-941F-9DFFFC461436.png" />
+                </Images>
+                <Description>Applies an AEC Material Definition to an object.
+Material definitions contain settings for the hatching, scale, and color of materials, plus rendering materials.</Description>
+<Help>
+                            <HelpFile>WBH</HelpFile>
+                            <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                            <HelpData>ADT_UG_MATERIAL</HelpData>
+                        </Help>
+
+                <Time createdUniversalDateTime="2004-10-27T13:16:24" modifiedUniversalDateTime="2004-10-27T13:16:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{E04B3676-CBB7-454C-9CDB-A55ACA81C41F}" />
+            <Data>
+                <AecDbMaterialDef>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Material Definitions (Metric).dwg">Wood.Finish Carpentry.Wood.Ash</Style>
+                </AecDbMaterialDef>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{5731CC06-7FDE-40D9-8C7E-1EC7B37DB4DE}" />
+    <Properties>
+        <ItemName>Massing</ItemName>
+        <Images option="0" />
+        <Description>This palette contains primitive massing elements.  Customize these tools to, for example, point to a new Mass Element style that has materials and classifications applied.  Try out the Drape Tool to create a mass element 'draped' over a selection of linework.</Description>
+        <Time createdUniversalDateTime="2002-12-27T15:32:59" modifiedUniversalDateTime="2006-01-10T17:21:34" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{4BE40298-895E-4E02-B038-1F5DD0166E42}" />
+            <Properties>
+                <ItemName>Arch</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_99A2E3AC-1F60-47EF-8E4D-039B92E7E6EF.png" />
+                </Images>
+                <Description>Creates an arch mass element with the width, depth, height, and radius you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>1</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{BF9ED41A-C503-4634-A246-9DEF670D8640}" />
+            <Properties>
+                <ItemName>Barrel Vault</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_EB47DEB8-1E62-494C-9A3E-D9A1464B65A5.png" />
+                </Images>
+                <Description>Creates a barrel vault mass element with the width and radius you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>2</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{20152265-ECA8-4A5C-BB5B-769264BB504D}" />
+            <Properties>
+                <ItemName>Box</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_B78FBE4D-0D40-4E80-BA23-7061AD8DD053.png" />
+                </Images>
+                <Description>Creates a box mass element with the width, depth, and height you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>0</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{341B4246-5F9E-496F-BE0C-B2B196539D4D}" />
+            <Properties>
+                <ItemName>Pyramid</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_071558E3-0073-4F3F-9315-700A7B748A1D.png" />
+                </Images>
+                <Description>Creates a pyramid mass element with the width, depth, and height you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>10</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{9AA7CF3E-3035-4A87-A574-3B4D7D137E91}" />
+            <Properties>
+                <ItemName>Isosceles Triangle</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_6A722400-BF3B-4340-8713-E650243D974B.png" />
+                </Images>
+                <Description>Creates an isoceles triangle mass element with the width, depth, and height you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>8</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{0102243C-1084-4E9A-8568-DA3D2593FB35}" />
+            <Properties>
+                <ItemName>Right Triangle</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_D30E8EC5-B3DC-4764-B081-01EA76EAD6D4.png" />
+                </Images>
+                <Description>Creates a right triangle mass element with the width, depth, and height you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>9</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{D6760FBE-74C9-47E3-B048-87679A813BB6}" />
+            <Properties>
+                <ItemName>Cone</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_E54218D9-AE20-4DAB-9903-D0F209680954.png" />
+                </Images>
+                <Description>Creates a cone mass element with the height and radius you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>4</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{8A5CCA08-5835-4FA3-BBED-679389E85AED}" />
+            <Properties>
+                <ItemName>Cylinder</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_ABD4FC5F-ADD3-46D4-BF8D-E9CA0879ED27.png" />
+                </Images>
+                <Description>Creates a cylinder mass element with the height and radius you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>5</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{C4A0A184-B98E-4369-B6F6-27DFCAA9EDB6}" />
+            <Properties>
+                <ItemName>Dome</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_9F072D85-A726-4599-80C4-DF5FFA990C2C.png" />
+                </Images>
+                <Description>Creates a dome mass element with the radius you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>6</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{70C3170E-83C5-4D3D-B472-93E5CDB8EFE4}" />
+            <Properties>
+                <ItemName>Sphere</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_B475B17A-F865-40FD-B0AF-639275EE4204.png" />
+                </Images>
+                <Description>Creates a sphere mass element with the radius you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>11</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{4F6E9555-E565-42D8-9DB0-BA28FDF382C2}" />
+            <Properties>
+                <ItemName>Gable</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_38FAC1A8-1335-429F-834B-7CC2DA7021D0.png" />
+                </Images>
+                <Description>Creates a gable mass element with the width, depth, height, and rise you specify.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>7</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{7039E80B-BB0B-45DC-B9CE-5A76A37757D9}" />
+            <Properties>
+                <ItemName>Drape</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command_CBCB5BDD-D08D-4888-BC98-4E9FF9619DDB.png" />
+                </Images>
+                <Description>Creates a mass element draped over a selection of linework.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-ConceptualModels_CreatingaDrapeMassElement</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-07-30T11:36:14" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <CommandString>^c^c_AecDrape</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{4D7680CD-C17D-47F9-BD1F-ED1DAFC0B9B9}" />
+            <Properties>
+                <ItemName>Extrusion</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_2C537BA2-70C8-42B3-9A96-10C069F60D3A.png" />
+                </Images>
+                <Description>Creates a mass element by extrusion from a profile.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-07-28T19:53:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>12</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{5C188764-F04E-4BA5-BBF6-845D526DB2DF}" />
+            <Properties>
+                <ItemName>Revolution</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\MassElement_F9F9F155-FB52-4B1B-9984-88D4B8C81AB8.png" />
+                </Images>
+                <Description>Creates a mass element by revolving a profile about an axis.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-07-28T19:54:33" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{36CA2A52-FC65-436A-9BCA-1C3D30354A61}" />
+            <Data>
+                <AecDbMassElem>
+                    <Shape>13</Shape>
+                </AecDbMassElem>
+                <Units>mm</Units>
+                <AecDbGeo>
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{4DE45FC5-52D1-4C5A-9664-76F883099175}" />
+            <Properties>
+                <ItemName>Mass Group</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Mass Group_7E668BC6-B326-4AB3-AAC7-E2E4B33DE161.png" />
+                </Images>
+                <Description>Combines mass elements into a mass group.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{75B3D844-1341-4E6D-9461-C5EBB0D5C4DE}" />
+            <Data>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{F2DE6C99-5367-4F7F-BCB1-5C637EC03073}" />
+            <Properties>
+                <ItemName>Slice</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Slice_5C62F235-1B73-4E93-AF9A-FF868B8FA019.png" />
+                </Images>
+                <Description>Creates a slice marker to which to attach mass groups and create a floorplate.</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{BA3A6356-BA9C-4780-9E70-7F1AB7342046}" />
+            <Data>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{584C7312-A824-4D74-9C79-C6E4591EA72B}" />
+            <Properties>
+                <ItemName>Convert to Mass Element Tool</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Command_C24F3F72-ED12-4F8A-94ED-4196E582C66E.png" />
+                </Images>
+                <Description>Convert AEC objects and 3D solids into mass elements.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-ConceptualModels_Converting3DObjectstoMassElements</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-08-25T14:30:35" modifiedUniversalDateTime="2002-08-25T10:49:55" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <CommandString>^c^c_AecMassElementConvert</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.1.0" option="0">
+            <ItemID idValue="{6A6D6039-5770-4D02-9ACD-7935E3A28ED6}" />
+            <Properties>
+                <ItemName>Camera</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\BF77D9DA-B686-44F0-B29B-E2D93DDFE8B8.png" />
+                </Images>
+                <Description>Adds a camera.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Cameras_Cameras</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-10T15:10:07" modifiedUniversalDateTime="2006-01-10T17:21:47" refreshedUniversalDateTime="2006-01-10T15:10:07" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{F25B823F-E476-4C4F-9EDF-A726E52BA99E}" />
+            <Data>
+                <Tool>
+                    <LensLength PropertyValue="28.00000" />
+                    <FieldOfView PropertyValue="65.47" />
+                    <RollAngle PropertyValue="0.00" />
+                    <IsPlotable PropertyValue="0" />
+                    <FrontPlane PropertyValue="0" />
+                    <BackPlane PropertyValue="0" />
+                    <Clipping PropertyValue="Off" />
+                    <DiffProp PropertyValue="0" />
+                    <CreateToolPalette PropertyValue="" />
+                </Tool>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

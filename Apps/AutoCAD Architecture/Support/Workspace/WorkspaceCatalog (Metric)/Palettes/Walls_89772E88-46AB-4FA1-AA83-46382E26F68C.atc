@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{89772E88-46AB-4FA1-AA83-46382E26F68C}" />
+    <Properties>
+        <ItemName>Walls</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of customized wall tools.  They refer to styles located in the central library of wall styles in your AutoCAD Architecture Metric styles folder. </Description>
+        <Time createdUniversalDateTime="2002-12-27T15:33:03" modifiedUniversalDateTime="2005-01-09T13:41:47" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{82D3B607-E861-422A-8B5B-B37F892D30CE}" />
+            <Properties>
+                <ItemName>Brick-090 Brick-090</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_23935BD3-2CDD-4320-8222-596CB848D455.png" />
+                </Images>
+                <Description>90mm Brick and 90mm Brick Wall</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-07-28T14:53:57" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Brick (Metric).dwg">Brick-090 Brick-090</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{66C9D2AC-5CF3-4E9E-9524-CF2274659B92}" />
+            <Properties>
+                <ItemName>Brick-090 Brick-090 Furring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_5B71D9BF-6A2C-42D5-AE17-1E7DC45114F8.png" />
+                </Images>
+                <Description>90mm Brick and 90mm Brick Wall with 50mm Furring</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T16:46:46" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Brick (Metric).dwg">Brick-090 Brick-090 Furring</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8EF4E682-E1F3-46B7-ADE8-B373DD8B7D61}" />
+            <Properties>
+                <ItemName>CMU-190</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_A26F365E-8E5C-4231-BAF2-CBF0BAFE4E37.png" />
+                </Images>
+                <Description>190mm CMU Wall</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:10:54" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - CMU (Metric).dwg">CMU-190</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{555EEA66-7C8F-4866-B20F-3A193E78BEAA}" />
+            <Properties>
+                <ItemName>CMU-190 Furring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_444BEA85-1129-4FE9-879E-8C6CCF2A4404.png" />
+                </Images>
+                <Description>190mm CMU Wall with 50mm Furring</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:11:23" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - CMU (Metric).dwg">CMU-190 Furring</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E5E1FF73-45E5-4664-B9B2-336F64C1FEAF}" />
+            <Properties>
+                <ItemName>CMU-190 Rigid-038 Air-050 Brick-090</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_A48222A5-F22B-4EB5-B4D4-AAB48734E52B.png" />
+                </Images>
+                <Description>190mm CMU Wall and 90mm Brick Cavity with 38mm Rigid</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:10:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - CMU (Metric).dwg">CMU-190 Rigid-038 Air-050 Brick-090</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7C70F6CB-902C-47DE-BE41-4C6EE71F82E0}" />
+            <Properties>
+                <ItemName>CMU-190 Rigid-038 Air-050 Brick-090 Furring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_A60FF11E-1A70-4B02-9C77-E126398D3558.png" />
+                </Images>
+                <Description>190mm CMU Wall and 90mm Brick Cavity with 50mm Furring and 38mm Rigid</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:11:51" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - CMU (Metric).dwg">CMU-190 Rigid-038 Air-050 Brick-090 Furring</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{06B32DD4-FE7A-445E-BC19-5B7AB5C45624}" />
+            <Properties>
+                <ItemName>Concrete-200</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_2C1CE579-A9F2-49FA-AAE1-01B65F935E01.png" />
+                </Images>
+                <Description>200mm Concrete Wall</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:12:07" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Concrete (Metric).dwg">Concrete-200</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{15369AFF-7A0B-452C-AB5B-905C89CE7B8D}" />
+            <Properties>
+                <ItemName>Concrete-200 Concrete-400 x 200-footing</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_32D8DA85-3EBC-46FC-900F-3E45F64D3FA7.png" />
+                </Images>
+                <Description>200mm Concrete Wall with 400mm x 200mm Footing</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-08-28T20:55:43" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <LayerOverride />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Concrete (Metric).dwg">Concrete-200 Concrete-400 x 200-footing</Style>
+                    <BaselineOffset>0</BaselineOffset>
+                    <FloorlineOffset>-300</FloorlineOffset>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{740252D3-41C7-423F-B113-F67D1F70A97A}" />
+            <Properties>
+                <ItemName>Stud-102</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_37BB1B45-04B5-4399-BC4A-CD5A4F260337.png" />
+                </Images>
+                <Description>102mm Metal Stud Ptn. (Actual)</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:21:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Stud (Metric).dwg">Stud-102</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DD27BA6E-C26F-4AC6-B8ED-228E61706768}" />
+            <Properties>
+                <ItemName>Stud-102 GWB-018 2 Layers Each Side</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_1BDB7F84-EDB4-4724-8787-24626DA2BDB8.png" />
+                </Images>
+                <Description>102mm Stud Ptn. (Actual) with 2 Layers 18mm Gypsum</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:22:06" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Stud (Metric).dwg">Stud-102 GWB-018 2 Layers Each Side</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B096948C-9C98-46ED-A40C-94314E2A47E5}" />
+            <Properties>
+                <ItemName>Stud-102 GWB-018 Each Side</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_CB3A4759-B999-4B81-9EEA-5CB5614AAC31.png" />
+                </Images>
+                <Description>102mm Stud Ptn. (Actual) with 18mm Gypsum</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:23:05" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Stud (Metric).dwg">Stud-102 GWB-018 Each Side</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F70AE99D-9050-424B-B796-8FE106A97727}" />
+            <Properties>
+                <ItemName>Stud-102 Rigid-038 Air-025 Brick-090</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Wall_D69AB7D4-4D36-410A-A13D-DC6EA4599CB0.png" />
+                </Images>
+                <Description>102mm Metal Stud Cavity Wall (Actual) with 90mm Brick and 38mm Rigid</Description>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T11:23:49" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <BoundSpaces>2</BoundSpaces>
+                </AecDbGeo>
+                <AecDbWall>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\Wall Styles - Stud (Metric).dwg">Stud-102 Rigid-038 Air-025 Brick-090</Style>
+                    <GraphlinePos>0</GraphlinePos>
+                    <Cleanup>
+                        <Auto>-1</Auto>
+                        <Radius>0</Radius>
+                    </Cleanup>
+                </AecDbWall>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569C00-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Wall Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_WallTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more wall tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>mm</Units>
+                <CommandString>^C^C_AecContentCatalog {3F5FCA58-CE47-4EF5-8DDE-4840437BC46A}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

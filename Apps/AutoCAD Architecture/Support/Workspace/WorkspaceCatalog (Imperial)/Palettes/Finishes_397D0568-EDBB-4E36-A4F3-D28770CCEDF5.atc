@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{397D0568-EDBB-4E36-A4F3-D28770CCEDF5}" />
+    <Properties>
+        <ItemName>Finishes</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of finish related detail component tools.</Description>
+        <Time createdUniversalDateTime="2005-01-09T13:52:14" modifiedUniversalDateTime="2005-01-09T13:52:14" refreshedUniversalDateTime="2005-01-09T13:52:14" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{3CD9E891-F332-4E57-8EFF-27F3CA18373C}" />
+            <Properties>
+                <ItemName>5/8" Plywood</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_3CD9E891-F332-4E57-8EFF-27F3CA18373C.png" />
+                </Images>
+                <Description>Plywood</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:10:31" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>199</TableID>
+                        <RowID>4</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{EFC9A2A8-B240-4D4E-89E2-7F99DEB4413F}" />
+            <Properties>
+                <ItemName>Brick Pavers</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_EFC9A2A8-B240-4D4E-89E2-7F99DEB4413F.png" />
+                </Images>
+                <Description>Brick Pavers</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:10:40" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>40</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{32C16D7D-EE18-49EA-9A80-D3B6E579E6C6}" />
+            <Properties>
+                <ItemName>1x3 Wood Flooring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_32C16D7D-EE18-49EA-9A80-D3B6E579E6C6.png" />
+                </Images>
+                <Description>Wood Strip Flooring</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T21:46:04" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>275</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{04023DFC-260C-445D-81BE-A139DDF4FA88}" />
+            <Properties>
+                <ItemName>Carpet Pad</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_04023DFC-260C-445D-81BE-A139DDF4FA88.png" />
+                </Images>
+                <Description>Carpet Pads</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:30:30" modifiedUniversalDateTime="2007-12-20T22:30:30" refreshedUniversalDateTime="2007-12-20T22:30:30" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>54</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{ECEE9B19-B210-471D-A6E6-F387AFC3D71C}" />
+            <Properties>
+                <ItemName>Carpet</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_ECEE9B19-B210-471D-A6E6-F387AFC3D71C.png" />
+                </Images>
+                <Description>Carpeting</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:10:55" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>55</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{42FEB86C-3813-48C8-AAC7-0458AE809B0D}" />
+            <Properties>
+                <ItemName>Carpet Edge</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_42FEB86C-3813-48C8-AAC7-0458AE809B0D.png" />
+                </Images>
+                <Description>Carpet Accessories</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:11:02" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>53</TableID>
+                        <RowID>8</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{15E5C9E3-070E-46E8-80F2-064094EB02E6}" />
+            <Properties>
+                <ItemName>Resilient Flooring</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_15E5C9E3-070E-46E8-80F2-064094EB02E6.png" />
+                </Images>
+                <Description>Resilient Flooring</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:11:09" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>220</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{503BDFFD-A436-4115-8B07-F89C7335687B}" />
+            <Properties>
+                <ItemName>4" Rolled Base</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_503BDFFD-A436-4115-8B07-F89C7335687B.png" />
+                </Images>
+                <Description>Resilient Flooring Accessories</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:11:15" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>221</TableID>
+                        <RowID>10</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{30570778-3245-4890-B8AE-C0294ECF2C91}" />
+            <Properties>
+                <ItemName>4" Resilient Flat Base</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_30570778-3245-4890-B8AE-C0294ECF2C91.png" />
+                </Images>
+                <Description>Resilient Flooring Accessories</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:46:04" modifiedUniversalDateTime="2003-12-10T17:11:25" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>221</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

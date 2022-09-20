@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{8A955ED0-6040-41D7-8D31-DAB01490572F}" />
+    <Properties>
+        <ItemName>Doors &amp; Windows</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of door &amp; window related detail component tools.</Description>
+        <Time createdUniversalDateTime="2003-10-29T14:42:50" modifiedUniversalDateTime="2003-12-10T18:02:19" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{9DB932E7-450F-4EC9-89DE-AA1484359CB4}" />
+            <Properties>
+                <ItemName>Thermal Break Panic Saddle Threshold</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_9DB932E7-450F-4EC9-89DE-AA1484359CB4.png" />
+                </Images>
+                <Description>Door Accessories</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:05:39" modifiedUniversalDateTime="2003-12-10T16:13:48" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>112</TableID>
+                        <RowID>10</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{41184A79-BE34-4A3A-9041-FFCAFFDC9820}" />
+            <Properties>
+                <ItemName>Brush Weatherstrip</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_41184A79-BE34-4A3A-9041-FFCAFFDC9820.png" />
+                </Images>
+                <Description>Weather Stripping and Seals</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:05:39" modifiedUniversalDateTime="2003-12-10T16:13:59" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>271</TableID>
+                        <RowID>10</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{BAFE798C-E8F7-4F23-B0D2-A32CED78F6A5}" />
+            <Properties>
+                <ItemName>Automatic Metal Door Bottom Seal</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_BAFE798C-E8F7-4F23-B0D2-A32CED78F6A5.png" />
+                </Images>
+                <Description>Weather Stripping and Seals</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:05:39" modifiedUniversalDateTime="2003-12-10T16:14:17" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>271</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{8CB71A98-153D-406F-91B6-F792811CE180}" />
+            <Properties>
+                <ItemName>Storefront Door Jamb at Finish</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_8CB71A98-153D-406F-91B6-F792811CE180.png" />
+                </Images>
+                <Description>Storefronts - Center Glazed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:05:39" modifiedUniversalDateTime="2003-12-10T16:19:48" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>255</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{EB42B5A9-8282-4381-8B00-97144F2FDC93}" />
+            <Properties>
+                <ItemName>Storefront Head at Finish</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_F10CC9E9-838F-4EBC-9909-994B99CFA9C4.png" />
+                </Images>
+                <Description>Storefronts - Center Glazed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:11:32" modifiedUniversalDateTime="2003-12-10T16:19:55" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>255</TableID>
+                        <RowID>8</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{174DFA04-0F5D-4D59-8EF4-B32BB1295403}" />
+            <Properties>
+                <ItemName>Storefront Sill at Finish</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_19680DA5-E862-4958-BC9B-FF4946AEE5C7.png" />
+                </Images>
+                <Description>Storefronts - Center Glazed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:11:37" modifiedUniversalDateTime="2003-12-10T16:19:59" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>255</TableID>
+                        <RowID>10</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{0A04E2C3-52D1-4CA6-970B-E6657C47FD0A}" />
+            <Properties>
+                <ItemName>Corner Storefront Mullion</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_276E4543-8CD8-4E3D-B15A-7B68510814C1.png" />
+                </Images>
+                <Description>Storefronts - Center Glazed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:11:42" modifiedUniversalDateTime="2003-12-10T16:20:12" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>255</TableID>
+                        <RowID>11</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{1866091D-FD7C-4568-9E83-A4AB0351CD55}" />
+            <Properties>
+                <ItemName>Aluminum Fixed Window Head/Jamb</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_B6D6B5B5-09FA-4ED5-8E3D-DA5D47FBFBB5.png" />
+                </Images>
+                <Description>Aluminum Windows - Fixed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:11:56" modifiedUniversalDateTime="2003-12-10T16:20:48" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>28</TableID>
+                        <RowID>3</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{4B17F1B4-A4C5-4326-9583-AD66168D6CCF}" />
+            <Properties>
+                <ItemName>Aluminum Fixed Window Mullion</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_26A726F8-5CAA-45F0-94E3-084EF0A54587.png" />
+                </Images>
+                <Description>Aluminum Windows - Fixed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:12:27" modifiedUniversalDateTime="2003-12-10T16:21:45" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>28</TableID>
+                        <RowID>6</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{5924B455-CA61-4505-ABE5-83D3C6005FF5}" />
+            <Properties>
+                <ItemName>Aluminum Fixed Window Sill</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_DD7E3490-7B7B-424C-A4F1-4A7DE06B055C.png" />
+                </Images>
+                <Description>Aluminum Windows - Fixed</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:12:31" modifiedUniversalDateTime="2003-12-10T16:21:31" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>28</TableID>
+                        <RowID>4</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{A97A8348-F5EA-45BE-951C-2C616978E892}" />
+            <Properties>
+                <ItemName>5 1/2" Double Rabbet HM Door Frame</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" IsDark = "false" src="Images\Detail Component_E7503EE4-5C76-447A-8D19-34D5CE9F9DF4.png" />
+                    <Image cx="64" cy="64" IsDark = "true"  src="Images\Detail Component_E7503EE4-5C76-447A-8D19-34D5CE9F9DF4_dark.png" />
+                </Images>
+                <Description>Double Rabbet Door Frames</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:12:53" modifiedUniversalDateTime="2003-12-10T16:22:11" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>114</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{229886F4-8EEA-462E-8DFF-B424552A53D9}" />
+            <Properties>
+                <ItemName>5 1/2" HM Cased Opening Frame</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" IsDark = "false" src="Images\Detail Component_BB248271-EBD0-404C-A340-55C4288734A5.png" />
+                    <Image cx="64" cy="64" IsDark = "true"  src="Images\Detail Component_BB248271-EBD0-404C-A340-55C4288734A5_dark.png" />
+                </Images>
+                <Description>Cased Opening Frames</Description>
+                <Time createdUniversalDateTime="2003-12-10T21:13:01" modifiedUniversalDateTime="2003-12-10T16:22:31" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>57</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

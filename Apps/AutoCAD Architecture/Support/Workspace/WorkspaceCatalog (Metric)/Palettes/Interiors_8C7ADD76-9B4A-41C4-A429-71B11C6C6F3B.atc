@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{8C7ADD76-9B4A-41C4-A429-71B11C6C6F3B}" />
+    <Properties>
+        <ItemName>Interiors</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of interior related detail component tools.</Description>
+        <Time createdUniversalDateTime="2003-12-10T18:02:40" modifiedUniversalDateTime="2004-02-18T19:55:50" refreshedUniversalDateTime="2003-12-10T18:02:40" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{2E6FF018-D4FA-4E54-A66B-E3AAA6052EE0}" />
+            <Properties>
+                <ItemName>41mm Metal Runner</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_9ABCC443-095D-44A6-B5BE-08ADEDDAE9D7.png" />
+                </Images>
+                <Description>Interior Metal Runner Channels</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:52:53" modifiedUniversalDateTime="2004-02-19T00:52:53" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>160</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{0CE5EEAE-6A77-453E-95C8-B87E76F018A5}" />
+            <Properties>
+                <ItemName>41mm Metal Stud</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_16AA7960-C2C4-4D66-B806-70A33A963A3A.png" />
+                </Images>
+                <Description>Interior Metal Studs</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:52:59" modifiedUniversalDateTime="2004-02-19T00:52:59" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>161</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{C01D194C-B059-4D14-9150-68932C899F8E}" />
+            <Properties>
+                <ItemName>100mm Metal Runner</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_6565074E-B0BA-484A-A2D3-82D696956BC2.png" />
+                </Images>
+                <Description>Interior Metal Runner Channels</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:53:20" modifiedUniversalDateTime="2004-02-19T00:53:20" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>160</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{B34742D5-8458-4EC2-B77D-E3A2088D51A1}" />
+            <Properties>
+                <ItemName>100mm Metal Stud</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_69637212-CB0D-4FDD-A64D-4A2DE49AE348.png" />
+                </Images>
+                <Description>Interior Metal Studs</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:53:32" modifiedUniversalDateTime="2004-02-19T00:53:32" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>161</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{601064BD-38EE-4EF0-8124-F0ED9E26BAEA}" />
+            <Properties>
+                <ItemName>22mm Hat Channel</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_906D7C39-7523-4EC6-9CF3-CF8F92CD17D6.png" />
+                </Images>
+                <Description>Interior Furring Hat Channels</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:53:47" modifiedUniversalDateTime="2004-02-19T00:53:47" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>157</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{2F4010A2-AD67-4DE0-AD95-81654E429AFC}" />
+            <Properties>
+                <ItemName>50 x 100mm Nominal</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_18FCBE1F-B17D-43B9-8F3F-E3F5E5B17A9B.png" />
+                </Images>
+                <Description>Nominal Cut Timber</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:54:19" modifiedUniversalDateTime="2004-02-19T00:54:19" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>191</TableID>
+                        <RowID>9</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>type</name>
+                        <type>2</type>
+                        <value>lumber</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{66E75E15-C224-409D-84A3-10A819E6C682}" />
+            <Properties>
+                <ItemName>50 x 250mm Nominal</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_F627057A-D082-4E36-854C-83A4361979D7.png" />
+                </Images>
+                <Description>Nominal Cut Timber</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:54:27" modifiedUniversalDateTime="2004-02-19T00:54:27" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>191</TableID>
+                        <RowID>13</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>type</name>
+                        <type>2</type>
+                        <value>lumber</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{526A090E-12C6-4B92-9045-3FCE8C7141BC}" />
+            <Properties>
+                <ItemName>89mm Acoustical Batt Insulation</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_663C8D3F-0379-4CEC-AFF0-B91EE2D71648.png" />
+                </Images>
+                <Description>Acoustical Insulation</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:54:46" modifiedUniversalDateTime="2004-02-19T00:54:46" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>side</Recipe>
+                        <TableID>12</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>density</name>
+                        <type>2</type>
+                        <value>normal</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{98FF43FF-4F16-4241-AB02-9A95EB14F248}" />
+            <Properties>
+                <ItemName>13mm Plywood</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_134B3859-2B0B-4426-8442-13F1C0201E7D.png" />
+                </Images>
+                <Description>Plywood</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:55:00" modifiedUniversalDateTime="2004-02-19T00:55:00" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>199</TableID>
+                        <RowID>3</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{778B62DA-5726-4A3E-B7A6-00EFA2BEE877}" />
+            <Properties>
+                <ItemName>15mm Plywood</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_EFAA0C91-73B3-453B-98D9-1AC04FFCE84D.png" />
+                </Images>
+                <Description>Plywood</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:55:10" modifiedUniversalDateTime="2004-02-19T00:55:10" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>199</TableID>
+                        <RowID>4</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{E3B9B5A6-70DE-4AB2-A016-AF783DA85B11}" />
+            <Properties>
+                <ItemName>13mm Gypsum Wallboard</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_C4720B74-64C0-4DBC-B8C3-2BBFEFFEE032.png" />
+                </Images>
+                <Description>Gypsum Wallboard</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:55:23" modifiedUniversalDateTime="2004-02-19T00:55:23" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>142</TableID>
+                        <RowID>3</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doPaper</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{B08DD63F-BDD3-4EAE-8EE0-92E82362303F}" />
+            <Properties>
+                <ItemName>16mm Gypsum Wallboard</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_35095A78-15F7-4841-B3E3-76105E4C95B8.png" />
+                </Images>
+                <Description>Gypsum Wallboard</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:55:39" modifiedUniversalDateTime="2004-02-19T00:55:39" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>142</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doPaper</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{0A7557AD-3B4C-4D33-9D43-A4C87C0ACBDF}" />
+            <Properties>
+                <ItemName>16mm Type "X" Gypsum Wallboard</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_66CAF2EC-D8C1-4094-90F3-4780D2306F1C.png" />
+                </Images>
+                <Description>Gypsum Wallboard</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:55:41" modifiedUniversalDateTime="2004-02-19T00:55:41" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>142</TableID>
+                        <RowID>6</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doPaper</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{D32FDC73-C4EA-40C0-9D37-3CD711B86938}" />
+            <Properties>
+                <ItemName>Corner Bead</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Detail Component_0CF02F12-655C-47B4-8DF7-BFDB4B7433DD.png" />
+                </Images>
+                <Description>Gypsum Wall Board Accessories</Description>
+                <Time createdUniversalDateTime="2004-02-19T00:55:50" modifiedUniversalDateTime="2004-02-19T00:55:50" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id>
+                        </Id>
+                        <GUID>{87EF39D7-C637-4b3e-AC96-1E77F6F926E1}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>141</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

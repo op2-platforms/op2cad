@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{B44C88A6-648E-4E26-B73C-34B4741CBCBF}" />
+    <Properties>
+        <ItemName>FF + E</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of common fixtures, furnishings, and equipment.</Description>
+        <Time createdUniversalDateTime="2006-01-10T21:38:19" modifiedUniversalDateTime="2006-01-10T17:44:15" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{EF39DE14-C2D4-4874-9A29-37C3FEA6E837}" />
+            <Properties>
+                <ItemName>Fixtures</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:47:26" modifiedUniversalDateTime="2006-01-10T21:47:26" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{24750437-1F9F-490D-A01A-034CD5C47EFA}" />
+            <Properties>
+                <ItemName>Regular</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_4F1DC958-DBEA-42C7-8E50-E515A634A083.png" />
+                </Images>
+                <Description>Plumbing: Fountain: Drinking Fountain Regular [15400]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Mechanical\Plumbing Fixtures\Fountain\Regular.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{47B0FA69-E1C4-4E02-B62D-2C20202908A0}" />
+            <Properties>
+                <ItemName>Flush - Floor</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_4717C55F-67E9-4188-9DAD-2BE136114920.png" />
+                </Images>
+                <Description>Plumbing: Toilet: Flush valve, floor mount WC [15400]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Mechanical\Plumbing Fixtures\Toilet\Flush - Floor.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E46DFA84-B594-40C9-B7F3-F08D97DBD713}" />
+            <Properties>
+                <ItemName>Lavs (2)</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" IsDark = "false" src="Images\AecContent_1695A48A-69BC-4E96-B265-790C10B6838B.png" />
+                    <Image cx="64" cy="64" IsDark = "true"  src="Images\AecContent_1695A48A-69BC-4E96-B265-790C10B6838B_dark.png" />
+                </Images>
+                <Description>2 Lavatories in counter [Double-click to rotate &amp; mirror; explode to stretch]</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-DesignContent_DesignContent</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-02-23T16:54:59" modifiedUniversalDateTime="2003-02-23T16:54:59" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\Aec Content\Imperial\Design\Mechanical\Plumbing Fixtures\Layouts\Lavs (2).dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7AD86EF3-F85E-4830-8CF5-5F5628715005}" />
+            <Properties>
+                <ItemName>Stall</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" IsDark = "false" src="Images\AecContent_B359D19A-E7E4-4557-9AC6-61FB7DF6A36E.png" />
+                    <Image cx="64" cy="64" IsDark = "true"  src="Images\AecContent_B359D19A-E7E4-4557-9AC6-61FB7DF6A36E_dark.png" />
+                </Images>
+                <Description>Standard Stall [Double-click to rotate &amp; mirror; explode to cleanup]</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-DesignContent_DesignContent</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-02-23T16:54:59" modifiedUniversalDateTime="2003-02-23T16:54:59" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\Aec Content\Imperial\Design\Mechanical\Plumbing Fixtures\Layouts\Stall.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9D08F4DF-5D94-4646-A6CE-A3017D147775}" />
+            <Properties>
+                <ItemName>Stall (Accessible)</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" IsDark = "false" src="Images\AecContent_FA6468A8-3B17-46C3-856E-DDC9D7BAD7FB.png" />
+                    <Image cx="64" cy="64" IsDark = "true"  src="Images\AecContent_FA6468A8-3B17-46C3-856E-DDC9D7BAD7FB_dark.png" />
+                </Images>
+                <Description>Accessible Stall [Double-click to rotate &amp; mirror; explode to cleanup]</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-DesignContent_DesignContent</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-02-23T16:54:59" modifiedUniversalDateTime="2003-02-23T16:54:59" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\Aec Content\Imperial\Design\Mechanical\Plumbing Fixtures\Layouts\Stall (Accessible).dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{48E9837D-C5FE-4F3A-AE66-AE26695098C0}" />
+            <Properties>
+                <ItemName>Urinal</ItemName>
+                <Images option="2">
+                    <Image cx="64" cy="64" IsDark = "false" src="Images\AecContent_67C7F089-3464-408C-B2DD-262E924424D2.png" />
+                    <Image cx="64" cy="64" IsDark = "true"  src="Images\AecContent_67C7F089-3464-408C-B2DD-262E924424D2_dark.png" />
+                </Images>
+                <Description>Urinal w/ Screen [Double-click to rotate &amp; mirror]</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-DesignContent_DesignContent</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-02-23T16:54:59" modifiedUniversalDateTime="2003-02-23T16:54:59" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\Aec Content\Imperial\Design\Mechanical\Plumbing Fixtures\Layouts\Urinal.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8D436D19-5B97-4972-85C1-C632053F9C0D}" />
+            <Properties>
+                <ItemName>Towel Disp Sm</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\95AF5C6D-FEAC-48AD-A77E-C844270FDB82.png" />
+                </Images>
+                <Description>Plumbing2D: Accessory: Towel Disp Small [10800]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-07T10:02:10" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Imperial</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Specialties\Toilet &amp; Bath Accessories\Accessory Elevations\Towel Disp Sm.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6534E6EC-16D9-44B7-B2E5-9FB7520AFB8B}" />
+            <Properties>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:47:20" modifiedUniversalDateTime="2006-01-10T21:47:20" />
+            </Properties>
+            <Source />
+            <ToolType>4</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B10E8CB6-FB1D-4F94-9FBC-70B0C04DDCDC}" />
+            <Properties>
+                <ItemName>Furnishings</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:47:33" modifiedUniversalDateTime="2006-01-10T21:47:33" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E91A3167-5979-42A2-B031-69AB896F2C2C}" />
+            <Properties>
+                <ItemName>Chair 8</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_8C40B814-620D-4EEA-860D-0C1656A1A6A5.png" />
+                </Images>
+                <Description>Furniture: Chair: Chair 8 [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\Chair\Chair 8.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{69F109A9-7EEA-4DE6-9AA4-6EE32A7A28EB}" />
+            <Properties>
+                <ItemName>Desk 4</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_8239F12B-F28E-4ABF-9C46-62457F2565E0.png" />
+                </Images>
+                <Description>Furniture: Desk: Desk 4 [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\Desk\Desk 4.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{0354730D-7069-49DF-922D-4F4153677C5C}" />
+            <Properties>
+                <ItemName>Conf 12ft - 12 Seat</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\54323D20-9AA6-43E0-959D-BB57802C4EC6.png" />
+                </Images>
+                <Description>Furniture: Table: Conference Table 12', 12 seat [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-25T19:34:44" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Imperial</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\Table\Conf 12ft - 12 Seat.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4FA909B2-0830-40C3-94BD-453F41E29010}" />
+            <Properties>
+                <ItemName>Rectangular 36x36</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_B5C0C769-DDDF-47E1-90BF-BA8C7661ECBE.png" />
+                </Images>
+                <Description>Furniture: Table: Rectangular table 36x36 [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\Table\Rectangular 36x36.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{52746882-C176-4666-9589-ADA88EBAC8C3}" />
+            <Properties>
+                <ItemName>Lateral 2 Drawer</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_416809EF-6A58-4732-95BA-3566B5E25F78.png" />
+                </Images>
+                <Description>Furniture: File Cabinet: Lateral 2 Drawer Filing Cabinet [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\File Cabinet\Lateral 2 Drawer.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1582A512-7E66-4BC6-BD62-BFEF1B1517FA}" />
+            <Properties>
+                <ItemName>15x27a</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_DF1B5B52-3A1B-4126-BC3B-9C30ABC2231B.png" />
+                </Images>
+                <Description>Furniture: File Cabinet: File cabinet 15x27a [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\File Cabinet\15x27a.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D73DE7BD-2FC0-45F0-A703-C01173F85079}" />
+            <Properties>
+                <ItemName>Love Seat 2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_6133A1E1-3A35-4F5D-8341-274A4314D3CD.png" />
+                </Images>
+                <Description>Furniture: Sofa: Love Seat 2 [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\Sofa\Love Seat 2.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A1892FFB-D03E-4E61-A3ED-D4FD4901917F}" />
+            <Properties>
+                <ItemName>Chair 2</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_28C904B1-5BDF-4F13-A3DA-1112B4B62433.png" />
+                </Images>
+                <Description>Furniture: Chair: Chair 2 [12500]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-06T18:52:50" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Furnishing\Furniture\Chair\Chair 2.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BBDB0161-38B5-4599-8F9F-B9F6CF2A1A4C}" />
+            <Properties>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:47:24" modifiedUniversalDateTime="2006-01-10T21:47:24" />
+            </Properties>
+            <Source />
+            <ToolType>4</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DE2422B9-473D-4F53-A9C2-C38CE3A68FA8}" />
+            <Properties>
+                <ItemName>Equipment</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T21:47:47" modifiedUniversalDateTime="2006-01-10T21:47:47" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7151F3DD-BA05-4BDA-B66D-1CD82B208E7B}" />
+            <Properties>
+                <ItemName>Copier - Collator</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_5B3AEC5A-D44B-4BEE-830A-4831ABF47E97.png" />
+                </Images>
+                <Description>Equipment: Office: Copier (w/ Collator) [11680]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:49" modifiedUniversalDateTime="2003-02-06T18:52:49" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Equipment\Office\Copier - Collator.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F701758C-75A4-4794-97B1-23353088B89C}" />
+            <Properties>
+                <ItemName>Water Cooler</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_616B468C-93AC-43E2-BA7D-2CA358E6A276.png" />
+                </Images>
+                <Description>Equipment: Office: Water Cooler [11680]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:49" modifiedUniversalDateTime="2003-02-06T18:52:49" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Equipment\Office\Water Cooler.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{CB37A37B-9F17-4CCE-B10E-E3226DBE5CE3}" />
+            <Properties>
+                <ItemName>Fire Ext Cab</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\923FCA2D-3543-4B7D-AF27-415005DA3EE0.png" />
+                </Images>
+                <Description>Equipment: Misc: Fire Extinguisher Cabinet (2D) [10520]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:50" modifiedUniversalDateTime="2003-02-07T09:56:38" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Imperial</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Imperial\Design\Specialties\Fire Protection\Fire Ext Cab.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF4-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More FF+E Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_FFETools.png" />
+                </Images>
+                <Description>Open Content Browser to view more FF+E tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {C6E65B41-D251-43C2-B74F-6FB9F63BD1E9}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

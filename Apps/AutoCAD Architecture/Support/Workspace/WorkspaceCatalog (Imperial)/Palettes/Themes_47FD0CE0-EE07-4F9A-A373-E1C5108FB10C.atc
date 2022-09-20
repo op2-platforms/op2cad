@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{47FD0CE0-EE07-4F9A-A373-E1C5108FB10C}" />
+    <Properties>
+        <ItemName>Themes</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of display themes.</Description>
+        <Time createdUniversalDateTime="2006-01-10T21:31:23" modifiedUniversalDateTime="2006-01-16T23:19:49" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{11C38819-15F7-455A-8FBE-8E49380BF3D9}" />
+            <Properties>
+                <ItemName>Theme by Fire Rating</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Display Theme Tool_11C38819-15F7-455A-8FBE-8E49380BF3D9.png" />
+                </Images>
+                <Description>Creates a display theme of fire rated walls and doors.</Description>
+                <Time createdUniversalDateTime="2005-01-06T15:51:54" modifiedUniversalDateTime="2005-01-06T15:51:54" refreshedUniversalDateTime="2005-01-06T15:51:54" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Fire Rating</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5477D133-415E-40FE-BCAD-6D3C6E35DFD0}" />
+            <Properties>
+                <ItemName>Theme by Space Size</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Display Theme Tool_5477D133-415E-40FE-BCAD-6D3C6E35DFD0.png" />
+                </Images>
+                <Description>Creates a display theme by space size.</Description>
+                <Time createdUniversalDateTime="2005-01-06T15:51:54" modifiedUniversalDateTime="2005-01-06T15:51:54" refreshedUniversalDateTime="2005-01-06T15:51:54" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Space Size</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8CDC01E1-3013-4935-A944-C5E41F339B56}" />
+            <Properties>
+                <ItemName>Theme by Space Standard - BOMA</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Display Theme Tool_06D6C037-2F20-4D1F-AC92-A4EFF890D66C.png" />
+                </Images>
+                <Description>Creates a display theme of spaces per BOMA.</Description>
+                <Time createdUniversalDateTime="2006-01-09T14:27:36" modifiedUniversalDateTime="2006-01-16T16:43:52" refreshedUniversalDateTime="2006-01-09T14:27:36" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Space Style - BOMA</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A04FE389-E977-48F7-974D-E608B92349C5}" />
+            <Properties>
+                <ItemName>Theme by Space Type - Commercial</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Display Theme Tool_A04FE389-E977-48F7-974D-E608B92349C5.png" />
+                </Images>
+                <Description>Creates a display theme of spaces by type for commerical space styles.</Description>
+                <Time createdUniversalDateTime="2005-01-06T15:51:54" modifiedUniversalDateTime="2005-01-06T15:51:54" refreshedUniversalDateTime="2005-01-06T15:51:54" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Space Style - Commercial</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1BA3040E-6791-45D2-BE99-9A1882C5C23C}" />
+            <Properties>
+                <ItemName>Theme by Space Type - Educational</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Display Theme Tool_6F004031-CDF8-41D6-808D-4236918EC460.png" />
+                </Images>
+                <Description>Creates a display theme of spaces by type for educational space styles.</Description>
+                <Time createdUniversalDateTime="2005-01-06T15:51:54" modifiedUniversalDateTime="2005-01-06T15:51:54" refreshedUniversalDateTime="2005-01-06T15:51:54" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Space Style - Educational</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F529C524-C871-4854-B8BA-085AB68BB5F8}" />
+            <Properties>
+                <ItemName>Theme by Space Type - Medical</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Display Theme Tool_B6894270-7483-42E0-955C-1AFF50F14184.png" />
+                </Images>
+                <Description>Creates a display theme of spaces by type for medical space styles.</Description>
+                <Time createdUniversalDateTime="2005-01-06T15:51:54" modifiedUniversalDateTime="2005-01-06T15:51:54" refreshedUniversalDateTime="2005-01-06T15:51:54" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Space Style - Medical</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4136F75D-2904-4D84-87D3-CAA6AAC097C3}" />
+            <Properties>
+                <ItemName>Theme by Space Type - Residential</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Display Theme Tool_FC12C3C1-4B2D-44B8-9643-EC178BCEC321.png" />
+                </Images>
+                <Description>Creates a display theme of spaces by type for residential space styles.</Description>
+                <Time createdUniversalDateTime="2005-01-06T15:51:54" modifiedUniversalDateTime="2005-01-06T15:51:54" refreshedUniversalDateTime="2005-01-06T15:51:54" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}" />
+            <Data>
+                <AecDbDisplayTheme>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Display Theme Styles (Imperial).dwg">Space Style - Residential</Style>
+                </AecDbDisplayTheme>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BFA-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Theme Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_ThemeTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more theme tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {26971A99-C8B2-4A39-80D8-022F45584672}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

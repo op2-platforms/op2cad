@@ -1,0 +1,1221 @@
+<Palette FileRevision="19.0.0" Revision="19.0.0" option="0"><ItemID idValue="{0F6FF696-085B-48FD-A8AD-5278CA20EF54}"/><Properties><ItemName>Ribbon Tools - AutoCAD Architecture (Global)</ItemName><Images option="0"/><Description>The tools in this palette are being utilized by the ribbon.</Description><Keywords>ribbon</Keywords><Time createdUniversalDateTime="2008-10-03T14:38:53" modifiedUniversalDateTime="2008-10-03T14:38:53" refreshedUniversalDateTime="2008-10-03T14:38:53"/></Properties><Source><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><Tools><Tool Revision="19.0.0" option="0"><ItemID idValue="{31F79B1B-B954-4DFF-94B4-79C3A0935B7A}"/><Properties><ItemName>The tools in this palette are being utilized by the ribbon. We recommend you do not delete this palette or any of its contents.</ItemName><Images option="0"/><Time createdUniversalDateTime="2008-10-03T14:39:15" modifiedUniversalDateTime="2008-10-03T14:39:15" refreshedUniversalDateTime="2008-10-03T14:39:15"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{D854BC71-F108-4103-BA97-BE91884863BF}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2008-10-03T14:39:15" modifiedUniversalDateTime="2008-10-03T14:39:15" refreshedUniversalDateTime="2008-10-03T14:39:15"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{13888942-8152-4AB9-8177-4415C3DFDFF7}"/><Properties><ItemName>Reference Keynote - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Annotation Tool_13888942-8152-4AB9-8177-4415C3DFDFF7.png"/></Images><Description>Keynote (Key: Note) w/ No Leader</Description><Time createdUniversalDateTime="2008-10-03T15:09:38" modifiedUniversalDateTime="2008-10-03T15:09:38" refreshedUniversalDateTime="2008-10-03T15:09:38"/></Properties><CustomData>
+				<Units>mm</Units>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{966EF5C7-7467-4F0C-B6A5-D7A758E77AF6}"/><Data>
+				<AecDbKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<LeaderType>0</LeaderType>
+					<ContentType>0</ContentType>
+					<DefaultText>%&lt;\AecKn "?RefKeyNote" "1" \f "%tc1"&gt;%</DefaultText>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol/>
+					<MaskMText>1</MaskMText>
+				</AecDbKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{9A877FC5-E8FE-420D-976C-B55AE875C348}"/><Properties><ItemName>Reference Keynote (Straight Leader) - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Annotation Tool_9A877FC5-E8FE-420D-976C-B55AE875C348.png"/></Images><Description>Keynote (Key: Note) w/ Straight Leader</Description><Time createdUniversalDateTime="2008-10-03T15:09:38" modifiedUniversalDateTime="2008-10-03T15:09:38" refreshedUniversalDateTime="2008-10-03T15:09:38"/></Properties><CustomData>
+				<Units>mm</Units>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{966EF5C7-7467-4F0C-B6A5-D7A758E77AF6}"/><Data>
+				<AecDbKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<LeaderType>2</LeaderType>
+					<ContentType>0</ContentType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Annotative</LeaderDimensionStyle>
+					<DefaultText>%&lt;\AecKn "?RefKeyNote" "1" \f "%tc1"&gt;%</DefaultText>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol/>
+					<MaskMText>1</MaskMText>
+				</AecDbKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{81F39C76-1B92-4FED-A8A1-9A9EC62A3A37}"/><Properties><ItemName>Text Tool - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Annotation Tool_81F39C76-1B92-4FED-A8A1-9A9EC62A3A37.png"/></Images><Description>Creates a multiple-line text object.</Description><Time createdUniversalDateTime="2008-10-03T14:50:23" modifiedUniversalDateTime="2008-10-03T14:50:23" refreshedUniversalDateTime="2008-10-03T14:50:23"/></Properties><CustomData>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{966EF5C7-7467-4F0C-B6A5-D7A758E77AF6}"/><Data>
+				<AecDbKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<LeaderType>0</LeaderType>
+					<ContentType>0</ContentType>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol/>
+					<MaskMText>1</MaskMText>
+				</AecDbKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{9ABE35C4-FCD6-498E-BBF9-DF64500DB2B4}"/><Properties><ItemName>Interior Elevation Mark C2 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_9ABE35C4-FCD6-498E-BBF9-DF64500DB2B4.png"/></Images><Description>Interior Elevation Mark (Single) - Inverted Text</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_C2</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>0</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{DB04F64B-ECDC-4AC7-85C9-13FE3C9B24C3}"/><Properties><ItemName>Section Mark A1 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_DB04F64B-ECDC-4AC7-85C9-13FE3C9B24C3.png"/></Images><Description>Section Mark</Description><Time createdUniversalDateTime="2008-10-03T15:12:34" modifiedUniversalDateTime="2008-10-03T15:12:34" refreshedUniversalDateTime="2008-10-03T15:12:34"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Section_A1</Tag>
+					<Arrow>Anno_Arrow_A1</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{50ADACA6-9F98-473D-94AE-F95AE8B0F98D}"/><Properties><ItemName>Section Mark A1T - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_50ADACA6-9F98-473D-94AE-F95AE8B0F98D.png"/></Images><Description>Section Mark (w/ Tail)</Description><Time createdUniversalDateTime="2008-10-03T15:12:34" modifiedUniversalDateTime="2008-10-03T15:12:34" refreshedUniversalDateTime="2008-10-03T15:12:34"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Section_A1</Tag>
+					<Arrow>Anno_Arrow_A1</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>4</TailLength>
+						<TailWidth>1.5</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{6507D63C-32A2-4FBF-8B29-ED06348BB49C}"/><Properties><ItemName>Section Mark A2 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_6507D63C-32A2-4FBF-8B29-ED06348BB49C.png"/></Images><Description>Section Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T15:12:34" modifiedUniversalDateTime="2008-10-03T15:48:07" refreshedUniversalDateTime="2008-10-03T15:12:34"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{AF0C8FB2-8BFF-4186-8980-2C16F9397D9B}"/><Properties><ItemName>Section Mark A2T - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_AF0C8FB2-8BFF-4186-8980-2C16F9397D9B.png"/></Images><Description>Section Mark (w/ Sheet No. &amp; Tail)</Description><Time createdUniversalDateTime="2008-10-03T15:12:34" modifiedUniversalDateTime="2008-10-03T15:12:34" refreshedUniversalDateTime="2008-10-03T15:12:34"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>4</TailLength>
+						<TailWidth>1.5</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{A85FEB63-8DFC-4AFC-983E-B75AFBDEE099}"/><Properties><ItemName>Interior Elevation Mark B2 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_A85FEB63-8DFC-4AFC-983E-B75AFBDEE099.png"/></Images><Description>Interior Elevation Mark (4-Way) "N/E/S/W"</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>4</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_B1</Tag>
+					<Arrow>Anno_Arrow_NESW</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{6FAE2917-1BA0-4903-A585-378EF9AD84EE}"/><Properties><ItemName>Interior Elevation Mark B1 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_6FAE2917-1BA0-4903-A585-378EF9AD84EE.png"/></Images><Description>Interior Elevation Mark (4-Way) "1/2/3/4"</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>4</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_B1</Tag>
+					<Arrow>Anno_Arrow_1234</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{05E2FE8D-74F7-4B2C-83DE-7350E53220B7}"/><Properties><ItemName>Exterior Elevation Mark A3 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_05E2FE8D-74F7-4B2C-83DE-7350E53220B7.png"/></Images><Description>Exterior Elevation Mark (Entire Building)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:47:31" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>4</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>1</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{F8CC849F-2E54-4417-A989-F6E0480125B9}"/><Properties><ItemName>Interior Elevation Mark C1 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_F8CC849F-2E54-4417-A989-F6E0480125B9.png"/></Images><Description>Interior Elevation Mark (Single)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_C1</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>0</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{B680E8AF-8717-4627-9040-7FA07403B49C}"/><Properties><ItemName>Elevation Mark A1 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_B680E8AF-8717-4627-9040-7FA07403B49C.png"/></Images><Description>Elevation Mark</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_A1</Tag>
+					<Arrow>Anno_Arrow_A1</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{FAEE59D1-D171-4FA3-9FFD-D8E4E596F785}"/><Properties><ItemName>Detail Mark A2T - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_FAEE59D1-D171-4FA3-9FFD-D8E4E596F785.png"/></Images><Description>Detail Mark (w/ Sheet No. &amp; Tail)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>4</TailLength>
+						<TailWidth>1.5</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{3EF3CE8B-DA75-4E5E-9EF6-E7907F8D5097}"/><Properties><ItemName>Detail Mark A2 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_3EF3CE8B-DA75-4E5E-9EF6-E7907F8D5097.png"/></Images><Description>Detail Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{9FD1CEA8-C467-4B77-877B-58163A281CCC}"/><Properties><ItemName>Detail Boundary A - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_9FD1CEA8-C467-4B77-877B-58163A281CCC.png"/></Images><Description>Detail Boundary (Circle)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:47:04" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>1</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>3.00000162</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.009842525</BoundaryWidth>
+						<TailLength>0.250000135</TailLength>
+						<TailWidth>0.06250003375</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{C308628C-1AE0-4C36-93D7-A9BCC8B8B05B}"/><Properties><ItemName>Section Mark A3T - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_C308628C-1AE0-4C36-93D7-A9BCC8B8B05B.png"/></Images><Description>Section Mark - Section Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T15:12:34" modifiedUniversalDateTime="2008-10-03T15:12:34" refreshedUniversalDateTime="2008-10-03T15:12:34"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>6</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{BD56776C-1B75-4507-ADD6-0D9E6781EC85}"/><Properties><ItemName>Detail Mark A1 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_BD56776C-1B75-4507-ADD6-0D9E6781EC85.png"/></Images><Description>Detail Mark</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A1</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{BFC0B1FA-3C6E-4E97-B4EF-9418C94FFB83}"/><Properties><ItemName>Detail Boundary C - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_BFC0B1FA-3C6E-4E97-B4EF-9418C94FFB83.png"/></Images><Description>Detail Boundary (Free Form)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.1968505</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.009842525</BoundaryWidth>
+						<TailLength>0.009842525</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{E3520663-6C40-452C-AC1B-2EE0AEEF1BE0}"/><Properties><ItemName>Detail Boundary B - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_E3520663-6C40-452C-AC1B-2EE0AEEF1BE0.png"/></Images><Description>Detail Boundary (Rectangle)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>2</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.1968505</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.009842525</BoundaryWidth>
+						<TailLength>0.009842525</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{BBA44E2A-DAF3-46E3-9B53-AC27DDE2D29E}"/><Properties><ItemName>Detail Mark A1T - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_BBA44E2A-DAF3-46E3-9B53-AC27DDE2D29E.png"/></Images><Description>Detail Mark (w/ Tail)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Detail_A1</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>4</TailLength>
+						<TailWidth>1.5</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>25</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{1E20734C-BE09-45CA-BA23-7EE5628EF995}"/><Properties><ItemName>Elevation Mark A2 - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Callout Tool_1E20734C-BE09-45CA-BA23-7EE5628EF995.png"/></Images><Description>Elevation Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T15:12:33" modifiedUniversalDateTime="2008-10-03T15:12:33" refreshedUniversalDateTime="2008-10-03T15:12:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Elevation_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.009842525</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.001230315625</BoundaryWidth>
+						<TailLength>0.00738189375</TailLength>
+						<TailWidth>0.00246063125</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">2D Section Style 100</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>100</Scale>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.01968505</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{FD9D9EBE-3F48-4121-8EF1-5F43D89AC1DC}"/><Properties><ItemName>AEC Dimension - Exterior - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Dimension Tool_FD9D9EBE-3F48-4121-8EF1-5F43D89AC1DC.png"/></Images><Description>
+              Creates an Aec Dimension - 3 chains - for exterior dimensions.
+              Openings are dimensioned to Centers.
+            </Description><Time createdUniversalDateTime="2008-10-03T15:14:00" modifiedUniversalDateTime="2008-10-03T15:14:00" refreshedUniversalDateTime="2008-10-03T15:14:00"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DE61F9FE-84C1-4D43-97D5-5BC5A769BA40}"/><Data>
+				<AecDbGeo>
+					<LayerKey/>
+					<LayerOverride/>
+				</AecDbGeo>
+				<Units>mm</Units>
+				<AecDbDimensionGroup>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Exterior - Center of Opening</Style>
+				</AecDbDimensionGroup>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{27CC2310-8E59-4EE4-A3B2-8EBB11F3A8EC}"/><Properties><ItemName>AEC Dimension - Interior - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Dimension Tool_27CC2310-8E59-4EE4-A3B2-8EBB11F3A8EC.png"/></Images><Description>Creates an Aec Dimension - 1 chain - for interior dimensions.</Description><Time createdUniversalDateTime="2008-10-03T15:14:00" modifiedUniversalDateTime="2008-10-03T15:14:00" refreshedUniversalDateTime="2008-10-03T15:14:00"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DE61F9FE-84C1-4D43-97D5-5BC5A769BA40}"/><Data>
+				<AecDbGeo>
+					<LayerKey/>
+					<LayerOverride/>
+				</AecDbGeo>
+				<Units>mm</Units>
+				<AecDbDimensionGroup>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Interior Partitions</Style>
+				</AecDbDimensionGroup>
+			</Data>
+               </Tool><Tool Revision="19.0.0" option="0">
+              <ItemID idValue="{9E901BD9-8311-4364-B957-AF3707A37EAA}"/>
+              <Properties>
+              <ItemName>AEC Dimension - Exterior R.O. - ribbon</ItemName>
+              <Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Dimension Tool_FD9D9EBE-3F48-4121-8EF1-5F43D89AC1DC.png"/></Images>
+              <Description>
+              Exterior 3 chain dimension string where the Rough Opening is dimensioned.
+              </Description>
+              <Time createdUniversalDateTime="2008-10-03T15:14:00" modifiedUniversalDateTime="2008-10-03T15:14:00" refreshedUniversalDateTime="2008-10-03T15:14:00"/>
+              </Properties>
+              <CustomData>
+				<Version>5.0</Version>
+	      </CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DE61F9FE-84C1-4D43-97D5-5BC5A769BA40}"/><Data>
+				<AecDbGeo>
+					<LayerKey/>
+					<LayerOverride/>
+				</AecDbGeo>
+				<Units>mm</Units>
+				<AecDbDimensionGroup>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Exterior - Rough Opening</Style>
+				</AecDbDimensionGroup>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{CF552993-148D-4E05-B48F-4A9B33881A30}"/><Properties><ItemName>Text (Straight Leader) - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC MultiLeader Annotation Tool_CF552993-148D-4E05-B48F-4A9B33881A30.png"/></Images><Description>Text with Straight Leader</Description><Time createdUniversalDateTime="2008-10-03T14:50:23" modifiedUniversalDateTime="2008-10-03T14:50:23" refreshedUniversalDateTime="2008-10-03T14:50:23"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+				<AecDbMLeaderKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<ContentType>0</ContentType>
+					<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Text (Straight Leader)</LeaderStyle>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol>_ArchTick</Symbol>
+					<MaskMText>1</MaskMText>
+					<CreateFirst>0</CreateFirst>
+				</AecDbMLeaderKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{8A01CA27-AC15-4018-9B50-D7B30C55ADEE}"/><Properties><ItemName>Circle (Straight Leader) - ribbon</ItemName><Images option="2"><Image cx="64" cy="64" src=".\Images\AEC MultiLeader Annotation Tool_8A01CA27-AC15-4018-9B50-D7B30C55ADEE.png"/></Images><Description>Circle Symbol with Straight Leader</Description><Time createdUniversalDateTime="2008-10-03T15:09:38" modifiedUniversalDateTime="2008-10-03T15:09:38" refreshedUniversalDateTime="2008-10-03T15:09:38"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+				<AecDbMLeaderKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<ContentType>1</ContentType>
+					<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Block (Straight Leader)</LeaderStyle>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Circle_na</Symbol>
+					<MaskMText>1</MaskMText>
+					<CreateFirst>0</CreateFirst>
+				</AecDbMLeaderKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{B7415C92-5B88-41AF-A9BC-228A88789E2B}"/><Properties><ItemName>Sheet Keynote (Straight Leader) - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC MultiLeader Annotation Tool_B7415C92-5B88-41AF-A9BC-228A88789E2B.png"/></Images><Description>Sheet Keynote (Straight Leader)</Description><Time createdUniversalDateTime="2008-10-03T15:09:38" modifiedUniversalDateTime="2008-10-03T15:09:38" refreshedUniversalDateTime="2008-10-03T15:09:38"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+				<AecDbMLeaderKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<ContentType>1</ContentType>
+					<DefaultText>%&lt;\AecKn "?SheetKeyNote" "1" \f "%tc1"&gt;%</DefaultText>
+					<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Block (Straight Leader)</LeaderStyle>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">SheetKey_Hexagon_na</Symbol>
+					<MaskMText>1</MaskMText>
+					<CreateFirst>0</CreateFirst>
+				</AecDbMLeaderKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{83D54BFE-C180-4936-AB71-A44753228BF5}"/><Properties><ItemName>Square (Straight Leader) - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC MultiLeader Annotation Tool_83D54BFE-C180-4936-AB71-A44753228BF5.png"/></Images><Description>Square Symbol with Straight Leader</Description><Time createdUniversalDateTime="2008-10-03T14:50:23" modifiedUniversalDateTime="2008-10-03T14:50:23" refreshedUniversalDateTime="2008-10-03T14:50:23"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>Doc Tool Catalog - New AEC Multileader Tools</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+				<AecDbMLeaderKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<ContentType>1</ContentType>
+					<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Block (Straight Leader)</LeaderStyle>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Square_na</Symbol>
+					<MaskMText>1</MaskMText>
+					<CreateFirst>0</CreateFirst>
+				</AecDbMLeaderKeyNoteObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{2108AB82-9D69-4E41-829C-265703D06829}"/><Properties><ItemName>Title Mark (with Number) - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Title Mark Tool_2108AB82-9D69-4E41-829C-265703D06829.png"/></Images><Description>Adds a title mark with number.</Description><Time createdUniversalDateTime="2008-10-03T15:13:10" modifiedUniversalDateTime="2008-10-03T15:13:10" refreshedUniversalDateTime="2008-10-03T15:13:10"/></Properties><CustomData>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+				<AecDbTitleMarkObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<Justification>0</Justification>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_A1</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<Title ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T1</Title>
+					<PolylineWidth>0.01968505</PolylineWidth>
+				</AecDbTitleMarkObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{5FBEFB74-0DC2-4F80-9DDF-547491C01113}"/><Properties><ItemName>Title Mark - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\AEC Title Mark Tool_5FBEFB74-0DC2-4F80-9DDF-547491C01113.png"/></Images><Description>Adds a title mark.</Description><Time createdUniversalDateTime="2008-10-03T15:13:10" modifiedUniversalDateTime="2008-10-03T15:13:10" refreshedUniversalDateTime="2008-10-03T15:13:10"/></Properties><CustomData>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+				<AecDbTitleMarkObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<Justification>0</Justification>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg"/>
+					<AttrTextStyle>1</AttrTextStyle>
+					<Title ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Anno_Title_T2</Title>
+					<PolylineWidth>0.01968505</PolylineWidth>
+				</AecDbTitleMarkObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{96391279-0B50-4157-AA3A-C6B5928DF572}"/><Properties><ItemName>Space Evaluation - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Command Tool_96391279-0B50-4157-AA3A-C6B5928DF572.png"/></Images><Description>Creates a space evaluation report.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Areas_AreaEvaluation</HelpData></Help><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>mm</Units>
+				<CommandString>^C^C_AecSpaceEvaluation</CommandString>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{B67DFC46-825E-44F5-A8D8-F7870485D3B0}"/><Properties><ItemName>Theme by Space Type - Medical - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_B67DFC46-825E-44F5-A8D8-F7870485D3B0.png"/></Images><Description>Creates a display theme of spaces by type for medical space styles.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Style - Medical</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{3A3A858F-7FA8-414B-8CA9-B471F3587F4C}"/><Properties><ItemName>Theme by Space Size - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_3A3A858F-7FA8-414B-8CA9-B471F3587F4C.png"/></Images><Description>Creates a display theme by space size.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Size</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{CD02965C-25FE-4785-891C-3BB4E3CFA848}"/><Properties><ItemName>Theme by Space Type - Educational - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_CD02965C-25FE-4785-891C-3BB4E3CFA848.png"/></Images><Description>Creates a display theme of spaces by type for educational space styles.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Style - Educational</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{BB8B3044-F787-4E70-8FA1-DC479FC8D7E4}"/><Properties><ItemName>Theme by Space Standard - BOMA - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_BB8B3044-F787-4E70-8FA1-DC479FC8D7E4.png"/></Images><Description>Creates a display theme of spaces per BOMA.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Style - BOMA</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{B2AFD5BA-7DEC-4501-AC1F-2A2E9BB75D56}"/><Properties><ItemName>Theme by Space Type - Residential - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_B2AFD5BA-7DEC-4501-AC1F-2A2E9BB75D56.png"/></Images><Description>Creates a display theme of spaces by type for residential space styles.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Style - Residential</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{E26818C8-FAF1-4211-9B2B-E1475AA753CE}"/><Properties><ItemName>Theme by Space Type - Commercial - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_E26818C8-FAF1-4211-9B2B-E1475AA753CE.png"/></Images><Description>Creates a display theme of spaces by type for commerical space styles.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Style - Commercial</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{1CCE62DC-7874-43DD-9F5E-AE8D7EC6CA5B}"/><Properties><ItemName>Space Separator - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Command Tool_1CCE62DC-7874-43DD-9F5E-AE8D7EC6CA5B.png"/></Images><Description>Creates a polyline which bounds spaces.</Description><Time createdUniversalDateTime="2002-11-06T22:22:44" modifiedUniversalDateTime="2002-11-06T22:22:44"/></Properties><CustomData/>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<AecDbCommandObject>
+					<LayerKey>Wall</LayerKey>
+					<CommandString>_SpaceSeparator</CommandString>
+				</AecDbCommandObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{35E1BC77-35C7-4975-8113-0016313DB77E}"/><Properties><ItemName>Theme by Fire Rating - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Display Theme Tool_35E1BC77-35C7-4975-8113-0016313DB77E.png"/></Images><Description>Creates a display theme of fire rated walls and doors.</Description><Time createdUniversalDateTime="2008-10-03T15:19:58" modifiedUniversalDateTime="2008-10-03T15:19:58" refreshedUniversalDateTime="2008-10-03T15:19:58"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Fire Rating</Style>
+				</AecDbDisplayTheme>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{85C67031-3A17-458A-BB73-D6A9BCAC741E}"/><Properties><ItemName>Sheet Keynote Legend - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Key Note Legend Tool_85C67031-3A17-458A-BB73-D6A9BCAC741E.png"/></Images><Description>Creates a sheet keynote legend.</Description><Time createdUniversalDateTime="2008-10-03T14:50:23" modifiedUniversalDateTime="2008-10-03T14:50:23" refreshedUniversalDateTime="2008-10-03T14:50:23"/></Properties><CustomData>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{684AA5C7-73F1-48D4-9797-3BC05C3A5E14}"/><Data>
+				<AecDbKeyNoteLegendObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<TableStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Sheet Keynote Legend</TableStyle>
+					<LegendType>1</LegendType>
+					<DisplaySymbolForKey>0</DisplaySymbolForKey>
+					<TableTitle>SHEET KEYNOTES</TableTitle>
+					<GroupingLevel>0</GroupingLevel>
+					<BlankRows>0</BlankRows>
+					<GroupDelimiter><![CDATA[ - ]]></GroupDelimiter>
+					<NumberOfRows>2</NumberOfRows>
+					<NumberOfColumns>3</NumberOfColumns>
+				</AecDbKeyNoteLegendObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{FCA3338F-1080-4DDC-9C96-B245AE9B22CD}"/><Properties><ItemName>Reference Keynote Legend - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Key Note Legend Tool_FCA3338F-1080-4DDC-9C96-B245AE9B22CD.png"/></Images><Description>Creates a reference keynote legend.</Description><Time createdUniversalDateTime="2008-10-03T15:09:38" modifiedUniversalDateTime="2008-10-03T15:09:38" refreshedUniversalDateTime="2008-10-03T15:09:38"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{684AA5C7-73F1-48D4-9797-3BC05C3A5E14}"/><Data>
+				<AecDbKeyNoteLegendObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<TableStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Reference Keynote Legend</TableStyle>
+					<LegendType>0</LegendType>
+					<DisplaySymbolForKey>0</DisplaySymbolForKey>
+					<TableTitle>REFERENCE KEYNOTES</TableTitle>
+					<GroupingLevel>2</GroupingLevel>
+					<BlankRows>1</BlankRows>
+					<DataDelimiter><![CDATA[ - ]]></DataDelimiter>
+					<GroupDelimiter><![CDATA[ - ]]></GroupDelimiter>
+					<NumberOfRows>2</NumberOfRows>
+					<NumberOfColumns>3</NumberOfColumns>
+				</AecDbKeyNoteLegendObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{F6D346C8-3214-4879-96DA-97BF0BEAB31A}"/><Properties><ItemName>Door Schedule - Project Based - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_F6D346C8-3214-4879-96DA-97BF0BEAB31A.png"/></Images><Description>Creates a Schedule Table</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Scheduling_CreatingaScheduleTableTool</HelpData></Help><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Units>mm</Units>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Door Schedule Project Based</Style>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{2EB31B6C-887C-42CB-8A34-50A06FA26A0E}"/><Properties><ItemName>Space Inventory Schedule - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_2EB31B6C-887C-42CB-8A34-50A06FA26A0E.png"/></Images><Description>Space Inventory Schedule Table</Description><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Inventory</Style>
+					<ScanXrefs>-1</ScanXrefs>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{729B5CF9-5C35-4E4B-8C2F-C754A184F4F3}"/><Properties><ItemName>Space List - BOMA - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_729B5CF9-5C35-4E4B-8C2F-C754A184F4F3.png"/></Images><Description>Creates a space list - BOMA schedule.</Description><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space List BOMA</Style>
+					<ScanXrefs>-1</ScanXrefs>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{4BB6A4DF-FCA5-4782-90ED-B0AE09DAE445}"/><Properties><ItemName>Door Schedule - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_4BB6A4DF-FCA5-4782-90ED-B0AE09DAE445.png"/></Images><Description>Create a Door Schedule Table</Description><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Door Schedule</Style>
+					<ScanXrefs>-1</ScanXrefs>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{8E1ADA38-4DC3-4252-98E7-DF086A25EB0F}"/><Properties><ItemName>Wall Schedule - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_8E1ADA38-4DC3-4252-98E7-DF086A25EB0F.png"/></Images><Description>Creates a wall schedule.</Description><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Wall Schedule</Style>
+					<ScanXrefs>-1</ScanXrefs>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{CC0BD691-227E-4902-84A3-40D995C3E413}"/><Properties><ItemName>Window Schedule - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_CC0BD691-227E-4902-84A3-40D995C3E413.png"/></Images><Description>Create a Window Schedule Table</Description><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Window Schedule</Style>
+					<ScanXrefs>-1</ScanXrefs>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{E03713A2-D700-407D-8E89-A937911A1503}"/><Properties><ItemName>Room Finish Schedule - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Table Tool_E03713A2-D700-407D-8E89-A937911A1503.png"/></Images><Description>Create a Room Finish Schedule Table</Description><Time createdUniversalDateTime="2008-10-03T15:15:55" modifiedUniversalDateTime="2008-10-03T15:15:55" refreshedUniversalDateTime="2008-10-03T15:15:55"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Room Finish Schedule</Style>
+					<ScanXrefs>-1</ScanXrefs>
+				</AecDbScheduleTable>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{773EBC39-D0C8-417D-A599-82911A89F905}"/><Properties><ItemName>Window Tag - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_773EBC39-D0C8-417D-A599-82911A89F905.png"/></Images><Description>Window Tag</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData/>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>WINDNO</LayerKey>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec6_Window_Tag</TagName>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<AttTextStyle>1</AttTextStyle>
+					<AttTextAngle>2</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{80F5C0A3-5AD2-47BD-8E97-4FA0900D34E8}"/><Properties><ItemName>Door Tag - Project Based - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_80F5C0A3-5AD2-47BD-8E97-4FA0900D34E8.png"/></Images><Description>Project-Based Door tag with room number indicator</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData/>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>DOORNO</LayerKey>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec6_Door_Tag_Project</TagName>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<AttTextStyle>1</AttTextStyle>
+					<AttTextAngle>2</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{AFF3B22D-1893-484A-8801-81594355A0BC}"/><Properties><ItemName>Door Tag - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_AFF3B22D-1893-484A-8801-81594355A0BC.png"/></Images><Description>Door Tag</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData/>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>DOORNO</LayerKey>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec6_Door_Tag</TagName>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<AttTextStyle>1</AttTextStyle>
+					<AttTextAngle>2</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{0E94E7F8-1233-4731-8173-FCF93B167DD8}"/><Properties><ItemName>Room Tag - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_0E94E7F8-1233-4731-8173-FCF93B167DD8.png"/></Images><Description>Room Tag (w/ Name &amp; Number)</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData/>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>SPACENO</LayerKey>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec8_Room_Tag</TagName>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<AttTextStyle>1</AttTextStyle>
+					<AttTextAngle>2</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{E870167F-7FC8-41AD-AB3D-81FB92B0ACA1}"/><Properties><ItemName>Room Tag - Project Based - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_E870167F-7FC8-41AD-AB3D-81FB92B0ACA1.png"/></Images><Description>Project-Based Room Tag (w/ Name &amp; Number)</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData/>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>SPACENO</LayerKey>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec8_Room_Tag_Project</TagName>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<AttTextStyle>1</AttTextStyle>
+					<AttTextAngle>2</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{AA7B6DB1-D621-4E7A-84A0-DDF0A1B7CAEB}"/><Properties><ItemName>Room Tag BOMA - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_AA7B6DB1-D621-4E7A-84A0-DDF0A1B7CAEB.png"/></Images><Description>Room tag for BOMA area calculations, shows net usable and net rentable areas</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec8_BOMA_Area_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<PropertyData/>
+					<Tag>
+						<LayerKey>SPACENO</LayerKey>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{0DD69D9E-F5DF-4B94-8EB9-9B0AC8E25BA5}"/><Properties><ItemName>Wall Tag (Leader) - ribbon</ItemName><Images option="0"><Image cx="64" cy="64" src=".\Images\Schedule Tag Tool_0DD69D9E-F5DF-4B94-8EB9-9B0AC8E25BA5.png"/></Images><Description>Wall Tag w/ Leader</Description><Time createdUniversalDateTime="2008-10-03T15:19:24" modifiedUniversalDateTime="2008-10-03T15:19:24" refreshedUniversalDateTime="2008-10-03T15:19:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData/>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>WALLNO</LayerKey>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec6_Wall_Tag</TagName>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>1</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">M_Aec_Wall_Tag</LeaderDimensionStyle>
+					<AttTextStyle>1</AttTextStyle>
+					<AttTextAngle>2</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>mm</Units>
+			</Data>
+		</Tool></Tools></Palette>

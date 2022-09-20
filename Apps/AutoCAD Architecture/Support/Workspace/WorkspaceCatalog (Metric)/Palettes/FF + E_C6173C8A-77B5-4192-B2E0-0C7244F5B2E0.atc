@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{C6173C8A-77B5-4192-B2E0-0C7244F5B2E0}" />
+    <Properties>
+        <ItemName>FF + E</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of common fixtures, furnishings, and equipment.</Description>
+        <Time createdUniversalDateTime="2006-01-10T22:26:19" modifiedUniversalDateTime="2006-01-10T17:42:49" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{68BF1D6B-CE08-4808-ADBA-A7E78F3550F5}" />
+            <Properties>
+                <ItemName>Fixtures</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T22:26:58" modifiedUniversalDateTime="2006-01-10T22:26:58" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{870D88DD-7BEF-4FF3-9936-7940025BE6C9}" />
+            <Properties>
+                <ItemName>3D Drinking Fountain - Handicap</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_B28AA9F6-5BFA-4207-8F8B-F8C57D42C97E.png" />
+                </Images>
+                <Description>Bathroom Fittings: Drinking Fountain: 3D Drinking Fountain (Handicap)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:21" modifiedUniversalDateTime="2003-02-06T19:03:21" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Drinking Fountain\3D Drinking Fountain - Handicap.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{3D85D19B-AD2C-4951-9367-708BDC73FE59}" />
+            <Properties>
+                <ItemName>3D Toilet - Flush Valve</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_3A89F237-E668-4846-9D84-94D9D177E2D3.png" />
+                </Images>
+                <Description>Bathroom Fittings: Toilet: 3D Toilet (Flush valve)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Toilet\3D Toilet - Flush Valve.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9872B6BE-403B-498D-9B1C-A5BF70A8A004}" />
+            <Properties>
+                <ItemName>Cubicle</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_21BCEEED-6E09-4A08-95B3-765A148FB04E.png" />
+                </Images>
+                <Description>Single toilet cubicle (metric) [Double-click to rotate &amp; mirror; explode to cleanup]</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:21" modifiedUniversalDateTime="2003-02-25T20:45:53" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Metric</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Layouts\Cubicle.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C6FDA9D1-F53A-40BB-8FB9-D11DFFC3E215}" />
+            <Properties>
+                <ItemName>Cubicle (disabled)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_477FF8A1-FEC8-43AE-989C-D21C4AE5272D.png" />
+                </Images>
+                <Description>Single disabled toilet cubicle (metric) [Double-click to rotate &amp; mirror; explode to cleanup]</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:21" modifiedUniversalDateTime="2003-02-25T20:45:59" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Metric</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Layouts\Cubicle (disabled).dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A2F2DACA-4989-404D-8CE1-A60A0160D517}" />
+            <Properties>
+                <ItemName>Urinal &amp; Screen</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_33D93C00-D35B-45E2-BF29-82CEFC7B3A74.png" />
+                </Images>
+                <Description>Urinal &amp; screen (metric) [Double-click to rotate &amp; mirror; explode to cleanup]</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:21" modifiedUniversalDateTime="2003-02-25T20:46:15" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Metric</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Layouts\Urinal &amp; Screen.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8F553498-45C5-4950-8161-4617344A9E4C}" />
+            <Properties>
+                <ItemName>Washbasin Counter (2)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_EB454A1E-BB70-4E93-BFE7-C650927DA653.png" />
+                </Images>
+                <Description>Two washbasins in counter (centered) (metric) [Double-click to rotate &amp; mirror; explode to stretch]</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-25T20:46:25" />
+            </Properties>
+            <Source>
+                <ParentDocument>
+                    <DocumentName>AutoCAD Architecture Design Tool Catalog - Metric</DocumentName>
+                </ParentDocument>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Layouts\Washbasin Counter (2).dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{3F734128-772B-4083-9BEF-7B9FF642E5A5}" />
+            <Properties>
+                <ItemName>Hand Dryer</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_4AC0C43E-F915-4C75-BD45-F023FC50CB72.png" />
+                </Images>
+                <Description>Bathroom Fittings: Accessories: Hand dryer</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:21" modifiedUniversalDateTime="2003-02-06T19:03:21" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Bathroom\Accessories\Hand Dryer.Dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{591DCC19-94D0-492F-9A90-30989F8C6A92}" />
+            <Properties>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T22:31:17" modifiedUniversalDateTime="2006-01-10T22:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>4</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1019BE15-141E-48C3-B2DD-76831FAE9EB0}" />
+            <Properties>
+                <ItemName>Furnishings</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T22:31:19" modifiedUniversalDateTime="2006-01-10T22:31:19" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{436A2F3A-FE5D-4ED4-9135-AAA1A953F886}" />
+            <Properties>
+                <ItemName>3D Office Chair</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_D8309170-6A02-4978-8DA4-15FA24DD8F3B.png" />
+                </Images>
+                <Description>Office Furniture: Detailed Chairs: 3D Office chair</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Detailed Chairs\3D Office Chair.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{43AC7E5E-6013-467B-A700-8FA71B50EB86}" />
+            <Properties>
+                <ItemName>3D Swivel Chair</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_C20A1173-2F91-4F25-AF5E-37874711A10B.png" />
+                </Images>
+                <Description>Office Furniture: Detailed Chairs: 3D Swivel chair</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Detailed Chairs\3D Swivel Chair.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1E7D95B7-65B9-40E1-9C1E-A131F97AA18B}" />
+            <Properties>
+                <ItemName>3D Desk</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_28C23355-B483-4721-9EC4-1FA8A980AD90.png" />
+                </Images>
+                <Description>Office Furniture: Desks: 3D Desk (no drawers)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Desks\3D Desk.Dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{9F670862-4802-47AB-B402-BEFB9169AC68}" />
+            <Properties>
+                <ItemName>3D Filing Cabinet - A4 2 Door</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_09593756-630E-45E1-8D0E-0E0460323450.png" />
+                </Images>
+                <Description>Office Furniture: Filing Cabinets: 3D Filing cabinet (A4 2 Door)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Filing Cabinets\3D Filing Cabinet - A4 2 Door.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{03343CB3-3554-4F47-BB17-C272C9BEB17B}" />
+            <Properties>
+                <ItemName>3D Filing Cabinet - Lateral 2 Door</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_1814C12D-6BA9-4552-9741-28C4EFA3FCA5.png" />
+                </Images>
+                <Description>Office Furniture: Filing Cabinets: 3D Filing cabinet (lateral 2 Door)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Filing Cabinets\3D Filing Cabinet - Lateral 2 Door.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{09CC499B-C1AF-4376-92FB-B22937F3F65E}" />
+            <Properties>
+                <ItemName>3D Conference Table And Chairs - 450012</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_C8861A7A-CD1C-49F6-B045-CC13FE2CDB25.png" />
+                </Images>
+                <Description>Office Furniture: Conference Table and Chairs: 3D Conference table + chairs (4500,12)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Conference Table and Chairs\3D Conference Table And Chairs - 450012.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{FEDDDC6A-84C4-4F2A-8FC1-F51C2AF9B9C6}" />
+            <Properties>
+                <ItemName>3D Sofa - 2-Seat</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_037AC46A-E8BD-471D-A2F9-20849CCF4467.png" />
+                </Images>
+                <Description>Domestic Furniture: Sofas: 3D Sofa (2-seat)</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Domestic Furniture\Sofas\3D Sofa - 2-Seat.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{0A5B3569-E87B-4AAD-811B-181A3837D415}" />
+            <Properties>
+                <ItemName>3D Rectangular Table</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_544386E4-08A3-44CC-971A-90181ACCCA99.png" />
+                </Images>
+                <Description>Office Furniture: Rectangular Table: 3D Rectangular table</Description>
+                <Time createdUniversalDateTime="2003-02-06T19:03:22" modifiedUniversalDateTime="2003-02-06T19:03:22" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Tables\3D Rectangular Table.dwg</ContentFilename>
+                </AecDbDcContent>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{29489C6F-229F-4D5E-BFFE-21B38BC5D825}" />
+            <Properties>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T22:33:32" modifiedUniversalDateTime="2006-01-10T22:33:32" />
+            </Properties>
+            <Source />
+            <ToolType>4</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A6CC109A-3686-4731-8A8F-A971367D18CC}" />
+            <Properties>
+                <ItemName>Equipment</ItemName>
+                <Images option="0" />
+                <Time createdUniversalDateTime="2006-01-10T22:33:34" modifiedUniversalDateTime="2006-01-10T22:33:34" />
+            </Properties>
+            <Source />
+            <ToolType>3</ToolType>
+            <StockToolRef />
+            <Data />
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{909E6D74-DA7A-4BF7-A959-52933D52A98F}" />
+            <Properties>
+                <ItemName>3D Photocopier</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecContent_5B3AEC5A-D44B-4BEE-830A-4831ABF47E97.png" />
+                </Images>
+                <Description>Equipment: Office: Copier [11680]</Description>
+                <Time createdUniversalDateTime="2003-02-06T18:52:49" modifiedUniversalDateTime="2003-02-06T18:52:49" />
+            </Properties>
+            <Source>
+                <Publisher>
+                    <PublisherName>Autodesk, Inc.</PublisherName>
+                </Publisher>
+            </Source>
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{88865178-C4CC-49FC-BCAF-1A7DB3C7A1EF}" />
+            <Data>
+                <AecDbDcContent>
+                    <ContentFilename>%AECCONTENT_DIR%\AEC Content\Metric\Design\Office Furniture\Office Equipment\3D Photocopier.dwg
+</ContentFilename>
+                </AecDbDcContent>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569C03-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More FF+E Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_FFETools.png" />
+                </Images>
+                <Description>Open Content Browser to view more FF+E tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>mm</Units>
+                <CommandString>^C^C_AecContentCatalog {3E26257C-3709-492D-89E8-513A8493263C}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{AFE09047-73FD-422F-8D45-1477E1148B9B}" />
+    <Properties>
+        <ItemName>Spaces</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of customized space tools.  They refer to styles located in the central library of space styles in your AutoCAD Architecture Imperial styles folder.</Description>
+        <Time createdUniversalDateTime="2006-01-10T23:00:17" modifiedUniversalDateTime="2006-01-26T14:50:26" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BAAEBD5C-1B56-484E-85C6-25644EB8099F}" />
+            <Properties>
+                <ItemName>Lobby</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_4586BC68-4324-40F8-A5AC-78A4243DE307.png" />
+                </Images>
+                <Description>Lobby</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:43" modifiedUniversalDateTime="2006-01-16T18:54:19" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Lobby</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Lobby</Style>
+                    <ActualDimensions>
+                        <Area>600</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{AFAFD989-8541-41A8-8659-5F73DE7622C4}" />
+            <Properties>
+                <ItemName>Reception</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_B87AFEE5-4286-4FE7-AA44-B31E8195D661.png" />
+                </Images>
+                <Description>Reception</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:44" modifiedUniversalDateTime="2006-01-16T18:20:15" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Reception</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Reception</Style>
+                    <ActualDimensions>
+                        <Area>140</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{387B416C-3B91-434F-BD60-944CE70D32E3}" />
+            <Properties>
+                <ItemName>Elevator</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_322043E1-B747-401F-AF90-88401E2293E6.png" />
+                </Images>
+                <Description>Elevator</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:42" modifiedUniversalDateTime="2006-01-16T18:20:24" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Elevator</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Elevator</Style>
+                    <ActualDimensions>
+                        <Area>128</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{A1A07A7D-B1C6-4DE9-A113-158FDAA86FC1}" />
+            <Properties>
+                <ItemName>Stairway</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_90949506-7012-4465-AB75-BE0D19047D59.png" />
+                </Images>
+                <Description>Stairway</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:44" modifiedUniversalDateTime="2006-01-16T18:20:32" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Stair</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Stairway</Style>
+                    <ActualDimensions>
+                        <Area>162</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6623F412-7210-439E-89EA-7971ECFB2A71}" />
+            <Properties>
+                <ItemName>Corridor</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_CD65D96D-B72E-4D21-B5F2-016065FDB749.png" />
+                </Images>
+                <Description>Corridor</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:42" modifiedUniversalDateTime="2006-01-16T18:20:46" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Corridor</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Corridor</Style>
+                    <ActualDimensions>
+                        <Area>500</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{963686B7-48B6-4B90-B1D8-3C9E56096538}" />
+            <Properties>
+                <ItemName>Restroom - Women (Medium)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_CAA88468-3B41-468C-BA5C-34C733D005CE.png" />
+                </Images>
+                <Description>Restroom - 4 Stall</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:44" modifiedUniversalDateTime="2006-01-16T18:21:28" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Women's Restroom</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Restroom-Women_Medium</Style>
+                    <ActualDimensions>
+                        <Area>350</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D6189470-E549-441A-8D1E-E9AF1C8208C3}" />
+            <Properties>
+                <ItemName>Restroom - Men (Medium)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_3B8ADA11-8A4C-4DB3-A22F-806B58B7C0FF.png" />
+                </Images>
+                <Description>Restroom - 4 Stall</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:44" modifiedUniversalDateTime="2006-01-16T18:22:36" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Men's Restroom</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Restroom-Men_Medium</Style>
+                    <ActualDimensions>
+                        <Area>350</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{10289AFB-48C4-464A-98B4-00AFB9F3D46B}" />
+            <Properties>
+                <ItemName>Conference Room</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_79136172-24FE-4F6F-BEC4-1902E326FAFC.png" />
+                </Images>
+                <Description>Conference</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:42" modifiedUniversalDateTime="2006-01-16T18:22:46" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Conference Room</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Conference_Room</Style>
+                    <ActualDimensions>
+                        <Area>200</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{532DC64C-0A8A-4589-A904-73FEF952BAA6}" />
+            <Properties>
+                <ItemName>Office (Large)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_669664B4-D79F-443A-9C5D-A38E301326B7.png" />
+                </Images>
+                <Description>Office - Large</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:43" modifiedUniversalDateTime="2006-01-16T18:23:04" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Office</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Office_Large</Style>
+                    <ActualDimensions>
+                        <Area>200</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{ACB582BC-5B87-4D60-AE06-70FB3786DE83}" />
+            <Properties>
+                <ItemName>Office (Small)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_87D4700E-0D1D-42A1-A7D1-3D7BF1D16C8C.png" />
+                </Images>
+                <Description>Office - Small</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:43" modifiedUniversalDateTime="2006-01-16T18:23:58" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Office</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Office_Small</Style>
+                    <ActualDimensions>
+                        <Area>100</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B70A36AD-7B1E-4D24-BAF6-3F786E01C8BB}" />
+            <Properties>
+                <ItemName>Office (Medium)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_D0B002E4-4479-40AF-9A2D-D26F5DEFCD45.png" />
+                </Images>
+                <Description>Office - Standard</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:43" modifiedUniversalDateTime="2006-01-16T18:24:27" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Office</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Office_Medium</Style>
+                    <ActualDimensions>
+                        <Area>150</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{060E2846-9137-4BDE-B8BD-A023FF897A75}" />
+            <Properties>
+                <ItemName>Workstation (Small)</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_85AA8B4C-5B92-47CC-B966-C550F41A26AB.png" />
+                </Images>
+                <Description>Work Station</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:45" modifiedUniversalDateTime="2006-01-16T18:24:45" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Workstation</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Workstation_Small</Style>
+                    <ActualDimensions>
+                        <Area>55</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{003005CE-9215-4B18-B0C9-C115139E81E6}" />
+            <Properties>
+                <ItemName>Electrical Room</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_0CB199C9-BA48-4488-BF21-FC3FE71879CF.png" />
+                </Images>
+                <Description>Electrical Room</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:42" modifiedUniversalDateTime="2006-01-16T18:25:06" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Electrical Closet</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Elec_Room</Style>
+                    <ActualDimensions>
+                        <Area>200</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{8C839ACC-D2BD-4FE8-97E9-E910C81F245D}" />
+            <Properties>
+                <ItemName>Mechanical Room</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_D9C32844-B110-47C2-98AF-433EA5751080.png" />
+                </Images>
+                <Description>Mechanical Room</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:43" modifiedUniversalDateTime="2006-01-16T18:25:33" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Machine Room</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Mech_Room</Style>
+                    <ActualDimensions>
+                        <Area>200</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{D40763CA-D5EB-4791-92E3-DC4B86237096}" />
+            <Properties>
+                <ItemName>Storage</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_A2DE685F-C3A9-4C67-932D-3103809D048A.png" />
+                </Images>
+                <Description>Storage</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:44" modifiedUniversalDateTime="2006-01-10T23:09:44" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Storage</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Storage</Style>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{6C28CF9B-101C-4D4C-88A6-0B86364A31AD}" />
+            <Properties>
+                <ItemName>Closet</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Space Tool_D5C2F1E9-E55E-4DD9-A0F6-3E8D926B6CB4.png" />
+                </Images>
+                <Description>Closet - Comm Storage</Description>
+                <Time createdUniversalDateTime="2006-01-10T23:09:41" modifiedUniversalDateTime="2006-01-16T18:25:51" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}" />
+            <Data>
+                <AecDbSpace>
+                    <Name>Closet</Name>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">Closet</Style>
+                    <ActualDimensions>
+                        <Area>20</Area>
+                    </ActualDimensions>
+                </AecDbSpace>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{B39431AD-84E7-48EE-BDED-F651157BD86D}" />
+            <Properties>
+                <ItemName>BOMA Usable Zone Template</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecZoneTemplate.png" />
+                </Images>
+                <Description>Combines spaces into zones based upon a BOMA Usable Area zone template.</Description>
+                <Keywords>_zone from template</Keywords>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_ZONEFROMTEMPLATE</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2006-01-16T17:10:59" modifiedUniversalDateTime="2006-01-27T11:26:08" refreshedUniversalDateTime="2006-01-16T17:10:59" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{131B3F3B-642C-4021-84CB-C4D7CB43CD46}" />
+            <Data>
+                <AecDbAddZoneDefinition>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Spaces - Commercial (Imperial).dwg">BOMA - Usable Area</Style>
+                </AecDbAddZoneDefinition>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF3-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Space Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_SpacesTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more space tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {AA980072-AC01-4E11-9F30-CB156F94CEA6}</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{2AF3699F-9D2E-4C76-8582-6E844B54C817}" />
+            <Properties>
+                <ItemName>Space Separator</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecDivideSpace.png" />
+                </Images>
+                <Description>Creates a polyline which bounds spaces.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT_UG_SPACESEPARATOR</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-11-06T22:22:44" modifiedUniversalDateTime="2002-11-06T22:22:44" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <AecDbCommandObject>
+                    <LayerKey>Wall</LayerKey>
+                    <CommandString>^C^C_AecSpaceSeparator</CommandString>
+                </AecDbCommandObject>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>
