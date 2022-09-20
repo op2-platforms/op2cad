@@ -1,0 +1,1477 @@
+<Category FileRevision="24.1.0" Revision="24.1.1" option="0"><ItemID idValue="{5BA2325D-017E-4663-AB53-CDC518377228}"/><Properties><ItemName>Annotations</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-09-19T17:46:51" modifiedUniversalDateTime="2022-09-19T17:46:51" refreshedUniversalDateTime="2022-09-19T17:46:51"/></Properties><Source idValue="{5BA2325D-017E-4663-AB53-CDC518377228}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><Tools/><Palettes><Palette Revision="24.1.1" option="0"><ItemID idValue="{540811D7-CACA-4AE1-B800-35749B34201E}"/><Properties><ItemName>DIMS</ItemName><Images option="0"/><Description>Standard Dimensions, Grids and Levels</Description><Time createdUniversalDateTime="2022-09-19T21:46:51" modifiedUniversalDateTime="2022-09-19T21:46:51"/></Properties><Source idValue="{540811D7-CACA-4AE1-B800-35749B34201E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>C2V</PublisherName></Publisher></Source><Tools><Tool Revision="24.1.1" option="0"><ItemID idValue="{4093CD1F-E2CD-4164-89EA-7695195AC72F}"/><Properties><ItemName>Dimensions, Grids and Levels</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-12T18:02:22" modifiedUniversalDateTime="2022-08-12T18:02:22"/></Properties><Source idValue="{4093CD1F-E2CD-4164-89EA-7695195AC72F}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{7368E4FE-39C4-4878-B05E-13D6F75F7632}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-12T17:56:51" modifiedUniversalDateTime="2022-08-12T17:56:51"/></Properties><Source idValue="{7368E4FE-39C4-4878-B05E-13D6F75F7632}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{F9E47672-18D1-4B84-86B4-ACB88273459B}"/><Properties><ItemName>Dimesion w Layer Keys</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-12T17:56:53" modifiedUniversalDateTime="2022-08-12T17:56:53"/></Properties><Source idValue="{F9E47672-18D1-4B84-86B4-ACB88273459B}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{BB5682FA-85B0-4C0E-8E99-924AF04804AA}"/><Properties><ItemName>Baseline</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_FA0F7D11-4CFB-4FC0-90A6-2ABD31DB7E22.png"/></Images><Description>Baseline Dimension (w/ Layer Keying)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_ADT_UGDIMENSION</HelpData></Help><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-11T17:32:59"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{BB5682FA-85B0-4C0E-8E99-924AF04804AA}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+						<AecDbCommandObject><LayerKey>DIMLINE</LayerKey><CommandString>_DIMBASELINE</CommandString></AecDbCommandObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{CA8E0C8A-032B-4206-BD10-607B437AE7A9}"/><Properties><ItemName>Linear</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_8700E1C1-7CBC-4AE6-878B-3EA939911F8F.png"/></Images><Description>Linear Dimension (w/ Layer Keying)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_ADT_UGDIMENSION</HelpData></Help><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{CA8E0C8A-032B-4206-BD10-607B437AE7A9}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+						<AecDbCommandObject>
+							<LayerKey>DIMLINE</LayerKey>
+							<CommandString>_DIMLINEAR</CommandString>
+						</AecDbCommandObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{8D1C3351-90E5-4461-A005-C3CBEADF68E0}"/><Properties><ItemName>Aligned</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_F101F3D5-5E10-427C-A081-834BF736B79E.png"/></Images><Description>Aligned Dimension (w/ Layer Keying)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_ADT_UGDIMENSION</HelpData></Help><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-12T14:00:00"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{8D1C3351-90E5-4461-A005-C3CBEADF68E0}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+						<AecDbCommandObject><LayerKey>DIMLINE</LayerKey><CommandString>_DIMALIGNED</CommandString></AecDbCommandObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{7708822A-F7FC-4B11-8414-E965FAC5186E}"/><Properties><ItemName>Angular</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_2391E020-725B-43DD-9076-2BBA57C5A1C0.png"/></Images><Description>Angular Dimension (w/ Layer Keying)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_ADT_UGDIMENSION</HelpData></Help><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{7708822A-F7FC-4B11-8414-E965FAC5186E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+						<AecDbCommandObject>
+							<LayerKey>DIMLINE</LayerKey>
+							<CommandString>_DimAngular</CommandString>
+						</AecDbCommandObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{3B061BE3-D879-4E36-BC90-F325B8586806}"/><Properties><ItemName>Continue</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_7EAF1520-C70D-4F88-8255-1EA96E7557EC.png"/></Images><Description>Continue Dimension (w/ Layer Keying)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_ADT_UGDIMENSION</HelpData></Help><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{3B061BE3-D879-4E36-BC90-F325B8586806}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+						<AecDbCommandObject>
+							<LayerKey>DIMLINE</LayerKey>
+							<CommandString>_DIMCONTINUE</CommandString>
+						</AecDbCommandObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{82D45457-5CD2-4FE7-AB0F-E90F6289EC52}"/><Properties><ItemName>Radius</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_19E59859-1904-4B43-B12E-0194E759D433.png"/></Images><Description>Radius Dimension (w/ Layer Keying)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_ADT_UGDIMENSION</HelpData></Help><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{82D45457-5CD2-4FE7-AB0F-E90F6289EC52}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+						<AecDbCommandObject>
+							<LayerKey>DIMLINE</LayerKey>
+							<CommandString>_DIMRADIUS</CommandString>
+						</AecDbCommandObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{613354E2-2199-4F6F-8B39-A3ECAC79FFB9}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-12T17:47:21" modifiedUniversalDateTime="2022-08-12T17:47:21"/></Properties><Source idValue="{613354E2-2199-4F6F-8B39-A3ECAC79FFB9}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{2B23F86F-358D-4FBA-A304-29A64C43A56D}"/><Properties><ItemName>Grids</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-12T17:47:23" modifiedUniversalDateTime="2022-08-12T17:47:23"/></Properties><Source idValue="{2B23F86F-358D-4FBA-A304-29A64C43A56D}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E266CF46-430C-4B70-ACFA-3FE7B401FB62}"/><Properties><ItemName>9.5mm Top Bubble</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Aec Match Line Tool_E266CF46-430C-4B70-ACFA-3FE7B401FB62_4.png"/><Image cx="64" cy="64" IsDark="true" src=".\Images\Aec Match Line Tool_E266CF46-430C-4B70-ACFA-3FE7B401FB62_5.png"/></Images><Description>Creates a match line symbol.</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-12T12:52:22"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{E266CF46-430C-4B70-ACFA-3FE7B401FB62}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}"/><Data>
+						<AecDbMatchLineObject><LayerKey>GRIDBUB</LayerKey><Symbol>BubbleDef_Top</Symbol><SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation><Linetype>CENTER2</Linetype><LineWidth>0</LineWidth></AecDbMatchLineObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{F3341335-ED27-4BE2-B516-CEE16B40B2D2}"/><Properties><ItemName>9.5mm Right Bubble</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Aec Match Line Tool_F3341335-ED27-4BE2-B516-CEE16B40B2D2_5.png"/><Image cx="64" cy="64" IsDark="true" src=".\Images\Aec Match Line Tool_F3341335-ED27-4BE2-B516-CEE16B40B2D2_6.png"/></Images><Description>Creates a match line symbol.</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-12T12:59:31"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{F3341335-ED27-4BE2-B516-CEE16B40B2D2}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}"/><Data>
+						<AecDbMatchLineObject><LayerKey>GRIDBUB</LayerKey><Symbol>BubbleDef_Right</Symbol><SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation><Linetype>CENTER2</Linetype><LineWidth>0</LineWidth><AttrTextStyle>0</AttrTextStyle><AttrTextAngle>0</AttrTextAngle></AecDbMatchLineObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{74562DF6-E9DE-486E-927A-86FC1CACF1A2}"/><Properties><ItemName>9.5mm Left Bubble</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Aec Match Line Tool_74562DF6-E9DE-486E-927A-86FC1CACF1A2_4.png"/><Image cx="64" cy="64" IsDark="true" src=".\Images\Aec Match Line Tool_74562DF6-E9DE-486E-927A-86FC1CACF1A2_5.png"/></Images><Description>Creates a match line symbol.</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-12T12:33:02"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{74562DF6-E9DE-486E-927A-86FC1CACF1A2}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}"/><Data>
+						<AecDbMatchLineObject><LayerKey>GRIDBUB</LayerKey><Symbol>BubbleDef_Left</Symbol><SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation><Linetype>CENTER2</Linetype><LineWidth>0</LineWidth></AecDbMatchLineObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{F0959868-41E5-4114-B8B5-386E77C9C582}"/><Properties><ItemName>9.5mm Bottom Bubble</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Aec Match Line Tool_F0959868-41E5-4114-B8B5-386E77C9C582_4.png"/><Image cx="64" cy="64" IsDark="true" src=".\Images\Aec Match Line Tool_F0959868-41E5-4114-B8B5-386E77C9C582_5.png"/></Images><Description>Creates a match line symbol.</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-12T12:52:07"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{F0959868-41E5-4114-B8B5-386E77C9C582}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}"/><Data>
+						<AecDbMatchLineObject><LayerKey>GRIDBUB</LayerKey><Symbol>BubbleDef_Bottom</Symbol><SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation><Linetype>CENTER2</Linetype><LineWidth>0</LineWidth></AecDbMatchLineObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{225E8B0A-3BA3-44EF-8185-15649418E97F}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-12T17:56:14" modifiedUniversalDateTime="2022-08-12T17:56:14"/></Properties><Source idValue="{225E8B0A-3BA3-44EF-8185-15649418E97F}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{6A4EE20D-2D69-4D8B-910E-EECD59D2C6A9}"/><Properties><ItemName>Levels</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-12T17:56:18" modifiedUniversalDateTime="2022-08-12T17:56:18"/></Properties><Source idValue="{6A4EE20D-2D69-4D8B-910E-EECD59D2C6A9}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E3A15182-5428-4F4B-BC6B-385891E04261}"/><Properties><ItemName>Half Circle Right Bubble</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Aec Match Line Tool_E3A15182-5428-4F4B-BC6B-385891E04261.png"/><Image cx="64" cy="64" IsDark="true" src=".\Images\Aec Match Line Tool_E3A15182-5428-4F4B-BC6B-385891E04261_2.png"/></Images><Description>Creates a match line symbol.</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-15T14:38:59"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{E3A15182-5428-4F4B-BC6B-385891E04261}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}"/><Data>
+						<AecDbMatchLineObject><LayerKey>GRIDBUB</LayerKey><Symbol>BubbleDef_Grid_Right</Symbol><SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation><Linetype>CENTER2</Linetype><LineWidth>0</LineWidth><AttrTextStyle>0</AttrTextStyle><AttrTextAngle>0</AttrTextAngle></AecDbMatchLineObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{40E9E475-E38B-42DE-A7A3-43CB3676194C}"/><Properties><ItemName>Half Circle Left Bubble</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Aec Match Line Tool_40E9E475-E38B-42DE-A7A3-43CB3676194C.png"/><Image cx="64" cy="64" IsDark="true" src=".\Images\Aec Match Line Tool_40E9E475-E38B-42DE-A7A3-43CB3676194C_2.png"/></Images><Description>Creates a match line symbol.</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2022-08-15T14:39:09"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{40E9E475-E38B-42DE-A7A3-43CB3676194C}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{99774078-9736-4B0A-A018-F74E3F13E504}"/><Data>
+						<AecDbMatchLineObject><LayerKey>GRIDBUB</LayerKey><Symbol>BubbleDef_Grid_Left</Symbol><SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation><Linetype>CENTER2</Linetype><LineWidth>0</LineWidth></AecDbMatchLineObject><Units>mm</Units></Data>
+				</Tool></Tools></Palette><Palette Revision="24.1.1" option="0"><ItemID idValue="{A15A0114-1288-4D55-9E77-8CD116CE8BCF}"/><Properties><ItemName>MARK</ItemName><Images option="0"/><Description>Standard View reference Marks and Callouts</Description><Keywords>Reference, Marks, Callouts, Views</Keywords><Time createdUniversalDateTime="2022-09-19T21:46:51" modifiedUniversalDateTime="2022-09-19T21:46:51"/></Properties><Source idValue="{A15A0114-1288-4D55-9E77-8CD116CE8BCF}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>C2V</PublisherName></Publisher></Source><Tools><Tool Revision="24.1.1" option="0"><ItemID idValue="{9688E235-2942-4AC9-9A74-32A15AF9B98A}"/><Properties><ItemName>View Reference Marks and Callout (Metric)</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:28:40" modifiedUniversalDateTime="2022-07-07T18:28:40"/></Properties><Source idValue="{9688E235-2942-4AC9-9A74-32A15AF9B98A}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{555D476D-4B4B-4A4A-9BD2-52BAF659D62E}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:28:38" modifiedUniversalDateTime="2022-07-07T18:28:38"/></Properties><Source idValue="{555D476D-4B4B-4A4A-9BD2-52BAF659D62E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{20909137-69F7-48CF-80A8-A25046F46861}"/><Properties><ItemName>Title Mark</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-22T20:53:28" modifiedUniversalDateTime="2022-08-22T20:53:28"/></Properties><Source idValue="{20909137-69F7-48CF-80A8-A25046F46861}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{5FBEFB74-0DC2-4F80-9DDF-547491C01113}"/><Properties><ItemName>Title Mark T2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Title Mark_5FBEFB74-0DC2-4F80-9DDF-547491C01113.png"/></Images><Description>Adds a title mark.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2022-08-22T16:52:43" modifiedUniversalDateTime="2022-08-22T16:52:43" refreshedUniversalDateTime="2022-08-22T16:52:43"/></Properties><CustomData>
+						<Version>4.5</Version>
+					</CustomData>
+					<Source idValue="{5FBEFB74-0DC2-4F80-9DDF-547491C01113}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+						<AecDbTitleMarkObject>
+							<LayerKey>TITTEXT</LayerKey>
+							<Justification>0</Justification>
+							<Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg"/>
+							<AttrTextStyle>1</AttrTextStyle>
+							<Title ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T2</Title>
+							<PolylineWidth>0.01968505</PolylineWidth>
+						</AecDbTitleMarkObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{2108AB82-9D69-4E41-829C-265703D06829}"/><Properties><ItemName>Title Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Title Mark Tool_2108AB82-9D69-4E41-829C-265703D06829.png"/></Images><Description>Adds a title mark with number.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2022-08-22T16:56:45" modifiedUniversalDateTime="2022-08-22T16:56:45" refreshedUniversalDateTime="2022-08-22T16:56:45"/></Properties><CustomData>
+						<Version>4.5</Version>
+					</CustomData>
+					<Source idValue="{2108AB82-9D69-4E41-829C-265703D06829}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+						<AecDbTitleMarkObject>
+							<LayerKey>TITTEXT</LayerKey>
+							<Justification>0</Justification>
+							<Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</Tag>
+							<AttrTextStyle>1</AttrTextStyle>
+							<Title ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</Title>
+							<PolylineWidth>0.01968505</PolylineWidth>
+						</AecDbTitleMarkObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{739A045E-E32B-4B53-B06D-E0F00871BF47}"/><Properties><ItemName>Title Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Title Mark_739A045E-E32B-4B53-B06D-E0F00871BF47.png"/></Images><Description>Adds a title mark with number and sheet reference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2022-08-22T16:52:43" modifiedUniversalDateTime="2022-08-22T16:52:43" refreshedUniversalDateTime="2022-08-22T16:52:43"/></Properties><CustomData>
+						<Version>4.5</Version>
+					</CustomData>
+					<Source idValue="{739A045E-E32B-4B53-B06D-E0F00871BF47}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+						<AecDbTitleMarkObject>
+							<LayerKey>TITTEXT</LayerKey>
+							<Justification>0</Justification>
+							<Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A2</Tag>
+							<AttrTextStyle>1</AttrTextStyle>
+							<Title ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</Title>
+							<PolylineWidth>0.50000027</PolylineWidth>
+						</AecDbTitleMarkObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{0AB72065-6731-47BD-9EE5-1D2466FA1C01}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-22T20:54:11" modifiedUniversalDateTime="2022-08-22T20:54:11"/></Properties><Source idValue="{0AB72065-6731-47BD-9EE5-1D2466FA1C01}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{78B1595D-F1C7-47F9-AB5E-41021CD19D55}"/><Properties><ItemName>Elevations Mark</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:12:41" modifiedUniversalDateTime="2022-07-07T18:12:41"/></Properties><Source idValue="{78B1595D-F1C7-47F9-AB5E-41021CD19D55}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{B21A6926-4F4D-4A46-8315-F074A4909AB6}"/><Properties><ItemName>Elevation Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_B21A6926-4F4D-4A46-8315-F074A4909AB6.png"/></Images><Description>Elevation Mark</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:19:22" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{B21A6926-4F4D-4A46-8315-F074A4909AB6}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNELKEY</LayerKey><CalloutType>3</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_A1</Tag><Arrow>Anno_Arrow_A1</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>100</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{127A629B-06B6-442B-9412-8F6056BD56C4}"/><Properties><ItemName>Elevation Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_127A629B-06B6-442B-9412-8F6056BD56C4.png"/></Images><Description>Elevation Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:22:47" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{127A629B-06B6-442B-9412-8F6056BD56C4}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNELKEY</LayerKey><CalloutType>3</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_A2</Tag><Arrow>Anno_Arrow_A2</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>100</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{75B8980A-C7E9-413F-91D4-F1C65B1AD805}"/><Properties><ItemName>Exterior Elevation Mark A3</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_75B8980A-C7E9-413F-91D4-F1C65B1AD805.png"/></Images><Description>Exterior Elevation Mark (Entire Building)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:24:16" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{75B8980A-C7E9-413F-91D4-F1C65B1AD805}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNELKEY</LayerKey><CalloutType>4</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_A2</Tag><Arrow>Anno_Arrow_A2</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><FourWayElevationType>1</FourWayElevationType><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>100</Scale><ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{FB42B91A-EBC7-40A5-B693-F3A826874E07}"/><Properties><ItemName>Interior Elevation Mark B1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_FB42B91A-EBC7-40A5-B693-F3A826874E07.png"/></Images><Description>Interior Elevation Mark (4-Way) "1/2/3/4"</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:26:05" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{FB42B91A-EBC7-40A5-B693-F3A826874E07}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNELKEY</LayerKey><CalloutType>4</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_B1</Tag><Arrow>Anno_Arrow_1234</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><FourWayElevationType>0</FourWayElevationType><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>50</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{97B5BB7F-539B-4A8D-88B6-D6488478543E}"/><Properties><ItemName>Interior Elevation Mark C1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_97B5BB7F-539B-4A8D-88B6-D6488478543E.png"/></Images><Description>Interior Elevation Mark (Single)</Description><Time createdUniversalDateTime="2022-08-22T17:14:44" modifiedUniversalDateTime="2022-08-22T17:14:44" refreshedUniversalDateTime="2022-08-22T17:14:44"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{97B5BB7F-539B-4A8D-88B6-D6488478543E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNELKEY</LayerKey><CalloutType>3</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_C1</Tag><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>0</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><FourWayElevationType>0</FourWayElevationType><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>50</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{0804A565-BEB3-4AD1-B4B3-E19645A66987}"/><Properties><ItemName>Interior Elevation Mark C2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_0804A565-BEB3-4AD1-B4B3-E19645A66987.png"/></Images><Description>Interior Elevation Mark (Single) - Inverted Text</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:25:56" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{0804A565-BEB3-4AD1-B4B3-E19645A66987}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNELKEY</LayerKey><CalloutType>3</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Elevation_C2</Tag><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>0</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><FourWayElevationType>0</FourWayElevationType><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>50</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{104189B2-15C6-4394-B15E-E182D5FD52A3}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:10:41" modifiedUniversalDateTime="2022-07-07T18:10:41"/></Properties><Source idValue="{104189B2-15C6-4394-B15E-E182D5FD52A3}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{9074ED5F-6902-4E6E-BC02-9C4DF83284BF}"/><Properties><ItemName>Section Mark</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:13:55" modifiedUniversalDateTime="2022-07-07T18:13:55"/></Properties><Source idValue="{9074ED5F-6902-4E6E-BC02-9C4DF83284BF}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{45A3B332-A28A-4C37-A956-81E56B654C76}"/><Properties><ItemName>Section Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_45A3B332-A28A-4C37-A956-81E56B654C76.png"/></Images><Description>Section Mark</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:33:34" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{45A3B332-A28A-4C37-A956-81E56B654C76}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNSXKEY</LayerKey><CalloutType>5</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A1</Tag><Arrow>Anno_Arrow_A1</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>0</TailLength><TailWidth>0</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>25</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{2929064D-8C1D-4C47-BE29-E68A8D30BD7C}"/><Properties><ItemName>Section Mark A1T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_2929064D-8C1D-4C47-BE29-E68A8D30BD7C.png"/></Images><Description>Section Mark (w/ Tail)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:34:11" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{2929064D-8C1D-4C47-BE29-E68A8D30BD7C}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNSXKEY</LayerKey><CalloutType>5</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A1</Tag><Arrow>Anno_Arrow_A1</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>25</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{72BC8306-A637-4F34-9E04-45AC7BDAF646}"/><Properties><ItemName>Section Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_72BC8306-A637-4F34-9E04-45AC7BDAF646.png"/></Images><Description>Section Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:34:56" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{72BC8306-A637-4F34-9E04-45AC7BDAF646}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNSXKEY</LayerKey><CalloutType>5</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A2</Tag><Arrow>Anno_Arrow_A2</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>0</TailLength><TailWidth>0</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>25</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{3468F85C-9467-40EC-9540-3F0FA610A0BB}"/><Properties><ItemName>Section Mark A2T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_3468F85C-9467-40EC-9540-3F0FA610A0BB.png"/></Images><Description>Section Mark (w/ Sheet No. &amp; Tail)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:35:50" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{3468F85C-9467-40EC-9540-3F0FA610A0BB}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNSXKEY</LayerKey><CalloutType>5</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A2</Tag><Arrow>Anno_Arrow_A2</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>25</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{422C7A0C-B4CE-4F36-A7CB-6BFDD73CB096}"/><Properties><ItemName>Section Mark A3T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_422C7A0C-B4CE-4F36-A7CB-6BFDD73CB096.png"/></Images><Description>Section Mark - Section Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:36:28" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{422C7A0C-B4CE-4F36-A7CB-6BFDD73CB096}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNSXKEY</LayerKey><CalloutType>6</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Section_A2</Tag><Arrow>Anno_Arrow_A2</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>1</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style 100</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>25</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{B529E1E4-DDAB-4552-B306-C518E88D6978}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:10:10" modifiedUniversalDateTime="2022-07-07T18:10:10"/></Properties><Source idValue="{B529E1E4-DDAB-4552-B306-C518E88D6978}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{2170F6D6-BC39-4142-83A2-6118037B5C73}"/><Properties><ItemName>Detail Mark</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:13:44" modifiedUniversalDateTime="2022-07-07T18:13:44"/></Properties><Source idValue="{2170F6D6-BC39-4142-83A2-6118037B5C73}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{99D93CDE-96E9-4326-B997-BCD05747DFCB}"/><Properties><ItemName>Detail Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_99D93CDE-96E9-4326-B997-BCD05747DFCB.png"/></Images><Description>Detail Mark</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:38:13" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{99D93CDE-96E9-4326-B997-BCD05747DFCB}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>2</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A1</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>0</TailLength><TailWidth>0</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>1.5875</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{BDC7748D-1846-4091-887E-603345BD150B}"/><Properties><ItemName>Detail Mark A1T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_BDC7748D-1846-4091-887E-603345BD150B.png"/></Images><Description>Detail Mark (w/ Tail)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:43:37" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{BDC7748D-1846-4091-887E-603345BD150B}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>2</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A1</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{C07F4349-7414-4A30-987B-4231E9C5A698}"/><Properties><ItemName>Detail Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_C07F4349-7414-4A30-987B-4231E9C5A698.png"/></Images><Description>Detail Mark (w/ Sheet No.)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:40:03" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{C07F4349-7414-4A30-987B-4231E9C5A698}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>2</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>0</TailLength><TailWidth>0</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{BE948E09-DA8A-49C0-9308-7B43600B1234}"/><Properties><ItemName>Detail Mark A2T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_BE948E09-DA8A-49C0-9308-7B43600B1234.png"/></Images><Description>Detail Mark (w/ Sheet No. &amp; Tail)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:43:21" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{BE948E09-DA8A-49C0-9308-7B43600B1234}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>2</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>4.7625</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{9697185C-A380-4659-AE0F-3B9ED9B1B48D}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:10:17" modifiedUniversalDateTime="2022-07-07T18:10:17"/></Properties><Source idValue="{9697185C-A380-4659-AE0F-3B9ED9B1B48D}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{86E07DFB-B699-4D69-BCD7-4A37D4307543}"/><Properties><ItemName>Detail Callout</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-07-07T18:13:15" modifiedUniversalDateTime="2022-07-07T18:13:15"/></Properties><Source idValue="{86E07DFB-B699-4D69-BCD7-4A37D4307543}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{2C339B7C-3268-4CA6-A2FC-3171DC1A7605}"/><Properties><ItemName>Detail Boundary A</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_2C339B7C-3268-4CA6-A2FC-3171DC1A7605.png"/></Images><Description>Detail Boundary (Circle)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:44:14" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{2C339B7C-3268-4CA6-A2FC-3171DC1A7605}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>1</CalloutType><BoundaryType>1</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>76.2</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>6.35</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{8D1009AC-A297-4FDB-A05F-874DE4FF6F01}"/><Properties><ItemName>Detail Boundary B</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_8D1009AC-A297-4FDB-A05F-874DE4FF6F01.png"/></Images><Description>Detail Boundary (Rectangle)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:44:56" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{8D1009AC-A297-4FDB-A05F-874DE4FF6F01}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>1</CalloutType><BoundaryType>2</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>6.35</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{58D0E76F-2388-4BEB-A1C4-19C39139FDBD}"/><Properties><ItemName>Detail Boundary C</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_58D0E76F-2388-4BEB-A1C4-19C39139FDBD.png"/></Images><Description>Detail Boundary (Free Form)</Description><Time createdUniversalDateTime="2008-10-03T14:23:27" modifiedUniversalDateTime="2022-07-07T14:45:30" refreshedUniversalDateTime="2008-10-03T14:23:27"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{58D0E76F-2388-4BEB-A1C4-19C39139FDBD}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+						<AecDbCalloutObject><LayerKey>ANNDTOBJ</LayerKey><CalloutType>1</CalloutType><BoundaryType>3</BoundaryType><Tag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Detail_A2</Tag><Arrow>_ArchTick</Arrow><AttrTextStyle>1</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Dimensions><Radius>6.35</Radius><BoundaryLineType>DASHED2</BoundaryLineType><BoundaryWidth>0.79375</BoundaryWidth><TailLength>6.35</TailLength><TailWidth>1.5875</TailWidth></Dimensions><ViewType>2</ViewType><GenerateSectionElevation>0</GenerateSectionElevation><SectElevStyle ref="%AECCONTENT_DIR%\Styles\Metric\SectionStyles (Metric).dwg">2D Section Style Background</SectElevStyle><DisplaySet>Section_Elev</DisplaySet><Scale>10</Scale><ViewNameIncrement>0</ViewNameIncrement><PlaceTitlemark>0</PlaceTitlemark><TitleMark><TitlemarkJustification>0</TitlemarkJustification><TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_A1</TitleMarkTag><TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Metric\Callouts (Metric).dwg">Anno_Title_T1</TitleMarkTitle><TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle><TitleMarkPolylineWidth>0.635</TitleMarkPolylineWidth><LayerKey>TITTEXT</LayerKey></TitleMark></AecDbCalloutObject><Units>mm</Units></Data>
+				</Tool></Tools></Palette><Palette Revision="24.1.1" option="0"><ItemID idValue="{081E421B-AB4D-431F-84E3-088BB78FD3D3}"/><Properties><ItemName>REVS</ItemName><Images option="0"/><Description>Standard Revision Tools</Description><Time createdUniversalDateTime="2022-09-19T21:46:51" modifiedUniversalDateTime="2022-09-19T21:46:51"/></Properties><Source idValue="{081E421B-AB4D-431F-84E3-088BB78FD3D3}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>C2V</PublisherName></Publisher></Source><Tools><Tool Revision="24.1.1" option="0"><ItemID idValue="{71936B70-A78B-4202-9937-327C1E677F7F}"/><Properties><ItemName>Large Arcs &amp; Tag</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_494ED4A3-5CD6-4ECE-A409-33B68EB988F7.png"/></Images><Description>Revision Cloud with Tag (30mm Arcs)</Description><Time createdUniversalDateTime="2003-02-06T21:03:40" modifiedUniversalDateTime="2003-02-06T21:03:40"/></Properties><Source idValue="{71936B70-A78B-4202-9937-327C1E677F7F}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{95F81488-066B-4245-B1B4-A7167F715433}"/><Data>
+						<AecDbRevisionCloudObject>
+							<LayerKey>ANNREV</LayerKey>
+							<Symbol>Anno_Revision_A</Symbol>
+							<SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation>
+							<ArcLength>30</ArcLength>
+							<LineWidth>0.75</LineWidth>
+						</AecDbRevisionCloudObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{0BFC09C9-E8AC-4057-83AF-5F39B532C83E}"/><Properties><ItemName>Medium Arcs &amp; Tag</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_8800C619-BE38-4FED-993A-3875309EF9D9.png"/></Images><Description>Revision Cloud with Tag (20mm Arcs)</Description><Time createdUniversalDateTime="2003-02-06T21:03:40" modifiedUniversalDateTime="2003-02-06T21:03:40"/></Properties><Source idValue="{0BFC09C9-E8AC-4057-83AF-5F39B532C83E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{95F81488-066B-4245-B1B4-A7167F715433}"/><Data>
+						<AecDbRevisionCloudObject>
+							<LayerKey>ANNREV</LayerKey>
+							<Symbol>Anno_Revision_A</Symbol>
+							<SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation>
+							<ArcLength>20</ArcLength>
+							<LineWidth>0.75</LineWidth>
+						</AecDbRevisionCloudObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{C8D37F9A-30ED-40CD-A899-DD8AF7C3FA35}"/><Properties><ItemName>Small Arcs &amp; Tag</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_8D79B3E6-360A-432C-8072-961560311BC2.png"/></Images><Description>Revision Cloud with Tag (10mm Arcs)</Description><Time createdUniversalDateTime="2003-02-06T21:03:40" modifiedUniversalDateTime="2003-02-06T21:03:40"/></Properties><Source idValue="{C8D37F9A-30ED-40CD-A899-DD8AF7C3FA35}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{95F81488-066B-4245-B1B4-A7167F715433}"/><Data>
+						<AecDbRevisionCloudObject>
+							<LayerKey>ANNREV</LayerKey>
+							<Symbol>Anno_Revision_A</Symbol>
+							<SymbolLocation>%AECCONTENT_DIR%\Styles\Metric\AEC Annotation Symbols (Metric).dwg</SymbolLocation>
+							<ArcLength>10</ArcLength>
+							<LineWidth>0.75</LineWidth>
+						</AecDbRevisionCloudObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool></Tools></Palette><Palette Revision="24.1.1" option="0"><ItemID idValue="{192063D0-D0E6-4C16-BAF6-4DBAD011EADC}"/><Properties><ItemName>SCHD</ItemName><Images option="0"/><Description>Standard Schedules (French)</Description><Time createdUniversalDateTime="2022-09-19T21:46:51" modifiedUniversalDateTime="2022-09-19T21:46:51"/></Properties><Source idValue="{192063D0-D0E6-4C16-BAF6-4DBAD011EADC}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>C2V</PublisherName></Publisher></Source><Tools><Tool Revision="24.1.1" option="0"><ItemID idValue="{F6752C4F-C1DA-4A96-93EA-CB8550288CFD}"/><Properties><ItemName>Standard Schedules and Tables</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:13:40" modifiedUniversalDateTime="2022-08-29T21:13:40"/></Properties><Source idValue="{F6752C4F-C1DA-4A96-93EA-CB8550288CFD}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{CF3585FB-B66E-41FA-8A2C-7DF09387F004}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:13:37" modifiedUniversalDateTime="2022-08-29T21:13:37"/></Properties><Source idValue="{CF3585FB-B66E-41FA-8A2C-7DF09387F004}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E10BC5EF-1CA2-4ED1-B789-2467CD8C9449}"/><Properties><ItemName>AEC Schedules (French)</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:13:22" modifiedUniversalDateTime="2022-08-29T21:13:22"/></Properties><Source idValue="{E10BC5EF-1CA2-4ED1-B789-2467CD8C9449}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{A4649B08-CFED-4FB8-8659-607FE4412FEA}"/><Properties><ItemName>Door Schedule</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_4CFE5F36-B021-412D-800D-866B1407DDEE.png"/></Images><Description>Creates a door schedule.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:16:38"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{A4649B08-CFED-4FB8-8659-607FE4412FEA}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Door Schedule - Fr</Style><Scale>25</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{C391BEB4-6AB8-400F-97DA-7B9955777AAB}"/><Properties><ItemName>Furniture Schedule</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_CBD59CCA-173D-40EC-9D78-736B6B89F6B2.png"/></Images><Description>Creates a furniture schedule.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:16:26"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{C391BEB4-6AB8-400F-97DA-7B9955777AAB}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Furniture Schedule - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{5D29CB59-B9EE-4DAF-923E-9904FD30BEFB}"/><Properties><ItemName>Room Finish Matrix</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_E0CC7116-F4F1-401A-AA50-7D29674A6346.png"/></Images><Description>Creates a room finish matrix.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:16:22"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{5D29CB59-B9EE-4DAF-923E-9904FD30BEFB}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Room Finish Matrix - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{0419226F-A437-408A-8B51-F0DAFFAD96D7}"/><Properties><ItemName>Room Finish Schedule</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_6259ADA0-4C5D-461C-980E-C594E8849944.png"/></Images><Description>Creates a room finish schedule.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:17:15"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{0419226F-A437-408A-8B51-F0DAFFAD96D7}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Room Finish Schedule - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>0</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{C79D3583-2570-42CD-840C-462C60716C25}"/><Properties><ItemName>Room Schedule</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_E4DCEE55-98BC-4DD6-ABB4-1C1C965C8F7C.png"/></Images><Description>Creates a room schedule.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:17:20"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{C79D3583-2570-42CD-840C-462C60716C25}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Room Schedule - Fr</Style><Scale>100</Scale></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{DB78E462-D6B1-4819-A4AE-F9F9EEAAAC2D}"/><Properties><ItemName>Wall Schedule</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Schedule Table Tool_DB78E462-D6B1-4819-A4AE-F9F9EEAAAC2D.png"/></Images><Description>Creates a wall schedule.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:17:54"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{DB78E462-D6B1-4819-A4AE-F9F9EEAAAC2D}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Wall Schedule - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>-1</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{08069631-C2FD-4529-8913-19B39E44BA2A}"/><Properties><ItemName>Window Schedule</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_7041FF5D-6340-424D-8C66-8D791F9CC2E7.png"/></Images><Description>Creates a window schedule.</Description><Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2022-08-29T17:18:29"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{08069631-C2FD-4529-8913-19B39E44BA2A}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Window Schedule - Fr</Style><Scale>25</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{31BF6D60-2403-4D8F-A2F7-0101D079C5F8}"/><Properties><ItemName>Space List - BOMA</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Schedule Table Tool_31BF6D60-2403-4D8F-A2F7-0101D079C5F8.png"/></Images><Description>Creates a space list - BOMA schedule.</Description><Time createdUniversalDateTime="2006-01-09T14:53:43" modifiedUniversalDateTime="2022-08-29T17:19:01" refreshedUniversalDateTime="2006-01-09T14:53:43"/></Properties><CustomData><Version>8.4</Version></CustomData>
+					<Source idValue="{31BF6D60-2403-4D8F-A2F7-0101D079C5F8}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>Autodesk, Inc.</PublisherName></Publisher></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Space List BOMA - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{68EB7FE3-709E-4241-ABBC-344DCA4939C8}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:09:46" modifiedUniversalDateTime="2022-08-29T21:09:46"/></Properties><Source idValue="{68EB7FE3-709E-4241-ABBC-344DCA4939C8}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{8D00CB4B-1AD0-4C6E-89F4-1212F69F738F}"/><Properties><ItemName>AEC Project Based Schedules (French)</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:09:48" modifiedUniversalDateTime="2022-08-29T21:09:48"/></Properties><Source idValue="{8D00CB4B-1AD0-4C6E-89F4-1212F69F738F}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{A1C6B965-FEC0-4F05-9C8A-E019F4CF2973}"/><Properties><ItemName>Door Schedule </ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_3C3F1801-69A3-45FC-83AB-E9F2CC06A02A.png"/></Images><Description>Creates a project based door schedule.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Scheduling_CreatingaScheduleTableTool</HelpData></Help><Time createdUniversalDateTime="2003-02-20T14:11:06" modifiedUniversalDateTime="2022-08-29T17:20:44"/></Properties><CustomData>
+						<Units>mm</Units>
+						<Version>8.4</Version></CustomData>
+					<Source idValue="{A1C6B965-FEC0-4F05-9C8A-E019F4CF2973}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Door Schedule Project Based</Style><Scale>25</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{79151425-5618-4C68-BFD5-4BE1FEB0ACA6}"/><Properties><ItemName>Room Finish Matrix</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_E2545722-F37C-42FA-BA3D-3161D8AA72B9.png"/></Images><Description>Creates a project based room finish matrix schedule.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Scheduling_CreatingaScheduleTableTool</HelpData></Help><Time createdUniversalDateTime="2003-02-20T14:11:06" modifiedUniversalDateTime="2022-08-29T17:20:00"/></Properties><CustomData>
+						<Units>mm</Units>
+						<Version>8.4</Version></CustomData>
+					<Source idValue="{79151425-5618-4C68-BFD5-4BE1FEB0ACA6}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Room Finish Matrix Project Based - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{423B2DF3-9C63-4B07-9B96-5BE8626E7910}"/><Properties><ItemName>Room Finish Schedule </ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\ScheduleTable_2288E8A9-B752-48E2-8C22-560C09F47DF4.png"/></Images><Description>Creates a project based room finish schedule.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-Scheduling_CreatingaScheduleTableTool</HelpData></Help><Time createdUniversalDateTime="2003-02-20T14:11:06" modifiedUniversalDateTime="2022-08-29T17:20:26"/></Properties><CustomData>
+						<Units>mm</Units>
+						<Version>8.4</Version></CustomData>
+					<Source idValue="{423B2DF3-9C63-4B07-9B96-5BE8626E7910}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+						<AecDbScheduleTable><Style ref="%AECCONTENT_DIR%\Styles\Metric\Schedule Tables (Metric).dwg">Room Finish Schedule Project Based - Fr</Style><Scale>100</Scale><AutoUpdate>-1</AutoUpdate><AutoAddNew>-1</AutoAddNew><ScanXrefs>-1</ScanXrefs><ScanBlockRefs>-1</ScanBlockRefs><IncludeDemoObj>0</IncludeDemoObj></AecDbScheduleTable><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{F73CB03B-18DD-49CC-896D-1FB45A1FBCB4}"/><Properties><ItemName resource="752" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" src="Images\IDB_BITMAP_DRAWINGLEGEND_16.png"/><Image cx="32" cy="32" IsDark="false" src="Images\IDB_BITMAP_DRAWINGLEGEND.png"/><Image cx="16" cy="16" IsDark="false" src="Images\IDB_BITMAP_DRAWINGLEGEND_16_DARK.png"/><Image cx="32" cy="32" IsDark="false" src="Images\IDB_BITMAP_DRAWINGLEGEND_DARK.png"/><Image cx="16" cy="16" IsDark="true" src=".\Images\Table tool_F73CB03B-18DD-49CC-896D-1FB45A1FBCB4.png"/></Images><Time createdUniversalDateTime="2022-08-30T13:45:25" modifiedUniversalDateTime="2022-08-30T13:45:25" refreshedUniversalDateTime="2022-08-30T13:45:25"/></Properties><Source idValue="{F73CB03B-18DD-49CC-896D-1FB45A1FBCB4}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{10C22F88-5A00-44CB-9E2C-0D4BF8BF9814}"/><Data>
+						<GeneralProperties>
+							<Color>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE"/>
+								</BasicPropInfo>
+								<CreateInfo>
+									<AcCmColor mRGB="3221225472"/>
+								</CreateInfo>
+							</Color>
+							<Layer>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="0"/>
+								</BasicPropInfo>
+							</Layer>
+							<Linetype>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="ByLayer"/>
+								</BasicPropInfo>
+							</Linetype>
+							<LinetypeScale>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="3" value="1"/>
+								</BasicPropInfo>
+							</LinetypeScale>
+							<PlotStyle>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="ByLayer"/>
+								</BasicPropInfo>
+							</PlotStyle>
+							<LineWeight>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="2" value="-1"/>
+								</BasicPropInfo>
+							</LineWeight>
+							<Textstyle>
+								<BasicPropInfo>
+									<PropValue unspecified="TRUE" valueType="1"/>
+								</BasicPropInfo>
+							</Textstyle>
+							<Dimstyle>
+								<BasicPropInfo>
+									<PropValue unspecified="TRUE" valueType="1"/>
+								</BasicPropInfo>
+							</Dimstyle>
+							<Tablestyle>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="Drawing Legend"/>
+								</BasicPropInfo>
+								<CreateInfo>
+									<TablestyleInfo isTitleSuppressed="FALSE" isHeaderSuppressed="FALSE" flowDirection="0">
+										<Name>Drawing Legend</Name>
+										<Description>Standard</Description>
+										<HorzCellMargin>1.5</HorzCellMargin>
+										<VertCellMargin>1.5</VertCellMargin>
+										<CellStyles>
+											<CellStyle CellName="_DATA" cellDataType="4" cellUnitType="0" alignment="4" isBackgroundColorNone="TRUE">
+												<Format>%tc1</Format>
+												<TextHeight>3</TextHeight>
+												<BackgroundColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3355443200"/>
+														</CreateInfo>
+													</Color>
+												</BackgroundColor>
+												<ContentColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3221225472"/>
+														</CreateInfo>
+													</Color>
+												</ContentColor>
+												<Textstyle>
+													<BasicPropInfo>
+														<PropValue unspecified="FALSE" valueType="1" value="Standard"/>
+													</BasicPropInfo>
+												</Textstyle>
+												<HorzTop gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzTop>
+												<HorzInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzInside>
+												<HorzBottom gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzBottom>
+												<VertLeft gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertLeft>
+												<VertInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertInside>
+												<VertRight gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertRight>
+											</CellStyle>
+											<CellStyle CellName="_TITLE" cellDataType="4" cellUnitType="0" alignment="5" isBackgroundColorNone="TRUE">
+												<Format>%tc1</Format>
+												<TextHeight>5</TextHeight>
+												<BackgroundColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3355443200"/>
+														</CreateInfo>
+													</Color>
+												</BackgroundColor>
+												<ContentColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3221225472"/>
+														</CreateInfo>
+													</Color>
+												</ContentColor>
+												<Textstyle>
+													<BasicPropInfo>
+														<PropValue unspecified="FALSE" valueType="1" value="Standard"/>
+													</BasicPropInfo>
+												</Textstyle>
+												<HorzTop gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzTop>
+												<HorzInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzInside>
+												<HorzBottom gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzBottom>
+												<VertLeft gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertLeft>
+												<VertInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertInside>
+												<VertRight gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertRight>
+											</CellStyle>
+											<CellStyle CellName="_HEADER" cellDataType="4" cellUnitType="0" alignment="5" isBackgroundColorNone="TRUE">
+												<Format>%tc1</Format>
+												<TextHeight>4</TextHeight>
+												<BackgroundColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3355443200"/>
+														</CreateInfo>
+													</Color>
+												</BackgroundColor>
+												<ContentColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3221225472"/>
+														</CreateInfo>
+													</Color>
+												</ContentColor>
+												<Textstyle>
+													<BasicPropInfo>
+														<PropValue unspecified="FALSE" valueType="1" value="Standard"/>
+													</BasicPropInfo>
+												</Textstyle>
+												<HorzTop gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzTop>
+												<HorzInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzInside>
+												<HorzBottom gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzBottom>
+												<VertLeft gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertLeft>
+												<VertInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertInside>
+												<VertRight gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertRight>
+											</CellStyle>
+										</CellStyles>
+									</TablestyleInfo>
+								</CreateInfo>
+							</Tablestyle>
+						</GeneralProperties>
+						<Table isTitleSuppressed="0" isHeaderSuppressed="0">
+							<Rows NumRows="7"/>
+							<Columns NumColumns="2"/>
+							<flowDirection>0</flowDirection>
+							<Width>80</Width>
+							<Height>53</Height>
+							<VertCellMargin>0.06</VertCellMargin>
+							<HorzCellMargin>0.06</HorzCellMargin>
+							<EnableBreak>0</EnableBreak>
+							<BreakFlowDirection>1</BreakFlowDirection>
+							<RepeatTopLabels>0</RepeatTopLabels>
+							<RepeatBottomLabels>0</RepeatBottomLabels>
+							<TableBreakHeight>0</TableBreakHeight>
+							<TableBreakSpacing>16.5</TableBreakSpacing>
+							<InsertLabelCells>0</InsertLabelCells>
+							<InsertDataCells>0</InsertDataCells>
+							<InsertBlocks>0</InsertBlocks>
+							<InsertDatalinks>0</InsertDatalinks>
+							<InsertFields>0</InsertFields>
+							<InsertFormulas>0</InsertFormulas>
+							<RetainCellStyle>0</RetainCellStyle>
+							<TableTemplate NumRows="7" NumColumns="2" Tablestyle="Drawing Legend">
+								<Styles/>
+								<Columns>
+									<Column Width="40">
+										<Format/>
+									</Column>
+									<Column Width="40">
+										<Format/>
+									</Column>
+								</Columns>
+								<Rows>
+									<Row CellStyle="_TITLE" Height="9.66666666666667">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats/>
+												<Contents/>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_HEADER" Height="8.33333333333333">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+								</Rows>
+								<MergedCells>
+									<MergedCell>
+										<CellRange Left="0" Top="0" Right="1" Bottom="0"/>
+									</MergedCell>
+								</MergedCells>
+							</TableTemplate>
+						</Table>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E65D0AFB-84B5-4F5E-8108-F3B74B454C6E}"/><Properties><ItemName resource="752" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" src=".\Images\Table tool_E65D0AFB-84B5-4F5E-8108-F3B74B454C6E.png"/><Image cx="32" cy="32" IsDark="false" src=".\Images\Table tool_E65D0AFB-84B5-4F5E-8108-F3B74B454C6E_2.png"/><Image cx="16" cy="16" IsDark="false" src=".\Images\Table tool_E65D0AFB-84B5-4F5E-8108-F3B74B454C6E_3.png"/><Image cx="32" cy="32" IsDark="false" src=".\Images\Table tool_E65D0AFB-84B5-4F5E-8108-F3B74B454C6E_4.png"/></Images><Time createdUniversalDateTime="2022-08-30T13:45:39" modifiedUniversalDateTime="2022-08-30T13:45:39" refreshedUniversalDateTime="2022-08-30T13:45:39"/></Properties><Source idValue="{E65D0AFB-84B5-4F5E-8108-F3B74B454C6E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{10C22F88-5A00-44CB-9E2C-0D4BF8BF9814}"/><Data>
+						<GeneralProperties>
+							<Color>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE"/>
+								</BasicPropInfo>
+								<CreateInfo>
+									<AcCmColor mRGB="3221225472"/>
+								</CreateInfo>
+							</Color>
+							<Layer>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="0"/>
+								</BasicPropInfo>
+							</Layer>
+							<Linetype>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="ByLayer"/>
+								</BasicPropInfo>
+							</Linetype>
+							<LinetypeScale>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="3" value="1"/>
+								</BasicPropInfo>
+							</LinetypeScale>
+							<PlotStyle>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="ByLayer"/>
+								</BasicPropInfo>
+							</PlotStyle>
+							<LineWeight>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="2" value="-1"/>
+								</BasicPropInfo>
+							</LineWeight>
+							<Textstyle>
+								<BasicPropInfo>
+									<PropValue unspecified="TRUE" valueType="1"/>
+								</BasicPropInfo>
+							</Textstyle>
+							<Dimstyle>
+								<BasicPropInfo>
+									<PropValue unspecified="TRUE" valueType="1"/>
+								</BasicPropInfo>
+							</Dimstyle>
+							<Tablestyle>
+								<BasicPropInfo>
+									<PropValue unspecified="FALSE" valueType="1" value="Drawing Legend"/>
+								</BasicPropInfo>
+								<CreateInfo>
+									<TablestyleInfo isTitleSuppressed="FALSE" isHeaderSuppressed="FALSE" flowDirection="0">
+										<Name>Drawing Legend</Name>
+										<Description>Standard</Description>
+										<HorzCellMargin>1.5</HorzCellMargin>
+										<VertCellMargin>1.5</VertCellMargin>
+										<CellStyles>
+											<CellStyle CellName="_DATA" cellDataType="4" cellUnitType="0" alignment="4" isBackgroundColorNone="TRUE">
+												<Format>%tc1</Format>
+												<TextHeight>3</TextHeight>
+												<BackgroundColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3355443200"/>
+														</CreateInfo>
+													</Color>
+												</BackgroundColor>
+												<ContentColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3221225472"/>
+														</CreateInfo>
+													</Color>
+												</ContentColor>
+												<Textstyle>
+													<BasicPropInfo>
+														<PropValue unspecified="FALSE" valueType="1" value="Standard"/>
+													</BasicPropInfo>
+												</Textstyle>
+												<HorzTop gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzTop>
+												<HorzInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzInside>
+												<HorzBottom gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzBottom>
+												<VertLeft gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertLeft>
+												<VertInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertInside>
+												<VertRight gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertRight>
+											</CellStyle>
+											<CellStyle CellName="_TITLE" cellDataType="4" cellUnitType="0" alignment="5" isBackgroundColorNone="TRUE">
+												<Format>%tc1</Format>
+												<TextHeight>5</TextHeight>
+												<BackgroundColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3355443200"/>
+														</CreateInfo>
+													</Color>
+												</BackgroundColor>
+												<ContentColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3221225472"/>
+														</CreateInfo>
+													</Color>
+												</ContentColor>
+												<Textstyle>
+													<BasicPropInfo>
+														<PropValue unspecified="FALSE" valueType="1" value="Standard"/>
+													</BasicPropInfo>
+												</Textstyle>
+												<HorzTop gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzTop>
+												<HorzInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzInside>
+												<HorzBottom gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzBottom>
+												<VertLeft gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertLeft>
+												<VertInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertInside>
+												<VertRight gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertRight>
+											</CellStyle>
+											<CellStyle CellName="_HEADER" cellDataType="4" cellUnitType="0" alignment="5" isBackgroundColorNone="TRUE">
+												<Format>%tc1</Format>
+												<TextHeight>4</TextHeight>
+												<BackgroundColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3355443200"/>
+														</CreateInfo>
+													</Color>
+												</BackgroundColor>
+												<ContentColor>
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3221225472"/>
+														</CreateInfo>
+													</Color>
+												</ContentColor>
+												<Textstyle>
+													<BasicPropInfo>
+														<PropValue unspecified="FALSE" valueType="1" value="Standard"/>
+													</BasicPropInfo>
+												</Textstyle>
+												<HorzTop gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzTop>
+												<HorzInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzInside>
+												<HorzBottom gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</HorzBottom>
+												<VertLeft gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertLeft>
+												<VertInside gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertInside>
+												<VertRight gridVisibility="1" lineWeight="-2" GridLineStyle="1" DoubleLineSpacing="0.045">
+													<Color>
+														<BasicPropInfo>
+															<PropValue unspecified="FALSE"/>
+														</BasicPropInfo>
+														<CreateInfo>
+															<AcCmColor mRGB="3238002688"/>
+														</CreateInfo>
+													</Color>
+												</VertRight>
+											</CellStyle>
+										</CellStyles>
+									</TablestyleInfo>
+								</CreateInfo>
+							</Tablestyle>
+						</GeneralProperties>
+						<Table isTitleSuppressed="0" isHeaderSuppressed="0">
+							<Rows NumRows="7"/>
+							<Columns NumColumns="2"/>
+							<flowDirection>0</flowDirection>
+							<Width>80</Width>
+							<Height>53</Height>
+							<VertCellMargin>0.06</VertCellMargin>
+							<HorzCellMargin>0.06</HorzCellMargin>
+							<EnableBreak>0</EnableBreak>
+							<BreakFlowDirection>1</BreakFlowDirection>
+							<RepeatTopLabels>0</RepeatTopLabels>
+							<RepeatBottomLabels>0</RepeatBottomLabels>
+							<TableBreakHeight>0</TableBreakHeight>
+							<TableBreakSpacing>16.5</TableBreakSpacing>
+							<InsertLabelCells>0</InsertLabelCells>
+							<InsertDataCells>0</InsertDataCells>
+							<InsertBlocks>0</InsertBlocks>
+							<InsertDatalinks>0</InsertDatalinks>
+							<InsertFields>0</InsertFields>
+							<InsertFormulas>0</InsertFormulas>
+							<RetainCellStyle>0</RetainCellStyle>
+							<TableTemplate NumRows="7" NumColumns="2" Tablestyle="Drawing Legend">
+								<Styles/>
+								<Columns>
+									<Column Width="40">
+										<Format/>
+									</Column>
+									<Column Width="40">
+										<Format/>
+									</Column>
+								</Columns>
+								<Rows>
+									<Row CellStyle="_TITLE" Height="9.66666666666667">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats/>
+												<Contents/>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_HEADER" Height="8.33333333333333">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+									<Row CellStyle="_DATA" Height="7">
+										<Format/>
+										<Cells>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+											<Cell>
+												<Format/>
+												<ContentFormats>
+													<ContentFormat cellDataType="0" cellUnitType="0"/>
+												</ContentFormats>
+												<Contents>
+													<Content/>
+												</Contents>
+											</Cell>
+										</Cells>
+									</Row>
+								</Rows>
+								<MergedCells>
+									<MergedCell>
+										<CellRange Left="0" Top="0" Right="1" Bottom="0"/>
+									</MergedCell>
+								</MergedCells>
+							</TableTemplate>
+						</Table>
+					</Data>
+				</Tool></Tools></Palette><Palette Revision="24.1.1" option="0"><ItemID idValue="{A6DABEF1-2FD5-460F-823A-5E656E62C143}"/><Properties><ItemName>NOTE</ItemName><Images option="0"/><Description>Standard Non-associated Leaders and Texts</Description><Time createdUniversalDateTime="2022-09-19T21:46:51" modifiedUniversalDateTime="2022-09-19T21:46:51"/></Properties><Source idValue="{A6DABEF1-2FD5-460F-823A-5E656E62C143}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>C2V</PublisherName></Publisher></Source><Tools><Tool Revision="24.1.1" option="0"><ItemID idValue="{8426EF72-B963-45D9-8F84-EA4DF6234E4E}"/><Properties><ItemName>Standard non-associated leaders and texts</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-11T21:10:17" modifiedUniversalDateTime="2022-08-11T21:10:17"/></Properties><Source idValue="{8426EF72-B963-45D9-8F84-EA4DF6234E4E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{BBB51C11-6002-4263-8D4F-C494CA87A4E1}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-11T21:10:31" modifiedUniversalDateTime="2022-08-11T21:10:31"/></Properties><Source idValue="{BBB51C11-6002-4263-8D4F-C494CA87A4E1}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{796FB8B0-749B-4908-9D74-C024A4C0655D}"/><Properties><ItemName>Standard Arrow Leaders</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-11T21:21:25" modifiedUniversalDateTime="2022-08-11T21:21:25"/></Properties><Source idValue="{796FB8B0-749B-4908-9D74-C024A4C0655D}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{04EDE74A-BD63-47D8-BED3-490C5BEA412E}"/><Properties><ItemName>Text (Straight Leader)</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_04EDE74A-BD63-47D8-BED3-490C5BEA412E.png"/></Images><Description>Text with Straight Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2007-08-30T10:47:29" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>5.7</Version>
+					</CustomData>
+					<Source idValue="{04EDE74A-BD63-47D8-BED3-490C5BEA412E}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject>
+							<LayerKey>ANNOBJ</LayerKey>
+							<LayerKeyOverride>
+							</LayerKeyOverride>
+							<ContentType>0</ContentType>
+							<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Text (Straight Leader)</LeaderStyle>
+							<AttrTextStyle>0</AttrTextStyle>
+							<AttrTextAngle>1</AttrTextAngle>
+							<Symbol>_ArchTick</Symbol>
+							<MaskMText>1</MaskMText>
+							<CreateFirst>0</CreateFirst>
+						</AecDbMLeaderKeyNoteObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{AD4FBB87-4600-4514-8501-89B5A37B6022}"/><Properties><ItemName>Text (Spline Leader)</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_AD4FBB87-4600-4514-8501-89B5A37B6022.png"/></Images><Description>Text with Spline Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2007-08-30T10:47:29" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>5.7</Version>
+					</CustomData>
+					<Source idValue="{AD4FBB87-4600-4514-8501-89B5A37B6022}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject>
+							<LayerKey>ANNOBJ</LayerKey>
+							<LayerKeyOverride>
+							</LayerKeyOverride>
+							<ContentType>0</ContentType>
+							<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Text (Spline Leader)</LeaderStyle>
+							<AttrTextStyle>0</AttrTextStyle>
+							<AttrTextAngle>1</AttrTextAngle>
+							<Symbol>_ArchTick</Symbol>
+							<MaskMText>1</MaskMText>
+							<CreateFirst>0</CreateFirst>
+						</AecDbMLeaderKeyNoteObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{FB709802-F9E7-4AA3-A9EE-A48633344583}"/><Properties><ItemName>Hexagon (Straight Leader)</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_FB709802-F9E7-4AA3-A9EE-A48633344583.png"/></Images><Description>Hexagon Symbol with Straight Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2007-08-30T10:47:29" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>5.7</Version>
+					</CustomData>
+					<Source idValue="{FB709802-F9E7-4AA3-A9EE-A48633344583}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject>
+							<LayerKey>ANNOBJ</LayerKey>
+							<LayerKeyOverride>
+							</LayerKeyOverride>
+							<ContentType>1</ContentType>
+							<DefaultText>
+							</DefaultText>
+							<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Block (Straight Leader)</LeaderStyle>
+							<AttrTextStyle>0</AttrTextStyle>
+							<AttrTextAngle>1</AttrTextAngle>
+							<Symbol ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Anno_Hexagon_na</Symbol>
+							<MaskMText>1</MaskMText>
+							<CreateFirst>0</CreateFirst>
+						</AecDbMLeaderKeyNoteObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{45524476-A540-4D81-B40F-8DC74065904B}"/><Properties><ItemName>Hexagon (Spline Leader)</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_45524476-A540-4D81-B40F-8DC74065904B.png"/></Images><Description>Hexagon Symbol with Spline Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2022-08-15T14:42:25" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>8.4</Version>
+					</CustomData>
+					<Source idValue="{45524476-A540-4D81-B40F-8DC74065904B}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject><LayerKey>ANNOBJ</LayerKey><LayerKeyOverride></LayerKeyOverride><ContentType>1</ContentType><LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Block (Spline Leader)</LeaderStyle><AttrTextStyle>0</AttrTextStyle><AttrTextAngle>1</AttrTextAngle><Symbol ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Anno_Hexagon_na</Symbol><MaskMText>1</MaskMText><CreateFirst>0</CreateFirst></AecDbMLeaderKeyNoteObject><Units>mm</Units></Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E8D19E78-4EFF-42F4-B9F6-BD12BFB6A585}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-11T21:44:41" modifiedUniversalDateTime="2022-08-11T21:44:41"/></Properties><Source idValue="{E8D19E78-4EFF-42F4-B9F6-BD12BFB6A585}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{7EF2E0AA-1D6C-4780-9118-AC708EBB2B28}"/><Properties><ItemName>Circle (Straight Leader)</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_7EF2E0AA-1D6C-4780-9118-AC708EBB2B28.png"/></Images><Description>Circle Symbol with Straight Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2007-08-30T10:47:29" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>5.7</Version>
+					</CustomData>
+					<Source idValue="{7EF2E0AA-1D6C-4780-9118-AC708EBB2B28}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject>
+							<LayerKey>ANNOBJ</LayerKey>
+							<LayerKeyOverride>
+							</LayerKeyOverride>
+							<ContentType>1</ContentType>
+							<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Block (Straight Leader)</LeaderStyle>
+							<AttrTextStyle>0</AttrTextStyle>
+							<AttrTextAngle>1</AttrTextAngle>
+							<Symbol ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Anno_Circle_na</Symbol>
+							<MaskMText>1</MaskMText>
+							<CreateFirst>0</CreateFirst>
+						</AecDbMLeaderKeyNoteObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E294BC41-A441-4416-A5ED-42FAE9CC6CCC}"/><Properties><ItemName>Diamond (Straight Leader)</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_E294BC41-A441-4416-A5ED-42FAE9CC6CCC.png"/></Images><Description>Diamond Symbol with Straight Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2007-08-30T10:47:29" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>5.7</Version>
+					</CustomData>
+					<Source idValue="{E294BC41-A441-4416-A5ED-42FAE9CC6CCC}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject>
+							<LayerKey>ANNOBJ</LayerKey>
+							<LayerKeyOverride>
+							</LayerKeyOverride>
+							<ContentType>1</ContentType>
+							<DefaultText>
+							</DefaultText>
+							<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Block (Straight Leader)</LeaderStyle>
+							<AttrTextStyle>0</AttrTextStyle>
+							<AttrTextAngle>1</AttrTextAngle>
+							<Symbol ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Anno_Diamond_na</Symbol>
+							<MaskMText>1</MaskMText>
+							<CreateFirst>0</CreateFirst>
+						</AecDbMLeaderKeyNoteObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{9509C9F2-37F0-4F5A-A725-2964D5A575EF}"/><Properties><ItemName>Square (Straight Leader)</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC MultiLeader Annotation Tool_9509C9F2-37F0-4F5A-A725-2964D5A575EF.png"/></Images><Description>Square Symbol with Straight Leader</Description><Time createdUniversalDateTime="2007-08-30T10:47:29" modifiedUniversalDateTime="2007-08-30T10:47:29" refreshedUniversalDateTime="2007-08-30T10:47:29"/></Properties><CustomData>
+						<Version>5.7</Version>
+					</CustomData>
+					<Source idValue="{9509C9F2-37F0-4F5A-A725-2964D5A575EF}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{B5937B69-7AA6-418E-816E-32AE3899BD09}"/><Data>
+						<AecDbMLeaderKeyNoteObject>
+							<LayerKey>ANNOBJ</LayerKey>
+							<LayerKeyOverride>
+							</LayerKeyOverride>
+							<ContentType>1</ContentType>
+							<LeaderStyle ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Block (Straight Leader)</LeaderStyle>
+							<AttrTextStyle>0</AttrTextStyle>
+							<AttrTextAngle>1</AttrTextAngle>
+							<Symbol ref="%AECCONTENT_DIR%\Styles\Metric\Leader Symbols (Metric).dwg">Anno_Square_na</Symbol>
+							<MaskMText>1</MaskMText>
+							<CreateFirst>0</CreateFirst>
+						</AecDbMLeaderKeyNoteObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool></Tools></Palette><Palette Revision="24.1.1" option="0"><ItemID idValue="{AFADA132-3451-4914-BE83-EE2208DD9964}"/><Properties><ItemName>FIRE</ItemName><Images option="0"/><Description>Standard Fire Protection Annotations</Description><Time createdUniversalDateTime="2022-09-19T21:46:51" modifiedUniversalDateTime="2022-09-19T21:46:51"/></Properties><Source idValue="{AFADA132-3451-4914-BE83-EE2208DD9964}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument><Publisher><PublisherName>C2V</PublisherName></Publisher></Source><Tools><Tool Revision="24.1.1" option="0"><ItemID idValue="{1C603DC1-802A-432C-8B6E-786C3876E245}"/><Properties><ItemName>Standard Fire Protection Annotations</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:31:31" modifiedUniversalDateTime="2022-08-29T21:31:31"/></Properties><Source idValue="{1C603DC1-802A-432C-8B6E-786C3876E245}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{79D6319A-2050-43FE-B544-6FC09C948E39}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:31:45" modifiedUniversalDateTime="2022-08-29T21:31:45"/></Properties><Source idValue="{79D6319A-2050-43FE-B544-6FC09C948E39}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{8F913D11-C2B2-4EB3-9CD8-4FEDF5B71618}"/><Properties><ItemName>AEC Wall Based Lines</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:32:41" modifiedUniversalDateTime="2022-08-29T21:32:41"/></Properties><Source idValue="{8F913D11-C2B2-4EB3-9CD8-4FEDF5B71618}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{38AFA4D2-BCD9-4E48-8D8B-ABF0AE97C354}"/><Properties><ItemName>1 Hr</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_FBA6C956-0F94-4887-863A-DEE24CCE4020.png"/></Images><Description>1 Hr. Fire Rating Line (100mm wide)</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{38AFA4D2-BCD9-4E48-8D8B-ABF0AE97C354}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{9B398AED-2AC9-4482-AD6B-C12A7D23EB3B}"/><Data>
+						<AecDbFireRatingLineObject>
+							<LayerKey>WALLFIRE</LayerKey>
+							<LayerKeyOverride/>
+							<LineWidth>100</LineWidth>
+							<Linetype>Aec_Rating_1Hr_M</Linetype>
+						</AecDbFireRatingLineObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{419A485D-58C2-4F0E-A3D4-E0B7FB627FE0}"/><Properties><ItemName>2 Hr</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_B6E99C09-7AA4-4567-AE49-6F6E71F9015B.png"/></Images><Description>2 Hr. Fire Rating Line (100mm wide)</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{419A485D-58C2-4F0E-A3D4-E0B7FB627FE0}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{9B398AED-2AC9-4482-AD6B-C12A7D23EB3B}"/><Data>
+						<AecDbFireRatingLineObject>
+							<LayerKey>WALLFIRE</LayerKey>
+							<LayerKeyOverride/>
+							<LineWidth>100</LineWidth>
+							<Linetype>Aec_Rating_2Hr_M</Linetype>
+						</AecDbFireRatingLineObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{F4E8D655-3CDF-4E21-B907-E52E3CF92324}"/><Properties><ItemName>4 Hr</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_7B6E09E6-5481-4A5A-94ED-2254F4EFD653.png"/></Images><Description>4 Hr. Fire Rating Line (150mm wide)</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{F4E8D655-3CDF-4E21-B907-E52E3CF92324}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{9B398AED-2AC9-4482-AD6B-C12A7D23EB3B}"/><Data>
+						<AecDbFireRatingLineObject>
+							<LayerKey>WALLFIRE</LayerKey>
+							<LayerKeyOverride/>
+							<LineWidth>150</LineWidth>
+							<Linetype>Aec_Rating_4Hr_M</Linetype>
+						</AecDbFireRatingLineObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{E8412EE1-A636-42EB-8C1C-F204B7A2A5C7}"/><Properties><ItemName>2 Hr - Smoke</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_FE6D4CB1-CD01-4C35-92ED-002BD6B7690C.png"/></Images><Description>2 Hr. Fire &amp; Smoke Rating Line (125mm wide)</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{E8412EE1-A636-42EB-8C1C-F204B7A2A5C7}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{9B398AED-2AC9-4482-AD6B-C12A7D23EB3B}"/><Data>
+						<AecDbFireRatingLineObject>
+							<LayerKey>WALLFIRE</LayerKey>
+							<LayerKeyOverride/>
+							<LineWidth>125</LineWidth>
+							<Linetype>Aec_Rating_2Hr-Smoke_M</Linetype>
+						</AecDbFireRatingLineObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{6FDC946E-5F6B-4688-8E7A-3EFE4C398833}"/><Properties><ItemName>Smoke</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AecContent_AEE83A13-E797-4B51-B730-6C4A27D869FB.png"/></Images><Description>Smoke Rating Line (100mm wide)</Description><Time createdUniversalDateTime="2003-02-10T19:37:23" modifiedUniversalDateTime="2003-02-10T19:37:23"/></Properties><CustomData/>
+					<Source idValue="{6FDC946E-5F6B-4688-8E7A-3EFE4C398833}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{9B398AED-2AC9-4482-AD6B-C12A7D23EB3B}"/><Data>
+						<AecDbFireRatingLineObject>
+							<LayerKey>WALLFIRE</LayerKey>
+							<LayerKeyOverride/>
+							<LineWidth>100</LineWidth>
+							<Linetype>Aec_Rating_Smoke_M</Linetype>
+						</AecDbFireRatingLineObject>
+						<Units>mm</Units>
+					</Data>
+				</Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{8A2B208B-FD78-4EA0-940A-F5984DE25CD2}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:33:09" modifiedUniversalDateTime="2022-08-29T21:33:09"/></Properties><Source idValue="{8A2B208B-FD78-4EA0-940A-F5984DE25CD2}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{85537C4F-0EE1-489A-AD97-4126E300D468}"/><Properties><ItemName>Match Lines</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:33:11" modifiedUniversalDateTime="2022-08-29T21:33:11"/></Properties><Source idValue="{85537C4F-0EE1-489A-AD97-4126E300D468}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{20552E7C-F0BA-4380-B44D-69E4266396C4}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:33:51" modifiedUniversalDateTime="2022-08-29T21:33:51"/></Properties><Source idValue="{20552E7C-F0BA-4380-B44D-69E4266396C4}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="24.1.1" option="0"><ItemID idValue="{3ACCC38D-6C32-4E5D-B4B4-D222B465F5E2}"/><Properties><ItemName>Symbols</ItemName><Images option="0"/><Time createdUniversalDateTime="2022-08-29T21:33:52" modifiedUniversalDateTime="2022-08-29T21:33:52"/></Properties><Source idValue="{3ACCC38D-6C32-4E5D-B4B4-D222B465F5E2}"><SourceFile><Url href="C:\GitHub\op2cad\Apps\AutoCAD Architecture\Library\Catalog\Op2 Metric\Op2 Metric.atc"/></SourceFile><ParentDocument><DocumentName>Op2 Metric</DocumentName></ParentDocument></Source><ToolType>3</ToolType><StockToolRef/><Data/></Tool></Tools></Palette></Palettes><Packages/><Categories/><StockTools/></Category>
