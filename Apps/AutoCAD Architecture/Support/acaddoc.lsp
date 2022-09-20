@@ -21,7 +21,7 @@
   (setq dir_supp      (strcat dir_main "\\Support")
         dir_tmp       (strcat dir_main "\\Template\\\2018")
         dir_tmpmdl    (strcat dir_tmp "\\Model")
-        dir_pats      (strcat dir_supp "\\Pats")
+        dir_pats      (strcat dir_acad "\\Support\\Pats")
         dir_patsm     (strcat dir_pats "\\Metric")
         dir_patsi     (strcat dir_pats "\\Imperial")
         dir_patsv     (strcat dir_pats "\\-Units-")
