@@ -1,0 +1,9 @@
+;%UNITS=MM
+;%VERSION=3.0
+
+*04ST-190S-STACK, Stone Masonry Units (190 mm), Stack-Bond
+;%TYPE=MODEL
+0,	5,5,	0,200,		590,-10
+0,	5,195,	0,200,		590,-10
+90,	-5,5,	200,600,	190,-10
+90,	5,5,	200,600,	190,-10
