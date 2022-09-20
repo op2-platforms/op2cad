@@ -9,19 +9,19 @@
 
   ;Startup directories from acaddoc.lsp file:
   (setq dir_start   (vl-filename-directory (findfile "acaddoc.lsp"))
-        dir_main    (vl-string-right-trim "\\support" dir_start)
-        dir_apps    (vl-string-right-trim "\\autocad architecture" dir_main)
-        dir_acad    (strcat dir_apps "\\autocad")
-        dir_acadlsp (strcat dir_acad "\\autolisp")
-        dir_aca     (strcat dir_apps "\\autocad architecture")
-        dir_acalsp  (strcat dir_aca "\\autolisp")
+        dir_main    (vl-string-right-trim "\\Support" dir_start)
+        dir_apps    (vl-string-right-trim "\\AutoCAD Architecture" dir_main)
+        dir_acad    (strcat dir_apps "\\AutoCAD")
+        dir_acadlsp (strcat dir_acad "\\AutoLisp")
+        dir_aca     (strcat dir_apps "\\AutoCAD Architecture")
+        dir_acalsp  (strcat dir_aca "\\AutoLisp")
   )
 
   ;dir_main sub-folders:
   (setq dir_supp      (strcat dir_main "\\Support")
-        dir_tmp       (strcat dir_main "\\Template\\\2018")
+        dir_tmp       (strcat dir_supp "\\Template")
         dir_tmpmdl    (strcat dir_tmp "\\Model")
-        dir_pats      (strcat dir_acad "\\Support\\Pats")
+        dir_pats      (strcat dir_supp "\\Pats")
         dir_patsm     (strcat dir_pats "\\Metric")
         dir_patsi     (strcat dir_pats "\\Imperial")
         dir_patsv     (strcat dir_pats "\\-Units-")
