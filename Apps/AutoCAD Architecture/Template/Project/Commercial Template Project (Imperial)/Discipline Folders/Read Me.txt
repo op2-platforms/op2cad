@@ -1,4 +1,0 @@
-To add a Discipline Category to Project Navigator
-_________
-
-Copy the folder or folders required from this folder to the Constructs, Elements or Views folder of Project Navigator. You can do this by dragging from Windows Explorer and dropping to the appropriate folder in Project Navigator. 
