@@ -50,6 +50,9 @@
   (if (or (= T (wcmatch _ln "*-Nplt")) (= T (wcmatch _ln "*-NPLT")) (= T (wcmatch _ln "*-Nplt-?")) (= T (wcmatch _ln "*-NPLT-?"))) 
     (setq _lc "140")
   )
+  (if (or (= T (wcmatch _ln "*-View")) (= T (wcmatch _ln "*-VIEW")) (= T (wcmatch _ln "*-View-?")) (= T (wcmatch _ln "*-VIEW-?"))) 
+    (setq _lc "140")
+  )
   (if (or (= T (wcmatch _ln "*-Revc")) (= T (wcmatch _ln "*-Revc-?")) (= T (wcmatch _ln "*-REVC")) (= T (wcmatch _ln "*-REVC-?"))) 
     (setq _lc "071")
   )
@@ -58,6 +61,9 @@
   )
   (if (or (= T (wcmatch _ln "*-Scrn")) (= T (wcmatch _ln "*-Scrn-?")) (= T (wcmatch _ln "*-SCRN")) (= T (wcmatch _ln "*-SCRN-?"))) 
     (setq _lc "009")
+  )
+  (if (and (= "-E" _pha) (or (= T (wcmatch _ln "*Text*")) (= T (wcmatch _ln "*TEXT*")))) 
+    (setq _lc "191")
   )
 
   ;laymake main command:
@@ -76,7 +82,7 @@
                _m2t
                ""
                "p"
-               (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a)) "n" "p")
+               (if (or (= "-Nplt" _m1a) (= "-Nplt" _m2a) (= "-View" _m1a) (= "-View" _m2a)) "n" "p")
                ""
                "d"
                _ld

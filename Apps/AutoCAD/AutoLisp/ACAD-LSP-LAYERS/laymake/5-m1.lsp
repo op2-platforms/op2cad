@@ -31,6 +31,46 @@
   )
   (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
 )
+(defun m1-Ttlb (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
+  (setq _m1a "-Ttlb"
+        _m1d "titleblock and frame"
+        _m1c "200"
+        _m1i "0"
+        _m1w "0.18"
+        _m1t "Continuous"
+  )
+  (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+)
+(defun m1-View (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
+  (setq _m1a "-View"
+        _m1d "non-plotting viewport window"
+        _m1c "140"
+        _m1i "0"
+        _m1w "0.18"
+        _m1t "Continuous"
+  )
+  (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+)
+(defun m1-Tabl (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
+  (setq _m1a "-Tabl"
+        _m1d "Table"
+        _m1c "200"
+        _m1i "0"
+        _m1w "0.18"
+        _m1t "Continuous"
+  )
+  (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+)
+(defun m1-Lgnd (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
+  (setq _m1a "-Lgnd"
+        _m1d "Legend"
+        _m1c "200"
+        _m1i "0"
+        _m1w "0.18"
+        _m1t "Continuous"
+  )
+  (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+)
 (defun m1-Genf (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
   (setq _m1a "-Genf"
         _m1d "general features"

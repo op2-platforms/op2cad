@@ -82,15 +82,16 @@
         _maw "0.50"
         _mat "Continuous"
   )
-  (m1-Titl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
   (m1-Text _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-  (m1-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+  (m1-Ttlb _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
   (m1-Symb _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-  (m1-Revc _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
   (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
   (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-  (m1-Refr _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-  (m1-Dims _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+  (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+  (m1-Schd _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+  (m1-Patt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+  (m1-Titl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+  (m1-View _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Elev (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
   (setq _maa "-Elev"
