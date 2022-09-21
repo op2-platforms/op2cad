@@ -7,17 +7,42 @@
   (setq acadObj (vlax-get-acad-object))
   (setq preferences (vla-get-Preferences acadObj))
 
-  ;Startup directories from acaddoc.lsp file:
-  (setq dir_start   (vl-filename-directory (findfile "acaddoc.lsp"))
-        dir_main    (vl-string-right-trim "\\Support" dir_start)
-        dir_apps    (vl-string-right-trim "\\AutoCAD Architecture" dir_main)
-        dir_acad    (strcat dir_apps "\\AutoCAD")
-        dir_acadlsp (strcat dir_acad "\\AutoLisp")
-        dir_aca     (strcat dir_apps "\\AutoCAD Architecture")
-        dir_acalsp  (strcat dir_aca "\\AutoLisp")
+  ;directory startup from acaddoc.lsp file:
+  (setq dir_start  (vl-filename-directory (findfile "acaddoc.lsp"))
+        dir_main   (if (wcmatch "\\Support" dir_start) 
+                     (vl-string-right-trim "\\Support" dir_start)
+                     (vl-string-right-trim "\\support" dir_start)
+                   )
+        dir_apps   (if (wcmatch "\\AutoCAD Architecture" dir_main) 
+                     (vl-string-right-trim "\\AutoCAD Architecture" dir_main)
+                     (vl-string-right-trim "\\autocad architecture" dir_main)
+                   )
+        dir_op2cad (if (wcmatch "\\Apps" dir_apps) 
+                     (vl-string-right-trim "\\Apps" dir_apps)
+                     (vl-string-right-trim "\\apps" dir_apps)
+                   )
+        dir_github (vl-string-right-trim "\\op2cad" dir_op2cad)
+  )
+  (defun c:dir-startup () 
+    (prompt (strcat "\n...dir_start = [" dir_start "]"))
+    (prompt (strcat "\n...dir_main = [" dir_main "]"))
+    (prompt (strcat "\n...dir_apps = [" dir_apps "]"))
+    (prompt (strcat "\n...dir_op2cad = [" dir_op2cad "]"))
+    (prompt (strcat "\n...dir_github = [" dir_github "]"))
+    (princ)
   )
 
-  ;dir_main sub-folders:
+  ;directory main-folders:
+  (setq dir_acad (strcat dir_apps "\\AutoCAD")
+        dir_aca  (strcat dir_apps "\\AutoCAD Architecture")
+  )
+  (defun c:dir-main () 
+    (prompt (strcat "\n...dir_acad = [" dir_acad "]"))
+    (prompt (strcat "\n...dir_aca = [" dir_aca "]"))
+    (princ)
+  )
+
+  ; directory sub-folders:
   (setq dir_supp      (strcat dir_main "\\Support")
         dir_tmp       (strcat dir_supp "\\Template")
         dir_tmpmdl    (strcat dir_tmp "\\Model")
@@ -30,6 +55,8 @@
         dir_plotpmp   (strcat dir_plot "\\PMP Files")
         dir_cui       (strcat dir_supp "\\CUI")
         dir_cuilgy    (strcat dir_cui "\\aca-legacy.cuix")
+        dir_acadlsp   (strcat dir_acad "\\AutoLisp")
+        dir_acalsp    (strcat dir_acad "\\AutoLisp")
   )
 
   ; variable paths based on drawing measurment settings:
@@ -37,12 +64,37 @@
     (setq dir_patsv (vl-string-subst "Metric" "-Units-" dir_patsv))
     (setq dir_patsv (vl-string-subst "Imperial" "-Units-" dir_patsv))
   )
+  (defun c:dir-sub () 
+    (prompt (strcat "\n...dir_supp = [" dir_supp "]"))
+    (prompt (strcat "\n...dir_tmp = [" dir_tmp "]"))
+    (prompt (strcat "\n...dir_tmpmdl = [" dir_tmpmdl "]"))
+    (prompt (strcat "\n...dir_pats = [" dir_pats "]"))
+    (prompt (strcat "\n...dir_patsm = [" dir_patsm "]"))
+    (prompt (strcat "\n...dir_patsi = [" dir_patsi "]"))
+    (prompt (strcat "\n...dir_patsv = [" dir_patsv "]"))
+    (prompt (strcat "\n...dir_plot = [" dir_plot "]"))
+    (prompt (strcat "\n...dir_plotstyle = [" dir_plotstyle "]"))
+    (prompt (strcat "\n...dir_plotpmp = [" dir_plotpmp "]"))
+    (prompt (strcat "\n...dir_cui = [" dir_cui "]"))
+    (prompt (strcat "\n...dir_cuilgy = [" dir_cuilgy "]"))
+    (prompt (strcat "\n...dir_acadlsp = [" dir_acadlsp "]"))
+    (prompt (strcat "\n...dir_acalsp = [" dir_acalsp "]"))
+    (princ)
+  )
+
 
   ;Applications files:
   (setq app_acadlay (strcat dir_acadlsp "\\ACAD-LSP-LAYERS\\ACAD-LSP-LAYERS.VLX")
         app_acadutl (strcat dir_acadlsp "\\ACAD-LSP-UTILITY\\ACAD-LSP-UTILITY.VLX")
         app_acadnav (strcat dir_acadlsp "\\ACAD-LSP-NAVIGATE\\ACAD-LSP-NAVIGATE.VLX")
         app_acadwg  (strcat dir_acalsp "\\ACA-LSP-DRAWING\\ACA-LSP-DRAWING.VLX")
+  )
+  (defun c:dir-apps () 
+    (prompt (strcat "\n...app_acadlay = [" app_acadlay "]"))
+    (prompt (strcat "\n...app_acadutl = [" app_acadutl "]"))
+    (prompt (strcat "\n...app_acadnav = [" app_acadnav "]"))
+    (prompt (strcat "\n...app_acadwg = [" app_acadwg "]"))
+    (princ)
   )
 
   (prompt 
@@ -479,7 +531,6 @@
   )
   (strcat "\n...[C:SUBST-PLOT ~ printer support file path substitution]")
   ;#endregion
-
 
   (prompt 
     (strcat "\n-\n-----------------  finished loading acaddoc.lsp without errors  -----------------")
