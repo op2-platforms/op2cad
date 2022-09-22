@@ -1,5 +1,18 @@
-; file usage: define the designator type (_dd) and layer profile (_lp) based on user used commands
+; *******************************************************************************************************************
+; Application       : ACAD-LSP-LAYERS
+; Project           : laymake
+; Description       : data blocks and preset commands used to create AEC layers with "-layer/make" command in autocad
+; File usage        : front end function commands defining layer discipline and profile variables 
+; 
+; is part of the "op2cad" open source repository under GNU GPL v3 license
+; visit [https://github.com/op2-platforms/op2cad.git]
 ;
+; *******************************************************************************************************************
+; note:     This file require datas from other project files; it isn't working as standalone.
+;           You may load it individually from the "laymake.fas" compiled project file 
+;           or as part of the "ACAD-LSP-LAYERS.VLX" application file.
+; *******************************************************************************************************************
+
 ;#region data
 ;#region ARCHITECTURAL
 (defun c:LM-A-2d (/ _dd _lp) 

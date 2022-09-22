@@ -1,12 +1,19 @@
-; minor 1 data for laymake application
+; *******************************************************************************************************************
+; Application       : ACAD-LSP-LAYERS
+; Project           : laymake
+; Description       : data blocks and preset commands used to create AEC layers with "-layer/make" command in autocad
+; File usage        : core list and data block defining first minor abreviation, description, color, color ID,
+;                     line weight and line type
+; 
+; is part of the "op2cad" open source repository under GNU GPL v3 license
+; visit [https://github.com/op2-platforms/op2cad.git]
 ;
-; _m1a = minor 1 abreviation
-; _m1d = minor 1 definition
-; _m1c = minor 1 color
-; _m1i = minor 1 indicator (should match last number of minor 1 color)
-; _m1w = minor 1 line weight (should match color xx0 = 0.13, 1 = 0.18, 2 = 0.25, 3 = 0.35, 4 = 0.50, 5 = 0.70, 6 = 1.00, 7 = 1.40, 8 = 2.00)
-; _m1t = minor 1 line type (Any Standard ACAD.lin linetype: Continuous, DASHED, HIDDEN, CENTER, PHANTOM, etc.)
-;
+; *******************************************************************************************************************
+; note:     This file require datas from other project files; it isn't working as standalone.
+;           You may load it individually from the "laymake.fas" compiled project file 
+;           or as part of the "ACAD-LSP-LAYERS.VLX" application file.
+; *******************************************************************************************************************
+
 (defun m1-Blank (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
   (setq _m1a ""
         _m1d ""

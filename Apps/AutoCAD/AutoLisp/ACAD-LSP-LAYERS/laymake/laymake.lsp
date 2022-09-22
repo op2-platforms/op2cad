@@ -1,3 +1,18 @@
+; *******************************************************************************************************************
+; Application       : ACAD-LSP-LAYERS
+; Project           : laymake
+; Description       : data blocks and preset commands used to create AEC layers with "-layer/make" command in autocad
+; File usage        : back end main function
+; 
+; is part of the "op2cad" open source repository under GNU GPL v3 license
+; visit [https://github.com/op2-platforms/op2cad.git]
+;
+; *******************************************************************************************************************
+; note:     This file require datas from other project files; it isn't working as standalone.
+;           You may load it individually from the "laymake.fas" compiled project file 
+;           or as part of the "ACAD-LSP-LAYERS.VLX" application file.
+; *******************************************************************************************************************
+
 (defun laymake (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t _pha _phd _phn _phc _phi / _ln _ld _lc) 
   ; _ln = layer name
   ; _ld = layer description

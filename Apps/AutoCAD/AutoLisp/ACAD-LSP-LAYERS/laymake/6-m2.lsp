@@ -1,13 +1,19 @@
-; file usage: store minor 2 data
-; (layer naming exemple: X-XXXX-XXXX-MIN2-X)
+; *******************************************************************************************************************
+; Application       : ACAD-LSP-LAYERS
+; Project           : laymake
+; Description       : data blocks and preset commands used to create AEC layers with "-layer/make" command in autocad
+; File usage        : core list and data block defining second minor abreviation, description, color, color ID,
+;                     line weight and line type
+; 
+; is part of the "op2cad" open source repository under GNU GPL v3 license
+; visit [https://github.com/op2-platforms/op2cad.git]
 ;
-; _m2a = minor 2 abreviation
-; _m2d = minor 2 definition
-; _m2c = minor 2 color
-; _m2i = minor 2 indicator (last number matching the color; for strcat phasing color)
-; _m2w = minor 2 line weight
-; _m2t = minor 2 line type
-;
+; *******************************************************************************************************************
+; note:     This file require datas from other project files; it isn't working as standalone.
+;           You may load it individually from the "laymake.fas" compiled project file 
+;           or as part of the "ACAD-LSP-LAYERS.VLX" application file.
+; *******************************************************************************************************************
+
 ;#region data
 (defun m2-Blank (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
   (setq _m2a ""
