@@ -111,8 +111,26 @@
   (princ)
 )
 
-(defun laytransf-v2 () 
-  ; get selection set and store to list
+(defun c:laytransf (/ acadObj doc sset ctr len ssObj ssp layer) 
+  ; sset = active document selection set
+  ; ctr = counter
+  ; len = selection set length
+  ; ssObj = entity name of indiviual selection set object
+  ; ssp = properties of indiviual selection set object
+  ; layer = layer association of object properties
+  (vl-load-com)
+  (setq acadObj (vlax-get-acad-object))
+  (setq doc (vla-get-ActiveDocument acadObj))
+
+  (setq sset (vla-get-ActiveSelectionSet doc))
+  (setq ctr 0)
+  (setq len (sslength sset))
+  (while (/= ctr len) 
+    (setq ssObj (ssname sset ctr))
+    (setq ssp (entget ssObj))
+    (setq layer (cdr assoc 8 ssp))
+  )
+
   ; get list of temporary blocks (2 . "*U?") and explode them
   ; get list of blocks (0 . "INSERT")
   ; for each block in list, get its layer and store it in list
@@ -121,5 +139,5 @@
   ; if yes and locked, alert error
   ;
   ;
-  (prompt "laytransf")
+  (princ)
 )
