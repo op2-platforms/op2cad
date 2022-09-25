@@ -1,9 +1,9 @@
-;;; VLisp project file [V2.0] dwgscale saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\OP2-DRAWING\dwgscales] at:[9/12/2022]
+;;; VLisp project file [V2.0] navui saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\ACAD-LSP-NAVIGATE\navui] at:[9/23/2022]
 (VLISP-PROJECT-LIST 
   :NAME
-  dwgscale
+  navui
   :OWN-LIST
-  ("objscale")
+  ("uibgrd")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY

@@ -1,9 +1,9 @@
-;;; VLisp project file [V2.0] navscale saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\ACAD-LSP-NAVIGATE\navscale] at:[9/12/2022]
+;;; VLisp project file [V2.0] navview saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\ACAD-LSP-NAVIGATE\navviews] at:[9/12/2022]
 (VLISP-PROJECT-LIST 
   :NAME
-  navscale
+  navview
   :OWN-LIST
-  ("scaleimp" "scalemet" "navscale")
+  ("viewzoom")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY
