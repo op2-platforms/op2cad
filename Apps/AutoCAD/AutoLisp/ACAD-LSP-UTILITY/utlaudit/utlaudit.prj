@@ -3,7 +3,7 @@
   :NAME
   utlaudit
   :OWN-LIST
-  ("count")
+  ("count" "xref")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY

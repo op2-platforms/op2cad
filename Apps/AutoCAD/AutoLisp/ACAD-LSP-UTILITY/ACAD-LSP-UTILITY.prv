@@ -4,10 +4,12 @@
 	 (:separate-namespace)
 	 (:protected . T)
 	 (:load-file-list
-	   (:prj "utlsetup/utlsetup.prj")
+	   (:prj "utlset/utlset.prj")
 	   (:prj "utlplot/utlplot.prj")
 	   (:prj "utldims/utldims.prj")
 	   (:prj "utlaudit/utlaudit.prj")
+	   (:prj "utlobj/utlobj.prj")
+	   (:prj "utllist/utllist.prj")
 	 )
 	 (:require-file-list)
 	 (:ob-directory)
