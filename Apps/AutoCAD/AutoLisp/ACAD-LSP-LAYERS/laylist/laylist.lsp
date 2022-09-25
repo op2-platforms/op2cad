@@ -1,4 +1,4 @@
-(defun c:laylist (/ pt rsp dat ln lst desln) 
+(defun c:lst-lay (/ pt rsp dat ln lst desln) 
   (initget "All Select")
   (setq pt (getpoint "\nSelect insertion point: "))
   (initget "Select All")

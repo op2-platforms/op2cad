@@ -1,4 +1,4 @@
-(defun c:arxlist () 
+(defun c:lst-arx () 
   (vl-load-com)
   ;; This example gets all the loaded ObjectARX applications
   (setq acadObj (vlax-get-acad-object))
