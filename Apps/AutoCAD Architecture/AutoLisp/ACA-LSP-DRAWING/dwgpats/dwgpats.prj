@@ -3,7 +3,7 @@
   :NAME
   dwgpats
   :OWN-LIST
-  ("dwgpats" "draft" "model")
+  ("dwgpats" "patsann" "patsfix")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY
