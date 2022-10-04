@@ -35,7 +35,7 @@
 
 ; *************************************************************************************************
 ;#region hatch data
-(defun c:hm-gravel (/ hname hsc-i hsc-m hang hkey lkey isan) 
+(defun c:h-gravel (/ hname hsc-i hsc-m hang hkey lkey isan) 
   (setq hname "SITEWORK_GRAVEL"
         hsc-i "3.0"
         hsc-m "76.2"
@@ -46,7 +46,7 @@
   )
   (dwgpats hname hsc-i hsc-m hang hkey lkey isan)
 )
-(defun c:hm-chrushedstone (/ hname hsc-i hsc-m hang hkey lkey isan) 
+(defun c:h-chrushedstone (/ hname hsc-i hsc-m hang hkey lkey isan) 
   (setq hname "SITEWORK_GRAVEL"
         hsc-i "6.0"
         hsc-m "152.4"

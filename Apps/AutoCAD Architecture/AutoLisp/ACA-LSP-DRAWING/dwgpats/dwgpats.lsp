@@ -40,28 +40,13 @@
                  hname
                  hsc
                  hang
-                 ""
                  "a"
                  "a"
                  "y"
                  ""
                  ""
         )
-        (command "-hatch" 
-                 "s"
-                 "l"
-                 ""
-                 "an"
-                 (if (= 1 isan) "y" "n")
-                 "p"
-                 hname
-                 ""
-                 "a"
-                 "a"
-                 "y"
-                 ""
-                 ""
-        )
+        (command "-hatch" "s" "l" "" "an" "n" "p" hname "a" "a" "y" "" "")
       )
       (command "remaplayers" "l" "" hkey "")
     )
