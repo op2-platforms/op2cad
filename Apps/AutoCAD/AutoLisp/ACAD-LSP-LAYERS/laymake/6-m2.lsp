@@ -316,7 +316,7 @@
   (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
 (defun m2-Patt (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
-  (setq _m2a "-Patt "
+  (setq _m2a "-Patt"
         _m2d "pattern hatching"
         _m2c "199"
         _m2i "9"
