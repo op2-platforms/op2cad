@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcretePrecastStemDeckTeeSection"/>
+		</Implementation>
+		<Controls>
+			<CheckBox idStr="doHatch">
+				<Label>Hatch beam</Label>
+				<Description>Specify whether to hatch the beam. </Description>
+				<Default>1</Default>
+			</CheckBox>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<Params>
+					<UpperChamferRatio>0.666667</UpperChamferRatio>
+					<RadiusFactor>0.5</RadiusFactor>
+					<LowerChamfer unit="in">0.75</LowerChamfer>
+					<LowerChamfer unit="mm">20.0</LowerChamfer>
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>concrete</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="topBoundary">
+			</Item>
+			<Item idStr="topInfill">
+				<AcadHatchProps>
+					<HatchAlias>concrete topping</HatchAlias>
+					<PatternAngle>30.0</PatternAngle>		<!-- breaks up the two hatches sitting on top of each other -->
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcretePrecastStemDeckTeePlan"/>
+		</Implementation>
+		<Controls>
+			<CheckBox idStr="doHidden">
+				<Label>Hidden lines</Label>
+				<Default>1</Default>
+			</CheckBox>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcretePrecastStemDeckTeeElevation"/>
+		</Implementation>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="topBoundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

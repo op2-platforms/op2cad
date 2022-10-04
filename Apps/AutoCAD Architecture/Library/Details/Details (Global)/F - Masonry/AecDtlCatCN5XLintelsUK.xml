@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey=""  funcRcp="AecDtlRcpSteelCN5XLintelSection"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<Params>
+					<TopLen>22.0</TopLen>
+				</Params>
+			</Item>
+		</Data>
+	</Recipe>
+
+</AecRecipeSpec>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+
+	<ControlDefs>
+		<EditBoxDistance idStr="WallThick" unitDep="true">
+			<Label>Wall Thickness</Label>
+			<Description>Specifies the overall thickness of wall to use. </Description>
+			<Default>277</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="CutBlockWid" unitDep="true">
+			<Label>Cut Block Width</Label>
+			<Description>Specifies the cut block width to use. </Description>
+			<Default>100</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="DPCHeight" unitDep="true">
+			<Label>DPC Height</Label>
+			<Description>Specifies the DPC height to use. </Description>
+			<Default>150</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="DTOF" unitDep="true">
+			<Label>Depth to Footing</Label>
+			<Description>Specifies the depth to top of footing to use. </Description>
+			<Default>525</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="FootingWidth" unitDep="true">
+			<Label>Footing Width</Label>
+			<Description>Specifies the width of footing to use. </Description>
+			<Default>600</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="InsThick" unitDep="true">
+			<Label>Insulation Thickness</Label>
+			<Description>Specifies the thickness of insulation to use. </Description>
+			<Default>100</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="SlabThick" unitDep="true">
+			<Label>Slab Thickness</Label>
+			<Description>Specifies the thickness of slab to use. </Description>
+			<Default>150</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="SandThick" unitDep="true">
+			<Label>Sand Thickness</Label>
+			<Description>Specifies the thickness of sand to use. </Description>
+			<Default>50</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="HardcoreThick" unitDep="true">
+			<Label>Hardcore Thickness</Label>
+			<Description>Specifies the thickness of hardcore to use. </Description>
+			<Default>100</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<EditBoxDistance idStr="FloorLength" unitDep="true">
+			<Label>Floor Length</Label>
+			<Description>Specifies the length of floor to show. </Description>
+			<Default>1000</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxDistance>
+		<CheckBox idStr="doSlabHatch">
+			<Label>Hatch Slab</Label>
+			<Description>Specifies whether to hatch the slab. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doSandHatch">
+			<Label>Hatch Sand</Label>
+			<Description>Specifies whether to hatch the sand. </Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+      <ManagedDotNet moduleName="AecDetailsUK.dll" dirKey="" funcRcp="AecDtlSuspGrndFlrInsBUKSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="WallThick"/>
+			<ControlRef idRef="CutBlockWid"/>
+			<ControlRef idRef="DPCHeight"/>
+			<ControlRef idRef="DTOF"/>
+			<ControlRef idRef="FootingWidth"/>
+			<ControlRef idRef="InsThick"/>
+			<ControlRef idRef="SlabThick"/>
+			<ControlRef idRef="SandThick"/>
+			<ControlRef idRef="HardcoreThick"/>
+			<ControlRef idRef="FloorLength"/>
+			<ControlRef idRef="doSlabHatch"/>
+			<ControlRef idRef="doSandHatch"/>
+		</Controls>
+		<Data>
+			<Item idStr="Values">
+				<Params>
+					<Factor unit="mm">1</Factor>
+				</Params>
+			</Item>
+			<Item idStr="sand">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="sandfill">
+				<AcadHatchProps>
+					<HatchAlias>sand</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="insulation">
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="dpc">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="concretefloor">
+				<AcadHatchProps>
+					<HatchAlias>concrete paver</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="concreteblock">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hardcore">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

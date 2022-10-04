@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+	<ControlDefs>
+		<!-- Activate the following if localization requires a slope and ParentControl for rise/run/slope
+		<ComboBox idStr="slopeCalculation">
+			<Label>Roof slope calculation</Label>
+			<Description>Specifies how the slope is entered</Description>
+			<ComboBoxValue idStr="useSlope">
+				<Label>Slope angle</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="useRunRise">
+				<Label>Rise and run values</Label>
+			</ComboBoxValue>
+			<Default>useRunRise</Default>
+		</ComboBox>
+	    -->
+		<EditBoxDistance idStr="rise" unitDep="true">
+			<Label>Rise</Label>
+			<Description>Specifies the rise of the shingle</Description>
+			<Default>12.0</Default>
+			<Validation>NoNeg</Validation>
+			<!-- see comment in slopeCalculation
+			<ParentControl idRef="slopeCalculation">
+				<ParentControlState state="useRunRise" visible="yes" enabled="yes"/>
+				<ParentControlState state="useSlope" visible="no" enabled="no"/>
+			</ParentControl>
+			-->
+		</EditBoxDistance>
+		<EditBoxDistance idStr="run" unitDep="true">
+			<Label>Run</Label>
+			<Description>Specifies the run of the shingle</Description>
+			<Default>12.0</Default>
+			<Validation>NoNegNoZero</Validation>
+			<!-- see comment in slopeCalculation
+			<ParentControl idRef="slopeCalculation">
+				<ParentControlState state="useRunRise" visible="yes" enabled="yes"/>
+				<ParentControlState state="useSlope" visible="no" enabled="no"/>
+			</ParentControl>
+			-->
+		</EditBoxDistance>
+		<!-- see comment in slopeCalculation
+		<EditBoxAngle idStr="slope" unitDep="true">
+			<Label>Slope</Label>
+			<Description>Specifies the slope of the shingle</Description>
+			<Default>45.0</Default>
+			<ParentControl idRef="slopeCalculation">
+				<ParentControlState state="useRunRise" visible="no" enabled="no"/>
+				<ParentControlState state="useSlope" visible="yes" enabled="yes"/>
+			</ParentControl>
+		</EditBoxAngle>
+		-->
+	</ControlDefs>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpShingleRidges"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="rise"/>
+			<ControlRef idRef="run"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="shingle">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

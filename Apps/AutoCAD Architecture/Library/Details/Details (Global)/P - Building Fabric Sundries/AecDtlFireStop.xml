@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<ComboBox idStr="density">
+			<Label>Density</Label>
+			<Description>Specifies the density of the batt insulation pattern. </Description>
+			<ComboBoxValue idStr="dense">
+				<Label>Dense</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="normal">
+				<Label>Normal</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="fluffy">
+				<Label>Fluffy</Label>
+			</ComboBoxValue>
+			<Default>normal</Default>
+		</ComboBox>
+	</ControlDefs>
+
+	<Recipe idStr="side">
+		<Label>Side</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpBattInsulation"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="density"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+				<Params>
+					<Dense>6.5</Dense>
+					<Normal>5.0</Normal>
+					<Fluffy>3.5</Fluffy>
+				</Params>
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

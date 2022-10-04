@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<ComboBox idStr="shaft">
+			<Label>Shaft type</Label>
+			<Description>Specifies whether to draw the shaft as Standard, Hidden, or Filled</Description>
+			<ComboBoxValue idStr="standard">
+				<Label>Standard</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="hidden">
+				<Label>Hidden</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="filled">
+				<Label>Filled</Label>
+			</ComboBoxValue>
+		</ComboBox>
+	</ControlDefs>
+	<Recipe idStr="side">
+		<Label>Side</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpShearConnector"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="shaft"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="head">
+				<Params>
+					<Overhang unit="in">0.25</Overhang>
+					<Overhang unit="mm">6.5</Overhang>
+					<Depth unit="in">0.375</Depth>
+					<Depth unit="mm">10.0</Depth>
+				</Params>
+			</Item>
+			<Item idStr="tip">
+				<Params>
+					<Depth unit="in">0.0625</Depth>
+					<Depth unit="mm">1.5</Depth>
+				</Params>
+			</Item>
+			<Item idStr="shaft"/>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Linetype>HIDDEN2</Linetype>		<!-- override the Linetype for hidden components -->
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	<Recipe idStr="sideArray">
+		<Label>Side (Array)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpShearConnectorArray"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="shaft"/>
+			<EditBoxDistance idStr="studSpacing" unitDep="true">
+				<Label>Stud spacing</Label>
+				<Description>Specifies spacing between the metal studs</Description>
+				<Default>12.0</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<ComboBox idStr="constructPt">
+				<Label>Construction point</Label>
+				<Description>Specifies justification for the array</Description>
+				<ComboBoxValue idStr="centered">
+					<Label>Center</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="start">
+					<Label>Start point</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="end">
+					<Label>End point</Label>
+				</ComboBoxValue>
+			</ComboBox>
+			<ComboBox idStr="fitStud">
+				<Label>Fit stud</Label>
+				<Description>Specifies on centers or fixed number of studs</Description>
+				<ComboBoxValue idStr="onCenter">
+					<Label>On center</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="fixedCount">
+					<Label>Number of studs</Label>
+				</ComboBoxValue>
+			</ComboBox>	
+			<EditBoxInteger idStr="studCount">
+				<Label>Stud Count</Label>
+				<Description>Specifies number of studs to place</Description>
+				<Default>2</Default>
+				<Validation>NoNegNoZero</Validation>
+				<ParentControl idRef="fitStud">
+					<ParentControlState state="onCenter" visible="no" enabled="no"/>
+					<ParentControlState state="fixedCount" visible="yes" enabled="yes"/>
+				</ParentControl>
+			</EditBoxInteger>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="head">
+				<Params>
+					<Overhang unit="in">0.25</Overhang>
+					<Overhang unit="mm">6.5</Overhang>
+					<Depth unit="in">0.375</Depth>
+					<Depth unit="mm">10.0</Depth>
+				</Params>
+			</Item>
+			<Item idStr="tip">
+				<Params>
+					<Depth unit="in">0.0625</Depth>
+					<Depth unit="mm">1.5</Depth>
+				</Params>
+			</Item>
+			<Item idStr="shaft"/>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Linetype>HIDDEN2</Linetype>		<!-- override the Linetype for hidden components -->
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+</AecRecipeSpec>

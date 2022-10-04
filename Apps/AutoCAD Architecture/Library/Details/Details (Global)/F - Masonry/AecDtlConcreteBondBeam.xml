@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+	<ControlDefs>
+		<CheckBox idStr="showMortar">
+			<Label>Show mortar</Label>
+			<Description>Specifies whether to draw mortar.</Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch CMU</Label>
+			<Description>Specifies whether to hatch the CMU. </Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteMasonryBondBeamSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doHatch"/>
+			<CheckBox idStr="hatchCores">
+				<Label>Grout fill cores</Label>
+				<Description>Specifies whether to hatch the cores solid with grout.</Description>
+				<Default>1</Default>
+			</CheckBox>
+			<ControlRef idRef="showMortar"/>
+			<CheckBox idStr="doReinforcing">
+				<Label>Show reinforcing</Label>
+				<Description>Specify whether to draw reinforcing for the beam. </Description>
+				<Default>1</Default>
+			</CheckBox>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>cmu</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="cores">
+				<AcadHatchProps>
+					<HatchAlias>grout</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="web">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+			<SubComponent idStr="rebar" keys="rebar" subRecipe="subSectionPts">
+				<Label>Rebar</Label>
+				<Description>Reinforcing for the beam.</Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteMasonryBondBeamPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="showMortar"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>cmu</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+			
+			<Item idStr="web">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteMasonryBondBeamElevation"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+			</Item>
+		</Data>
+	</Recipe>
+	
+</AecRecipeSpec>

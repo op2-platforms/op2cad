@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="doChamfer">
+			<Label>Chamfer beam</Label>
+			<Description>Specify whether to chamfer the beam. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<EditBoxDistance idStr="chamfer" unitDep="true">
+			<Label>Chamfer distance</Label>
+			<Description>Specify the distance used when chamfering the beam. </Description>
+			<Default>0.5</Default>
+			<Validation>NoNeg</Validation>
+			<ParentControl idRef="doChamfer">
+				<ParentControlState state="0" visible="no" enabled="no"/>
+			</ParentControl>
+		</EditBoxDistance>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch beam</Label>
+			<Description>Specify whether to hatch the beam. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doReinforcing">
+			<Label>Show reinforcing</Label>
+			<Description>Specify whether to draw reinforcing for the beam. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doHidden">
+			<Label>Hidden lines</Label>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcretePrecastLShapeBeamSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doChamfer"/>
+			<ControlRef idRef="chamfer"/>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="doReinforcing"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>concrete</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="rebar" keys="rebar" subRecipe="subSectionBeam">
+				<Label>Rebar - Longitudinal</Label>
+				<Description>Longitudinal rebar for the beam. </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+			<SubComponent idStr="rebarSizeLoop" keys="rebar" subRecipe="subRebarSizeLoop">
+				<Label>Rebar - Shear</Label>
+				<Description>Shear rebar for the beam. </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcretePrecastLShapeBeamPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doChamfer"/>
+			<ControlRef idRef="chamfer"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcretePrecastLShapeBeamElevation"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doChamfer"/>
+			<ControlRef idRef="chamfer"/>
+			<ControlRef idRef="doHidden" />
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+</AecRecipeSpec>

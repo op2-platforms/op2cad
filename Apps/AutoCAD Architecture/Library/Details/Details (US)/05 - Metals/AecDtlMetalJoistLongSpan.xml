@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<EditBoxDistance idStr="cordSpacing" unitDep="true">
+			<Label>Spacing between chord angles</Label>
+			<Description>Specifies spacing between chord angles</Description>
+			<Default>0.375</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+	</ControlDefs>
+	
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlMetalJoistLongSpanSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="cordSpacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="chordAngleSection" keys="angle" subRecipe="subChordAngleSection">
+				<Label>Chord Angle</Label>
+			    <Description>Specifications for chord angles</Description>
+			</SubComponent>
+			<SubComponent idStr="webAngleSection"  keys="angle" subRecipe="subWebAngleSection">
+				<Label>Web Angle</Label>
+			    <Description>Specifications for web angles</Description>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlMetalJoistLongSpanPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="cordSpacing"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="chordAngle" keys="angle" subRecipe="subPlan">
+				<Label>Chord Angle</Label>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+	
+	<Recipe idStr="elevation">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlMetalJoistLongSpanElev"/>
+		</Implementation>
+		<Controls>
+			<EditBoxInteger idStr="chordCount">
+				<Label>Number of top chord interior panel points</Label>
+			    <Description>Specifies number of top chord interior panel points</Description>
+				<Default>0</Default>
+				<Validation>NoNeg</Validation>
+			</EditBoxInteger>
+			<EditBoxDistance idStr="startBearingWidth" unitDep="true">
+				<Label>Starting bearing width</Label>
+			    <Description>Specifies starting bearing width</Description>
+				<Default>8.0</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="endBearingWidth" unitDep="true">
+				<Label>Ending bearing width</Label>
+			    <Description>Specifies ending bearing width</Description>
+				<Default>8.0</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+			<EditBoxDistance idStr="bearingDepth" unitDep="true">
+				<Label>Bearing depth</Label>
+			    <Description>Specifies bearing depth</Description>
+				<Default>6.0</Default>
+				<Validation>NoNegNoZero</Validation>
+			</EditBoxDistance>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="chordAngleElev" keys="angle" subRecipe="subElev1">
+				<Label>Chord Angle</Label>
+			    <Description>Specifications for chord angles</Description>
+			</SubComponent>
+			<SubComponent idStr="webAngle" keys="angle" subRecipe="subElev2">
+				<Label>Web Angle</Label>
+			    <Description>Specifications for web angles</Description>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+			
+</AecRecipeSpec>
+

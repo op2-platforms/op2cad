@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<ComboBox idStr="orientation">
+			<Label>Setting position</Label>
+			<Description>Specifies the bricks orientation. </Description>
+			<ComboBoxValue idStr="stretcher">
+				<Label>Stretcher</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="header">
+				<Label>Header</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="soldier">
+				<Label>Soldier</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="sailor">
+				<Label>Brick on end</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="rowlock">
+				<Label>Brick on edge</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="shiner">
+				<Label>Brick on side</Label>
+			</ComboBoxValue>
+		</ComboBox>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch stone</Label>
+			<Description>Specifies whether to hatch the stone. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="showMortar">
+			<Label>Show mortar</Label>
+			<Description>Specifies whether to draw mortar.</Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlBrickSection"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="orientation"/>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="showMortar"/>
+			<Picture idStr="orientation_illustration" rowHeight="4">
+				<Label>Orientation illustration</Label>
+				<Default>default</Default>
+				<Varies>default</Varies>
+				<PictureValue idStr="stretcher" idFile="Images/section_brick_stretcher.png">
+					<Label>Stretcher section</Label>
+					<ParentControl idRef="orientation" idStr="stretcher"/>
+				</PictureValue>
+				<PictureValue idStr="header" idFile="Images/section_brick_header.png">
+					<Label>Header section</Label>
+					<ParentControl idRef="orientation" idStr="header"/>
+				</PictureValue>
+				<PictureValue idStr="soldier" idFile="Images/section_brick_soldier.png">
+					<Label>Soldier section</Label>
+					<ParentControl idRef="orientation" idStr="soldier"/>
+				</PictureValue>
+				<PictureValue idStr="sailor" idFile="Images/section_brick_sailor.png">
+					<Label>Brick on end section</Label>
+					<ParentControl idRef="orientation" idStr="sailor"/>
+				</PictureValue>
+				<PictureValue idStr="rowlock" idFile="Images/section_brick_rowlock.png">
+					<Label>Brick on edge section</Label>
+					<ParentControl idRef="orientation" idStr="rowlock"/>
+				</PictureValue>
+				<PictureValue idStr="shiner" idFile="Images/section_brick_shiner.png">
+					<Label>Brick on side section</Label>
+					<ParentControl idRef="orientation" idStr="shiner"/>
+				</PictureValue>
+				<PictureValue idStr="default" idFile="Images/brick_default.png">
+					<Label>Default top</Label>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary"/>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>stone</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<IsOrientedX>false</IsOrientedX>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+			<JigEnt>
+			    <IsOrientedX>false</IsOrientedX>
+			</JigEnt>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlBrickPlan"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="orientation"/>
+			<ControlRef idRef="doHatch"/>
+			<ControlRef idRef="showMortar"/>
+			<Picture idStr="orientation_illustration" rowHeight="4">
+				<Label>Top illustration</Label>
+				<Default>default</Default>
+				<Varies>default</Varies>
+				<PictureValue idStr="stretcher" idFile="Images/top_brick_stretcher.png">
+					<Label>Stretcher top</Label>
+					<ParentControl idRef="orientation" idStr="stretcher"/>
+				</PictureValue>
+				<PictureValue idStr="header" idFile="Images/top_brick_header.png">
+					<Label>Header top</Label>
+					<ParentControl idRef="orientation" idStr="header"/>
+				</PictureValue>
+				<PictureValue idStr="soldier" idFile="Images/top_brick_soldier.png">
+					<Label>Soldier top</Label>
+					<ParentControl idRef="orientation" idStr="soldier"/>
+				</PictureValue>
+				<PictureValue idStr="sailor" idFile="Images/top_brick_sailor.png">
+					<Label>Brick on end top</Label>
+					<ParentControl idRef="orientation" idStr="sailor"/>
+				</PictureValue>
+				<PictureValue idStr="rowlock" idFile="Images/top_brick_rowlock.png">
+					<Label>Brick on edge top</Label>
+					<ParentControl idRef="orientation" idStr="rowlock"/>
+				</PictureValue>
+				<PictureValue idStr="shiner" idFile="Images/top_brick_shiner.png">
+					<Label>Brick on side top</Label>
+					<ParentControl idRef="orientation" idStr="shiner"/>
+				</PictureValue>
+				<PictureValue idStr="default" idFile="Images/brick_default.png">
+					<Label>Default top</Label>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary"/>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>stone</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<Options>
+			<Jig>
+				<PromptCount>Number of courses</PromptCount>
+			</Jig>
+		</Options>
+		<SubComponents>
+			<SubComponent idStr="mortar" keys="mortar" subRecipe="subSection">
+				<Label>Mortar</Label>
+				<ParentControl idRef="showMortar">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlBrickElevation"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="orientation"/>
+			<Picture idStr="orientation_illustration" rowHeight="4">
+				<Label>Specification illustration</Label>
+				<Default>default</Default>
+				<Varies>default</Varies>
+				<PictureValue idStr="stretcher" idFile="Images/elevation_brick_stretcher.png">
+					<Label>Stretcher elevation</Label>
+					<ParentControl idRef="orientation" idStr="stretcher"/>
+				</PictureValue>
+				<PictureValue idStr="header" idFile="Images/elevation_brick_header.png">
+					<Label>Header elevation</Label>
+					<ParentControl idRef="orientation" idStr="header"/>
+				</PictureValue>
+				<PictureValue idStr="soldier" idFile="Images/elevation_brick_soldier.png">
+					<Label>Soldier elevation</Label>
+					<ParentControl idRef="orientation" idStr="soldier"/>
+				</PictureValue>
+				<PictureValue idStr="sailor" idFile="Images/elevation_brick_sailor.png">
+					<Label>Brick on end elevation</Label>
+					<ParentControl idRef="orientation" idStr="sailor"/>
+				</PictureValue>
+				<PictureValue idStr="rowlock" idFile="Images/elevation_brick_rowlock.png">
+					<Label>Brick on edge elevation</Label>
+					<ParentControl idRef="orientation" idStr="rowlock"/>
+				</PictureValue>
+				<PictureValue idStr="shiner" idFile="Images/elevation_brick_shiner.png">
+					<Label>Brick on side elevation</Label>
+					<ParentControl idRef="orientation" idStr="shiner"/>
+				</PictureValue>
+				<PictureValue idStr="default" idFile="Images/brick_default.png">
+					<Label>Default elevation</Label>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary"/>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="elevPattern">
+		<Label>Elevation (Pattern)</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlBrickElevationPattern"/>
+		</Implementation>
+		<Controls>
+			<ComboBox idStr="pattern">
+				<Label>Pattern</Label>
+				<Description>Bonding pattern to draw on boundary object. </Description>
+				<ComboBoxValue idStr="runningBond">
+					<Label>Running bond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="oneThirdRunningBond">
+					<Label>1/3 running bond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="sixthCourseHeaders">
+					<Label>6th course headers</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="commonFlemish">
+					<Label>Common Flemish</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="gardenWall">
+					<Label>Garden wall</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="english">
+					<Label>English</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="stack">
+					<Label>Stack</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="englishCross">
+					<Label>English cross</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="flemish">
+					<Label>Flemish</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="flemishDouble">
+					<Label>Flemish double</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="flemishCross">
+					<Label>Flemish cross</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="flemishDiamond">
+					<Label>Flemish diamond</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="runningHeaders">
+					<Label>Running headers</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="runningRowlocks">
+					<Label>Running brick on edge</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="runningShiners">
+					<Label>Running brick on side</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="stackedSailor">
+					<Label>Stacked brick on end</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="bandedSoldier">
+					<Label>Banded soldier</Label>
+				</ComboBoxValue>
+				<ComboBoxValue idStr="stackedSoldier">
+					<Label>Stacked soldier</Label>
+				</ComboBoxValue>
+			</ComboBox>
+			<ControlRef idRef="showMortar"/>
+			<Picture idStr="pattern_illustration" rowHeight="4">
+				<Label>Pattern illustration</Label>
+				<Default>runningBond</Default>
+				<PictureValue idStr="runningBond" idFile="Images/brick_pattern_runningbond.png">
+					<ParentControl idRef="pattern" idStr="runningBond"/>
+				</PictureValue>
+				<PictureValue idStr="oneThirdRunningBond" idFile="Images/brick_pattern_third_running.png">
+					<ParentControl idRef="pattern" idStr="oneThirdRunningBond"/>
+				</PictureValue>
+				<PictureValue idStr="sixthCourseHeaders" idFile="Images/brick_pattern_6thcourse_headers.png">
+					<ParentControl idRef="pattern" idStr="sixthCourseHeaders"/>
+				</PictureValue>
+				<PictureValue idStr="commonFlemish" idFile="Images/brick_pattern_common_flemish.png">
+					<ParentControl idRef="pattern" idStr="commonFlemish"/>
+				</PictureValue>
+				<PictureValue idStr="gardenWall" idFile="Images/brick_pattern_gardenwall.png">
+					<ParentControl idRef="pattern" idStr="gardenWall"/>
+				</PictureValue>
+				<PictureValue idStr="english" idFile="Images/brick_pattern_english.png">
+					<ParentControl idRef="pattern" idStr="english"/>
+				</PictureValue>
+				<PictureValue idStr="stack" idFile="Images/brick_pattern_stacked.png">
+					<ParentControl idRef="pattern" idStr="stack"/>
+				</PictureValue>
+				<PictureValue idStr="englishCross" idFile="Images/brick_pattern_english_cross.png">
+					<ParentControl idRef="pattern" idStr="englishCross"/>
+				</PictureValue>
+				<PictureValue idStr="flemish" idFile="Images/brick_pattern_flemish.png">
+					<ParentControl idRef="pattern" idStr="flemish"/>
+				</PictureValue>
+				<PictureValue idStr="flemishDouble" idFile="Images/brick_pattern_flemish_double.png">
+					<ParentControl idRef="pattern" idStr="flemishDouble"/>
+				</PictureValue>
+				<PictureValue idStr="flemishCross" idFile="Images/brick_pattern_flemish_cross.png">
+					<ParentControl idRef="pattern" idStr="flemishCross"/>
+				</PictureValue>
+				<PictureValue idStr="flemishDiamond" idFile="Images/brick_pattern_flemish_diamond.png">
+					<ParentControl idRef="pattern" idStr="flemishDiamond"/>
+				</PictureValue>
+				<PictureValue idStr="runningHeaders" idFile="Images/brick_pattern_running_headers.png">
+					<ParentControl idRef="pattern" idStr="runningHeaders"/>
+				</PictureValue>
+				<PictureValue idStr="runningRowlocks" idFile="Images/brick_pattern_running_rowlocks.png">
+					<ParentControl idRef="pattern" idStr="runningRowlocks"/>
+				</PictureValue>
+				<PictureValue idStr="runningShiners" idFile="Images/brick_pattern_running_shiners.png">
+					<ParentControl idRef="pattern" idStr="runningShiners"/>
+				</PictureValue>
+				<PictureValue idStr="stackedSailor" idFile="Images/brick_pattern_stacked_sailors.png">
+					<ParentControl idRef="pattern" idStr="stackedSailor"/>
+				</PictureValue>
+				<PictureValue idStr="eigthCourseSoldiers" idFile="Images/brick_pattern_8thcourse_soldiers.png">
+					<ParentControl idRef="pattern" idStr="bandedSoldier"/>
+				</PictureValue>
+				<PictureValue idStr="stackedSoldier" idFile="Images/brick_pattern_stacked_soldiers.png">
+					<ParentControl idRef="pattern" idStr="stackedSoldier"/>
+				</PictureValue>
+			</Picture>
+		</Controls>
+		<Data>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<!-- This needs to be here, but we created the pattern programmatically and made it real size (so we have no parameters) -->
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+</AecRecipeSpec>
