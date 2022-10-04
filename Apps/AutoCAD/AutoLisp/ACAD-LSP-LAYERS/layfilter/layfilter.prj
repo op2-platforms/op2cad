@@ -3,7 +3,7 @@
   :NAME
   layfilter
   :OWN-LIST
-  ("phase" "layfilter" "status" "major")
+  ("layfilter" "discipline" "major" "minor" "status" "phase")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY
