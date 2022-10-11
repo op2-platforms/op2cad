@@ -1,5 +1,5 @@
-(defun layfilter (lyon1 lyoff lylock msg /) 
-  (command "-layer" "U" "*" "S" "0" "OFF" "*" "Y" "ON" "0,Defpoints,*NPLT*" "F" "*" "ON" lyon1 "T" lyon1 "OFF" lyoff "LO" lylock "")
+(defun layfilter (lyon1 lyoff lyon2 lylock msg /) 
+  (command "-layer" "U" "*" "S" "0" "OFF" "*" "Y" "ON" "0,Defpoints,*NPLT*" "F" "*" "ON" lyon1 "T" lyon1 "OFF" lyoff "ON" lyon2 "T" lyon2 "LO" lylock "")
   (command "regen")
   (prompt msg)
   (princ)
