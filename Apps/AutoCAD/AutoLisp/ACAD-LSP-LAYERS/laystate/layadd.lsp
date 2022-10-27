@@ -1,271 +1,437 @@
 ;#region layer addition commands
 ;#region discipline designator
-(defun c:la-Architecture (/ _lay) 
-  (setq _lay "A-*,A?-*")
-  (layadd _lay)
+(defun c:la-A (/ _lay _msg) 
+    (setq _lay "A-*,A?-*"
+          _msg "Architectural"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Civil (/ _lay) 
-  (setq _lay "C-*,C?-*")
-  (layadd _lay)
+(defun c:la-C (/ _lay _msg) 
+    (setq _lay "C-*,C?-*"
+          _msg "Civil"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Contractor (/ _lay) 
-  (setq _lay "Z-*,Z?-*")
-  (layadd _lay)
+(defun c:la-Z (/ _lay _msg) 
+    (setq _lay "Z-*,Z?-*"
+          _msg "Contractor"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Electrical (/ _lay) 
-  (setq _lay "E-*,E?-*")
-  (layadd _lay)
+(defun c:la-E (/ _lay _msg) 
+    (setq _lay "E-*,E?-*"
+          _msg "Electrical"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Energy (/ _lay) 
-  (setq _lay "W-*,W?-*")
-  (layadd _lay)
+(defun c:la-W (/ _lay _msg) 
+    (setq _lay "W-*,W?-*"
+          _msg "Energy"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Equipment (/ _lay) 
-  (setq _lay "Q-*,Q?-*")
-  (layadd _lay)
+(defun c:la-Q (/ _lay _msg) 
+    (setq _lay "Q-*,Q?-*"
+          _msg "Equipment"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Fire (/ _lay) 
-  (setq _lay "F-*,F?-*")
-  (layadd _lay)
+(defun c:la-F (/ _lay _msg) 
+    (setq _lay "F-*,F?-*"
+          _msg "Fire Protection"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-General (/ _lay) 
-  (setq _lay "G-*,G?-*")
-  (layadd _lay)
+(defun c:la-G (/ _lay _msg) 
+    (setq _lay "G-*,G?-*"
+          _msg "General"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Geotechnical (/ _lay) 
-  (setq _lay "B-*,B?-*")
-  (layadd _lay)
+(defun c:la-B (/ _lay _msg) 
+    (setq _lay "B-*,B?-*"
+          _msg "Geotechnical"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Hazardeous (/ _lay) 
-  (setq _lay "H-*,H?-*")
-  (layadd _lay)
+(defun c:la-H (/ _lay _msg) 
+    (setq _lay "H-*,H?-*"
+          _msg "Hazardeous Materials"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Interior (/ _lay) 
-  (setq _lay "I-*,I?-*")
-  (layadd _lay)
+(defun c:la-I (/ _lay _msg) 
+    (setq _lay "I-*,I?-*"
+          _msg "Interior"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Landscape (/ _lay) 
-  (setq _lay "L-*,L?-*")
-  (layadd _lay)
+(defun c:la-L (/ _lay _msg) 
+    (setq _lay "L-*,L?-*"
+          _msg "Landscape"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Mechanical (/ _lay) 
-  (setq _lay "M-*,M?-*")
-  (layadd _lay)
+(defun c:la-M (/ _lay _msg) 
+    (setq _lay "M-*,M?-*"
+          _msg "Mechanical"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Operation (/ _lay) 
-  (setq _lay "O-*,O?-*")
-  (layadd _lay)
+(defun c:la-O (/ _lay _msg) 
+    (setq _lay "O-*,O?-*"
+          _msg "Operation"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Other (/ _lay) 
-  (setq _lay "X-*,X?-*")
-  (layadd _lay)
+(defun c:la-X (/ _lay _msg) 
+    (setq _lay "X-*,X?-*"
+          _msg "Other User Defined Discipline"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Plumbing (/ _lay) 
-  (setq _lay "P-*,P?-*")
-  (layadd _lay)
+(defun c:la-P (/ _lay _msg) 
+    (setq _lay "P-*,P?-*"
+          _msg "Plumbing"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Process (/ _lay) 
-  (setq _lay "D-*,D?-*")
-  (layadd _lay)
+(defun c:la-D (/ _lay _msg) 
+    (setq _lay "D-*,D?-*"
+          _msg "Process"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Resource (/ _lay) 
-  (setq _lay "R-*,R?-*")
-  (layadd _lay)
+(defun c:la-R (/ _lay _msg) 
+    (setq _lay "R-*,R?-*"
+          _msg "Resource"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Structural (/ _lay) 
-  (setq _lay "S-*,S?-*")
-  (layadd _lay)
+(defun c:la-S (/ _lay _msg) 
+    (setq _lay "S-*,S?-*"
+          _msg "Structural"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Survey (/ _lay) 
-  (setq _lay "V-*,V?-*")
-  (layadd _lay)
+(defun c:la-V (/ _lay _msg) 
+    (setq _lay "V-*,V?-*"
+          _msg "Survey"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Telecom (/ _lay) 
-  (setq _lay "T-*,T?-*")
-  (layadd _lay)
+(defun c:la-T (/ _lay _msg) 
+    (setq _lay "T-*,T?-*"
+          _msg "Telecom"
+    )
+    (layadd _lay _msg)
 )
 ;#endregion
 
 
 ;#region majors
-(defun c:la-Elev (/ _lay) 
-  (setq _lay "*-Elev-*")
-  (layadd _lay)
+(defun c:la-Elev (/ _lay _msg) 
+    (setq _lay "*Elev*"
+          _msg "2D Elevation"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Detl (/ _lay) 
-  (setq _lay "*-Detl-*")
-  (layadd _lay)
+(defun c:la-Detl (/ _lay _msg) 
+    (setq _lay "*Detl*"
+          _msg "2D Detail"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Sect (/ _lay) 
-  (setq _lay "*-Sect-*")
-  (layadd _lay)
+(defun c:la-Sect (/ _lay _msg) 
+    (setq _lay "*Sect*"
+          _msg "2D Section"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Plan (/ _lay) 
-  (setq _lay "*-Plan-*")
-  (layadd _lay)
+(defun c:la-Plan (/ _lay _msg) 
+    (setq _lay "*Plan*"
+          _msg "2D Plan"
+    )
+    (layadd _lay _msg)
 )
 ;#endregion
 
 
 ;#region minors
-(defun c:la-Anno (/ _lay) 
-  (setq _lay "?-Anno-*,??-Anno-*,*-Labl,*-Labl-?,*-Tags,*-Tags-?,*-Note,*-Note-?,*-Text,*-Text-?,*-Iden,*-Iden-?,*-Revc,*-Revc-?,*-Refr,*-Refr-?,*-Symb,*-Symb-?,*-Dims,*-Dims-?,*-Grid,*-Grid-?")
-  (layadd _lay)
+(defun c:la-Anno (/ _lay _msg) 
+    (setq _lay "*Anno*,*Labl*,*Tags*,*Note*,*Text*,*Iden*,*Revc*,*Refr*,*Symb*,*Dims*,*Grid*"
+          _msg "Annotations"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Labl (/ _lay) 
-  (setq _lay "*-Labl,*-Labl-?")
-  (layadd _lay)
+(defun c:la-Patt (/ _lay _msg) 
+    (setq _lay "*Patt*"
+          _msg "Hatch Patterns"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Tags (/ _lay) 
-  (setq _lay "*-Tags,*-Tags-?")
-  (layadd _lay)
+(defun c:la-Labl (/ _lay _msg) 
+    (setq _lay "*Labl*"
+          _msg "Labels"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Note (/ _lay) 
-  (setq _lay "*-Note,*-Note-?")
-  (layadd _lay)
+(defun c:la-Tags (/ _lay _msg) 
+    (setq _lay "*Tags*"
+          _msg "Tags"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Text (/ _lay) 
-  (setq _lay "*-Text,*-Text-?")
-  (layadd _lay)
+(defun c:la-Note (/ _lay _msg) 
+    (setq _lay "*Note*"
+          _msg "Notes"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Iden (/ _lay) 
-  (setq _lay "*-Iden,*-Iden-?")
-  (layadd _lay)
+(defun c:la-Text (/ _lay _msg) 
+    (setq _lay "*Text*"
+          _msg "Texts"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Revc (/ _lay) 
-  (setq _lay "*-Revc,*-Revc-?")
-  (layadd _lay)
+(defun c:la-Iden (/ _lay _msg) 
+    (setq _lay "*Iden*"
+          _msg "Identifications"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Refr (/ _lay) 
-  (setq _lay "*-Refr,*-Refr-?")
-  (layadd _lay)
+(defun c:la-Revc (/ _lay _msg) 
+    (setq _lay "*Revc*"
+          _msg "Revision Clouds"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Scrn (/ _lay) 
-  (setq _lay "*-Scrn,*-Scrn-?")
-  (layadd _lay)
+(defun c:la-Refr (/ _lay _msg) 
+    (setq _lay "*Refr*"
+          _msg "External reference files"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Symb (/ _lay) 
-  (setq _lay "*-Symb,*-Symb-?")
-  (layadd _lay)
+(defun c:la-Scrn (/ _lay _msg) 
+    (setq _lay "*Scrn*"
+          _msg "Backgroud Screening"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Dims (/ _lay) 
-  (setq _lay "*-Dims,*-Dims-?")
-  (layadd _lay)
+(defun c:la-Symb (/ _lay _msg) 
+    (setq _lay "*Symb*"
+          _msg "Symbols"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Grid (/ _lay) 
-  (setq _lay "*-Grid,*-Grid-?")
-  (layadd _lay)
+(defun c:la-Dims (/ _lay _msg) 
+    (setq _lay "*Dims*"
+          _msg "Dimensions"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Mask (/ _lay) 
-  (setq _lay "*-Mask,*-Mask-?")
-  (layadd _lay)
+(defun c:la-Grid (/ _lay _msg) 
+    (setq _lay "*Grid*"
+          _msg "Grids"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-Nplt (/ _lay) 
-  (setq _lay "*-Nplt,*-Nplt-?")
-  (layadd _lay)
+(defun c:la-Mask (/ _lay _msg) 
+    (setq _lay "*Mask*"
+          _msg "Masking Objects"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-0001 (/ _lay) 
-  (setq _lay "*-0001-*")
-  (layadd _lay)
+(defun c:la-Nplt (/ _lay _msg) 
+    (setq _lay "*Nplt*"
+          _msg "Non-plottable reference lines"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-0002 (/ _lay) 
-  (setq _lay "*-0002-*")
-  (layadd _lay)
+(defun c:la-0001 (/ _lay _msg) 
+    (setq _lay "*0001*"
+          _msg "Stack Number 1"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-0003 (/ _lay) 
-  (setq _lay "*-0003-*")
-  (layadd _lay)
+(defun c:la-0002 (/ _lay _msg) 
+    (setq _lay "*0002*"
+          _msg "Stack Number 2"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0003 (/ _lay _msg) 
+    (setq _lay "*0003*"
+          _msg "Stack Number 3"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0004 (/ _lay _msg) 
+    (setq _lay "*0004*"
+          _msg "Stack Number 4"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0005 (/ _lay _msg) 
+    (setq _lay "*0005*"
+          _msg "Stack Number 5"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0006 (/ _lay _msg) 
+    (setq _lay "*0006*"
+          _msg "Stack Number 6"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0007 (/ _lay _msg) 
+    (setq _lay "*0007*"
+          _msg "Stack Number 7"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0008 (/ _lay _msg) 
+    (setq _lay "*0008*"
+          _msg "Stack Number 8"
+    )
+    (layadd _lay _msg)
+)
+(defun c:la-0009 (/ _lay _msg) 
+    (setq _lay "*0009*"
+          _msg "Stack Number 9"
+    )
+    (layadd _lay _msg)
 )
 ;#endregion
 
 
 ;#region phase
-(defun c:la-1 (/ _lay) 
-  (setq _lay "*-1")
-  (layadd _lay)
+(defun c:la-1 (/ _lay _msg) 
+    (setq _lay "*-1"
+          _msg "Phase 1"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-2 (/ _lay) 
-  (setq _lay "*-2")
-  (layadd _lay)
+(defun c:la-2 (/ _lay _msg) 
+    (setq _lay "*-2"
+          _msg "Phase 2"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-3 (/ _lay) 
-  (setq _lay "*-3")
-  (layadd _lay)
+(defun c:la-3 (/ _lay _msg) 
+    (setq _lay "*-3"
+          _msg "Phase 3"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-4 (/ _lay) 
-  (setq _lay "*-4")
-  (layadd _lay)
+(defun c:la-4 (/ _lay _msg) 
+    (setq _lay "*-4"
+          _msg "Phase 4"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-5 (/ _lay) 
-  (setq _lay "*-5")
-  (layadd _lay)
+(defun c:la-5 (/ _lay _msg) 
+    (setq _lay "*-5"
+          _msg "Phase 5"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-6 (/ _lay) 
-  (setq _lay "*-6")
-  (layadd _lay)
+(defun c:la-6 (/ _lay _msg) 
+    (setq _lay "*-6"
+          _msg "Phase 6"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-7 (/ _lay) 
-  (setq _lay "*-7")
-  (layadd _lay)
+(defun c:la-7 (/ _lay _msg) 
+    (setq _lay "*-7"
+          _msg "Phase 7"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-8 (/ _lay) 
-  (setq _lay "*-8")
-  (layadd _lay)
+(defun c:la-8 (/ _lay _msg) 
+    (setq _lay "*-8"
+          _msg "Phase 8"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-9 (/ _lay) 
-  (setq _lay "*-9")
-  (layadd _lay)
+(defun c:la-9 (/ _lay _msg) 
+    (setq _lay "*-9"
+          _msg "Phase 9"
+    )
+    (layadd _lay _msg)
 )
 ;#endregion
 
 
 ;#region status
-(defun c:la-N (/ _lay) 
-  (setq _lay "*-N")
-  (layadd _lay)
+(defun c:la-Neww (/ _lay _msg) 
+    (setq _lay "*-N"
+          _msg "New Work"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-E (/ _lay) 
-  (setq _lay "*-E")
-  (layadd _lay)
+(defun c:la-Exst (/ _lay _msg) 
+    (setq _lay "*-E"
+          _msg "Existing to remain"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-D (/ _lay) 
-  (setq _lay "*-D")
-  (layadd _lay)
+(defun c:la-Demo (/ _lay _msg) 
+    (setq _lay "*-D"
+          _msg "Existing to Demolish"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-M (/ _lay) 
-  (setq _lay "*-M")
-  (layadd _lay)
+(defun c:la-Move (/ _lay _msg) 
+    (setq _lay "*-M"
+          _msg "Item to be Moved"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-A (/ _lay) 
-  (setq _lay "*-A")
-  (layadd _lay)
+(defun c:la-Abnd (/ _lay _msg) 
+    (setq _lay "*-A"
+          _msg "Abandonned"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-R (/ _lay) 
-  (setq _lay "*-R")
-  (layadd _lay)
+(defun c:la-Rfsh (/ _lay _msg) 
+    (setq _lay "*-R"
+          _msg "Refurbished"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-T (/ _lay) 
-  (setq _lay "*-T")
-  (layadd _lay)
+(defun c:la-Temp (/ _lay _msg) 
+    (setq _lay "*-T"
+          _msg "Temporary"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-P (/ _lay) 
-  (setq _lay "*-P")
-  (layadd _lay)
+(defun c:la-Prow (/ _lay _msg) 
+    (setq _lay "*-P"
+          _msg "Proposed Work"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-F (/ _lay) 
-  (setq _lay "*-F")
-  (layadd _lay)
+(defun c:la-Futw (/ _lay _msg) 
+    (setq _lay "*-F"
+          _msg "Futur Work"
+    )
+    (layadd _lay _msg)
 )
-(defun c:la-S (/ _lay) 
-  (setq _lay "*-S")
-  (layadd _lay)
+(defun c:la-Save (/ _lay _msg) 
+    (setq _lay "*-S"
+          _msg "Existing to be Saved"
+    )
+    (layadd _lay _msg)
 )
 ;#endregion
 
 
 ;#endregion
 
-(defun layadd (_lay /) 
-  (command "-layer" "on" _lay "t" _lay "")
-  (princ)
+(defun layadd (_lay _msg /) 
+    (setvar "cmdecho" 0)
+    (command "-layer" "on" _lay "t" _lay "")
+    (prompt (strcat "Layer added: " _msg))
+    (princ)
 )

@@ -6,7 +6,7 @@
 ;                     line weight and line type
 ; 
 ; is part of the "op2cad" open source repository under GNU GPL v3 license
-; visit [https://github.com/op2-platforms/op2cad.git]
+; visit [https://github.com/op2-platforms/opop2cad.git]
 ;
 ; *******************************************************************************************************************
 ; note:     This file require datas from other project files; it isn't working as standalone.
