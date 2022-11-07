@@ -278,3 +278,37 @@
     (princ)
 )
 ;#endregion
+
+
+;#region color
+(defun c:sl-color (/ c cn ss sslen) 
+    ; c = color
+    ; hn = color name
+    ; ss = selection set
+    ; sslen = selection set length
+
+    ;get hatch pattern names
+    (setq c (entget (car (entsel "\nSelect object with assigned color: "))))
+    (setq cn (cdr (assoc 62 c)))
+
+    ;select all hatch with same pattern name
+    (setq ss (ssget "X" (list (cons 62 cn))))
+
+    ;user input for hatch filtering
+
+
+    ;get selection set length
+    (setq sslen (itoa (sslength ss)))
+
+    ;display number of hatch selected
+    (princ (strcat sslen " hatch(es) with pattern name " cn " selected"))
+
+    ;adjust gripobjlimit to always display hatch grip based on number of hatch selected
+    (if (> (atoi sslen) (getvar "gripobjlimit")) 
+        (setvar "gripobjlimit" (atoi sslen))
+    )
+    (command "_.PSELECT" ss "")
+
+    (princ)
+)
+;#endregion

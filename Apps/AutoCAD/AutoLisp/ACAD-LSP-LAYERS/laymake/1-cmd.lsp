@@ -19,322 +19,368 @@
     (setq _dd "A"
           _lp "Anno"
     )
-    (prompt "Architectural Annotations (Major \"ANNO\" Group)")
+    (prompt "\nArchitectural Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl"
     )
-    (prompt "Architectural Detail Views")
+    (prompt "\nArchitectural Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0001 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0001"
     )
-    (prompt "Architectural Detail Views (Stack Number 1)")
+    (prompt "\nArchitectural Detail Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0002 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0002"
     )
-    (prompt "Architectural Detail Views (Stack Number 2)")
+    (prompt "\nArchitectural Detail Views (Stack Number 2)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0003 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0003"
     )
-    (prompt "Architectural Detail Views (Stack Number 3)")
+    (prompt "\nArchitectural Detail Views (Stack Number 3)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0004 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0004"
     )
-    (prompt "Architectural Detail Views (Stack Number 4)")
+    (prompt "\nArchitectural Detail Views (Stack Number 4)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0005 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0005"
     )
-    (prompt "Architectural Detail Views (Stack Number 5)")
+    (prompt "\nArchitectural Detail Views (Stack Number 5)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0006 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0006"
     )
-    (prompt "Architectural Detail Views (Stack Number 6)")
+    (prompt "\nArchitectural Detail Views (Stack Number 6)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0007 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0007"
     )
-    (prompt "Architectural Detail Views (Stack Number 7)")
+    (prompt "\nArchitectural Detail Views (Stack Number 7)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0008 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0008"
     )
-    (prompt "Architectural Detail Views (Stack Number 8)")
+    (prompt "\nArchitectural Detail Views (Stack Number 8)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-0009 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-0009"
     )
-    (prompt "Architectural Detail Views (Stack Number 9)")
+    (prompt "\nArchitectural Detail Views (Stack Number 9)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-Roof (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-Roof"
     )
-    (prompt "Architectural Detail Views (Roofing)")
+    (prompt "\nArchitectural Detail Views (Roofing)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-Strc (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-Strc"
     )
-    (prompt "Architectural Detail Views (Structural)")
+    (prompt "\nArchitectural Detail Views (Structural)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-Extr (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-Extr"
     )
-    (prompt "Architectural Detail Views (Exterior)")
+    (prompt "\nArchitectural Detail Views (Exterior)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Detl-intr (/ _dd _lp) 
     (setq _dd "A"
           _lp "Detl-intr"
     )
-    (prompt "Architectural Detail Views (Interior)")
+    (prompt "\nArchitectural Detail Views (Interior)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev"
     )
-    (prompt "Architectural Elevation Views")
+    (prompt "\nArchitectural Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0001 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0001"
     )
-    (prompt "Architectural Elevation Views (Stack Number 1)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0002 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0002"
     )
-    (prompt "Architectural Elevation Views (Stack Number 2)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 2)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0003 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0003"
     )
-    (prompt "Architectural Elevation Views (Stack Number 3)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 3)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0004 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0004"
     )
-    (prompt "Architectural Elevation Views (Stack Number 4)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 4)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0005 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0005"
     )
-    (prompt "Architectural Elevation Views (Stack Number 5)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 5)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0006 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0006"
     )
-    (prompt "Architectural Elevation Views (Stack Number 6)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 6)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0007 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0007"
     )
-    (prompt "Architectural Elevation Views (Stack Number 7)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 7)")
+    (prompt "\nLayers are being created; it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0008 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0008"
     )
-    (prompt "Architectural Elevation Views (Stack Number 8)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 8)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Elev-0009 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Elev-0009"
     )
-    (prompt "Architectural Elevation Views (Stack Number 9)")
+    (prompt "\nArchitectural Elevation Views (Stack Number 9)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect"
     )
-    (prompt "Architectural Section Views")
+    (prompt "\nArchitectural Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0001 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0001"
     )
-    (prompt "Architectural Section Views (Stack Number 1)")
+    (prompt "\nArchitectural Section Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0002 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0002"
     )
-    (prompt "Architectural Section Views (Stack Number 2)")
+    (prompt "\nArchitectural Section Views (Stack Number 2)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0003 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0003"
     )
-    (prompt "Architectural Section Views (Stack Number 3)")
+    (prompt "\nArchitectural Section Views (Stack Number 3)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0004 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0004"
     )
-    (prompt "Architectural Section Views (Stack Number 4)")
+    (prompt "\nArchitectural Section Views (Stack Number 4)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0005 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0005"
     )
-    (prompt "Architectural Section Views (Stack Number 5)")
+    (prompt "\nArchitectural Section Views (Stack Number 5)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0006 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0006"
     )
-    (prompt "Architectural Section Views (Stack Number 6)")
+    (prompt "\nArchitectural Section Views (Stack Number 6)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0007 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0007"
     )
-    (prompt "Architectural Section Views (Stack Number 7)")
+    (prompt "\nArchitectural Section Views (Stack Number 7)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0008 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0008"
     )
-    (prompt "Architectural Section Views (Stack Number 8)")
+    (prompt "\nArchitectural Section Views (Stack Number 8)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-0009 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-0009"
     )
-    (prompt "Architectural Section Views (Stack Number 9)")
+    (prompt "\nArchitectural Section Views (Stack Number 9)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Sect-type (/ _dd _lp) 
     (setq _dd "A"
           _lp "Sect-type"
     )
-    (prompt "Architectural Section Views w Preset Types")
+    (prompt "\nArchitectural Section Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan"
     )
-    (prompt "Architectural Plan Views")
+    (prompt "\nArchitectural Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0001 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0001"
     )
-    (prompt "Architectural Plan Views (Stack Number 1)")
+    (prompt "\nArchitectural Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0002 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0002"
     )
-    (prompt "Architectural Plan Views (Stack Number 2)")
+    (prompt "\nArchitectural Plan Views (Stack Number 2)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0003 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0003"
     )
-    (prompt "Architectural Plan Views (Stack Number 3)")
+    (prompt "\nArchitectural Plan Views (Stack Number 3)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0004 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0004"
     )
-    (prompt "Architectural Plan Views (Stack Number 4)")
+    (prompt "\nArchitectural Plan Views (Stack Number 4)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0005 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0005"
     )
-    (prompt "Architectural Plan Views (Stack Number 5)")
+    (prompt "\nArchitectural Plan Views (Stack Number 5)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0006 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0006"
     )
-    (prompt "Architectural Plan Views (Stack Number 6)")
+    (prompt "\nArchitectural Plan Views (Stack Number 6)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0007 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0007"
     )
-    (prompt "Architectural Plan Views (Stack Number 7)")
+    (prompt "\nArchitectural Plan Views (Stack Number 7)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0008 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0008"
     )
-    (prompt "Architectural Plan Views (Stack Number 8)")
+    (prompt "\nArchitectural Plan Views (Stack Number 8)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-A-Plan-0009 (/ _dd _lp) 
     (setq _dd "A"
           _lp "Plan-0009"
     )
-    (prompt "Architectural Plan Views (Stack Number 9)")
+    (prompt "\nArchitectural Plan Views (Stack Number 9)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -344,56 +390,64 @@
     (setq _dd "C"
           _lp "2d"
     )
-    (prompt "Civil 2D Views")
+    (prompt "\nCivil 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Detl (/ _dd _lp) 
     (setq _dd "C"
           _lp "Detl"
     )
-    (prompt "Civil Detail Views")
+    (prompt "\nCivil Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Elev (/ _dd _lp) 
     (setq _dd "C"
           _lp "Elev"
     )
-    (prompt "Civil Elevation Views")
+    (prompt "\nCivil Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Sect (/ _dd _lp) 
     (setq _dd "C"
           _lp "Sect"
     )
-    (prompt "Civil Section Views")
+    (prompt "\nCivil Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Plan (/ _dd _lp) 
     (setq _dd "C"
           _lp "Plan"
     )
-    (prompt "Civil Plan Views")
+    (prompt "\nCivil Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Plan-stack (/ _dd _lp) 
     (setq _dd "C"
           _lp "Plan-stack"
     )
-    (prompt "Civil Plan Views (Stack Number 1)")
+    (prompt "\nCivil Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Plan-type (/ _dd _lp) 
     (setq _dd "C"
           _lp "Plan-type"
     )
-    (prompt "Civil Plan Views w Preset Types")
+    (prompt "\nCivil Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-C-Anno (/ _dd _lp) 
     (setq _dd "C"
           _lp "Anno"
     )
-    (prompt "Civil Annotations (Major \"ANNO\" Group)")
+    (prompt "\nCivil Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 
@@ -404,63 +458,72 @@
     (setq _dd "Z"
           _lp "2d"
     )
-    (prompt "Contractor 2D Views")
+    (prompt "\nContractor 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Z-Detl (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Detl"
     )
-    (prompt "Contractor Detail Views")
+    (prompt "\nContractor Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Z-Elev (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Elev"
     )
-    (prompt "Contractor Elevation Views")
+    (prompt "\nContractor Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Z-Sect (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Sect"
     )
-    (prompt "Contractor Section Views")
+    (prompt "\nContractor Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Z-Plan (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Plan"
     )
-    (prompt "Contractor Plan Views")
+    (prompt "\nContractor Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Z-Plan-stack (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Plan-stack"
     )
-    (prompt "Contractor Plan Views (Stack Number 1)")
+    (prompt "\nContractor Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Z-Plan-type (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Plan-type"
     )
-    (prompt "Contractor Plan Views w Preset Types")
+    (prompt "\nContractor Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-Z-3d (/ _dd _lp) 
 ;  (setq _dd "Z"
 ;        _lp "3d"
 ;  )
-;  (prompt "Contractor 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nContractor 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-Z-Anno (/ _dd _lp) 
     (setq _dd "Z"
           _lp "Anno"
     )
-    (prompt "Contractor Annotations (Major \"ANNO\" Group)")
+    (prompt "\nContractor Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -470,63 +533,72 @@
     (setq _dd "E"
           _lp "2d"
     )
-    (prompt "Electrical 2D Views")
+    (prompt "\nElectrical 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-E-Detl (/ _dd _lp) 
     (setq _dd "E"
           _lp "Detl"
     )
-    (prompt "Electrical Detail Views")
+    (prompt "\nElectrical Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-E-Elev (/ _dd _lp) 
     (setq _dd "E"
           _lp "Elev"
     )
-    (prompt "Electrical Elevation Views")
+    (prompt "\nElectrical Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-E-Sect (/ _dd _lp) 
     (setq _dd "E"
           _lp "Sect"
     )
-    (prompt "Electrical Section Views")
+    (prompt "\nElectrical Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-E-Plan (/ _dd _lp) 
     (setq _dd "E"
           _lp "Plan"
     )
-    (prompt "Electrical Plan Views")
+    (prompt "\nElectrical Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-E-Plan-stack (/ _dd _lp) 
     (setq _dd "E"
           _lp "Plan-stack"
     )
-    (prompt "Electrical Plan Views (Stack Number 1)")
+    (prompt "\nElectrical Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-E-Plan-type (/ _dd _lp) 
     (setq _dd "E"
           _lp "Plan-type"
     )
-    (prompt "Electrical Plan Views w Preset Types")
+    (prompt "\nElectrical Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-E-3d (/ _dd _lp) 
 ;  (setq _dd "E"
 ;        _lp "3d"
 ;  )
-;  (prompt "Electrical 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nElectrical 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-E-Anno (/ _dd _lp) 
     (setq _dd "E"
           _lp "Anno"
     )
-    (prompt "Electrical Annotations (Major \"ANNO\" Group)")
+    (prompt "\nElectrical Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -536,63 +608,72 @@
     (setq _dd "W"
           _lp "2d"
     )
-    (prompt "Energy 2D Views")
+    (prompt "\nEnergy 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-W-Detl (/ _dd _lp) 
     (setq _dd "W"
           _lp "Detl"
     )
-    (prompt "Energy Detail Views")
+    (prompt "\nEnergy Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-W-Elev (/ _dd _lp) 
     (setq _dd "W"
           _lp "Elev"
     )
-    (prompt "Energy Elevation Views")
+    (prompt "\nEnergy Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-W-Sect (/ _dd _lp) 
     (setq _dd "W"
           _lp "Sect"
     )
-    (prompt "Energy Section Views")
+    (prompt "\nEnergy Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-W-Plan (/ _dd _lp) 
     (setq _dd "W"
           _lp "Plan"
     )
-    (prompt "Energy Plan Views")
+    (prompt "\nEnergy Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-W-Plan-stack (/ _dd _lp) 
     (setq _dd "W"
           _lp "Plan-stack"
     )
-    (prompt "Energy Plan Views (Stack Number 1)")
+    (prompt "\nEnergy Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-W-Plan-type (/ _dd _lp) 
     (setq _dd "W"
           _lp "Plan-type"
     )
-    (prompt "Energy Plan Views w Preset Types")
+    (prompt "\nEnergy Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-W-3d (/ _dd _lp) 
 ;  (setq _dd "W"
 ;        _lp "3d"
 ;  )
-;  (prompt "Energy 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nEnergy 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-W-Anno (/ _dd _lp) 
     (setq _dd "W"
           _lp "Anno"
     )
-    (prompt "Energy Annotations (Major \"ANNO\" Group)")
+    (prompt "\nEnergy Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -602,63 +683,72 @@
     (setq _dd "Q"
           _lp "2d"
     )
-    (prompt "Equipment 2D Views")
+    (prompt "\nEquipment 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Q-Detl (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Detl"
     )
-    (prompt "Equipment Detail Views")
+    (prompt "\nEquipment Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Q-Elev (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Elev"
     )
-    (prompt "Equipment Elevation Views")
+    (prompt "\nEquipment Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Q-Sect (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Sect"
     )
-    (prompt "Equipment Section Views")
+    (prompt "\nEquipment Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Q-Plan (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Plan"
     )
-    (prompt "Equipment Plan Views")
+    (prompt "\nEquipment Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Q-Plan-stack (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Plan-stack"
     )
-    (prompt "Equipment Plan Views (Stack Number 1)")
+    (prompt "\nEquipment Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-Q-Plan-type (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Plan-type"
     )
-    (prompt "Equipment Plan Views w Preset Types")
+    (prompt "\nEquipment Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-Q-3d (/ _dd _lp) 
 ;  (setq _dd "Q"
 ;        _lp "3d"
 ;  )
-;  (prompt "Equipment 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nEquipment 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-Q-Anno (/ _dd _lp) 
     (setq _dd "Q"
           _lp "Anno"
     )
-    (prompt "Equipment Annotations (Major \"ANNO\" Group)")
+    (prompt "\nEquipment Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -668,63 +758,72 @@
     (setq _dd "F"
           _lp "2d"
     )
-    (prompt "Fire Protection 2D Views")
+    (prompt "\nFire Protection 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-F-Detl (/ _dd _lp) 
     (setq _dd "F"
           _lp "Detl"
     )
-    (prompt "Fire Protection Detail Views")
+    (prompt "\nFire Protection Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-F-Elev (/ _dd _lp) 
     (setq _dd "F"
           _lp "Elev"
     )
-    (prompt "Fire Protection Elevation Views")
+    (prompt "\nFire Protection Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-F-Sect (/ _dd _lp) 
     (setq _dd "F"
           _lp "Sect"
     )
-    (prompt "Fire Protection Section Views")
+    (prompt "\nFire Protection Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-F-Plan (/ _dd _lp) 
     (setq _dd "F"
           _lp "Plan"
     )
-    (prompt "Fire Protection Plan Views")
+    (prompt "\nFire Protection Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-F-Plan-stack (/ _dd _lp) 
     (setq _dd "F"
           _lp "Plan-stack"
     )
-    (prompt "Fire Protection Plan Views (Stack Number 1)")
+    (prompt "\nFire Protection Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-F-Plan-type (/ _dd _lp) 
     (setq _dd "F"
           _lp "Plan-type"
     )
-    (prompt "Fire Protection Plan Views w Preset Types")
+    (prompt "\nFire Protection Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-F-3d (/ _dd _lp) 
 ;  (setq _dd "F"
 ;        _lp "3d"
 ;  )
-;  (prompt "Fire Protection 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nFire Protection 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-F-Anno (/ _dd _lp) 
     (setq _dd "F"
           _lp "Anno"
     )
-    (prompt "Fire Protection Annotations (Major \"ANNO\" Group)")
+    (prompt "\nFire Protection Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -734,63 +833,72 @@
     (setq _dd "G"
           _lp "2d"
     )
-    (prompt "General 2D Views")
+    (prompt "\nGeneral 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-G-Detl (/ _dd _lp) 
     (setq _dd "G"
           _lp "Detl"
     )
-    (prompt "General Detail Views")
+    (prompt "\nGeneral Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-G-Elev (/ _dd _lp) 
     (setq _dd "G"
           _lp "Elev"
     )
-    (prompt "General Elevation Views")
+    (prompt "\nGeneral Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-G-Sect (/ _dd _lp) 
     (setq _dd "G"
           _lp "Sect"
     )
-    (prompt "General Section Views")
+    (prompt "\nGeneral Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-G-Plan (/ _dd _lp) 
     (setq _dd "G"
           _lp "Plan"
     )
-    (prompt "General Plan Views")
+    (prompt "\nGeneral Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-G-Plan-stack (/ _dd _lp) 
     (setq _dd "G"
           _lp "Plan-stack"
     )
-    (prompt "General Plan Views (Stack Number 1)")
+    (prompt "\nGeneral Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-G-Plan-type (/ _dd _lp) 
     (setq _dd "G"
           _lp "Plan-type"
     )
-    (prompt "General Plan Views w Preset Types")
+    (prompt "\nGeneral Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-G-3d (/ _dd _lp) 
 ;  (setq _dd "G"
 ;        _lp "3d"
 ;  )
-;  (prompt "General 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nGeneral 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-G-Anno (/ _dd _lp) 
     (setq _dd "G"
           _lp "Anno"
     )
-    (prompt "General Annotations (Major \"ANNO\" Group)")
+    (prompt "\nGeneral Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -800,63 +908,72 @@
     (setq _dd "B"
           _lp "2d"
     )
-    (prompt "Geotechnical 2D Views")
+    (prompt "\nGeotechnical 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-B-Detl (/ _dd _lp) 
     (setq _dd "B"
           _lp "Detl"
     )
-    (prompt "Geotechnical Detail Views")
+    (prompt "\nGeotechnical Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-B-Elev (/ _dd _lp) 
     (setq _dd "B"
           _lp "Elev"
     )
-    (prompt "Geotechnical Elevation Views")
+    (prompt "\nGeotechnical Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-B-Sect (/ _dd _lp) 
     (setq _dd "B"
           _lp "Sect"
     )
-    (prompt "Geotechnical Section Views")
+    (prompt "\nGeotechnical Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-B-Plan (/ _dd _lp) 
     (setq _dd "B"
           _lp "Plan"
     )
-    (prompt "Geotechnical Plan Views")
+    (prompt "\nGeotechnical Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-B-Plan-stack (/ _dd _lp) 
     (setq _dd "B"
           _lp "Plan-stack"
     )
-    (prompt "Geotechnical Plan Views (Stack Number 1)")
+    (prompt "\nGeotechnical Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-B-Plan-type (/ _dd _lp) 
     (setq _dd "B"
           _lp "Plan-type"
     )
-    (prompt "Geotechnical Plan Views w Preset Types")
+    (prompt "\nGeotechnical Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-B-3d (/ _dd _lp) 
 ;  (setq _dd "B"
 ;        _lp "3d"
 ;  )
-;  (prompt "Geotechnical 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nGeotechnical 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-B-Anno (/ _dd _lp) 
     (setq _dd "B"
           _lp "Anno"
     )
-    (prompt "Geotechnical Annotations (Major \"ANNO\" Group)")
+    (prompt "\nGeotechnical Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -866,63 +983,72 @@
     (setq _dd "H"
           _lp "2d"
     )
-    (prompt "Hazardeous 2D Views")
+    (prompt "\nHazardeous 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-H-Detl (/ _dd _lp) 
     (setq _dd "H"
           _lp "Detl"
     )
-    (prompt "Hazardeous Detail Views")
+    (prompt "\nHazardeous Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-H-Elev (/ _dd _lp) 
     (setq _dd "H"
           _lp "Elev"
     )
-    (prompt "Hazardeous Elevation Views")
+    (prompt "\nHazardeous Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-H-Sect (/ _dd _lp) 
     (setq _dd "H"
           _lp "Sect"
     )
-    (prompt "Hazardeous Section Views")
+    (prompt "\nHazardeous Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-H-Plan (/ _dd _lp) 
     (setq _dd "H"
           _lp "Plan"
     )
-    (prompt "Hazardeous Plan Views")
+    (prompt "\nHazardeous Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-H-Plan-stack (/ _dd _lp) 
     (setq _dd "H"
           _lp "Plan-stack"
     )
-    (prompt "Hazardeous Plan Views (Stack Number 1)")
+    (prompt "\nHazardeous Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-H-Plan-type (/ _dd _lp) 
     (setq _dd "H"
           _lp "Plan-type"
     )
-    (prompt "Hazardeous Plan Views w Preset Types")
+    (prompt "\nHazardeous Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-H-3d (/ _dd _lp) 
 ;  (setq _dd "H"
 ;        _lp "3d"
 ;  )
-;  (prompt "Hazardeous 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nHazardeous 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-H-Anno (/ _dd _lp) 
     (setq _dd "H"
           _lp "Anno"
     )
-    (prompt "Hazardeous Annotations (Major \"ANNO\" Group)")
+    (prompt "\nHazardeous Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -932,63 +1058,72 @@
     (setq _dd "I"
           _lp "2d"
     )
-    (prompt "Interior 2D Views")
+    (prompt "\nInterior 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-I-Detl (/ _dd _lp) 
     (setq _dd "I"
           _lp "Detl"
     )
-    (prompt "Interior Detail Views")
+    (prompt "\nInterior Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-I-Elev (/ _dd _lp) 
     (setq _dd "I"
           _lp "Elev"
     )
-    (prompt "Interior Elevation Views")
+    (prompt "\nInterior Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-I-Sect (/ _dd _lp) 
     (setq _dd "I"
           _lp "Sect"
     )
-    (prompt "Interior Section Views")
+    (prompt "\nInterior Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-I-Plan (/ _dd _lp) 
     (setq _dd "I"
           _lp "Plan"
     )
-    (prompt "Interior Plan Views")
+    (prompt "\nInterior Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-I-Plan-stack (/ _dd _lp) 
     (setq _dd "I"
           _lp "Plan-stack"
     )
-    (prompt "Interior Plan Views (Stack Number 1)")
+    (prompt "\nInterior Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-I-Plan-type (/ _dd _lp) 
     (setq _dd "I"
           _lp "Plan-type"
     )
-    (prompt "Interior Plan Views w Preset Types")
+    (prompt "\nInterior Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-I-3d (/ _dd _lp) 
 ;  (setq _dd "I"
 ;        _lp "3d"
 ;  )
-;  (prompt "Interior 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nInterior 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-I-Anno (/ _dd _lp) 
     (setq _dd "I"
           _lp "Anno"
     )
-    (prompt "Interior Annotations (Major \"ANNO\" Group)")
+    (prompt "\nInterior Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -998,63 +1133,72 @@
     (setq _dd "L"
           _lp "2d"
     )
-    (prompt "Landscape 2D Views")
+    (prompt "\nLandscape 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-L-Detl (/ _dd _lp) 
     (setq _dd "L"
           _lp "Detl"
     )
-    (prompt "Landscape Detail Views")
+    (prompt "\nLandscape Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-L-Elev (/ _dd _lp) 
     (setq _dd "L"
           _lp "Elev"
     )
-    (prompt "Landscape Elevation Views")
+    (prompt "\nLandscape Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-L-Sect (/ _dd _lp) 
     (setq _dd "L"
           _lp "Sect"
     )
-    (prompt "Landscape Section Views")
+    (prompt "\nLandscape Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-L-Plan (/ _dd _lp) 
     (setq _dd "L"
           _lp "Plan"
     )
-    (prompt "Landscape Plan Views")
+    (prompt "\nLandscape Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-L-Plan-stack (/ _dd _lp) 
     (setq _dd "L"
           _lp "Plan-stack"
     )
-    (prompt "Landscape Plan Views (Stack Number 1)")
+    (prompt "\nLandscape Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-L-Plan-type (/ _dd _lp) 
     (setq _dd "L"
           _lp "Plan-type"
     )
-    (prompt "Landscape Plan Views w Preset Types")
+    (prompt "\nLandscape Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-L-3d (/ _dd _lp) 
 ;  (setq _dd "L"
 ;        _lp "3d"
 ;  )
-;  (prompt "Landscape 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nLandscape 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-L-Anno (/ _dd _lp) 
     (setq _dd "L"
           _lp "Anno"
     )
-    (prompt "Landscape Annotations (Major \"ANNO\" Group)")
+    (prompt "\nLandscape Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1064,63 +1208,72 @@
     (setq _dd "M"
           _lp "2d"
     )
-    (prompt "Mechanical 2D Views")
+    (prompt "\nMechanical 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-M-Detl (/ _dd _lp) 
     (setq _dd "M"
           _lp "Detl"
     )
-    (prompt "Mechanical Detail Views")
+    (prompt "\nMechanical Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-M-Elev (/ _dd _lp) 
     (setq _dd "M"
           _lp "Elev"
     )
-    (prompt "Mechanical Elevation Views")
+    (prompt "\nMechanical Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-M-Sect (/ _dd _lp) 
     (setq _dd "M"
           _lp "Sect"
     )
-    (prompt "Mechanical Section Views")
+    (prompt "\nMechanical Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-M-Plan (/ _dd _lp) 
     (setq _dd "M"
           _lp "Plan"
     )
-    (prompt "Mechanical Plan Views")
+    (prompt "\nMechanical Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-M-Plan-stack (/ _dd _lp) 
     (setq _dd "M"
           _lp "Plan-stack"
     )
-    (prompt "Mechanical Plan Views (Stack Number 1)")
+    (prompt "\nMechanical Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-M-Plan-type (/ _dd _lp) 
     (setq _dd "M"
           _lp "Plan-type"
     )
-    (prompt "Mechanical Plan Views w Preset Types")
+    (prompt "\nMechanical Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-M-3d (/ _dd _lp) 
 ;  (setq _dd "M"
 ;        _lp "3d"
 ;  )
-;  (prompt "Mechanical 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nMechanical 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-M-Anno (/ _dd _lp) 
     (setq _dd "M"
           _lp "Anno"
     )
-    (prompt "Mechanical Annotations (Major \"ANNO\" Group)")
+    (prompt "\nMechanical Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1130,63 +1283,72 @@
     (setq _dd "O"
           _lp "2d"
     )
-    (prompt "Operation 2D Views")
+    (prompt "\nOperation 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-O-Detl (/ _dd _lp) 
     (setq _dd "O"
           _lp "Detl"
     )
-    (prompt "Operation Detail Views")
+    (prompt "\nOperation Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-O-Elev (/ _dd _lp) 
     (setq _dd "O"
           _lp "Elev"
     )
-    (prompt "Operation Elevation Views")
+    (prompt "\nOperation Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-O-Sect (/ _dd _lp) 
     (setq _dd "O"
           _lp "Sect"
     )
-    (prompt "Operation Section Views")
+    (prompt "\nOperation Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-O-Plan (/ _dd _lp) 
     (setq _dd "O"
           _lp "Plan"
     )
-    (prompt "Operation Plan Views")
+    (prompt "\nOperation Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-O-Plan-stack (/ _dd _lp) 
     (setq _dd "O"
           _lp "Plan-stack"
     )
-    (prompt "Operation Plan Views (Stack Number 1)")
+    (prompt "\nOperation Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-O-Plan-type (/ _dd _lp) 
     (setq _dd "O"
           _lp "Plan-type"
     )
-    (prompt "Operation Plan Views w Preset Types")
+    (prompt "\nOperation Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-O-3d (/ _dd _lp) 
 ;  (setq _dd "O"
 ;        _lp "3d"
 ;  )
-;  (prompt "Operation 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nOperation 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-O-Anno (/ _dd _lp) 
     (setq _dd "O"
           _lp "Anno"
     )
-    (prompt "Operation Annotations (Major \"ANNO\" Group)")
+    (prompt "\nOperation Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1196,63 +1358,72 @@
     (setq _dd "X"
           _lp "2d"
     )
-    (prompt "Other 2D Views")
+    (prompt "\nOther 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-X-Detl (/ _dd _lp) 
     (setq _dd "X"
           _lp "Detl"
     )
-    (prompt "Other Detail Views")
+    (prompt "\nOther Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-X-Elev (/ _dd _lp) 
     (setq _dd "X"
           _lp "Elev"
     )
-    (prompt "Other Elevation Views")
+    (prompt "\nOther Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-X-Sect (/ _dd _lp) 
     (setq _dd "X"
           _lp "Sect"
     )
-    (prompt "Other Section Views")
+    (prompt "\nOther Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-X-Plan (/ _dd _lp) 
     (setq _dd "X"
           _lp "Plan"
     )
-    (prompt "Other Plan Views")
+    (prompt "\nOther Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-X-Plan-stack (/ _dd _lp) 
     (setq _dd "X"
           _lp "Plan-stack"
     )
-    (prompt "Other Plan Views (Stack Number 1)")
+    (prompt "\nOther Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-X-Plan-type (/ _dd _lp) 
     (setq _dd "X"
           _lp "Plan-type"
     )
-    (prompt "Other Plan Views w Preset Types")
+    (prompt "\nOther Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-X-3d (/ _dd _lp) 
 ;  (setq _dd "X"
 ;        _lp "3d"
 ;  )
-;  (prompt "Other 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nOther 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-X-Anno (/ _dd _lp) 
     (setq _dd "X"
           _lp "Anno"
     )
-    (prompt "Other Annotations (Major \"ANNO\" Group)")
+    (prompt "\nOther Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1262,63 +1433,72 @@
     (setq _dd "P"
           _lp "2d"
     )
-    (prompt "Plumbing 2D Views")
+    (prompt "\nPlumbing 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-P-Detl (/ _dd _lp) 
     (setq _dd "P"
           _lp "Detl"
     )
-    (prompt "Plumbing Detail Views")
+    (prompt "\nPlumbing Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-P-Elev (/ _dd _lp) 
     (setq _dd "P"
           _lp "Elev"
     )
-    (prompt "Plumbing Elevation Views")
+    (prompt "\nPlumbing Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-P-Sect (/ _dd _lp) 
     (setq _dd "P"
           _lp "Sect"
     )
-    (prompt "Plumbing Section Views")
+    (prompt "\nPlumbing Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-P-Plan (/ _dd _lp) 
     (setq _dd "P"
           _lp "Plan"
     )
-    (prompt "Plumbing Plan Views")
+    (prompt "\nPlumbing Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-P-Plan-stack (/ _dd _lp) 
     (setq _dd "P"
           _lp "Plan-stack"
     )
-    (prompt "Plumbing Plan Views (Stack Number 1)")
+    (prompt "\nPlumbing Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-P-Plan-type (/ _dd _lp) 
     (setq _dd "P"
           _lp "Plan-type"
     )
-    (prompt "Plumbing Plan Views w Preset Types")
+    (prompt "\nPlumbing Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-P-3d (/ _dd _lp) 
 ;  (setq _dd "P"
 ;        _lp "3d"
 ;  )
-;  (prompt "Plumbing 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nPlumbing 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-P-Anno (/ _dd _lp) 
     (setq _dd "P"
           _lp "Anno"
     )
-    (prompt "Plumbing Annotations (Major \"ANNO\" Group)")
+    (prompt "\nPlumbing Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1328,63 +1508,72 @@
     (setq _dd "D"
           _lp "2d"
     )
-    (prompt "Process 2D Views")
+    (prompt "\nProcess 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-D-Detl (/ _dd _lp) 
     (setq _dd "D"
           _lp "Detl"
     )
-    (prompt "Process Detail Views")
+    (prompt "\nProcess Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-D-Elev (/ _dd _lp) 
     (setq _dd "D"
           _lp "Elev"
     )
-    (prompt "Process Elevation Views")
+    (prompt "\nProcess Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-D-Sect (/ _dd _lp) 
     (setq _dd "D"
           _lp "Sect"
     )
-    (prompt "Process Section Views")
+    (prompt "\nProcess Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-D-Plan (/ _dd _lp) 
     (setq _dd "D"
           _lp "Plan"
     )
-    (prompt "Process Plan Views")
+    (prompt "\nProcess Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-D-Plan-stack (/ _dd _lp) 
     (setq _dd "D"
           _lp "Plan-stack"
     )
-    (prompt "Process Plan Views (Stack Number 1)")
+    (prompt "\nProcess Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-D-Plan-type (/ _dd _lp) 
     (setq _dd "D"
           _lp "Plan-type"
     )
-    (prompt "Process Plan Views w Preset Types")
+    (prompt "\nProcess Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-D-3d (/ _dd _lp) 
 ;  (setq _dd "D"
 ;        _lp "3d"
 ;  )
-;  (prompt "Process 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nProcess 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-D-Anno (/ _dd _lp) 
     (setq _dd "D"
           _lp "Anno"
     )
-    (prompt "Process Annotations (Major \"ANNO\" Group)")
+    (prompt "\nProcess Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1394,63 +1583,72 @@
     (setq _dd "R"
           _lp "2d"
     )
-    (prompt "Resource 2D Views")
+    (prompt "\nResource 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-R-Detl (/ _dd _lp) 
     (setq _dd "R"
           _lp "Detl"
     )
-    (prompt "Resource Detail Views")
+    (prompt "\nResource Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-R-Elev (/ _dd _lp) 
     (setq _dd "R"
           _lp "Elev"
     )
-    (prompt "Resource Elevation Views")
+    (prompt "\nResource Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-R-Sect (/ _dd _lp) 
     (setq _dd "R"
           _lp "Sect"
     )
-    (prompt "Resource Section Views")
+    (prompt "\nResource Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-R-Plan (/ _dd _lp) 
     (setq _dd "R"
           _lp "Plan"
     )
-    (prompt "Resource Plan Views")
+    (prompt "\nResource Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-R-Plan-stack (/ _dd _lp) 
     (setq _dd "R"
           _lp "Plan-stack"
     )
-    (prompt "Resource Plan Views (Stack Number 1)")
+    (prompt "\nResource Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-R-Plan-type (/ _dd _lp) 
     (setq _dd "R"
           _lp "Plan-type"
     )
-    (prompt "Resource Plan Views w Preset Types")
+    (prompt "\nResource Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-R-3d (/ _dd _lp) 
 ;  (setq _dd "R"
 ;        _lp "3d"
 ;  )
-;  (prompt "Resource 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nResource 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-R-Anno (/ _dd _lp) 
     (setq _dd "R"
           _lp "Anno"
     )
-    (prompt "Resource Annotations (Major \"ANNO\" Group)")
+    (prompt "\nResource Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1460,63 +1658,72 @@
     (setq _dd "S"
           _lp "2d"
     )
-    (prompt "Structural 2D Views")
+    (prompt "\nStructural 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-S-Detl (/ _dd _lp) 
     (setq _dd "S"
           _lp "Detl"
     )
-    (prompt "Structural Detail Views")
+    (prompt "\nStructural Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-S-Elev (/ _dd _lp) 
     (setq _dd "S"
           _lp "Elev"
     )
-    (prompt "Structural Elevation Views")
+    (prompt "\nStructural Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-S-Sect (/ _dd _lp) 
     (setq _dd "S"
           _lp "Sect"
     )
-    (prompt "Structural Section Views")
+    (prompt "\nStructural Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-S-Plan (/ _dd _lp) 
     (setq _dd "S"
           _lp "Plan"
     )
-    (prompt "Structural Plan Views")
+    (prompt "\nStructural Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-S-Plan-stack (/ _dd _lp) 
     (setq _dd "S"
           _lp "Plan-stack"
     )
-    (prompt "Structural Plan Views (Stack Number 1)")
+    (prompt "\nStructural Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-S-Plan-type (/ _dd _lp) 
     (setq _dd "S"
           _lp "Plan-type"
     )
-    (prompt "Structural Plan Views w Preset Types")
+    (prompt "\nStructural Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-S-3d (/ _dd _lp) 
 ;  (setq _dd "S"
 ;        _lp "3d"
 ;  )
-;  (prompt "Structural 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nStructural 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-S-Anno (/ _dd _lp) 
     (setq _dd "S"
           _lp "Anno"
     )
-    (prompt "Structural Annotations (Major \"ANNO\" Group)")
+    (prompt "\nStructural Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1526,63 +1733,72 @@
     (setq _dd "V"
           _lp "2d"
     )
-    (prompt "Survey 2D Views")
+    (prompt "\nSurvey 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-V-Detl (/ _dd _lp) 
     (setq _dd "V"
           _lp "Detl"
     )
-    (prompt "Survey Detail Views")
+    (prompt "\nSurvey Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-V-Elev (/ _dd _lp) 
     (setq _dd "V"
           _lp "Elev"
     )
-    (prompt "Survey Elevation Views")
+    (prompt "\nSurvey Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-V-Sect (/ _dd _lp) 
     (setq _dd "V"
           _lp "Sect"
     )
-    (prompt "Survey Section Views")
+    (prompt "\nSurvey Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-V-Plan (/ _dd _lp) 
     (setq _dd "V"
           _lp "Plan"
     )
-    (prompt "Survey Plan Views")
+    (prompt "\nSurvey Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-V-Plan-stack (/ _dd _lp) 
     (setq _dd "V"
           _lp "Plan-stack"
     )
-    (prompt "Survey Plan Views (Stack Number 1)")
+    (prompt "\nSurvey Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-V-Plan-type (/ _dd _lp) 
     (setq _dd "V"
           _lp "Plan-type"
     )
-    (prompt "Survey Plan Views w Preset Types")
+    (prompt "\nSurvey Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-V-3d (/ _dd _lp) 
 ;  (setq _dd "V"
 ;        _lp "3d"
 ;  )
-;  (prompt "Survey 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nSurvey 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-V-Anno (/ _dd _lp) 
     (setq _dd "V"
           _lp "Anno"
     )
-    (prompt "Survey Annotations (Major \"ANNO\" Group)")
+    (prompt "\nSurvey Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
@@ -1592,63 +1808,72 @@
     (setq _dd "T"
           _lp "2d"
     )
-    (prompt "Telecom 2D Views")
+    (prompt "\nTelecom 2D Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-T-Detl (/ _dd _lp) 
     (setq _dd "T"
           _lp "Detl"
     )
-    (prompt "Telecom Detail Views")
+    (prompt "\nTelecom Detail Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-T-Elev (/ _dd _lp) 
     (setq _dd "T"
           _lp "Elev"
     )
-    (prompt "Telecom Elevation Views")
+    (prompt "\nTelecom Elevation Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-T-Sect (/ _dd _lp) 
     (setq _dd "T"
           _lp "Sect"
     )
-    (prompt "Telecom Section Views")
+    (prompt "\nTelecom Section Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-T-Plan (/ _dd _lp) 
     (setq _dd "T"
           _lp "Plan"
     )
-    (prompt "Telecom Plan Views")
+    (prompt "\nTelecom Plan Views")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-T-Plan-stack (/ _dd _lp) 
     (setq _dd "T"
           _lp "Plan-stack"
     )
-    (prompt "Telecom Plan Views (Stack Number 1)")
+    (prompt "\nTelecom Plan Views (Stack Number 1)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 (defun c:LM-T-Plan-type (/ _dd _lp) 
     (setq _dd "T"
           _lp "Plan-type"
     )
-    (prompt "Telecom Plan Views w Preset Types")
+    (prompt "\nTelecom Plan Views w Preset Types")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;(defun c:LM-T-3d (/ _dd _lp) 
 ;  (setq _dd "T"
 ;        _lp "3d"
 ;  )
-;  (prompt "Telecom 3D Components")
-;  (iniget _dd _lp)
+;  (prompt "\nTelecom 3D Components")
+(prompt "\n...Layers are being created, it may take few minutes to complete");  
+(iniget _dd _lp)
 ;)
 (defun c:LM-T-Anno (/ _dd _lp) 
     (setq _dd "T"
           _lp "Anno"
     )
-    (prompt "Telecom Annotations (Major \"ANNO\" Group)")
+    (prompt "\nTelecom Annotations (Major \"ANNO\" Group)")
+    (prompt "\n...Layers are being created, it may take few minutes to complete")
     (iniget _dd _lp)
 )
 ;#endregion
