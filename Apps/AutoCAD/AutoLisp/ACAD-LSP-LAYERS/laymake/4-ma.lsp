@@ -206,7 +206,7 @@
           _maw "0.50"
           _mat "Continuous"
     )
-    ;drawing:
+    ;line:
     (m1-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Thin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -216,13 +216,14 @@
     (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Patt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;Annotation:
     (m1-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Genf _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Titl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Iden _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Refr _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Text _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Dims _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -230,6 +231,7 @@
     (m1-Symb _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Revc _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Elev-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
@@ -330,7 +332,7 @@
           _maw "0.50"
           _mat "Continuous"
     )
-    ;drawing:
+    ;line:
     (m1-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Thin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -340,13 +342,14 @@
     (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Patt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;Annotation:
     (m1-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Genf _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Titl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Iden _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Refr _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Text _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Dims _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -354,6 +357,7 @@
     (m1-Symb _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Revc _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Sect-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
@@ -454,7 +458,7 @@
           _maw "0.50"
           _mat "Continuous"
     )
-    ;drawing:
+    ;line:
     (m1-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Thin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -464,13 +468,14 @@
     (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Patt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;Annotation:
     (m1-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Genf _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Titl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Iden _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Refr _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Text _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Dims _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -478,6 +483,7 @@
     (m1-Symb _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Revc _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Detl-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
@@ -798,7 +804,7 @@
           _maw "0.18"
           _mat "Continuous"
     )
-    ;drawing:
+    ;line:
     (m1-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Thin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -808,13 +814,14 @@
     (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Patt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;Annotation:
     (m1-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Genf _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Titl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Iden _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Refr _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Text _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Dims _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -822,6 +829,7 @@
     (m1-Symb _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Revc _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Plan-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
