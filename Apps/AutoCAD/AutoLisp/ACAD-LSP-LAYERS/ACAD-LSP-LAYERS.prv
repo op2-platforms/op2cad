@@ -1,4 +1,4 @@
-;;; Visual LISP make file [V1.0] ACAD-LSP-LAYERS saved to:[C:/GitHub/op2cad/Apps/AutoCAD/AutoLisp/ACAD-LSP-LAYERS] at:[9/13/22] 
+;;; Visual LISP make file [V1.0] ACAD-LSP-LAYERS saved to:[C:/Users/SMartineau/OneDrive/Documents/GitHub/op2cad/Apps/AutoCAD/AutoLisp/ACAD-LSP-LAYERS] at:[11/7/22] 
 (PRV-DEF (:target . "ACAD-LSP-LAYERS.VLX")
 	 (:active-x . T)
 	 (:separate-namespace)
@@ -6,7 +6,6 @@
 	 (:load-file-list
 	   (:prj "laytransf/laytransf.prj")
 	   (:prj "laylist/laylist.prj")
-	   (:prj "layinsert/layinsert.prj")
 	   (:prj "layfilter/layfilter.prj")
 	   (:prj "laymake/laymake.prj")
 	   (:prj "laystate/laystate.prj")
