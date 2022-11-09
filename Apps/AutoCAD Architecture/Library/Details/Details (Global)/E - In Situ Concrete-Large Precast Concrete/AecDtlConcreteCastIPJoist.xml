@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="doHatch">
+			<Label>Hatch joist</Label>
+			<Description>Specify whether to hatch the joist. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doReinforcing">
+			<Label>Show reinforcing</Label>
+			<Description>Specify whether to draw reinforcing for the joist. </Description>
+			<Default>1</Default>
+		</CheckBox>
+		<CheckBox idStr="doHidden">
+			<Label>Hidden lines</Label>
+			<Default>1</Default>
+		</CheckBox>
+		<EditBoxInteger idStr="numOfRibs">
+			<Label>Number of ribs to show</Label>
+			<Default>2</Default>
+			<Validation>NoNeg</Validation>
+		</EditBoxInteger>
+	</ControlDefs>
+    
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteCastInPlaceJoistSection" />
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="numOfRibs" />
+			<ControlRef idRef="doHatch" />
+			<ControlRef idRef="doReinforcing" />
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+				<Params>
+					<RibTaper>1.0</RibTaper >
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadHatchProps>
+					<HatchAlias>concrete</HatchAlias>
+				</AcadHatchProps>
+				<AcadEntityProps>
+					<Layer ref="layerKey">HATCH</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="rebar" keys="rebar" subRecipe="subSectionBeam">
+				<Label>Rebar - Longitudinal</Label>
+				<Description>Longitudinal rebar for the joist. </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+			<SubComponent idStr="rebarSizeLoop" keys="rebar" subRecipe="subRebarSizeLoop">
+				<Label>Rebar - Shear</Label>
+				<Description>Shear rebar for the joist. </Description>
+				<ParentControl idRef="doReinforcing">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+    
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteCastInPlaceJoistPlan" />
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doHidden" />
+			<ControlRef idRef="numOfRibs" />
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+				<Params>
+					<RibTaper>1.0</RibTaper >
+				</Params>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+    
+	<Recipe idStr="elev">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlConcreteCastInPlaceJoistElevation" />
+		</Implementation>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="infill">
+				<AcadEntityProps>
+					<Layer ref="layerKey">MED</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+    
+</AecRecipeSpec>

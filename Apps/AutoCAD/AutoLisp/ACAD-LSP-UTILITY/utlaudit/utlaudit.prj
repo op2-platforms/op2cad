@@ -1,9 +1,9 @@
-;;; VLisp project file [V2.0] utlaudit saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\LSP-UTILITY\utlaudit] at:[9/12/2022]
+;;; VLisp project file [V2.0] utlaudit saved to:[Undefined Folder] at:[Undefined Date]
 (VLISP-PROJECT-LIST 
   :NAME
   utlaudit
   :OWN-LIST
-  ("count")
+  ("count" "xref")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY

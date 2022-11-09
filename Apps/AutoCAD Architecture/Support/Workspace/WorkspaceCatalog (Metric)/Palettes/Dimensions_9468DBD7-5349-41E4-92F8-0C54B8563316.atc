@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{9468DBD7-5349-41E4-92F8-0C54B8563316}" />
+    <Properties>
+        <ItemName>Dimensions</ItemName>
+        <Images option="0" />
+        <Description>This palette contains basic dimensioning tools.</Description>
+        <Time createdUniversalDateTime="2006-12-22T18:23:33" modifiedUniversalDateTime="2006-12-22T14:24:28" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{FD9D9EBE-3F48-4121-8EF1-5F43D89AC1DC}" />
+            <Properties>
+                <ItemName>AEC Dimension - Exterior</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Dimension Tool_F4E4E12B-CBAE-4CFF-946E-178708D03CAB.png" />
+                </Images>
+                <Description>Creates an Aec Dimension - 3 chains - for exterior dimensions.
+Openings are dimensioned to Centers.</Description>
+                <Time createdUniversalDateTime="2006-01-09T10:12:43" modifiedUniversalDateTime="2006-01-09T10:12:43" refreshedUniversalDateTime="2006-01-09T10:12:43" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{DE61F9FE-84C1-4D43-97D5-5BC5A769BA40}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <LayerOverride />
+                </AecDbGeo>
+                <Units>mm</Units>
+                <AecDbDimensionGroup>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\AEC Dimension Styles (Metric).dwg">Exterior - Center of Opening</Style>
+                </AecDbDimensionGroup>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{27CC2310-8E59-4EE4-A3B2-8EBB11F3A8EC}" />
+            <Properties>
+                <ItemName>AEC Dimension - Interior</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AEC Dimension Tool_307297A8-0374-4DC5-AD4C-F1183BC0CBE4.png" />
+                </Images>
+                <Description>Creates an Aec Dimension - 1 chain - for interior dimensions.</Description>
+                <Time createdUniversalDateTime="2006-01-09T10:12:43" modifiedUniversalDateTime="2006-01-09T10:12:43" refreshedUniversalDateTime="2006-01-09T10:12:43" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{DE61F9FE-84C1-4D43-97D5-5BC5A769BA40}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                    <LayerOverride />
+                </AecDbGeo>
+                <Units>mm</Units>
+                <AecDbDimensionGroup>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Metric\AEC Dimension Styles (Metric).dwg">Interior Partitions</Style>
+                </AecDbDimensionGroup>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{5489F230-D5CF-4E05-9960-EDE2F2FA07D2}" />
+            <Properties>
+                <ItemName>Angular</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\AEC Content_BFE532DB-8682-47E8-BB3D-D8B0AC537216.png" />
+                </Images>
+                <Description>Angular Dimension (w/ Layer Keying)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_ADT_UGDIMENSION</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-11-06T22:22:44" modifiedUniversalDateTime="2002-11-06T22:22:44" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <AecDbCommandObject>
+                    <LayerKey>DIMLINE</LayerKey>
+                    <CommandString>_DimAngular</CommandString>
+                </AecDbCommandObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{4DD78411-91A7-4CCA-B481-55310693CD6E}" />
+            <Properties>
+                <ItemName>Radius</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\AEC Content_BAB0A9CA-8BE2-41E6-B637-9DA7CFA2EEBD.png" />
+                </Images>
+                <Description>Radius Dimension (w/ Layer Keying)</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_ADT_UGDIMENSION</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-11-06T22:22:44" modifiedUniversalDateTime="2002-11-06T22:22:44" />
+            </Properties>
+            <CustomData />
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <AecDbCommandObject>
+                    <LayerKey>DIMLINE</LayerKey>
+                    <CommandString>_DIMRADIUS</CommandString>
+                </AecDbCommandObject>
+                <Units>mm</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569C05-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Dimension Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_DimensionTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more dimension tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>mm</Units>
+                <CommandString>^C^C_AecContentCatalog {7835F626-3DB0-416C-877D-5EC8E0F75416}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

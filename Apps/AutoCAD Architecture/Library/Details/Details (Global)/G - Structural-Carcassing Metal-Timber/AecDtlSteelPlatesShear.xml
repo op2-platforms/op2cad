@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+	
+		<EditBoxDistance idStr="holeDiameter" unitDep="true">
+			<Label>Hole diameter</Label>
+			<Default>0.75</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="gage" unitDep="true">
+			<Label>Gage</Label>
+			<Default>3.0</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="space" unitDep="true">
+			<Label>Space</Label>
+			<Default>3.0</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="edge" unitDep="true">
+			<Label>Edge</Label>
+			<Default>1.25</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxDistance idStr="height" unitDep="true">
+			<Label>Height</Label>
+			<Default>6.0</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxDistance>
+		
+		<EditBoxInteger idStr="numOfHoles">
+			<Label>Number of holes</Label>
+			<Default>5</Default>
+			<Validation>NoNegNoZero</Validation>
+		</EditBoxInteger>
+		
+		<EditBoxAngle idStr="angleOfSkew">
+			<Label>Angle of skew</Label>
+			<Default>45.0</Default>
+		</EditBoxAngle>
+		
+		<ComboBox idStr="numOfRows">
+			<Label>Number of rows</Label>
+			<ComboBoxValue idStr="single">
+				<Label>Single</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="double">
+				<Label>Double</Label>
+			</ComboBoxValue>
+		</ComboBox>
+		
+		<ComboBox idStr="orientation">
+			<Label>Orientation</Label>
+			<ComboBoxValue idStr="up">
+				<Label>Up</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="down">
+				<Label>Down</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="left">
+				<Label>Left</Label>
+			</ComboBoxValue>
+			<ComboBoxValue idStr="right">
+				<Label>Right</Label>
+			</ComboBoxValue>
+		</ComboBox>
+		
+		<CheckBox idStr="plateHidden">
+			<Label>Hidden</Label>
+			<Default>0</Default>
+		</CheckBox>
+		
+	</ControlDefs>
+	
+	<Recipe idStr="face">
+		<Label>Face</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecRcpSteelPlateShearFace"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="numOfHoles"/>
+			<ControlRef idRef="holeDiameter"/>
+			<ControlRef idRef="numOfRows"/>
+			<ControlRef idRef="gage"/>
+			<ControlRef idRef="space"/>
+			<ControlRef idRef="edge"/>
+			<ControlRef idRef="orientation"/>
+			<ControlRef idRef="height"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadLayerInfo key="THIN"/>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="top">
+		<Label>Top</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecRcpSteelPlateShearTop"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="holeDiameter"/>
+			<ControlRef idRef="numOfRows"/>
+			<ControlRef idRef="gage"/>
+			<ControlRef idRef="edge"/>
+			<ControlRef idRef="orientation"/>
+			<ControlRef idRef="height"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadLayerInfo key="THIN"/>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="edge">
+		<Label>Edge</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecRcpSteelPlateShearEdge"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="numOfHoles"/>
+			<ControlRef idRef="numOfRows"/>
+			<ControlRef idRef="holeDiameter"/>
+			<ControlRef idRef="gage"/>
+			<ControlRef idRef="space"/>
+			<ControlRef idRef="edge"/>
+			<ControlRef idRef="orientation"/>
+			<ControlRef idRef="plateHidden"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadLayerInfo key="THIN"/>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<Recipe idStr="edgeSkewed">
+		<Label>Edge Skewed</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecRcpSteelPlateShearEdgeSkew"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="angleOfSkew"/>
+			<ControlRef idRef="numOfHoles"/>
+			<ControlRef idRef="numOfRows"/>
+			<ControlRef idRef="holeDiameter"/>
+			<ControlRef idRef="gage"/>
+			<ControlRef idRef="space"/>
+			<ControlRef idRef="edge"/>
+			<ControlRef idRef="orientation"/>
+			<ControlRef idRef="height"/>
+		</Controls>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">WIDE</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+				<AcadLayerInfo key="THIN"/>
+			</Item>
+		</Data>
+	</Recipe>
+
+</AecRecipeSpec>

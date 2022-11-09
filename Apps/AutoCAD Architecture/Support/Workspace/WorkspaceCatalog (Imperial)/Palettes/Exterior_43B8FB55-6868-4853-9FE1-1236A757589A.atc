@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0">
+    <ItemID idValue="{43B8FB55-6868-4853-9FE1-1236A757589A}" />
+    <Properties>
+        <ItemName>Exterior</ItemName>
+        <Images option="0" />
+        <Description>This palette contains a sampling of exterior related detail component tools.</Description>
+        <Time createdUniversalDateTime="2005-01-09T13:52:00" modifiedUniversalDateTime="2005-01-09T13:52:00" refreshedUniversalDateTime="2005-01-09T13:52:00" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{9C1F01FA-396E-4626-B36B-9B356714DE71}" />
+            <Properties>
+                <ItemName>Standard Brick - 3/8" Jt</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_9C1F01FA-396E-4626-B36B-9B356714DE71.png" />
+                </Images>
+                <Description>Bricks</Description>
+                <Time createdUniversalDateTime="2003-12-10T20:40:29" modifiedUniversalDateTime="2003-12-10T15:41:44" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>41</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                    <ComponentId2>
+                        <Id>mortar</Id>
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>subSection</Recipe>
+                        <TableID>188</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId2>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>orientation</name>
+                        <type>2</type>
+                        <value>stretcher</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>showMortar</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Tag4>
+                        <name>orientation_illustration</name>
+                        <type>2</type>
+                        <value>default</value>
+                    </Tag4>
+                    <Count>4</Count>
+                </Recipe101>
+                <Recipe102>
+                    <Tag1>
+                        <name>leftJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>rightJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe102>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{82D29D5F-6B5F-4093-9AF8-463E5B4640B5}" />
+            <Properties>
+                <ItemName>8" x 8" x 16" CMU</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_CE3C643F-D994-4C02-9BFF-F087FFC7DBED.png" />
+                </Images>
+                <Description>2 Core CMU</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:22:42" modifiedUniversalDateTime="2007-12-20T22:22:42" refreshedUniversalDateTime="2007-12-20T22:22:42" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>6</TableID>
+                        <RowID>21</RowID>
+                    </ComponentId1>
+                    <ComponentId2>
+                        <Id>mortar</Id>
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>subSection</Recipe>
+                        <TableID>188</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId2>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>hatchBlock</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>hatchCores</name>
+                        <type>3</type>
+                        <value>0</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>showMortar</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe101>
+                <Recipe102>
+                    <Tag1>
+                        <name>leftJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>rightJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>0</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe102>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{3630FC90-B5E6-4895-A85A-CB3B43481057}" />
+            <Properties>
+                <ItemName>8" x 8" x 8" Split Face CMU</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_4DB4DD0E-626C-489D-8590-FBCEC86B7991.png" />
+                </Images>
+                <Description>Split Face CMU</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:22:42" modifiedUniversalDateTime="2007-12-20T22:22:42" refreshedUniversalDateTime="2007-12-20T22:22:42" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>243</TableID>
+                        <RowID>5</RowID>
+                    </ComponentId1>
+                    <ComponentId2>
+                        <Id>mortar</Id>
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>subSection</Recipe>
+                        <TableID>188</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId2>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>hatchBlock</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>hatchCores</name>
+                        <type>3</type>
+                        <value>0</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>showMortar</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe101>
+                <Recipe102>
+                    <Tag1>
+                        <name>leftJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>rightJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>0</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe102>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{2DA06150-B004-44E5-8705-761C2B824325}" />
+            <Properties>
+                <ItemName>8" x 8" x 16" Split Face CMU</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_2DA06150-B004-44E5-8705-761C2B824325.png" />
+                </Images>
+                <Description>Split Face CMU</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:22:42" modifiedUniversalDateTime="2007-12-20T22:22:42" refreshedUniversalDateTime="2007-12-20T22:22:42" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>243</TableID>
+                        <RowID>21</RowID>
+                    </ComponentId1>
+                    <ComponentId2>
+                        <Id>mortar</Id>
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>subSection</Recipe>
+                        <TableID>188</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId2>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>hatchBlock</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>hatchCores</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>showMortar</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe101>
+                <Recipe102>
+                    <Tag1>
+                        <name>leftJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>rightJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag3>
+                    <Count>3</Count>
+                </Recipe102>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{45FF87EF-56B1-4427-9CFD-DF87DC084C2F}" />
+            <Properties>
+                <ItemName>6" Truss Tie</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_45FF87EF-56B1-4427-9CFD-DF87DC084C2F.png" />
+                </Images>
+                <Description>Masonry Ties</Description>
+                <Time createdUniversalDateTime="2003-12-10T20:40:29" modifiedUniversalDateTime="2003-12-10T15:50:21" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>plan</Recipe>
+                        <TableID>184</TableID>
+                        <RowID>2</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{799A3FC3-6555-4846-8F8D-7D46DB4E3D57}" />
+            <Properties>
+                <ItemName>Mortar</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_E1B0407D-B4E6-42B9-B537-8FF8F64AC165.png" />
+                </Images>
+                <Description>Mortar</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:22:42" modifiedUniversalDateTime="2007-12-20T22:22:42" refreshedUniversalDateTime="2007-12-20T22:22:42" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>188</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>jointSize</name>
+                        <type>1</type>
+                        <value>0.375</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>slope</name>
+                        <type>1</type>
+                        <value>0.0</value>
+                    </Tag2>
+                    <Tag3>
+                        <name>leftJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag3>
+                    <Tag4>
+                        <name>rightJointType</name>
+                        <type>2</type>
+                        <value>rodded</value>
+                    </Tag4>
+                    <Tag5>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag5>
+                    <Count>5</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{6AD74950-C68E-470A-994C-109AABFD5065}" />
+            <Properties>
+                <ItemName>6" Granite Curb</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_6AD74950-C68E-470A-994C-109AABFD5065.png" />
+                </Images>
+                <Description>Stone Curbs</Description>
+                <Time createdUniversalDateTime="2003-12-10T20:40:29" modifiedUniversalDateTime="2003-12-10T15:52:01" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>4.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>253</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Tag2>
+                        <name>coarseOutline</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag2>
+                    <Count>2</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{B179A5E1-78AE-41CA-B204-4D41CD074F33}" />
+            <Properties>
+                <ItemName>3" Base Course</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_B179A5E1-78AE-41CA-B204-4D41CD074F33.png" />
+                </Images>
+                <Description>Base Courses</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:22:42" modifiedUniversalDateTime="2007-12-20T22:22:42" refreshedUniversalDateTime="2007-12-20T22:22:42" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>33</TableID>
+                        <RowID>1</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+        <Tool Revision="18.0.0" option="0">
+            <ItemID idValue="{A99B8D29-C9AF-498B-B525-530ACB08CA04}" />
+            <Properties>
+                <ItemName>2" Sand Setting Bed</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Detail Component_A99B8D29-C9AF-498B-B525-530ACB08CA04.png" />
+                </Images>
+                <Description>Base Courses</Description>
+                <Time createdUniversalDateTime="2007-12-20T22:22:42" modifiedUniversalDateTime="2007-12-20T22:22:42" refreshedUniversalDateTime="2007-12-20T22:22:42" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+                <Version>5.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{299962BF-85EF-4851-8921-7C4E59DC9D09}" />
+            <Data>
+                <AEC_DTLCOMP_INFO>
+                    <ComponentId1>
+                        <Id />
+                        <GUID>{F14FC23F-E0E6-4683-925F-58BF6A9F92E5}</GUID>
+                        <Recipe>section</Recipe>
+                        <TableID>33</TableID>
+                        <RowID>4</RowID>
+                    </ComponentId1>
+                </AEC_DTLCOMP_INFO>
+                <Units>inch</Units>
+                <Recipe101>
+                    <Tag1>
+                        <name>doHatch</name>
+                        <type>3</type>
+                        <value>-1</value>
+                    </Tag1>
+                    <Count>1</Count>
+                </Recipe101>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,12 +1,10 @@
 # AutoLisp Configuration
 
-All AutoLisp applications are loaded from the "acaddoc.lsp" file in the product "Support" folder.
+All AutoLisp applications in this folder are loaded from a STRATUP function in the "acaddoc.lsp" file.
 
-From the AutoCAD application, in the Options menu; add the "Support" folder to your search paths and open or create a new file to initiate the startup routine.
+**If you're not already using an acaddoc.lsp file**; open AutoCAD application, go to the "Options" menu and add this repository "Support" folder to your search paths.
 
-Notes :
-
-1. Every folder and file search paths are mapped from the acaddoc.lsp file (other acaddoc.lsp files from a local network may conflic with this one)
+**If your are already using an acaddoc.lsp file**; you may want to load them from there or integrate them to whatever loading routine you have setup.
 
 ## Applications List
 

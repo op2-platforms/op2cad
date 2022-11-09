@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] navui saved to:[Undefined Folder] at:[Undefined Date]
+(VLISP-PROJECT-LIST 
+  :NAME
+  navui
+  :OWN-LIST
+  ("uibgrd")
+  :FAS-DIRECTORY
+  nil
+  :TMP-DIRECTORY
+  nil
+  :PROJECT-KEYS
+  (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

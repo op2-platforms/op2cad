@@ -1,75 +1,59 @@
-(defun dwgpats (hname hsc-i hsc-m hang hkey lkey isan / fileprefs) 
+; *******************************************************************************************************************
+; Application       : ACA-LSP-DRAWING
+; Project           : dwgpats
+; Description       : draw polyline with associative hatch patterns
+; File usage        : back end main function
+; 
+; is part of the "op2cad" open source repository under GNU GPL v3 license
+; visit [https://github.com/op2-platforms/op2cad.git]
+;
+; *******************************************************************************************************************
+; note:     This file require datas from other project files; it isn't working as standalone.
+;           You may load it individually from the "laymake.fas" compiled project file 
+;           or as part of the "ACAD-LSP-LAYERS.VLX" application file.
+; *******************************************************************************************************************
 
-  ;associate the Support Pats MAIN Application folder, if not already linked:
+(defun dwgpats (hname hsc-i hsc-m hang hkey lkey isan / hsc) 
   (vl-load-com)
-  (setq fileprefs (vla-get-files (vla-get-preferences (vlax-get-acad-object))))
-  (setq dir_start (findfile "acaddoc.lsp"))
-  (setq dir_pats (strcat dir_start "\\Pats\\-Units-"))
-  (setq dir_pats (if (= 1 (getvar "measurement")) 
-                   (vl-string-subst "-Units-" "Metric" dir_pats)
-                   (vl-string-subst "-Units-" "Imperial" dir_pats)
-                 )
-  )
+
+  (setq hsc (if (= 1 (getvar "measurement")) hsc-m hsc-i))
 
   ;draw a polyline:
-  (princ "\nDraw a closed polyline...")
+  (princ "\nDraw closed polyline: ")
   (command "pline" (while (= 1 (getvar "cmdactive")) (command pause)))
+  (command "remaplayers" "l" "" lkey "")
 
   ;create an associated hatch:
   (if 
-    ;watch if pline is closed:
     (and (= :vlax-true (vla-get-Closed (vlax-ename->vla-object (entlast)))) 
          (= "AcDbPolyline" (vla-get-ObjectName (vlax-ename->vla-object (entlast))))
     )
-    ;true statement:
     (progn 
-      (command "undo" "begin")
-      (command "remaplayers" "l" "" lkey "") ;select last pline and remap to layer key
-      ;condition:
-      (if (= 1 isan)  ; define if hatch is annotative or not
-        ;true statement:
+      (if (/= "SOLID" hname) 
         (command "-hatch" 
+                 "s"
+                 "l"
+                 ""
                  "an"
-                 "y"
+                 (if (= 1 isan) "y" "n")
                  "p"
                  hname
-                 (if (= 1 (getvar "measurement")) hsc-m hsc-i)
+                 hsc
                  hang
                  "a"
                  "a"
                  "y"
                  ""
-                 "s"
-                 "l"
-                 ""
                  ""
         )
-        ;false statement:
-        (command "-hatch" 
-                 "an"
-                 "n"
-                 "p"
-                 hname
-                 (if (= 1 (getvar "measurement")) hsc-m hsc-i)
-                 hang
-                 "a"
-                 "a"
-                 "y"
-                 ""
-                 "s"
-                 "l"
-                 ""
-                 ""
-        )
+        (command "-hatch" "s" "l" "" "an" "n" "p" hname "a" "a" "y" "" "")
       )
-      (command "remaplayers" "l" "" hkey "") ;select last hatch and remap to layer key
+      (command "remaplayers" "l" "" hkey "")
     )
-    ;false statement:
     (progn 
       (command "erase" "l" "")
-      (princ "\nPolyline must be closed")
+      (alert "\nError in operation: \nPolyline must be closed!!!")
     )
-  ) ;if
-  (command "undo" "end")
+  )
   (princ)
 )

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0">
+    <ItemID idValue="{EF696F2C-C953-4B1E-8C96-CCC097648FFB}" />
+    <Properties>
+        <ItemName>Scheduling</ItemName>
+        <Images option="0" />
+        <Description>This palette contains schedule tools.</Description>
+        <Time createdUniversalDateTime="2002-11-06T21:45:30" modifiedUniversalDateTime="2006-12-22T14:28:05" />
+    </Properties>
+    <Source />
+    <Tools>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{7640D387-D724-4E85-A1E7-707371827A87}" />
+            <Properties>
+                <ItemName>Edit Property Set Data</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src=".\Images\Command Tool_7640D387-D724-4E85-A1E7-707371827A87.png" />
+                </Images>
+                <Description>Edit property set data in the current drawing or through external references. Add or Remove property sets.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Scheduling_BrowsingPropertyData</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2005-01-09T13:30:10" />
+            </Properties>
+            <CustomData>
+                <Version>4.7</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>_PropertyDataEditReferenced</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F12543EF-10F5-4D67-A2B2-6D56B8FA314B}" />
+            <Properties>
+                <ItemName>Browse Property Data</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecpropertydatabrowse.png" />
+                </Images>
+                <Description>Displays which properties are attached to objects. Also, you can edit or remove property sets from objects.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Scheduling_BrowsingPropertyData</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-07-28T22:37:49" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <CommandString>_AecPropertyDataBrowse</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{C6558D90-110A-4FD5-A00F-9E6EB4386A57}" />
+            <Properties>
+                <ItemName>Door Schedule</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\aecscheduletable.png" />
+                </Images>
+                <Description>Create a Door Schedule Table</Description>
+                <Time createdUniversalDateTime="2002-07-29T02:08:06" modifiedUniversalDateTime="2002-07-28T22:32:54" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Door Schedule</Style>
+                    <ScanXrefs>-1</ScanXrefs>
+                </AecDbScheduleTable>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{DF3001F5-D903-4DA5-A727-CFFCDFFD87AB}" />
+            <Properties>
+                <ItemName>Door Schedule Project Based</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\ScheduleTable_A8A96F51-3CF7-4BD3-A896-31676427EF70.png" />
+                </Images>
+                <Description>Creates a Schedule Table</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Scheduling_CreatingaScheduleTableTool</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2003-02-20T14:11:06" modifiedUniversalDateTime="2003-02-20T14:11:06" />
+            </Properties>
+            <CustomData>
+                <Units>inch</Units>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Door Schedule Project Based</Style>
+                </AecDbScheduleTable>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{BFF4D19F-41AB-4997-96B4-DFA20F374FDE}" />
+            <Properties>
+                <ItemName>Window Schedule</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\DE96CEC5-0C03-4D41-8DE5-739C6E10A8F5.png" />
+                </Images>
+                <Description>Create a Window Schedule Table</Description>
+                <Time createdUniversalDateTime="2002-07-29T02:08:06" modifiedUniversalDateTime="2006-11-16T15:11:12" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Window Schedule</Style>
+                    <ScanXrefs>-1</ScanXrefs>
+                </AecDbScheduleTable>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{E8F8721D-02D0-46B9-86BB-0520DF3D9756}" />
+            <Properties>
+                <ItemName>Wall Schedule</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\ScheduleTable_04E9964A-B13A-4000-B797-C4D565403AC3.png" />
+                </Images>
+                <Description>Creates a wall schedule.</Description>
+                <Time createdUniversalDateTime="2003-02-07T14:40:19" modifiedUniversalDateTime="2006-11-16T15:11:17" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Wall Schedule</Style>
+                    <ScanXrefs>-1</ScanXrefs>
+                </AecDbScheduleTable>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{1898BB90-4863-4CA0-95AB-DA6260F3BBB5}" />
+            <Properties>
+                <ItemName>Space List - BOMA</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\Schedule Table Tool_0B12E988-A9C8-41A4-BCC0-C1867169C0D5.png" />
+                </Images>
+                <Description>Creates a space list - BOMA schedule.</Description>
+                <Time createdUniversalDateTime="2006-01-09T14:27:54" modifiedUniversalDateTime="2006-11-16T15:11:26" refreshedUniversalDateTime="2006-01-09T14:27:54" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbGeo>
+                    <LayerKey />
+                </AecDbGeo>
+                <Units>inch</Units>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Space List BOMA</Style>
+                    <ScanXrefs>-1</ScanXrefs>
+                </AecDbScheduleTable>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{51D54B61-0ED7-4B0E-9E3A-198CD415E23B}" />
+            <Properties>
+                <ItemName>Space Inventory Schedule</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\81858CCB-9EC1-4966-A98E-B5BB41F75C33.png" />
+                </Images>
+                <Description>Space Inventory Schedule Table</Description>
+                <Time createdUniversalDateTime="2002-07-29T02:08:06" modifiedUniversalDateTime="2006-11-16T15:11:30" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Space Inventory</Style>
+                    <ScanXrefs>-1</ScanXrefs>
+                </AecDbScheduleTable>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{39F55ED6-2D97-444D-8689-70D706B68E6E}" />
+            <Properties>
+                <ItemName>Room Finish Schedule</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\FB21D5ED-B270-4FB3-B9A6-B1920FB6896E.png" />
+                </Images>
+                <Description>Create a Room Finish Schedule Table</Description>
+                <Time createdUniversalDateTime="2002-07-29T02:08:06" modifiedUniversalDateTime="2006-11-16T15:11:35" />
+            </Properties>
+            <CustomData>
+                <Version>5.5</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}" />
+            <Data>
+                <AecDbScheduleTable>
+                    <Style ref="%AECCONTENT_DIR%\Styles\Imperial\Schedule Tables (Imperial).dwg">Room Finish Schedule</Style>
+                    <ScanXrefs>-1</ScanXrefs>
+                </AecDbScheduleTable>
+                <Units>inch</Units>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{99E4DBEA-6071-42A6-A02A-2C42BF585426}" />
+            <Properties>
+                <ItemName>Space Evaluation</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecAreaEvaluation.png" />
+                </Images>
+                <Description>Creates a space evaluation report.</Description>
+                <Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>ADT-UG-Areas_AreaEvaluation</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2006-01-10T16:33:41" />
+            </Properties>
+            <CustomData>
+                <Version>5.0</Version>
+            </CustomData>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecSpaceEvaluation</CommandString>
+            </Data>
+        </Tool>
+        <Tool Revision="18.2.0" option="0">
+            <ItemID idValue="{F1569BF8-1790-4D81-AE70-CD3720B644F8}" />
+            <Properties>
+                <ItemName>More Scheduling Tools</ItemName>
+                <Images option="0">
+                    <Image cx="64" cy="64" src="Images\AecCatalog_More_SchedulingTools.png" />
+                </Images>
+                <Description>Open Content Browser to view more scheduling tools.</Description>
+<Help>
+                    <HelpFile>WBH</HelpFile>
+                    <HelpCommand>HELP_HHWND_TOPIC</HelpCommand>
+                    <HelpData>AECAA_CONTENTBROWSER</HelpData>
+                </Help>
+                <Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-05-30T12:31:17" />
+            </Properties>
+            <Source />
+            <ToolType>1</ToolType>
+            <StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}" />
+            <Data>
+                <Units>inch</Units>
+                <CommandString>^C^C_AecContentCatalog {9E1853E3-2EAA-4CA0-9D27-2E6C62FF7100}</CommandString>
+            </Data>
+        </Tool>
+    </Tools>
+</Palette>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Catalog FileRevision="19.0.0" Revision="19.0.0" option="0">
+	<ItemID idValue="{DBD27901-AC5E-4778-BB06-A5DF44EAF344}" />
+	<Properties>
+		<ItemName>AutoCAD Architecture Sample Workspace Palettes</ItemName>
+		<Images option="0" />
+		<Description>AutoCAD Architecture Sample Workspace Palettes</Description>
+		<Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2002-04-05T21:58:00" />
+	</Properties>
+	<CustomData>
+		<Translation status="1" />
+	</CustomData>
+	<Source />
+	<Tools />
+	<Palettes>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{D35A3F02-B921-4692-9450-C250A40B5E3B}" />
+			<Url href="Palettes\Design_D35A3F02-B921-4692-9450-C250A40B5E3B.atc" />
+			<Properties>
+				<ItemName>Design</ItemName>
+				<Images option="0" />
+				<Description>This palette contains all the basic architectural object tools.  Copy a tool to create a new one that you can customize, or simply drop an object from the drawing window to create a new tool with defaults based upon that object.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{D23080F8-D304-416B-B602-E245C651E176}" />
+			<Url href="Palettes\Massing_D23080F8-D304-416B-B602-E245C651E176.atc" />
+			<Properties>
+				<ItemName>Massing</ItemName>
+				<Images option="0" />
+				<Description>This palette contains primitive massing elements.  Customize these tools to, for example, point to a new Mass Element style that has materials and classifications applied.  Try out the Drape Tool to create a mass element 'draped' over a selection of linework.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{32BA12A6-D7E6-45B8-A4D0-E6B41B191493}" />
+			<Url href="Palettes\Walls_32BA12A6-D7E6-45B8-A4D0-E6B41B191493.atc" />
+			<Properties>
+				<ItemName>Walls</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of customized wall tools.  They refer to styles located in the central library of wall styles in your AutoCAD Architecture Imperial styles folder. </Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{F99A67F2-7BEB-4B32-91B2-C7CA85F073C4}" />
+			<Url href="Palettes\Doors_F99A67F2-7BEB-4B32-91B2-C7CA85F073C4.atc" />
+			<Properties>
+				<ItemName>Doors</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of customized door tools.  They refer to styles located in the central library of door styles in your AutoCAD Architecture Imperial styles folder.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{9A838F1B-C9B5-403B-A0A5-DD4B94410C34}" />
+			<Url href="Palettes\Windows_9A838F1B-C9B5-403B-A0A5-DD4B94410C34.atc" />
+			<Properties>
+				<ItemName>Windows</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of customized window tools.  They refer to styles located in the central library of window styles in your AutoCAD Architecture Imperial styles folder.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{E2259AD7-8511-4174-BD7D-F3D350E46989}" />
+			<Url href="Palettes\Corner Windows_E2259AD7-8511-4174-BD7D-F3D350E46989.atc" />
+			<Properties>
+				<ItemName>Corner Windows</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of customized window tools.  They refer to styles located in the central library of window styles in your AutoCAD Architecture Imperial styles folder.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{30563F68-63BD-4977-968B-2F18043B93B7}" />
+			<Url href="Palettes\Annotation_30563F68-63BD-4977-968B-2F18043B93B7.atc" />
+			<Properties>
+				<ItemName>Annotation</ItemName>
+				<Images option="0" />
+				<Description>This palette contains basic annotation tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{EF696F2C-C953-4B1E-8C96-CCC097648FFB}" />
+			<Url href="Palettes\Scheduling_EF696F2C-C953-4B1E-8C96-CCC097648FFB.atc" />
+			<Properties>
+				<ItemName>Scheduling</ItemName>
+				<Images option="0" />
+				<Description>This palette contains schedule tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{2BA54305-1346-4332-A6E7-57ABE985EF0B}" />
+			<Url href="Palettes\Basic_2BA54305-1346-4332-A6E7-57ABE985EF0B.atc" />
+			<Properties>
+				<ItemName>Basic</ItemName>
+				<Images option="0" />
+				<Description>This palette contains basic detail component tools covering all top level groups in the default detail component database.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{DFFBCE0B-8485-46B5-90BD-685C2377FCEC}" />
+			<Url href="Palettes\Callouts_DFFBCE0B-8485-46B5-90BD-685C2377FCEC.atc" />
+			<Properties>
+				<ItemName>Callouts</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of various callout tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{0AD9B4B4-AF16-4742-ACA2-DA937DE12700}" />
+			<Url href="Palettes\Interiors_0AD9B4B4-AF16-4742-ACA2-DA937DE12700.atc" />
+			<Properties>
+				<ItemName>Interiors</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of interior related detail component tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="19.0.0" option="0">
+			<ItemID idValue="{77110B36-60EB-430D-AF1D-912A51824523}"/>
+			<Url href="Palettes\Roombook_77110B36-60EB-430D-AF1D-912A51824523.atc"/>
+			<Properties>
+				<ItemName>Roombook</ItemName>
+				<Images option="0"/>
+				<Description>This palette contains the tools to calculate room quantities</Description>
+			</Properties>
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{397D0568-EDBB-4E36-A4F3-D28770CCEDF5}" />
+			<Url href="Palettes\Finishes_397D0568-EDBB-4E36-A4F3-D28770CCEDF5.atc" />
+			<Properties>
+				<ItemName>Finishes</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of finish related detail component tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{8A955ED0-6040-41D7-8D31-DAB01490572F}" />
+			<Url href="Palettes\Doors &amp; Windows_8A955ED0-6040-41D7-8D31-DAB01490572F.atc" />
+			<Properties>
+				<ItemName>Doors &amp; Windows</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of door &amp; window related detail component tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{1FB092EF-FFAC-42E8-AD0A-8EEAE604803D}" />
+			<Url href="Palettes\Roofing_1FB092EF-FFAC-42E8-AD0A-8EEAE604803D.atc" />
+			<Properties>
+				<ItemName>Roofing</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of roofing related detail component tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{43B8FB55-6868-4853-9FE1-1236A757589A}" />
+			<Url href="Palettes\Exterior_43B8FB55-6868-4853-9FE1-1236A757589A.atc" />
+			<Properties>
+				<ItemName>Exterior</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of exterior related detail component tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{47FD0CE0-EE07-4F9A-A373-E1C5108FB10C}" />
+			<Url href="Palettes\Themes_47FD0CE0-EE07-4F9A-A373-E1C5108FB10C.atc" />
+			<Properties>
+				<ItemName>Themes</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of display themes.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{B44C88A6-648E-4E26-B73C-34B4741CBCBF}" />
+			<Url href="Palettes\FF + E_B44C88A6-648E-4E26-B73C-34B4741CBCBF.atc" />
+			<Properties>
+				<ItemName>FF + E</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of common fixtures, furnishings, and equipment.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{AFE09047-73FD-422F-8D45-1477E1148B9B}" />
+			<Url href="Palettes\Spaces_AFE09047-73FD-422F-8D45-1477E1148B9B.atc" />
+			<Properties>
+				<ItemName>Spaces</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of customized space tools.  They refer to styles located in the central library of space styles in your AutoCAD Architecture Imperial styles folder.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{D2458B14-2A9D-4E65-AB9A-329D7F457B1E}" />
+			<Url href="Palettes\Cameras_D2458B14-2A9D-4E65-AB9A-329D7F457B1E.atc" />
+			<Properties>
+				<ItemName>Cameras</ItemName>
+				<Images option="0" />
+				<Description>This palette contains camera tools with preset lens lengths.</Description>
+				<Keywords>Cameras</Keywords>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{82128FE3-2557-4F21-BAF8-CD3864044C0A}" />
+			<Url href="Palettes\Lights_86E44C19-CA84-47BF-B256-BE187FF29E6B.atc" />
+			<Properties>
+				<ItemName>Lights</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a sampling of common lights that you can quickly populate a scene with for visualization purposes.</Description>
+				<Keywords>Lights</Keywords>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{430DF42D-3599-48D2-978D-F7316781901F}" />
+			<Url href=".\Palettes\Materials_94D15D67-28FA-4BB6-BE83-8CB342395CF3.atc" />
+			<Properties>
+				<ItemName>Materials</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a collection of Material Definitions to be used for applying materials to specific components of AEC objects.</Description>
+				<Keywords>Material Definitions</Keywords>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{38B75A85-276F-48A0-BBCB-CC783D30FCF9}" />
+			<Url href="Palettes\Visual Styles_38B75A85-276F-48A0-BBCB-CC783D30FCF9.atc" />
+			<Properties>
+				<ItemName>Visual Styles</ItemName>
+				<Images option="0" />
+				<Description>This palette contains a collection of Visual Styles than can be used to alter the look and feel of your model.</Description>
+				<Keywords>Visual Styles </Keywords>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{61BDA65F-6B69-47FD-BE51-6E5B46B0F1EA}" />
+			<Url href="Palettes\Dimensions_61BDA65F-6B69-47FD-BE51-6E5B46B0F1EA.atc" />
+			<Properties>
+				<ItemName>Dimensions</ItemName>
+				<Images option="0" />
+				<Description>This palette contains basic dimensioning tools.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+		<Palette Revision="18.2.0" option="0">
+			<ItemID idValue="{92E83BB2-AC3B-4CD1-8A2F-F70F4D23141F}" />
+			<Url href="Palettes\Tags_92E83BB2-AC3B-4CD1-8A2F-F70F4D23141F.atc" />
+			<Properties>
+				<ItemName>Tags</ItemName>
+				<Images option="0" />
+				<Description>This palette contains tag tools. Objects can be tagged transparently through xrefs.</Description>
+			</Properties>
+			<Source />
+		</Palette>
+	</Palettes>
+	<Packages />
+	<Categories />
+	<StockTools />
+	<Catalogs />
+</Catalog>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMetalChannelSection"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="boundary">
+			</Item>
+		</Data>
+	</Recipe>
+	
+	<Recipe idStr="plan">
+		<Label>Plan</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMetalChannelPlan"/>
+		</Implementation>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+	
+	<Recipe idStr="elevation">
+		<Label>Elevation</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpMetalChannelElevation"/>
+		</Implementation>
+		<Controls>
+			<CheckBox idStr="hideGauges">
+				<Label>Hide gauge lines</Label>
+				<Default>1</Default>
+			</CheckBox>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="hidden">
+				<AcadEntityProps>
+					<Layer ref="layerKey">FINE</Layer>
+					<Linetype>HIDDEN</Linetype>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+</AecRecipeSpec>
+

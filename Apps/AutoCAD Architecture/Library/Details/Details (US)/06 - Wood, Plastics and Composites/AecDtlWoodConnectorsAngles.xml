@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<Recipe idStr="side">
+		<Label>Side</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpWoodConnectorsAngle"/>
+		</Implementation>
+		<Data>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+		</Data>
+	</Recipe>
+</AecRecipeSpec>

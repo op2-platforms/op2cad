@@ -1,9 +1,9 @@
-;;; VLisp project file [V2.0] navscale saved to:[c:\GitHub\op2cad\Apps\AutoCAD\AutoLisp\ACAD-LSP-NAVIGATE\navscale] at:[9/12/2022]
+;;; VLisp project file [V2.0] navscale saved to:[Undefined Folder] at:[Undefined Date]
 (VLISP-PROJECT-LIST 
   :NAME
   navscale
   :OWN-LIST
-  ("imperial" "metric" "navscale")
+  ("scaleimp" "scalemet" "navscale")
   :FAS-DIRECTORY
   nil
   :TMP-DIRECTORY

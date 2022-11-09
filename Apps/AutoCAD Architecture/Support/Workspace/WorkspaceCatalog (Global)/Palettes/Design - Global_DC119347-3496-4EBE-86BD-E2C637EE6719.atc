@@ -1,0 +1,92 @@
+<Palette FileRevision="19.0.0" Revision="19.0.0" option="0"><ItemID idValue="{DC119347-3496-4EBE-86BD-E2C637EE6719}"/><Properties><ItemName>Design</ItemName><Images option="0"/><Description>Global - Sample Design Palettes</Description><Time createdUniversalDateTime="2007-01-11T11:56:33" modifiedUniversalDateTime="2011-06-22T13:27:44" refreshedUniversalDateTime="2007-01-11T11:56:33"/></Properties><Source><Publisher><PublisherName>Autodesk</PublisherName></Publisher></Source><Tools><Tool Revision="19.0.0" option="0"><ItemID idValue="{AD1F7DE5-11BF-4040-9546-BE4E422489EE}"/><Properties><ItemName>Wall</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Wall Tool_5E8BA9B9-7C01-4757-9532-EBD08E28AEBA.png"/></Images><Description>Creates a wall object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2011-06-22T11:28:16" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><CustomData><Version>6.7</Version></CustomData><Source/><ToolType>1</ToolType><StockToolRef idValue="{812A08B4-5833-4409-8329-1B3CCAF61C78}"/><Data>
+				<AecDbGeo><BoundSpaces>2</BoundSpaces></AecDbGeo><Units>mm</Units><AecDbWall><GraphlinePos>0</GraphlinePos></AecDbWall></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{0607DC94-A054-44EF-BB7D-C6417B39FFAD}"/><Properties><ItemName>Door</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Door Tool_02D52DA5-3379-4724-9398-E0044B9CA526.png"/></Images><Description>Creates a door object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2011-06-22T11:29:32" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><CustomData><Version>6.7</Version></CustomData><Source/><ToolType>1</ToolType><StockToolRef idValue="{6A56F31F-3F7B-4F8E-B10D-39433621B3C0}"/><Data>
+				<AecDbGeo><BoundSpaces>2</BoundSpaces></AecDbGeo><Units>mm</Units></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{9A7859F8-1A75-4D86-8B3F-195D867F2E2A}"/><Properties><ItemName>Window</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Window Tool_41A10F69-93E7-492C-86DD-B45F95FC6EDC.png"/></Images><Description>Creates a window object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2011-06-22T11:29:44" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><CustomData><Version>6.7</Version></CustomData><Source/><ToolType>1</ToolType><StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/><Data>
+				<AecDbGeo><BoundSpaces>2</BoundSpaces></AecDbGeo><Units>mm</Units><AecDbWindow><IsCornerWindow>0</IsCornerWindow></AecDbWindow></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{18395EBB-F040-4337-86B1-9D4470B35A97}"/><Properties><ItemName>Opening</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Opening Tool_3AED6572-CC13-47A3-A923-09F4F58CCC40.png"/></Images><Description>Creates an opening object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{42F4EF36-F227-41E7-A681-7C1D915CA531}"/><Data>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{09771046-C25B-48AE-BC5D-5C80FF9C6CC5}"/><Properties><ItemName>Stair</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Stair Tool_A400E827-E9D6-4E67-9DC1-922F00693E37.png"/></Images><Description>Creates a stair object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{6F8E8B8F-011B-4E17-8EE6-1BFCD004EAC7}"/><Data>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{CD28E906-2D4A-4BAE-8AC1-74F493541560}"/><Properties><ItemName>Railing</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Railing Tool_48F8F601-4420-45C3-A029-4F768E2E13D0.png"/></Images><Description>Creates a railing object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{5D370FFD-8173-4ECF-95D4-F87B55A25AC3}"/><Data>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{8EA5BAD4-619E-4326-BE28-E492FC595577}"/><Properties><ItemName>Corner Window</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Window Tool_8EA5BAD4-619E-4326-BE28-E492FC595577.png"/></Images><Description>Creates a corner window object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{E3425177-3CDF-4BCB-AD7E-79E64E226F87}"/><Data>
+				<Units>mm</Units>
+				<AecDbGeo>
+					<BoundSpaces>2</BoundSpaces>
+				</AecDbGeo>
+				<AecDbWindow>
+					<IsCornerWindow>1</IsCornerWindow>
+				</AecDbWindow>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{4372EAF0-D442-4E0D-BE23-87AA4B55F4FE}"/><Properties><ItemName>Door/Window Assembly</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\DoorWindow Assembly Tool_279385F5-6660-47E1-BC53-5A503E08A187.png"/></Images><Description>Creates a door/window assembly object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{174607BC-5B00-4C49-BCAD-1257BCD4D49E}"/><Data>
+				<Units>mm</Units>
+				<AecDbGeo>
+					<BoundSpaces>2</BoundSpaces>
+				</AecDbGeo>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{7B7B0BC7-51D4-4ED5-8F1D-4DD930659A3D}"/><Properties><ItemName>Curtain Wall</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Curtain Wall Tool_D2A6E054-C2E3-4B1C-8276-5B619AAA8C96.png"/></Images><Description>Creates a curtain wall object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{412C0F19-C26E-43BA-A976-618B08C4CBD9}"/><Data>
+				<Units>mm</Units>
+				<AecDbGeo>
+					<BoundSpaces>2</BoundSpaces>
+				</AecDbGeo>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{7BA0F123-8735-43CE-86CA-19053A8DA6B4}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{5BD5C2E3-42D5-4099-BD01-493EA24B0B32}"/><Properties><ItemName>Generate Space</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src="Images\Space Tool_B264B883-64D1-4D56-A527-0D1764428969.png"/></Images><Description>Generates space objects from objects that can bound spaces.</Description><Time createdUniversalDateTime="2007-01-11T11:23:00" modifiedUniversalDateTime="2008-08-15T10:01:30" refreshedUniversalDateTime="2007-01-11T11:23:00"/></Properties><CustomData>
+				<Version>6.0</Version>
+			</CustomData>
+			<Source><ParentDocument><DocumentName>UK - Content Catalog</DocumentName></ParentDocument></Source><ToolType>1</ToolType><StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}"/><Data>
+				<AecDbSpace>
+					<ActualDimensions>
+						<CreateType>3</CreateType>
+						<Area>9</Area>
+					</ActualDimensions>
+				</AecDbSpace>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{EF065944-8FA5-48DE-8EFC-022F060F0114}"/><Properties><ItemName>Ceiling Grid</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Ceiling Grid Tool_B7C00E59-2612-411F-9174-688F8C8C82C7.png"/></Images><Description>Creates a ceiling grid.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{2A44FB09-B99E-4534-AE81-0B5E8AEF7419}"/><Data>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{E9984119-1D84-46E1-9E8D-14B95BCB7051}"/><Properties><ItemName>Theme Space by Size</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Display Theme Tool_3A3A858F-7FA8-414B-8CA9-B471F3587F4C.png"/></Images><Description>Creates a display theme by space size.</Description><Time createdUniversalDateTime="2011-06-22T13:28:35" modifiedUniversalDateTime="2011-06-22T13:30:08" refreshedUniversalDateTime="2011-06-22T13:28:35"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme><Style ref="%AECCONTENT_DIR%\Styles\Global\Styles and Definitions (Global).dwg">Space Size</Style></AecDbDisplayTheme><Units>mm</Units></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{6C4A5995-75B1-4EFF-8409-6A5C028DBD36}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2011-06-22T05:22:48" modifiedUniversalDateTime="2011-06-22T05:22:48"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{EFFD5CE1-60E2-4F5E-AC53-3ACD72DD8403}"/><Properties><ItemName>Column Grid</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Column Grid Tool_E84DE77A-D50C-485D-ACE1-79888EDBAA63.png"/></Images><Description>Creates a column grid.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT-UG-STRUCTRUALCOLUMNGIRD</HelpData></Help><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2011-06-22T11:35:59" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><CustomData><Version>6.7</Version></CustomData><Source/><ToolType>1</ToolType><StockToolRef idValue="{44635DC8-3CD8-479A-94DF-57624949DFD9}"/><Data>
+				<AecDbLayoutGrid2d><Shape>0</Shape></AecDbLayoutGrid2d><Units>mm</Units></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{2716C3F6-CBFC-41B4-BBA2-1F8A00F3726C}"/><Properties><ItemName>Column</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Column Tool_B298DA7F-03E2-4A4A-8CF9-2DB2807EE299.png"/></Images><Description>Creates a structural column object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2011-06-22T13:20:23" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30842DE9-31F9-4EAA-AC4C-55573813B1FB}"/><Data>
+				<AecDbGeo><LayerKey></LayerKey><BoundSpaces>2</BoundSpaces></AecDbGeo><Units>mm</Units><AecsDbMember><Type>1</Type></AecsDbMember></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{26214682-3971-4139-BF0B-F29DB4A8F7B5}"/><Properties><ItemName>Beam</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Beam Tool_94DE522E-A17D-4A4A-B42D-B0D459399DA4.png"/></Images><Description>Creates a structural beam object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2011-06-22T13:20:56" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><CustomData><Version>6.7</Version></CustomData><Source/><ToolType>1</ToolType><StockToolRef idValue="{2292D80A-690E-45D9-AC26-6B7D94497C06}"/><Data>
+				<AecDbGeo><BoundSpaces>2</BoundSpaces></AecDbGeo><Units>mm</Units><AecsDbMember><Type>0</Type></AecsDbMember></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{E681DA72-47FC-4907-8DD6-D6D4B5A34A87}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{9A262FB2-C7EC-4A43-8AE3-806225C3ED34}"/><Properties><ItemName>Slab</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Slab Tool_257D4F35-C327-4253-B2B5-B48544EB98C1.png"/></Images><Description>Creates a slab object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{6BD34B7E-4BC0-46EC-938B-3FB10126BA2E}"/><Data>
+				<Units>mm</Units>
+				<AecDbGeo>
+					<BoundSpaces>2</BoundSpaces>
+				</AecDbGeo>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{3CBCC036-2D67-4D23-BFCA-D3481260F580}"/><Properties><ItemName>Roof</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Roof Tool_9BE09167-4903-47F8-957C-0B2BC55D542E.png"/></Images><Description>Creates a roof object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{B4E3EFB1-D5A3-436A-A6D9-9F44395DE306}"/><Data>
+				<Units>mm</Units>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{DDEE8A7C-7955-4E2C-96D1-9DB7F93B1D57}"/><Properties><ItemName>Roof Slab</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Roof Slab Tool_3DAD81D7-FE23-4795-A191-0A90D2F20150.png"/></Images><Description>Creates a roof slab object.</Description><Time createdUniversalDateTime="2006-01-16T12:51:04" modifiedUniversalDateTime="2006-01-16T12:51:04" refreshedUniversalDateTime="2006-01-16T12:51:04"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{B55783CB-14A3-4BF1-AA57-8EC537F0C9A3}"/><Data>
+				<Units>mm</Units>
+				<AecDbGeo>
+					<BoundSpaces>2</BoundSpaces>
+				</AecDbGeo>
+			</Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{DB675A8D-CF23-41F1-A5F6-B112F9652DB2}"/><Properties><ItemName>Section</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Command Tool_E6402E26-5142-4EE2-99D9-DA0179A88E38.png"/></Images><Description>Creates a vertical section.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ACAD_SECTION</HelpData></Help><Time createdUniversalDateTime="2006-01-16T12:51:39" modifiedUniversalDateTime="2011-06-22T13:21:53" refreshedUniversalDateTime="2006-01-16T12:51:39"/></Properties><CustomData><Version>6.7</Version></CustomData><Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<AecDbCommandObject><CommandString>^c^c_AecVerticalSection</CommandString></AecDbCommandObject><Units>mm</Units></Data>
+		</Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{2762B8F8-BD45-43FB-B675-434BCDAC7701}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2011-06-22T05:27:30" modifiedUniversalDateTime="2011-06-22T05:27:30"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/></Tool><Tool Revision="19.0.0" option="0"><ItemID idValue="{F5BFE877-FB7A-4ACC-8DBC-9918DC7D607D}"/><Properties><ItemName>Content Browser</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Command Tool_1C8BBC4A-E5E6-4CB2-A624-DE93ACC81ACC.png"/></Images><Description>Launches the Content Browser.</Description><Keywords>_command tool</Keywords><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECAA_CONTENTBROWSER</HelpData></Help><Time createdUniversalDateTime="2006-02-01T20:13:23" modifiedUniversalDateTime="2006-02-01T20:13:23" refreshedUniversalDateTime="2006-02-01T20:13:23"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>mm</Units>
+				<CommandString>^C^C_AecContentBrowser</CommandString>
+			</Data>
+		</Tool></Tools></Palette>

@@ -405,6 +405,7 @@ FodyWeavers.xsd
 *.bak
 *.dwl
 *.dwl2
+*.err
 
 # Visual Lisp project, application and temporary files
 *.ob

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="mm">
+
+    <ControlDefs>
+        <CheckBox idStr="showTie">
+            <Label>Show tie</Label>
+            <Description>Specifies if tie is drawn</Description>
+            <Default>true</Default>
+        </CheckBox>
+        <ComboBox idStr="tieDisplay">
+            <Label>Tie display</Label>
+            <Description>Specifies if tie is displayed on top, bottom or both ends of hanger wire</Description>
+            <ComboBoxValue idStr="tieDisplayBottom">
+                <Label>Bottom</Label>
+            </ComboBoxValue>
+            <ComboBoxValue idStr="tieDisplayTop">
+                <Label>Top</Label>
+            </ComboBoxValue>
+            <ComboBoxValue idStr="tieDisplayBoth">
+                <Label>Both</Label>
+            </ComboBoxValue>
+            <Default>tieDisplayBoth</Default>
+            <ParentControl idRef="showTie">
+                <ParentControlState state="0" visible="no" enabled="no"/>
+            </ParentControl>
+        </ComboBox>
+    </ControlDefs>
+
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpAcousticalCeilingSuspensionWire"/>
+		</Implementation>
+		<Controls>
+		    <ControlRef idRef="showTie"/>
+		    <ControlRef idRef="tieDisplay"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockBottom">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_AcousticalCeilingsUK.dwg" ref="dbTable">R_BLOCK_BOTTOM</BlockName>
+					<Scale>25.4</Scale>
+				</AcadBlockProps>
+			</Item>
+			<Item idStr="blockTop">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_AcousticalCeilingsUK.dwg" ref="dbTable">R_BLOCK_TOP</BlockName>
+					<Scale>25.4</Scale>
+				</AcadBlockProps>
+			</Item>
+		</Data>
+	</Recipe>
+
+	<SubRecipe idStr="subSection">
+		<Label>Suspension Wire</Label>
+	    <Description>Specifications for suspension wire</Description>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlRcpSubAcousticalCeilingSuspensionWire"/>
+		</Implementation>
+		<Controls>
+            <ControlRef idRef="showTie"/>
+		    <ControlRef idRef="tieDisplay"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="block">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+			</Item>
+			<Item idStr="blockBottom">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_AcousticalCeilingsUK.dwg" ref="dbTable">R_BLOCK_BOTTOM</BlockName>
+					<Scale>25.4</Scale>
+				</AcadBlockProps>
+			</Item>
+			<Item idStr="blockTop">
+				<AcadBlockProps>
+				    <BlockName dwgLib="dwgs/AecDtlLib_AcousticalCeilingsUK.dwg" ref="dbTable">R_BLOCK_TOP</BlockName>
+					<Scale>25.4</Scale>
+				</AcadBlockProps>
+			</Item>
+		</Data>
+	</SubRecipe>
+
+</AecRecipeSpec>

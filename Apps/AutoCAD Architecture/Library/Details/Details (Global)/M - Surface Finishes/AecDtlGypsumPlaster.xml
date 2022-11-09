@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(C) Copyright Autodesk, Inc. 1998-2012. All rights reserved.-->
+<AecRecipeSpec defaultUnit="in">
+	<ControlDefs>
+		<CheckBox idStr="doLath">
+			<Label>Show metal lath</Label>
+			<Description>Specify whether to draw metal lath. </Description>
+			<Default>1</Default>
+		</CheckBox>
+	</ControlDefs>
+	<Recipe idStr="section">
+		<Label>Section</Label>
+		<Implementation>
+			<ObjectARX appnameAlias="AECDTL" funcRcp="AecDtlPlaster"/>
+		</Implementation>
+		<Controls>
+			<ControlRef idRef="doLath"/>
+		</Controls>
+		<Data>
+			<Item idStr="boundary">
+				<AcadEntityProps>
+					<Layer ref="layerKey">THIN</Layer>
+				</AcadEntityProps>
+				<Params>
+					<Offset>0.25</Offset>
+				</Params>
+			</Item>
+		</Data>
+		<SubComponents>
+			<SubComponent idStr="metallath" keys="metallath" subRecipe="subSectionMetalLath">
+				<Label>Draw metal lath</Label>
+				<Description>Draw metal lath. </Description>
+				<ParentControl idRef="doLath">
+					<ParentControlState state="0" visible="no" enabled="no"/>
+				</ParentControl>
+			</SubComponent>
+		</SubComponents>
+	</Recipe>
+</AecRecipeSpec>
