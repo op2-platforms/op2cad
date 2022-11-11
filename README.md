@@ -6,12 +6,9 @@ It is mainly focused around Autodesk product line-up, but may be further expende
 
 It is meant to be the foundation for any office standard on which you can continously build on for further improvement utilising the Git platform for synchronise your content locally and experiment away from your office centralized database. You can then decide to manage a centralize copy as well but I highly encourage using the Git platform for revision control.
 
-## Get Started
+## Getting Started
 
-The Quick and easy way in 3 simple steps:
-
-1. Download the [Zip file](https://github.com/op2-platforms/op2cad/archive/refs/heads/main.zip).
-2. Unzip its content to your C: drive in a GitHub folder and rename the "op2cad-main" folder to be "op2cad" [C:/GitHub/op2cad]
-3. Open the desired application, go to the Options menu and add the support search path for the associated Apps, exemple: [C:\GitHub\op2cad\Apps\AutoCAD\Support].
-
-The Best recommanded way for those who which to get access to further updates, build-up on it or contribute to the project ; see "Git Config" below.
+1. Before you start anything; make sure you have [Git latest version](https://git-scm.com/downloads) installed on your machine.
+2. Make a Clone on your local machine using the Git GUI or any of your [prefered GUI clients](https://git-scm.com/downloads/guis)
+  for GUI recommandations and cloning location, see *cloning instruction coming soon*
+3. Go to your desired application folder and follow the [App Setup Guide]
