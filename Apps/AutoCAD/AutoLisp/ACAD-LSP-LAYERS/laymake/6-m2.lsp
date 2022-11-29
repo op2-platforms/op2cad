@@ -48,8 +48,8 @@
 (defun m2-Text (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Text"
           _m2d "text"
-          _m2c "031"
-          _m2i "1"
+          _m2c "031" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -58,8 +58,8 @@
 (defun m2-Dims (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Dims"
           _m2d "dimensions"
-          _m2c "211"
-          _m2i "1"
+          _m2c "211" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -68,8 +68,8 @@
 (defun m2-Iden (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Iden"
           _m2d "identifications"
-          _m2c "191"
-          _m2i "1"
+          _m2c "191" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -78,8 +78,8 @@
 (defun m2-Symb (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Symb"
           _m2d "symbols"
-          _m2c "131"
-          _m2i "1"
+          _m2c "131" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -100,7 +100,7 @@
           _m2d "revision"
           _m2c "071"
           _m2i "1"
-          _m2w "0.25"
+          _m2w "0.18"
           _m2t "Continuous"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
@@ -110,7 +110,7 @@
           _m2d "revision cloud"
           _m2c "071"
           _m2i "1"
-          _m2w "0.25"
+          _m2w "0.18"
           _m2t "Continuous"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
@@ -120,7 +120,7 @@
           _m2d "masking object"
           _m2c "170"
           _m2i "0"
-          _m2w "0.18"
+          _m2w "0.13"
           _m2t "Continuous"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
@@ -128,8 +128,8 @@
 (defun m2-Note (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Note"
           _m2d "notes"
-          _m2c "231"
-          _m2i "1"
+          _m2c "231" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -138,18 +138,8 @@
 (defun m2-Tags (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Tags"
           _m2d "tags"
-          _m2c "031"
-          _m2i "1"
-          _m2w "0.25"
-          _m2t "Continuous"
-    )
-    (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
-)
-(defun m2-Line (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
-    (setq _m2a "-Line"
-          _m2d "lines"
-          _m2c "200"
-          _m2i "1"
+          _m2c "031" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -158,8 +148,8 @@
 (defun m2-Levl (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Levl"
           _m2d "levels"
-          _m2c "051"
-          _m2i "1"
+          _m2c "051" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "CENTER"
     )
@@ -168,8 +158,8 @@
 (defun m2-Grid (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Grid"
           _m2d "grid"
-          _m2c "191"
-          _m2i "1"
+          _m2c "191" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "CENTER"
     )
@@ -178,8 +168,8 @@
 (defun m2-Spot (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Spot"
           _m2d "spot elevation"
-          _m2c "200"
-          _m2i "0"
+          _m2c "200" ; // TODO: adjust color
+          _m2i "2"
           _m2w "0.25"
           _m2t "Continuous"
     )
@@ -187,47 +177,47 @@
 )
 (defun m2-Hidd (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Hidd"
-          _m2d "Hidden line"
+          _m2d "hidden line"
           _m2c "001"
           _m2i "1"
           _m2w "0.18"
-          _m2t "HIDDEN2"
+          _m2t "HIDDEN"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
 (defun m2-Cntr (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Cntr"
-          _m2d "Center line"
+          _m2d "center line"
           _m2c "002"
           _m2i "2"
           _m2w "0.25"
-          _m2t "CENTER2"
+          _m2t "CENTER"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
 (defun m2-Ovhd (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Ovhd"
-          _m2d "Overhead line"
-          _m2c "001"
-          _m2i "1"
-          _m2w "0.18"
-          _m2t "DASHED2"
+          _m2d "overhead line"
+          _m2c "002" ; // TODO: adjust color
+          _m2i "2"
+          _m2w "0.25"
+          _m2t "DASHED"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
 (defun m2-Phnt (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Phnt"
-          _m2d "Phantom line"
-          _m2c "001"
-          _m2i "1"
-          _m2w "0.18"
-          _m2t "PHANTOM2"
+          _m2d "phantom line"
+          _m2c "002"
+          _m2i "2"
+          _m2w "0.25" ; // TODO: adjust color
+          _m2t "PHANTOM"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
 (defun m2-Xfin (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Xfin"
-          _m2d "Extra fine line"
+          _m2d "extra fine line"
           _m2c "030"
           _m2i "0"
           _m2w "0.13"
@@ -237,7 +227,7 @@
 )
 (defun m2-Fine (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Fine"
-          _m2d "Fine"
+          _m2d "fine"
           _m2c "001"
           _m2i "1"
           _m2w "0.18"
@@ -247,7 +237,7 @@
 )
 (defun m2-Thin (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Thin"
-          _m2d "Thin line"
+          _m2d "thin line"
           _m2c "002"
           _m2i "2"
           _m2w "0.25"
@@ -257,7 +247,7 @@
 )
 (defun m2-Medm (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Medm"
-          _m2d "Medium line"
+          _m2d "medium line"
           _m2c "003"
           _m2i "3"
           _m2w "0.35"
@@ -267,7 +257,7 @@
 )
 (defun m2-Wide (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Wide"
-          _m2d "Wide line"
+          _m2d "wide line"
           _m2c "004"
           _m2i "4"
           _m2w "0.50"
@@ -277,7 +267,7 @@
 )
 (defun m2-X~~~ (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-X~~~"
-          _m2d "Extra wide line"
+          _m2d "extra wide line"
           _m2c "005"
           _m2i "5"
           _m2w "0.70"
@@ -615,8 +605,8 @@
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
-(defun m2-jamb (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
-    (setq _m2a "-jamb"
+(defun m2-Jamb (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
+    (setq _m2a "-Jamb"
           _m2d "door and window jambs"
           _m2c "200"
           _m2i "0"
@@ -715,16 +705,6 @@
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
 )
-(defun m2-Blck (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
-    (setq _m2a "-Blck"
-          _m2d "black"
-          _m2c "200"
-          _m2i "0"
-          _m2w "0.13"
-          _m2t "Continuous"
-    )
-    (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)
-)
 (defun m2-Grey (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Grey"
           _m2d "grey line"
@@ -738,9 +718,9 @@
 (defun m2-Refr (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t / _m2a _m2d _m2c _m2i _m2w _m2t) 
     (setq _m2a "-Refr"
           _m2d "external reference"
-          _m2c "051"
-          _m2i "1"
-          _m2w "0.25"
+          _m2c "140"
+          _m2i "0"
+          _m2w "0.13"
           _m2t "Continuous"
     )
     (ph-List _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t _m2a _m2d _m2c _m2i _m2w _m2t)

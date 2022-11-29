@@ -279,9 +279,42 @@
 )
 ;#endregion
 
+;#region text
+(defun c:sl-text (/ txt txtv ss sslen)  ; // FIXME: not working
+    ; txt = text
+    ; txtv = text value
+    ; ss = selection set
+    ; sslen = selection set length
+
+    ;get hatch pattern names
+    (setq txt (entget (car (entsel "\nSelect object with text: "))))
+    (setq txtv (cdr (assoc 1 txt)))
+
+    ;select all hatch with same pattern name
+    (setq ss (ssget "X" (list (cons 1 txtv))))
+
+    ;user input for hatch filtering
+
+
+    ;get selection set length
+    (setq sslen (itoa (sslength ss)))
+
+    ;display number of hatch selected
+    (princ (strcat sslen " object with text value " hn " selected"))
+
+    ;adjust gripobjlimit to always display hatch grip based on number of hatch selected
+    (if (> (atoi sslen) (getvar "gripobjlimit")) 
+        (setvar "gripobjlimit" (atoi sslen))
+    )
+    (command "_.PSELECT" ss "")
+
+    (princ)
+)
+;#endregion
+
 
 ;#region color
-(defun c:sl-color (/ c cn ss sslen) 
+(defun c:sl-color (/ c cn ss sslen)  ; // FIXME: not working
     ; c = color
     ; hn = color name
     ; ss = selection set

@@ -555,7 +555,7 @@
 )
 (defun m1-Levl (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Levl"
-          _m1d "level changes (ramps, pits, depressions)"
+          _m1d "levels"
           _m1c "200"
           _m1i "0"
           _m1w "0.18"
@@ -1106,8 +1106,8 @@
 (defun m1-Text (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Text"
           _m1d "Text"
-          _m1c "031"
-          _m1i "1"
+          _m1c "031" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1118,7 +1118,7 @@
           _m1d "non-plotting graphic information"
           _m1c "140"
           _m1i "0"
-          _m1w "0.18"
+          _m1w "0.13"
           _m1t "Continuous"
     )
     (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1126,8 +1126,8 @@
 (defun m1-Dims (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Dims"
           _m1d "dimensions"
-          _m1c "211"
-          _m1i "1"
+          _m1c "211" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1136,8 +1136,8 @@
 (defun m1-Iden (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Iden"
           _m1d "identifications"
-          _m1c "191"
-          _m1i "1"
+          _m1c "191" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1146,8 +1146,8 @@
 (defun m1-Labl (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Labl"
           _m1d "view labels"
-          _m1c "191"
-          _m1i "1"
+          _m1c "191" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1156,8 +1156,8 @@
 (defun m1-Symb (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Symb"
           _m1d "Symbols"
-          _m1c "151"
-          _m1i "1"
+          _m1c "151" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1178,7 +1178,7 @@
           _m1d "revision clouds"
           _m1c "071"
           _m1i "1"
-          _m1w "0.25"
+          _m1w "0.18"
           _m1t "Continuous"
     )
     (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1188,7 +1188,7 @@
           _m1d "revision indicators and Text"
           _m1c "071"
           _m1i "1"
-          _m1w "0.25"
+          _m1w "0.18"
           _m1t "Continuous"
     )
     (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1196,8 +1196,8 @@
 (defun m1-Note (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Note"
           _m1d "notes"
-          _m1c "031"
-          _m1i "1"
+          _m1c "031" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1206,8 +1206,8 @@
 (defun m1-Tags (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Tags"
           _m1d "Tags"
-          _m1c "031"
-          _m1i "1"
+          _m1c "031" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1216,8 +1216,8 @@
 (defun m1-Schd (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Schd"
           _m1d "schedules"
-          _m1c "231"
-          _m1i "1"
+          _m1c "231" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1226,8 +1226,8 @@
 (defun m1-Matc (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Matc"
           _m1d "match line"
-          _m1c "214"
-          _m1i "4"
+          _m1c "214" ; //TODO: adjust color
+          _m1i "5"
           _m1w "0.70"
           _m1t "Continuous"
     )
@@ -1236,8 +1236,8 @@
 (defun m1-Mask (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Mask"
           _m1d "masking objects"
-          _m1c "170"
-          _m1i "0"
+          _m1c "170" ; //TODO: adjust color
+          _m1i "1"
           _m1w "0.18"
           _m1t "Continuous"
     )
@@ -1246,8 +1246,8 @@
 (defun m1-Lgnd (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Lgnd"
           _m1d "legends"
-          _m1c "231"
-          _m1i "1"
+          _m1c "231" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1256,8 +1256,8 @@
 (defun m1-Tabl (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Tabl"
           _m1d "data tables"
-          _m1c "231"
-          _m1i "1"
+          _m1c "231" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1268,7 +1268,7 @@
           _m1d "read-me layer (not-plotted)"
           _m1c "140"
           _m1i "0"
-          _m1w "0.18"
+          _m1w "0.13"
           _m1t "Continuous"
     )
     (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1276,18 +1276,8 @@
 (defun m1-Refr (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Refr"
           _m1d "view references"
-          _m1c "051"
-          _m1i "1"
-          _m1w "0.25"
-          _m1t "Continuous"
-    )
-    (m2-Blank _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-)
-(defun m1-Redl (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
-    (setq _m1a "-Redl"
-          _m1d "redlines"
-          _m1c "001"
-          _m1i "red"
+          _m1c "051" ; //TODO: adjust color
+          _m1i "2"
           _m1w "0.25"
           _m1t "Continuous"
     )
@@ -1307,7 +1297,7 @@
     (setq _m1a "-Grey"
           _m1d "Grey line"
           _m1c "8"
-          _m1i ""
+          _m1i "1"
           _m1w "0.13"
           _m1t "Continuous"
     )
@@ -1317,7 +1307,7 @@
     (setq _m1a "-Scrn"
           _m1d "background screening"
           _m1c "9"
-          _m1i ""
+          _m1i "1"
           _m1w "0.13"
           _m1t "Continuous"
     )
@@ -1326,8 +1316,8 @@
 (defun m1-Pene (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Pene"
           _m1d "penetration"
-          _m1c "200"
-          _m1i "0"
+          _m1c "200" ; //TODO: adjust color
+          _m1i "1"
           _m1w "0.18"
           _m1t "Continuous"
     )
@@ -1340,7 +1330,7 @@
 (defun m1-Intr-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Intr"
           _m1d "interior"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1358,6 +1348,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1365,9 +1356,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1376,7 +1364,7 @@
 (defun m1-Extr-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Extr"
           _m1d "exterior"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1394,6 +1382,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1401,9 +1390,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1412,7 +1398,7 @@
 (defun m1-Clng-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Clng"
           _m1d "ceiling"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1430,6 +1416,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1437,9 +1424,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1448,7 +1432,7 @@
 (defun m1-Flor-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Flor"
           _m1d "floor"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1466,6 +1450,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1473,9 +1458,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1484,7 +1466,7 @@
 (defun m1-Roof-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Roof"
           _m1d "roof"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1502,6 +1484,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1509,9 +1492,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1520,7 +1500,7 @@
 (defun m1-Strc-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Strc"
           _m1d "structural"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1538,6 +1518,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1545,9 +1526,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1556,7 +1534,7 @@
 (defun m1-0001-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0001"
           _m1d "number 1"
-          _m1c "033"
+          _m1c "033" ; //TODO: define minor group color
           _m1i "03"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1574,6 +1552,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1581,9 +1560,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1592,7 +1568,7 @@
 (defun m1-0002-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0002"
           _m1d "number 2"
-          _m1c "053"
+          _m1c "053" ; //TODO: define minor group color
           _m1i "05"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1610,6 +1586,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1617,9 +1594,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1628,7 +1602,7 @@
 (defun m1-0003-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0003"
           _m1d "number 3"
-          _m1c "073"
+          _m1c "073" ; //TODO: define minor group color
           _m1i "07"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1646,6 +1620,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1653,9 +1628,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1664,7 +1636,7 @@
 (defun m1-0004-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0004"
           _m1d "number 4"
-          _m1c "093"
+          _m1c "093" ; //TODO: define minor group color
           _m1i "09"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1682,6 +1654,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1689,9 +1662,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1700,7 +1670,7 @@
 (defun m1-0005-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0005"
           _m1d "number 5"
-          _m1c "113"
+          _m1c "113" ; //TODO: define minor group color
           _m1i "11"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1718,6 +1688,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1725,9 +1696,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1736,7 +1704,7 @@
 (defun m1-0006-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0006"
           _m1d "number 6"
-          _m1c "133"
+          _m1c "133" ; //TODO: define minor group color
           _m1i "13"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1754,6 +1722,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1761,9 +1730,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1772,7 +1738,7 @@
 (defun m1-0007-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0007"
           _m1d "number 7"
-          _m1c "153"
+          _m1c "153" ; //TODO: define minor group color
           _m1i "15"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1790,6 +1756,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1797,9 +1764,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1808,7 +1772,7 @@
 (defun m1-0008-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0008"
           _m1d "number 8"
-          _m1c "173"
+          _m1c "173" ; //TODO: define minor group color
           _m1i "17"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1826,6 +1790,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1833,9 +1798,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1844,7 +1806,7 @@
 (defun m1-0009-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-0009"
           _m1d "number 9"
-          _m1c "193"
+          _m1c "193" ; //TODO: define minor group color
           _m1i "19"
           _m1w "0.25"
           _m1t "Continuous"
@@ -1862,6 +1824,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1869,9 +1832,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1880,7 +1840,7 @@
 (defun m1-Flor-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Flor"
           _m1d "floor"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1898,6 +1858,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1905,9 +1866,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1916,7 +1874,7 @@
 (defun m1-Accs-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Accs"
           _m1d "access"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1934,6 +1892,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1941,9 +1900,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1952,7 +1908,7 @@
 (defun m1-Fire-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Fire"
           _m1d "fire protection"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -1970,6 +1926,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1977,9 +1934,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -1988,7 +1942,7 @@
 (defun m1-Site-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Site"
           _m1d "site"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2006,6 +1960,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2013,9 +1968,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2024,7 +1976,7 @@
 (defun m1-Clng-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Clng"
           _m1d "ceiling"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2042,6 +1994,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2049,9 +2002,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2060,7 +2010,7 @@
 (defun m1-Fndn-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Fndn"
           _m1d "foundation"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2078,6 +2028,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2085,9 +2036,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2096,7 +2044,7 @@
 (defun m1-Evac-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Evac"
           _m1d "evacuation"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2114,6 +2062,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2121,9 +2070,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2132,7 +2078,7 @@
 (defun m1-Roof-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Roof"
           _m1d "roof"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2150,6 +2096,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2157,9 +2104,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2168,7 +2112,7 @@
 (defun m1-Strc-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Strc"
           _m1d "structural"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2186,6 +2130,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2193,9 +2138,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2204,7 +2146,7 @@
 (defun m1-Furn-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Furn"
           _m1d "furnishing"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2222,6 +2164,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2229,9 +2172,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2240,7 +2180,7 @@
 (defun m1-Fnsh-2d (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Fnsh"
           _m1d "finishes"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
@@ -2258,6 +2198,7 @@
     (m2-Grid _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Mask _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
+    (m2-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;lines:
     (m2-Xfin _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Fine _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2265,9 +2206,6 @@
     (m2-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
-    (m2-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     ;color:
     (m2-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
     (m2-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat _m1a _m1d _m1c _m1i _m1w _m1t)
@@ -2276,7 +2214,7 @@
 (defun m1-Full-wall (_dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat / _m1a _m1d _m1c _m1i _m1w _m1t) 
     (setq _m1a "-Full"
           _m1d "full-height"
-          _m1c "200"
+          _m1c "200" ; //TODO: define minor group color
           _m1i "0"
           _m1w "0.18"
           _m1t "Continuous"
