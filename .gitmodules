@@ -1,0 +1,3 @@
+[submodule "lsp-layers"]
+	path = lsp-layers
+	url = https://github.com/op2-platforms/lsp-layers

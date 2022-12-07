@@ -213,9 +213,6 @@
     (m1-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -233,6 +230,7 @@
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Elev-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
     (setq _maa "-Elev"
@@ -339,9 +337,6 @@
     (m1-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -359,6 +354,7 @@
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Sect-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
     (setq _maa "-Sect"
@@ -465,9 +461,6 @@
     (m1-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -485,6 +478,7 @@
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Detl-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
     (setq _maa "-Detl"
@@ -811,9 +805,6 @@
     (m1-Medm _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Wide _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-X~~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xx~~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxx~ _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
-    (m1-Xxxx _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     ;color:
     (m1-Grey _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Scrn _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
@@ -831,6 +822,7 @@
     (m1-Tags _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Note _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
     (m1-Nplt _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
+    (m1-Levl _dd _lp _pt _cp _dda _ddd _ddc _maa _mad _mac _mai _maw _mat)
 )
 (defun ma-Plan-0001 (_dd _lp _pt _cp _dda _ddd _ddc / _maa _mad _mac _mai _maw _mat) 
     (setq _maa "-Plan"
