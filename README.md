@@ -4,7 +4,6 @@ The **"Open Source CAD Softwares Optimization Platform"** is a fast development 
 
 ## Getting Started
 
-1. Before you start anything; make sure you have [Git latest version](https://git-scm.com/downloads) installed on your machine.
+1. Make sure you have [Git latest version](https://git-scm.com/downloads) installed on your machine.
 2. Make a Clone on your local machine using the "Git GUI" clients installed with your Git installation in step 1 or any of your [prefered GUI clients](https://git-scm.com/downloads/guis)
-  - for GUI recommandations and cloning location, see *cloning instruction coming soon*
 3. Go to your desired application folder and follow the [App Setup Guide]
